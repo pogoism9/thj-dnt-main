@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <tr>
+            <th>Bank Name</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let bank of bankData">
+            <td>{{ bank.name }}</td>
+            <td>{{ bank.count }}</td>
+        </tr>
+    </tbody>
+</table>
