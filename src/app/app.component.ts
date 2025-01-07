@@ -5,7 +5,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'ariza-root',
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.sass'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'dnt-bank';

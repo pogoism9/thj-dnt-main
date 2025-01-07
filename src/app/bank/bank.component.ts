@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   selector: 'ariza-bank',
   imports: [CommonModule],
   templateUrl: './bank.component.html',
-  styleUrl: './bank.component.sass'
+  styleUrl: './bank.component.scss'
 })
 export class BankComponent {
     public bankData: BankEntry[] = [];
