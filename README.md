@@ -26,8 +26,8 @@ Once you have the 4 files you'll need to get them added to this repo.
 3. In GitHub Desktop, create a branch, name it `YYYYMMDD` e.g. `20250107`
 4. Find the cloned directory
 5. Overwrite the files in `./src/assets`
-6. Commit your changes
-7. Push your changes to remote
+6. In Github Desktop, commit your changes
+7. Publish your branch
 8. Create a [new Pull Request](https://github.com/amber-valderez/thj-dnt/pulls) based off your branch
 9. GitHub Actions will deploy your changes
 
