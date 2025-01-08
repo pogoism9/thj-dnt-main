@@ -184,8 +184,8 @@ General7-Slot8	Spirit-Touched Phased Spider Thorax	57562	1	6
 General8	Backpack	17005	1	8
 General8-Slot1	Spirit-Touched Phased Spider Thorax	57562	1	6
 General8-Slot2	Harnessing Stone	52946	1	6
-General8-Slot3	Empty	0	0	0
-General8-Slot4	Empty	0	0	0
+General8-Slot3	Metal Pipe	12979	1	6
+General8-Slot4	Metal Pipe	12980	1	6
 General8-Slot5	Empty	0	0	0
 General8-Slot6	Empty	0	0	0
 General8-Slot7	Empty	0	0	0

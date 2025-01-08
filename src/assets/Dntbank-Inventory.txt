@@ -35,30 +35,35 @@ General1	Large Bank Box	976012	1	20
 General1-Slot1	Zlandicar's Talisman (Enchanted)	1027258	1	6
 General1-Slot1-Slot1	Empty	0	0	0
 General1-Slot1-Slot2	Empty	0	0	0
-General1-Slot2	Zlandicar's Talisman	27258	1	6
+General1-Slot2	Chestplate of Vindication (Enchanted)	1025044	1	6
 General1-Slot2-Slot1	Empty	0	0	0
 General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
 General1-Slot3	Klandicar's Talisman	27255	1	6
 General1-Slot3-Slot1	Empty	0	0	0
 General1-Slot3-Slot2	Empty	0	0	0
-General1-Slot4	Solist's Earring of Insight	31228	1	6
-General1-Slot4-Slot1	Empty	0	0	0
-General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
 General1-Slot5	White Dragon Helm (Legendary)	2029648	1	6
 General1-Slot5-Slot1	Empty	0	0	0
 General1-Slot5-Slot2	Empty	0	0	0
 General1-Slot5-Slot6	Empty	0	0	0
-General1-Slot6	White Dragonscale Boots (Legendary)	2029645	1	6
-General1-Slot6-Slot1	Empty	0	0	0
-General1-Slot6-Slot2	Empty	0	0	0
-General1-Slot6-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
+General1-Slot6	Dain Frostreaver's Head	30501	1	6
+General1-Slot7	King Tormax's Head	30516	1	6
+General1-Slot8	King Tormax's Head	30516	1	6
+General1-Slot9	King Tormax's Head	30516	1	6
+General1-Slot10	King Tormax's Head	30516	1	6
+General1-Slot11	Zlandicar's Heart	26009	1	6
+General1-Slot11-Slot1	Empty	0	0	0
+General1-Slot11-Slot2	Empty	0	0	0
+General1-Slot11-Slot3	Empty	0	0	0
+General1-Slot11-Slot6	Empty	0	0	0
+General1-Slot12	Belt of Dwarf Slaying (Legendary)	2025858	1	6
+General1-Slot12-Slot1	Empty	0	0	0
+General1-Slot12-Slot2	Empty	0	0	0
+General1-Slot13	Maclaer's Boots of Silence (Enchanted)	1031238	1	6
+General1-Slot13-Slot1	Empty	0	0	0
+General1-Slot13-Slot2	Empty	0	0	0
+General1-Slot13-Slot6	Empty	0	0	0
 General1-Slot14	Empty	0	0	0
 General1-Slot15	Empty	0	0	0
 General1-Slot16	Empty	0	0	0
@@ -153,9 +158,7 @@ General5-Slot20	Empty	0	0	0
 General6	Adventurer's Pack	17423	1	12
 General6-Slot1	Grotesque Girdle (Legendary)	2001556	1	6
 General6-Slot1-Slot1	Empty	0	0	0
-General6-Slot2	Solist's Earring of Insight	31228	1	6
-General6-Slot2-Slot1	Empty	0	0	0
-General6-Slot2-Slot2	Empty	0	0	0
+General6-Slot2	Empty	0	0	0
 General6-Slot3	Empty	0	0	0
 General6-Slot4	Empty	0	0	0
 General6-Slot5	Empty	0	0	0
@@ -218,13 +221,7 @@ General8-Slot10-Slot1	Empty	0	0	0
 General8-Slot10-Slot2	Empty	0	0	0
 General8-Slot10-Slot3	Empty	0	0	0
 General8-Slot10-Slot6	Empty	0	0	0
-General8-Slot11	Staff of the Elder Claws	1173	1	6
-General8-Slot11-Slot1	Empty	0	0	0
-General8-Slot11-Slot2	Empty	0	0	0
-General8-Slot11-Slot3	Empty	0	0	0
-General8-Slot11-Slot4	Empty	0	0	0
-General8-Slot11-Slot5	Empty	0	0	0
-General8-Slot11-Slot6	Empty	0	0	0
+General8-Slot11	Empty	0	0	0
 General8-Slot12	Staff of the Chamberlain	30511	1	6
 General8-Slot12-Slot1	Empty	0	0	0
 General8-Slot12-Slot2	Empty	0	0	0
@@ -308,7 +305,7 @@ General9-Slot18	Empty	0	0	0
 General9-Slot19	Empty	0	0	0
 General9-Slot20	Empty	0	0	0
 General10	Large Bank Box	976012	1	20
-General10-Slot1	Dain Frostreaver's Head	30501	1	6
+General10-Slot1	Empty	0	0	0
 General10-Slot2	Empty	0	0	0
 General10-Slot3	Empty	0	0	0
 General10-Slot4	Empty	0	0	0

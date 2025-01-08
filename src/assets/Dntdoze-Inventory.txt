@@ -37,7 +37,7 @@ General1-Slot7	Flame Kissed Tear	31267	1	6
 General1-Slot8	Runed Symbol	31252	1	6
 General1-Slot9	Flame Kissed Tear	31267	1	6
 General1-Slot10	Poison Symbol	31255	1	6
-General1-Slot11	Serrated Symbol	31254	1	6
+General1-Slot11	Empty	0	0	0
 General1-Slot12	Runed Tear	31263	1	6
 General1-Slot13	Poison Tear	31266	1	6
 General1-Slot14	Silver Symbol	31253	1	6
@@ -103,7 +103,7 @@ General4-Slot10	White Tear	31261	1	6
 General4-Slot11	Poison Tear	31266	1	6
 General4-Slot12	Emerald Tear	31268	1	6
 General4-Slot13	Black Tear	31262	1	6
-General4-Slot14	Empty	0	0	0
+General4-Slot14	Runed Symbol	31252	1	6
 General4-Slot15	Empty	0	0	0
 General4-Slot16	Empty	0	0	0
 General4-Slot17	Empty	0	0	0

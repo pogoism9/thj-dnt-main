@@ -30,12 +30,12 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Adventurer's Pack	17423	1	12
-General1-Slot1	Song: Angstlich's Assonance	19466	1	6
-General1-Slot2	Ancient: High Priest's Bulwark	26608	1	6
-General1-Slot3	Spell: Augmentation of Death	30414	1	6
-General1-Slot4	Spell: Sha's Lethargy	7734	2	6
-General1-Slot5	Ruby Symbol	31259	1	6
-General1-Slot6	Ancient: Burnout Blaze	26618	1	6
+General1-Slot1	Empty	0	0	0
+General1-Slot2	Empty	0	0	0
+General1-Slot3	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
 General1-Slot7	Empty	0	0	0
 General1-Slot8	Empty	0	0	0
 General1-Slot9	Empty	0	0	0
@@ -125,9 +125,9 @@ General10-Slot7	Empty	0	0	0
 General10-Slot8	Empty	0	0	0
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
-Bank1-Slot1	Ancient: Starfire of Ro	26610	1	6
+Bank1-Slot1	Ancient: High Priest's Bulwark	26608	1	6
 Bank1-Slot2	Empty	0	0	0
-Bank1-Slot3	Empty	0	0	0
+Bank1-Slot3	Ancient: Lcea's Lament	26622	1	6
 Bank1-Slot4	Empty	0	0	0
 Bank1-Slot5	Empty	0	0	0
 Bank1-Slot6	Empty	0	0	0
@@ -147,7 +147,7 @@ Bank1-Slot19	Empty	0	0	0
 Bank1-Slot20	Empty	0	0	0
 Bank2	Large Bank Box	976012	1	20
 Bank2-Slot1	Song: Rizlona's Fire	59604	7	6
-Bank2-Slot2	Song: Angstlich's Assonance	19466	1	6
+Bank2-Slot2	Song: Angstlich's Assonance	19466	2	6
 Bank2-Slot3	Song: Composition of Ervaj	30452	19	6
 Bank2-Slot4	Song: Occlusion of Sound	30451	1	6
 Bank2-Slot5	Empty	0	0	0
@@ -176,7 +176,7 @@ Bank3-Slot6	Spell: Spirit of Omakin	7723	3	6
 Bank3-Slot7	Spell: Spiritual Purity	7729	8	6
 Bank3-Slot8	Spell: Spirit of Khurenz	7727	8	6
 Bank3-Slot9	Spell: Sha's Restoration	7724	7	6
-Bank3-Slot10	Spell: Sha's Lethargy	7734	1	6
+Bank3-Slot10	Spell: Sha's Lethargy	7734	3	6
 Bank3-Slot11	Spell: Spirit of Khurenz	7727	2	6
 Bank3-Slot12	Empty	0	0	0
 Bank3-Slot13	Empty	0	0	0
@@ -209,31 +209,31 @@ Bank4-Slot18	Spell: Stun Command	30446	2	6
 Bank4-Slot19	Spell: Word of Redemption	19229	14	6
 Bank4-Slot20	Spell: Word of Restoration	19221	1	6
 Bank5	Large Bank Box	976012	1	20
-Bank5-Slot1	Ancient: Legacy of Blades	26609	5	6
-Bank5-Slot2	Spell: Banishment	19262	20	6
-Bank5-Slot3	Spell: Succor	19253	20	6
-Bank5-Slot4	Spell: Entrapping Roots	19263	20	6
-Bank5-Slot5	Spell: Form of the Howler	19244	20	6
-Bank5-Slot6	Spell: Form of the Hunter	19260	19	6
-Bank5-Slot7	Spell: Mask of the Hunter	19261	16	6
-Bank5-Slot8	Spell: Breath of Karana	19250	13	6
-Bank5-Slot9	Spell: Frost	19252	3	6
-Bank5-Slot10	Spell: Blizzard	19241	5	6
-Bank5-Slot11	Spell: Bonds of Tunare	19419	8	6
-Bank5-Slot12	Spell: Spirit of Scale	19238	5	6
-Bank5-Slot13	Spell: Legacy of Thorn	19259	6	6
-Bank5-Slot14	Spell: Circle of Winter	19232	8	6
-Bank5-Slot15	Spell: Fist of Karana	19255	4	6
-Bank5-Slot16	Spell: Girdle of Karana	19247	2	6
-Bank5-Slot17	Spell: Spirit of Oak	19258	5	6
-Bank5-Slot18	Spell: Circle of Summer	19234	13	6
-Bank5-Slot19	Spell: Wake of Karana	19413	4	6
-Bank5-Slot20	Spell: Regrowth of the Grove	19256	5	6
+Bank5-Slot1	Ancient: Legacy of Blades	26609	6	6
+Bank5-Slot2	Ancient: Starfire of Ro	26610	1	6
+Bank5-Slot3	Spell: Banishment	19262	20	6
+Bank5-Slot4	Spell: Succor	19253	20	6
+Bank5-Slot5	Spell: Entrapping Roots	19263	20	6
+Bank5-Slot6	Spell: Form of the Howler	19244	20	6
+Bank5-Slot7	Spell: Form of the Hunter	19260	19	6
+Bank5-Slot8	Spell: Mask of the Hunter	19261	16	6
+Bank5-Slot9	Spell: Breath of Karana	19250	13	6
+Bank5-Slot10	Spell: Frost	19252	3	6
+Bank5-Slot11	Spell: Blizzard	19241	5	6
+Bank5-Slot12	Spell: Bonds of Tunare	19419	8	6
+Bank5-Slot13	Spell: Spirit of Scale	19238	5	6
+Bank5-Slot14	Spell: Legacy of Thorn	19259	6	6
+Bank5-Slot15	Spell: Circle of Winter	19232	8	6
+Bank5-Slot16	Spell: Fist of Karana	19255	4	6
+Bank5-Slot17	Spell: Girdle of Karana	19247	2	6
+Bank5-Slot18	Spell: Spirit of Oak	19258	5	6
+Bank5-Slot19	Spell: Circle of Summer	19234	13	6
+Bank5-Slot20	Spell: Wake of Karana	19413	4	6
 Bank6	Large Bank Box	976012	1	20
-Bank6-Slot1	Spell: Nature Walker's Behest	30475	7	6
-Bank6-Slot2	Spell: Protection of the Glades	30442	20	6
-Bank6-Slot3	Spell: Tunare`s Request	19246	14	6
-Bank6-Slot4	Empty	0	0	0
+Bank6-Slot1	Spell: Regrowth of the Grove	19256	5	6
+Bank6-Slot2	Spell: Nature Walker's Behest	30475	7	6
+Bank6-Slot3	Spell: Protection of the Glades	30442	20	6
+Bank6-Slot4	Spell: Tunare`s Request	19246	14	6
 Bank6-Slot5	Empty	0	0	0
 Bank6-Slot6	Empty	0	0	0
 Bank6-Slot7	Empty	0	0	0
@@ -294,7 +294,7 @@ Bank8-Slot19	Empty	0	0	0
 Bank8-Slot20	Empty	0	0	0
 Bank9	Large Bank Box	976012	1	20
 Bank9-Slot1	Ancient: Shock of Sun	26617	2	6
-Bank9-Slot2	Empty	0	0	0
+Bank9-Slot2	Ancient: Burnout Blaze	26618	1	6
 Bank9-Slot3	Spell: Vocarate: Water	19362	4	6
 Bank9-Slot4	Spell: Mala	19418	14	6
 Bank9-Slot5	Spell: Greater Vocaration: Air	19371	10	6
@@ -349,7 +349,7 @@ Bank11-Slot11	Spell: Enslave Death	19313	9	6
 Bank11-Slot12	Spell: Servant of Bones	19305	1	6
 Bank11-Slot13	Spell: Splurt	19294	4	6
 Bank11-Slot14	Spell: Demi Lich	19314	11	6
-Bank11-Slot15	Spell: Augmentation of Death	30414	1	6
+Bank11-Slot15	Spell: Augmentation of Death	30414	4	6
 Bank11-Slot16	Spell: Devouring Darkness	19312	2	6
 Bank11-Slot17	Spell: Death Peace	30460	16	6
 Bank11-Slot18	Spell: Defoliation	19296	4	6
