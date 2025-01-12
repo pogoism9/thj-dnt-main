@@ -42,113 +42,371 @@ General1-Slot2-Slot6	Empty	0	0	0
 General1-Slot3	Klandicar's Talisman	27255	1	6
 General1-Slot3-Slot1	Empty	0	0	0
 General1-Slot3-Slot2	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	White Dragon Helm (Legendary)	2029648	1	6
+General1-Slot4	Dain Frostreaver's Head	30501	1	6
+General1-Slot5	Zlandicar's Talisman (Enchanted)	1027258	1	6
 General1-Slot5-Slot1	Empty	0	0	0
 General1-Slot5-Slot2	Empty	0	0	0
-General1-Slot5-Slot6	Empty	0	0	0
 General1-Slot6	Dain Frostreaver's Head	30501	1	6
 General1-Slot7	King Tormax's Head	30516	1	6
 General1-Slot8	King Tormax's Head	30516	1	6
 General1-Slot9	King Tormax's Head	30516	1	6
 General1-Slot10	King Tormax's Head	30516	1	6
-General1-Slot11	Zlandicar's Heart	26009	1	6
+General1-Slot11	White Dragon Helm (Legendary)	2029648	1	6
 General1-Slot11-Slot1	Empty	0	0	0
 General1-Slot11-Slot2	Empty	0	0	0
-General1-Slot11-Slot3	Empty	0	0	0
 General1-Slot11-Slot6	Empty	0	0	0
-General1-Slot12	Belt of Dwarf Slaying (Legendary)	2025858	1	6
+General1-Slot12	Feeliux's Cord of Velocity (Enchanted)	1031235	1	6
 General1-Slot12-Slot1	Empty	0	0	0
 General1-Slot12-Slot2	Empty	0	0	0
 General1-Slot13	Maclaer's Boots of Silence (Enchanted)	1031238	1	6
 General1-Slot13-Slot1	Empty	0	0	0
 General1-Slot13-Slot2	Empty	0	0	0
 General1-Slot13-Slot6	Empty	0	0	0
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
+General1-Slot14	Blade of Carnage	25210	1	6
+General1-Slot14-Slot1	Empty	0	0	0
+General1-Slot14-Slot2	Empty	0	0	0
+General1-Slot14-Slot3	Empty	0	0	0
+General1-Slot14-Slot6	Empty	0	0	0
+General1-Slot15	Blade of Carnage (Enchanted)	1025210	1	6
+General1-Slot15-Slot1	Empty	0	0	0
+General1-Slot15-Slot2	Empty	0	0	0
+General1-Slot15-Slot3	Empty	0	0	0
+General1-Slot15-Slot6	Empty	0	0	0
+General1-Slot16	Blood Fire (Enchanted)	1011645	1	6
+General1-Slot16-Slot1	Empty	0	0	0
+General1-Slot16-Slot2	Empty	0	0	0
+General1-Slot16-Slot3	Empty	0	0	0
+General1-Slot16-Slot6	Empty	0	0	0
+General1-Slot17	Boots of the Vindicator (Enchanted)	1025043	1	6
+General1-Slot17-Slot1	Empty	0	0	0
+General1-Slot17-Slot2	Empty	0	0	0
+General1-Slot17-Slot6	Empty	0	0	0
+General1-Slot18	Brother Xave's Headband	31223	1	6
+General1-Slot18-Slot1	Empty	0	0	0
+General1-Slot18-Slot2	Empty	0	0	0
+General1-Slot18-Slot6	Empty	0	0	0
+General1-Slot19	Chestplate of Vindication (Enchanted)	1025044	1	6
+General1-Slot19-Slot1	Empty	0	0	0
+General1-Slot19-Slot2	Empty	0	0	0
+General1-Slot19-Slot6	Empty	0	0	0
+General1-Slot20	Cloak of the Falling Stars (Legendary)	2025207	1	6
+General1-Slot20-Slot1	Empty	0	0	0
+General1-Slot20-Slot2	Empty	0	0	0
 General2	Large Bank Box	976012	1	20
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
-General2-Slot5	Empty	0	0	0
-General2-Slot6	Empty	0	0	0
-General2-Slot7	Empty	0	0	0
-General2-Slot8	Empty	0	0	0
-General2-Slot9	Empty	0	0	0
-General2-Slot10	Empty	0	0	0
-General2-Slot11	Empty	0	0	0
-General2-Slot12	Empty	0	0	0
-General2-Slot13	Empty	0	0	0
-General2-Slot14	Empty	0	0	0
-General2-Slot15	Empty	0	0	0
-General2-Slot16	Empty	0	0	0
-General2-Slot17	Empty	0	0	0
-General2-Slot18	Empty	0	0	0
-General2-Slot19	Empty	0	0	0
-General2-Slot20	Empty	0	0	0
+General2-Slot1	Cloak of the Sky (Enchanted)	1031376	1	6
+General2-Slot1-Slot1	Empty	0	0	0
+General2-Slot1-Slot2	Empty	0	0	0
+General2-Slot2	Dawncaller, Blade of the Morning (Enchanted)	1031346	1	6
+General2-Slot2-Slot1	Empty	0	0	0
+General2-Slot2-Slot2	Empty	0	0	0
+General2-Slot2-Slot3	Empty	0	0	0
+General2-Slot2-Slot6	Empty	0	0	0
+General2-Slot3	Feeliux's Cord of Velocity	31235	1	6
+General2-Slot3-Slot1	Empty	0	0	0
+General2-Slot3-Slot2	Empty	0	0	0
+General2-Slot4	Helmet of Rallos Zek	25209	1	6
+General2-Slot4-Slot1	Empty	0	0	0
+General2-Slot4-Slot6	Empty	0	0	0
+General2-Slot5	Helmet of Rallos Zek (Legendary)	2025209	1	6
+General2-Slot5-Slot1	Empty	0	0	0
+General2-Slot5-Slot6	Empty	0	0	0
+General2-Slot6	King Tormax's Head	30516	1	6
+General2-Slot7	King Tormax's Head	30516	1	6
+General2-Slot8	King Tormax's Head	30516	1	6
+General2-Slot9	King Tormax's Head	30516	1	6
+General2-Slot10	Maclaer's Boots of Silence (Enchanted)	1031238	1	6
+General2-Slot10-Slot1	Empty	0	0	0
+General2-Slot10-Slot2	Empty	0	0	0
+General2-Slot10-Slot6	Empty	0	0	0
+General2-Slot11	Mrylokar's Dagger of Vengeance (Legendary)	2031224	1	6
+General2-Slot11-Slot1	Empty	0	0	0
+General2-Slot11-Slot2	Empty	0	0	0
+General2-Slot11-Slot3	Empty	0	0	0
+General2-Slot11-Slot6	Empty	0	0	0
+General2-Slot12	Onyx Chain Leggings (Legendary)	2031374	1	6
+General2-Slot12-Slot1	Empty	0	0	0
+General2-Slot12-Slot2	Empty	0	0	0
+General2-Slot12-Slot6	Empty	0	0	0
+General2-Slot13	Ring of Destruction (Enchanted)	1025211	1	6
+General2-Slot13-Slot1	Empty	0	0	0
+General2-Slot13-Slot2	Empty	0	0	0
+General2-Slot14	Wurm Claw Pauldrons (Legendary)	2031337	1	6
+General2-Slot14-Slot1	Empty	0	0	0
+General2-Slot14-Slot2	Empty	0	0	0
+General2-Slot15	Velium Encrusted Gauntlets (Legendary)	2025201	1	6
+General2-Slot15-Slot1	Empty	0	0	0
+General2-Slot15-Slot2	Empty	0	0	0
+General2-Slot15-Slot6	Empty	0	0	0
+General2-Slot16	Trident of the Deep Sea (Enchanted)	1031308	1	6
+General2-Slot16-Slot1	Empty	0	0	0
+General2-Slot16-Slot2	Empty	0	0	0
+General2-Slot16-Slot3	Empty	0	0	0
+General2-Slot16-Slot6	Empty	0	0	0
+General2-Slot17	Tri-Plated Golden Hackle Hammer	30502	1	6
+General2-Slot17-Slot1	Empty	0	0	0
+General2-Slot17-Slot2	Empty	0	0	0
+General2-Slot17-Slot3	Empty	0	0	0
+General2-Slot17-Slot6	Empty	0	0	0
+General2-Slot18	Staff of the Chamberlain (Enchanted)	1030511	1	6
+General2-Slot18-Slot1	Empty	0	0	0
+General2-Slot18-Slot2	Empty	0	0	0
+General2-Slot18-Slot3	Empty	0	0	0
+General2-Slot18-Slot4	Empty	0	0	0
+General2-Slot18-Slot5	Empty	0	0	0
+General2-Slot18-Slot6	Empty	0	0	0
+General2-Slot19	Soul Leech, Dark Sword of Blood	11609	1	6
+General2-Slot19-Slot1	Empty	0	0	0
+General2-Slot19-Slot2	Empty	0	0	0
+General2-Slot19-Slot3	Empty	0	0	0
+General2-Slot19-Slot4	Empty	0	0	0
+General2-Slot19-Slot5	Empty	0	0	0
+General2-Slot19-Slot6	Empty	0	0	0
+General2-Slot20	Silver Disk (Enchanted)	1031347	1	6
+General2-Slot20-Slot1	Empty	0	0	0
+General2-Slot20-Slot2	Empty	0	0	0
+General2-Slot20-Slot3	Empty	0	0	0
+General2-Slot20-Slot6	Empty	0	0	0
 General3	Large Bank Box	976012	1	20
-General3-Slot1	Empty	0	0	0
-General3-Slot2	Empty	0	0	0
-General3-Slot3	Empty	0	0	0
-General3-Slot4	Empty	0	0	0
-General3-Slot5	Empty	0	0	0
-General3-Slot6	Empty	0	0	0
-General3-Slot7	Empty	0	0	0
-General3-Slot8	Empty	0	0	0
-General3-Slot9	Empty	0	0	0
-General3-Slot10	Empty	0	0	0
-General3-Slot11	Empty	0	0	0
-General3-Slot12	Empty	0	0	0
-General3-Slot13	Empty	0	0	0
-General3-Slot14	Empty	0	0	0
-General3-Slot15	Empty	0	0	0
-General3-Slot16	Empty	0	0	0
-General3-Slot17	Empty	0	0	0
-General3-Slot18	Empty	0	0	0
-General3-Slot19	Empty	0	0	0
-General3-Slot20	Empty	0	0	0
+General3-Slot1	Silver Bracelet of Rage (Enchanted)	1031307	1	6
+General3-Slot1-Slot1	Empty	0	0	0
+General3-Slot1-Slot2	Empty	0	0	0
+General3-Slot1-Slot6	Empty	0	0	0
+General3-Slot2	Ring of Destruction (Legendary)	2025211	1	6
+General3-Slot2-Slot1	Empty	0	0	0
+General3-Slot2-Slot2	Empty	0	0	0
+General3-Slot3	Cloak of the Falling Stars (Enchanted)	1025207	1	6
+General3-Slot3-Slot1	Empty	0	0	0
+General3-Slot3-Slot2	Empty	0	0	0
+General3-Slot4	Flayed Barbarian Skin Leggings	25212	1	6
+General3-Slot4-Slot1	Empty	0	0	0
+General3-Slot4-Slot2	Empty	0	0	0
+General3-Slot4-Slot6	Empty	0	0	0
+General3-Slot5	Ring of Destruction	25211	1	6
+General3-Slot5-Slot1	Empty	0	0	0
+General3-Slot5-Slot2	Empty	0	0	0
+General3-Slot6	Ring of Destruction	25211	1	6
+General3-Slot6-Slot1	Empty	0	0	0
+General3-Slot6-Slot2	Empty	0	0	0
+General3-Slot7	White Dragon Scale Sash (Enchanted)	1025199	1	6
+General3-Slot7-Slot1	Empty	0	0	0
+General3-Slot7-Slot2	Empty	0	0	0
+General3-Slot8	Gauntlets of Dragon Slaying (Legendary)	2025857	1	6
+General3-Slot8-Slot1	Empty	0	0	0
+General3-Slot8-Slot2	Empty	0	0	0
+General3-Slot8-Slot6	Empty	0	0	0
+General3-Slot9	Gharn's Rock of Smashing	31241	1	6
+General3-Slot9-Slot1	Empty	0	0	0
+General3-Slot9-Slot2	Empty	0	0	0
+General3-Slot9-Slot3	Empty	0	0	0
+General3-Slot9-Slot6	Empty	0	0	0
+General3-Slot10	King Tormax's Head	30516	1	6
+General3-Slot11	Maclaer's Boots of Silence	31238	1	6
+General3-Slot11-Slot1	Empty	0	0	0
+General3-Slot11-Slot2	Empty	0	0	0
+General3-Slot11-Slot6	Empty	0	0	0
+General3-Slot12	Maclaer's Boots of Silence (Enchanted)	1031238	1	6
+General3-Slot12-Slot1	Empty	0	0	0
+General3-Slot12-Slot2	Empty	0	0	0
+General3-Slot12-Slot6	Empty	0	0	0
+General3-Slot13	Massive Heartwood Thorn (Enchanted)	1002509	1	6
+General3-Slot13-Slot1	Empty	0	0	0
+General3-Slot13-Slot2	Empty	0	0	0
+General3-Slot13-Slot3	Empty	0	0	0
+General3-Slot13-Slot6	Empty	0	0	0
+General3-Slot14	Vyemm's Right Eye (Legendary)	2031302	1	6
+General3-Slot14-Slot1	Empty	0	0	0
+General3-Slot14-Slot2	Empty	0	0	0
+General3-Slot14-Slot3	Empty	0	0	0
+General3-Slot14-Slot6	Empty	0	0	0
+General3-Slot15	Ring of Superiority (Enchanted)	1031222	1	6
+General3-Slot15-Slot1	Empty	0	0	0
+General3-Slot15-Slot2	Empty	0	0	0
+General3-Slot16	Silver Chains (Legendary)	2031371	1	6
+General3-Slot16-Slot1	Empty	0	0	0
+General3-Slot16-Slot2	Empty	0	0	0
+General3-Slot16-Slot6	Empty	0	0	0
+General3-Slot17	Ssra's Bloodstone Eyepatch	31244	1	6
+General3-Slot17-Slot1	Empty	0	0	0
+General3-Slot18	Staff of the Elder Claws (Legendary)	2001173	1	6
+General3-Slot18-Slot1	Empty	0	0	0
+General3-Slot18-Slot2	Empty	0	0	0
+General3-Slot18-Slot3	Empty	0	0	0
+General3-Slot18-Slot4	Empty	0	0	0
+General3-Slot18-Slot5	Empty	0	0	0
+General3-Slot18-Slot6	Empty	0	0	0
+General3-Slot19	White Resistance Stone (Legendary)	2001138	1	6
+General3-Slot19-Slot1	Empty	0	0	0
+General3-Slot19-Slot2	Empty	0	0	0
+General3-Slot19-Slot3	Empty	0	0	0
+General3-Slot19-Slot6	Empty	0	0	0
+General3-Slot20	Abashi's Rod of Disempowerment	31242	1	6
+General3-Slot20-Slot1	Empty	0	0	0
+General3-Slot20-Slot2	Empty	0	0	0
+General3-Slot20-Slot3	Empty	0	0	0
+General3-Slot20-Slot4	Empty	0	0	0
+General3-Slot20-Slot5	Empty	0	0	0
+General3-Slot20-Slot6	Empty	0	0	0
 General4	Large Bank Box	976012	1	20
-General4-Slot1	Empty	0	0	0
-General4-Slot2	Empty	0	0	0
-General4-Slot3	Empty	0	0	0
-General4-Slot4	Empty	0	0	0
-General4-Slot5	Empty	0	0	0
-General4-Slot6	Empty	0	0	0
-General4-Slot7	Empty	0	0	0
-General4-Slot8	Empty	0	0	0
-General4-Slot9	Empty	0	0	0
-General4-Slot10	Empty	0	0	0
-General4-Slot11	Empty	0	0	0
-General4-Slot12	Empty	0	0	0
-General4-Slot13	Empty	0	0	0
-General4-Slot14	Empty	0	0	0
-General4-Slot15	Empty	0	0	0
-General4-Slot16	Empty	0	0	0
-General4-Slot17	Empty	0	0	0
-General4-Slot18	Empty	0	0	0
-General4-Slot19	Empty	0	0	0
+General4-Slot1	Abashi's Rod of Disempowerment	31242	1	6
+General4-Slot1-Slot1	Empty	0	0	0
+General4-Slot1-Slot2	Empty	0	0	0
+General4-Slot1-Slot3	Empty	0	0	0
+General4-Slot1-Slot4	Empty	0	0	0
+General4-Slot1-Slot5	Empty	0	0	0
+General4-Slot1-Slot6	Empty	0	0	0
+General4-Slot2	Dragon Scaled Mask	1157	1	6
+General4-Slot2-Slot1	Empty	0	0	0
+General4-Slot3	First Brood Talisman (Legendary)	2026012	1	6
+General4-Slot3-Slot1	Empty	0	0	0
+General4-Slot3-Slot2	Empty	0	0	0
+General4-Slot4	Reaper's Ring (Enchanted)	1031319	1	6
+General4-Slot4-Slot1	Empty	0	0	0
+General4-Slot4-Slot2	Empty	0	0	0
+General4-Slot5	Frakadar's Talisman	27260	1	6
+General4-Slot5-Slot1	Empty	0	0	0
+General4-Slot6	Hobart's War Helmet	31226	1	6
+General4-Slot6-Slot1	Empty	0	0	0
+General4-Slot6-Slot2	Empty	0	0	0
+General4-Slot6-Slot6	Empty	0	0	0
+General4-Slot7	Staff of the Elder Claws (Enchanted)	1001173	1	6
+General4-Slot7-Slot1	Empty	0	0	0
+General4-Slot7-Slot2	Empty	0	0	0
+General4-Slot7-Slot3	Empty	0	0	0
+General4-Slot7-Slot4	Empty	0	0	0
+General4-Slot7-Slot5	Empty	0	0	0
+General4-Slot7-Slot6	Empty	0	0	0
+General4-Slot8	Mask of Tinkering	1135	1	6
+General4-Slot8-Slot1	Empty	0	0	0
+General4-Slot8-Slot2	Empty	0	0	0
+General4-Slot9	Staff of the Elder Claws	1173	1	6
+General4-Slot9-Slot1	Empty	0	0	0
+General4-Slot9-Slot2	Empty	0	0	0
+General4-Slot9-Slot3	Empty	0	0	0
+General4-Slot9-Slot4	Empty	0	0	0
+General4-Slot9-Slot5	Empty	0	0	0
+General4-Slot9-Slot6	Empty	0	0	0
+General4-Slot10	Staff of the Elder Claws (Enchanted)	1001173	1	6
+General4-Slot10-Slot1	Empty	0	0	0
+General4-Slot10-Slot2	Empty	0	0	0
+General4-Slot10-Slot3	Empty	0	0	0
+General4-Slot10-Slot4	Empty	0	0	0
+General4-Slot10-Slot5	Empty	0	0	0
+General4-Slot10-Slot6	Empty	0	0	0
+General4-Slot11	Staff of the Elder Claws	1173	1	6
+General4-Slot11-Slot1	Empty	0	0	0
+General4-Slot11-Slot2	Empty	0	0	0
+General4-Slot11-Slot3	Empty	0	0	0
+General4-Slot11-Slot4	Empty	0	0	0
+General4-Slot11-Slot5	Empty	0	0	0
+General4-Slot11-Slot6	Empty	0	0	0
+General4-Slot12	Staff of the Elder Claws (Enchanted)	1001173	1	6
+General4-Slot12-Slot1	Empty	0	0	0
+General4-Slot12-Slot2	Empty	0	0	0
+General4-Slot12-Slot3	Empty	0	0	0
+General4-Slot12-Slot4	Empty	0	0	0
+General4-Slot12-Slot5	Empty	0	0	0
+General4-Slot12-Slot6	Empty	0	0	0
+General4-Slot13	Staff of the Morning Dew (Legendary)	2001156	1	6
+General4-Slot13-Slot1	Empty	0	0	0
+General4-Slot13-Slot2	Empty	0	0	0
+General4-Slot13-Slot3	Empty	0	0	0
+General4-Slot13-Slot6	Empty	0	0	0
+General4-Slot14	Staff of the Morning Dew	1156	1	6
+General4-Slot14-Slot1	Empty	0	0	0
+General4-Slot14-Slot2	Empty	0	0	0
+General4-Slot14-Slot3	Empty	0	0	0
+General4-Slot14-Slot6	Empty	0	0	0
+General4-Slot15	Staff of the Morning Dew (Enchanted)	1001156	1	6
+General4-Slot15-Slot1	Empty	0	0	0
+General4-Slot15-Slot2	Empty	0	0	0
+General4-Slot15-Slot3	Empty	0	0	0
+General4-Slot15-Slot6	Empty	0	0	0
+General4-Slot16	Staff of the Morning Dew (Enchanted)	1001156	1	6
+General4-Slot16-Slot1	Empty	0	0	0
+General4-Slot16-Slot2	Empty	0	0	0
+General4-Slot16-Slot3	Empty	0	0	0
+General4-Slot16-Slot6	Empty	0	0	0
+General4-Slot17	Staff of the Morning Dew	1156	1	6
+General4-Slot17-Slot1	Empty	0	0	0
+General4-Slot17-Slot2	Empty	0	0	0
+General4-Slot17-Slot3	Empty	0	0	0
+General4-Slot17-Slot6	Empty	0	0	0
+General4-Slot18	Staff of the Chamberlain	30511	1	6
+General4-Slot18-Slot1	Empty	0	0	0
+General4-Slot18-Slot2	Empty	0	0	0
+General4-Slot18-Slot3	Empty	0	0	0
+General4-Slot18-Slot4	Empty	0	0	0
+General4-Slot18-Slot5	Empty	0	0	0
+General4-Slot18-Slot6	Empty	0	0	0
+General4-Slot19	Mask of Tinkering (Enchanted)	1001135	1	6
+General4-Slot19-Slot1	Empty	0	0	0
+General4-Slot19-Slot2	Empty	0	0	0
 General4-Slot20	Empty	0	0	0
 General5	Large Bank Box	976012	1	20
-General5-Slot1	Empty	0	0	0
-General5-Slot2	Empty	0	0	0
-General5-Slot3	Empty	0	0	0
-General5-Slot4	Empty	0	0	0
+General5-Slot1	Primal Velium Spear	27322	1	6
+General5-Slot1-Slot1	Empty	0	0	0
+General5-Slot1-Slot2	Empty	0	0	0
+General5-Slot1-Slot3	Empty	0	0	0
+General5-Slot1-Slot6	Empty	0	0	0
+General5-Slot2	Primal Velium Brawl Stick	27324	1	6
+General5-Slot2-Slot1	Empty	0	0	0
+General5-Slot2-Slot2	Empty	0	0	0
+General5-Slot2-Slot3	Empty	0	0	0
+General5-Slot2-Slot4	Empty	0	0	0
+General5-Slot2-Slot5	Empty	0	0	0
+General5-Slot2-Slot6	Empty	0	0	0
+General5-Slot3	Primal Velium Battlehammer (Enchanted)	1027321	1	6
+General5-Slot3-Slot1	Empty	0	0	0
+General5-Slot3-Slot2	Empty	0	0	0
+General5-Slot3-Slot3	Empty	0	0	0
+General5-Slot3-Slot6	Empty	0	0	0
+General5-Slot4	Primal Velium Brawl Stick	27324	1	6
+General5-Slot4-Slot1	Empty	0	0	0
+General5-Slot4-Slot2	Empty	0	0	0
+General5-Slot4-Slot3	Empty	0	0	0
+General5-Slot4-Slot4	Empty	0	0	0
+General5-Slot4-Slot5	Empty	0	0	0
+General5-Slot4-Slot6	Empty	0	0	0
 General5-Slot5	Empty	0	0	0
-General5-Slot6	Empty	0	0	0
-General5-Slot7	Empty	0	0	0
-General5-Slot8	Empty	0	0	0
-General5-Slot9	Empty	0	0	0
+General5-Slot6	Primal Velium War Lance (Enchanted)	1027325	1	6
+General5-Slot6-Slot1	Empty	0	0	0
+General5-Slot6-Slot2	Empty	0	0	0
+General5-Slot6-Slot3	Empty	0	0	0
+General5-Slot6-Slot4	Empty	0	0	0
+General5-Slot6-Slot5	Empty	0	0	0
+General5-Slot6-Slot6	Empty	0	0	0
+General5-Slot7	Primal Velium Reinforced Bow (Enchanted)	1027326	1	6
+General5-Slot7-Slot1	Empty	0	0	0
+General5-Slot7-Slot2	Empty	0	0	0
+General5-Slot7-Slot3	Empty	0	0	0
+General5-Slot7-Slot4	Empty	0	0	0
+General5-Slot7-Slot5	Empty	0	0	0
+General5-Slot7-Slot6	Empty	0	0	0
+General5-Slot8	Primal Velium Reinforced Bow	27326	1	6
+General5-Slot8-Slot1	Empty	0	0	0
+General5-Slot8-Slot2	Empty	0	0	0
+General5-Slot8-Slot3	Empty	0	0	0
+General5-Slot8-Slot4	Empty	0	0	0
+General5-Slot8-Slot5	Empty	0	0	0
+General5-Slot8-Slot6	Empty	0	0	0
+General5-Slot9	Primal Velium Warsword (Enchanted)	1027328	1	6
+General5-Slot9-Slot1	Empty	0	0	0
+General5-Slot9-Slot2	Empty	0	0	0
+General5-Slot9-Slot3	Empty	0	0	0
+General5-Slot9-Slot6	Empty	0	0	0
 General5-Slot10	Empty	0	0	0
 General5-Slot11	Empty	0	0	0
 General5-Slot12	Empty	0	0	0
-General5-Slot13	Empty	0	0	0
-General5-Slot14	Empty	0	0	0
+General5-Slot13	Ancient Prismatic Staff (Enchanted)	1029442	1	6
+General5-Slot13-Slot1	Empty	0	0	0
+General5-Slot13-Slot2	Empty	0	0	0
+General5-Slot13-Slot3	Empty	0	0	0
+General5-Slot13-Slot6	Empty	0	0	0
+General5-Slot14	Ancient Prismatic Battlehammer (Enchanted)	1029438	1	6
+General5-Slot14-Slot1	Empty	0	0	0
+General5-Slot14-Slot2	Empty	0	0	0
+General5-Slot14-Slot3	Empty	0	0	0
+General5-Slot14-Slot6	Empty	0	0	0
 General5-Slot15	Empty	0	0	0
 General5-Slot16	Empty	0	0	0
 General5-Slot17	Empty	0	0	0
@@ -193,42 +451,30 @@ General7-Slot18	Empty	0	0	0
 General7-Slot19	Empty	0	0	0
 General7-Slot20	Empty	0	0	0
 General8	Large Bank Box	976012	1	20
-General8-Slot1	Empty	0	0	0
-General8-Slot2	Empty	0	0	0
+General8-Slot1	Zlandicar's Heart	26009	1	6
+General8-Slot1-Slot1	Empty	0	0	0
+General8-Slot1-Slot2	Empty	0	0	0
+General8-Slot1-Slot3	Empty	0	0	0
+General8-Slot1-Slot6	Empty	0	0	0
+General8-Slot2	Zlandicar's Heart (Enchanted)	1026009	1	6
+General8-Slot2-Slot1	Empty	0	0	0
+General8-Slot2-Slot2	Empty	0	0	0
+General8-Slot2-Slot3	Empty	0	0	0
+General8-Slot2-Slot6	Empty	0	0	0
 General8-Slot3	Empty	0	0	0
-General8-Slot4	Empty	0	0	0
+General8-Slot4	Zlandicar's Heart (Enchanted)	1026009	1	6
+General8-Slot4-Slot1	Empty	0	0	0
+General8-Slot4-Slot2	Empty	0	0	0
+General8-Slot4-Slot3	Empty	0	0	0
+General8-Slot4-Slot6	Empty	0	0	0
 General8-Slot5	Empty	0	0	0
 General8-Slot6	Empty	0	0	0
-General8-Slot7	Staff of the Morning Dew (Enchanted)	1001156	1	6
-General8-Slot7-Slot1	Empty	0	0	0
-General8-Slot7-Slot2	Empty	0	0	0
-General8-Slot7-Slot3	Empty	0	0	0
-General8-Slot7-Slot6	Empty	0	0	0
-General8-Slot8	Staff of the Morning Dew (Enchanted)	1001156	1	6
-General8-Slot8-Slot1	Empty	0	0	0
-General8-Slot8-Slot2	Empty	0	0	0
-General8-Slot8-Slot3	Empty	0	0	0
-General8-Slot8-Slot6	Empty	0	0	0
-General8-Slot9	Staff of the Elder Claws (Enchanted)	1001173	1	6
-General8-Slot9-Slot1	Empty	0	0	0
-General8-Slot9-Slot2	Empty	0	0	0
-General8-Slot9-Slot3	Empty	0	0	0
-General8-Slot9-Slot4	Empty	0	0	0
-General8-Slot9-Slot5	Empty	0	0	0
-General8-Slot9-Slot6	Empty	0	0	0
-General8-Slot10	Staff of the Morning Dew	1156	1	6
-General8-Slot10-Slot1	Empty	0	0	0
-General8-Slot10-Slot2	Empty	0	0	0
-General8-Slot10-Slot3	Empty	0	0	0
-General8-Slot10-Slot6	Empty	0	0	0
+General8-Slot7	Empty	0	0	0
+General8-Slot8	Empty	0	0	0
+General8-Slot9	Empty	0	0	0
+General8-Slot10	Empty	0	0	0
 General8-Slot11	Empty	0	0	0
-General8-Slot12	Staff of the Chamberlain	30511	1	6
-General8-Slot12-Slot1	Empty	0	0	0
-General8-Slot12-Slot2	Empty	0	0	0
-General8-Slot12-Slot3	Empty	0	0	0
-General8-Slot12-Slot4	Empty	0	0	0
-General8-Slot12-Slot5	Empty	0	0	0
-General8-Slot12-Slot6	Empty	0	0	0
+General8-Slot12	Empty	0	0	0
 General8-Slot13	War Bow of Rallos Zek (Legendary)	2025208	1	6
 General8-Slot13-Slot1	Empty	0	0	0
 General8-Slot13-Slot2	Empty	0	0	0
@@ -243,37 +489,12 @@ General8-Slot14-Slot3	Empty	0	0	0
 General8-Slot14-Slot4	Empty	0	0	0
 General8-Slot14-Slot5	Empty	0	0	0
 General8-Slot14-Slot6	Empty	0	0	0
-General8-Slot15	Zlandicar's Heart (Enchanted)	1026009	1	6
-General8-Slot15-Slot1	Empty	0	0	0
-General8-Slot15-Slot2	Empty	0	0	0
-General8-Slot15-Slot3	Empty	0	0	0
-General8-Slot15-Slot6	Empty	0	0	0
-General8-Slot16	Ancient Prismatic Battlehammer (Enchanted)	1029438	1	6
-General8-Slot16-Slot1	Empty	0	0	0
-General8-Slot16-Slot2	Empty	0	0	0
-General8-Slot16-Slot3	Empty	0	0	0
-General8-Slot16-Slot6	Empty	0	0	0
-General8-Slot17	Ancient Prismatic Staff (Enchanted)	1029442	1	6
-General8-Slot17-Slot1	Empty	0	0	0
-General8-Slot17-Slot2	Empty	0	0	0
-General8-Slot17-Slot3	Empty	0	0	0
-General8-Slot17-Slot6	Empty	0	0	0
-General8-Slot18	Primal Velium Reinforced Bow (Enchanted)	1027326	1	6
-General8-Slot18-Slot1	Empty	0	0	0
-General8-Slot18-Slot2	Empty	0	0	0
-General8-Slot18-Slot3	Empty	0	0	0
-General8-Slot18-Slot4	Empty	0	0	0
-General8-Slot18-Slot5	Empty	0	0	0
-General8-Slot18-Slot6	Empty	0	0	0
-General8-Slot19	Primal Velium Warsword (Enchanted)	1027328	1	6
-General8-Slot19-Slot1	Empty	0	0	0
-General8-Slot19-Slot2	Empty	0	0	0
-General8-Slot19-Slot3	Empty	0	0	0
-General8-Slot19-Slot6	Empty	0	0	0
-General8-Slot20	Shroud of Longevity (Enchanted)	1001137	1	6
-General8-Slot20-Slot1	Empty	0	0	0
-General8-Slot20-Slot2	Empty	0	0	0
-General8-Slot20-Slot6	Empty	0	0	0
+General8-Slot15	Empty	0	0	0
+General8-Slot16	Empty	0	0	0
+General8-Slot17	Empty	0	0	0
+General8-Slot18	Empty	0	0	0
+General8-Slot19	Empty	0	0	0
+General8-Slot20	Empty	0	0	0
 General9	Large Bank Box	976012	1	20
 General9-Slot1	Empty	0	0	0
 General9-Slot2	Empty	0	0	0
@@ -286,10 +507,7 @@ General9-Slot8	Empty	0	0	0
 General9-Slot9	Empty	0	0	0
 General9-Slot10	Empty	0	0	0
 General9-Slot11	Empty	0	0	0
-General9-Slot12	Chestplate of Stability (Legendary)	2025494	1	6
-General9-Slot12-Slot1	Empty	0	0	0
-General9-Slot12-Slot2	Empty	0	0	0
-General9-Slot12-Slot6	Empty	0	0	0
+General9-Slot12	Empty	0	0	0
 General9-Slot13	Celestial Essence Robe (Enchanted)	1029333	1	6
 General9-Slot13-Slot1	Empty	0	0	0
 General9-Slot13-Slot2	Empty	0	0	0
@@ -729,7 +947,11 @@ Bank19-Slot18	Empty	0	0	0
 Bank19-Slot19	Empty	0	0	0
 Bank19-Slot20	Empty	0	0	0
 Bank20	Empty	0	0	0
-Bank21	Empty	0	0	0
+Bank21	Thunderhoof Quiver	17352	1	4
+Bank21-Slot1	Empty	0	0	0
+Bank21-Slot2	Empty	0	0	0
+Bank21-Slot3	Empty	0	0	0
+Bank21-Slot4	Empty	0	0	0
 Bank22	Empty	0	0	0
 Bank23	Empty	0	0	0
 Bank24	Empty	0	0	0

@@ -125,9 +125,9 @@ General10-Slot7	Empty	0	0	0
 General10-Slot8	Empty	0	0	0
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
-Bank1-Slot1	Ancient: High Priest's Bulwark	26608	1	6
+Bank1-Slot1	Empty	0	0	0
 Bank1-Slot2	Empty	0	0	0
-Bank1-Slot3	Ancient: Lcea's Lament	26622	1	6
+Bank1-Slot3	Empty	0	0	0
 Bank1-Slot4	Empty	0	0	0
 Bank1-Slot5	Empty	0	0	0
 Bank1-Slot6	Empty	0	0	0
@@ -146,12 +146,12 @@ Bank1-Slot18	Empty	0	0	0
 Bank1-Slot19	Empty	0	0	0
 Bank1-Slot20	Empty	0	0	0
 Bank2	Large Bank Box	976012	1	20
-Bank2-Slot1	Song: Rizlona's Fire	59604	7	6
-Bank2-Slot2	Song: Angstlich's Assonance	19466	2	6
-Bank2-Slot3	Song: Composition of Ervaj	30452	19	6
-Bank2-Slot4	Song: Occlusion of Sound	30451	1	6
-Bank2-Slot5	Empty	0	0	0
-Bank2-Slot6	Empty	0	0	0
+Bank2-Slot1	Ancient: Lcea's Lament	26622	6	6
+Bank2-Slot2	Song: Composition of Ervaj	30452	3	6
+Bank2-Slot3	Song: Rizlona's Fire	59604	7	6
+Bank2-Slot4	Song: Angstlich's Assonance	19466	2	6
+Bank2-Slot5	Song: Composition of Ervaj	30452	20	6
+Bank2-Slot6	Song: Occlusion of Sound	30451	1	6
 Bank2-Slot7	Empty	0	0	0
 Bank2-Slot8	Empty	0	0	0
 Bank2-Slot9	Empty	0	0	0
@@ -168,13 +168,13 @@ Bank2-Slot19	Empty	0	0	0
 Bank2-Slot20	Empty	0	0	0
 Bank3	Large Bank Box	976012	1	20
 Bank3-Slot1	Spell: Spirit of the Storm	7741	5	6
-Bank3-Slot2	Spell: Sha's Ferocity	7728	13	6
+Bank3-Slot2	Spell: Sha's Ferocity	7728	20	6
 Bank3-Slot3	Spell: Omakin's Alacrity	7725	3	6
-Bank3-Slot4	Spell: Spirit of Zehkes	7726	18	6
-Bank3-Slot5	Spell: Spiritual Strength	7730	7	6
+Bank3-Slot4	Spell: Spirit of Zehkes	7726	20	6
+Bank3-Slot5	Spell: Spiritual Strength	7730	8	6
 Bank3-Slot6	Spell: Spirit of Omakin	7723	3	6
 Bank3-Slot7	Spell: Spiritual Purity	7729	8	6
-Bank3-Slot8	Spell: Spirit of Khurenz	7727	8	6
+Bank3-Slot8	Spell: Spirit of Khurenz	7727	12	6
 Bank3-Slot9	Spell: Sha's Restoration	7724	7	6
 Bank3-Slot10	Spell: Sha's Lethargy	7734	3	6
 Bank3-Slot11	Spell: Spirit of Khurenz	7727	2	6
@@ -188,17 +188,17 @@ Bank3-Slot18	Empty	0	0	0
 Bank3-Slot19	Empty	0	0	0
 Bank3-Slot20	Empty	0	0	0
 Bank4	Large Bank Box	976012	1	20
-Bank4-Slot1	Spell: Aegis	19227	11	6
-Bank4-Slot2	Spell: Aegolism	30447	20	6
-Bank4-Slot3	Empty	0	0	0
-Bank4-Slot4	Spell: Divine Intervention	19230	7	6
+Bank4-Slot1	Ancient: High Priest's Bulwark	26608	3	6
+Bank4-Slot2	Spell: Aegis	19227	12	6
+Bank4-Slot3	Spell: Aegolism	30447	20	6
+Bank4-Slot4	Spell: Divine Intervention	19230	8	6
 Bank4-Slot5	Spell: Enforced Reverence	19222	3	6
 Bank4-Slot6	Spell: Mark of Karn	19218	1	6
 Bank4-Slot7	Empty	0	0	0
 Bank4-Slot8	Spell: Heroic Bond	19224	3	6
 Bank4-Slot9	Spell: The Unspoken Word	19225	2	6
-Bank4-Slot10	Spell: Banishment of Shadows	19228	9	6
-Bank4-Slot11	Spell: Naltron's Mark	19435	3	6
+Bank4-Slot10	Spell: Banishment of Shadows	19228	10	6
+Bank4-Slot11	Spell: Naltron's Mark	19435	4	6
 Bank4-Slot12	Spell: Symbol of Marzin	19211	1	6
 Bank4-Slot13	Spell: Heroism	19204	1	6
 Bank4-Slot14	Spell: Death Pact	19203	6	6
@@ -209,18 +209,18 @@ Bank4-Slot18	Spell: Stun Command	30446	2	6
 Bank4-Slot19	Spell: Word of Redemption	19229	14	6
 Bank4-Slot20	Spell: Word of Restoration	19221	1	6
 Bank5	Large Bank Box	976012	1	20
-Bank5-Slot1	Ancient: Legacy of Blades	26609	6	6
-Bank5-Slot2	Ancient: Starfire of Ro	26610	1	6
+Bank5-Slot1	Ancient: Legacy of Blades	26609	10	6
+Bank5-Slot2	Ancient: Starfire of Ro	26610	4	6
 Bank5-Slot3	Spell: Banishment	19262	20	6
 Bank5-Slot4	Spell: Succor	19253	20	6
 Bank5-Slot5	Spell: Entrapping Roots	19263	20	6
 Bank5-Slot6	Spell: Form of the Howler	19244	20	6
-Bank5-Slot7	Spell: Form of the Hunter	19260	19	6
+Bank5-Slot7	Spell: Form of the Hunter	19260	20	6
 Bank5-Slot8	Spell: Mask of the Hunter	19261	16	6
 Bank5-Slot9	Spell: Breath of Karana	19250	13	6
 Bank5-Slot10	Spell: Frost	19252	3	6
 Bank5-Slot11	Spell: Blizzard	19241	5	6
-Bank5-Slot12	Spell: Bonds of Tunare	19419	8	6
+Bank5-Slot12	Spell: Bonds of Tunare	19419	9	6
 Bank5-Slot13	Spell: Spirit of Scale	19238	5	6
 Bank5-Slot14	Spell: Legacy of Thorn	19259	6	6
 Bank5-Slot15	Spell: Circle of Winter	19232	8	6
@@ -228,7 +228,7 @@ Bank5-Slot16	Spell: Fist of Karana	19255	4	6
 Bank5-Slot17	Spell: Girdle of Karana	19247	2	6
 Bank5-Slot18	Spell: Spirit of Oak	19258	5	6
 Bank5-Slot19	Spell: Circle of Summer	19234	13	6
-Bank5-Slot20	Spell: Wake of Karana	19413	4	6
+Bank5-Slot20	Spell: Wake of Karana	19413	5	6
 Bank6	Large Bank Box	976012	1	20
 Bank6-Slot1	Spell: Regrowth of the Grove	19256	5	6
 Bank6-Slot2	Spell: Nature Walker's Behest	30475	7	6
@@ -251,33 +251,33 @@ Bank6-Slot18	Empty	0	0	0
 Bank6-Slot19	Empty	0	0	0
 Bank6-Slot20	Empty	0	0	0
 Bank7	Large Bank Box	976012	1	20
-Bank7-Slot1	Ancient: Chaotic Visions	26620	10	6
-Bank7-Slot2	Ancient: Eternal Rapture	26619	7	6
+Bank7-Slot1	Ancient: Chaotic Visions	26620	19	6
+Bank7-Slot2	Ancient: Eternal Rapture	26619	11	6
 Bank7-Slot3	Spell: Zumaik`s Animation	19389	9	6
-Bank7-Slot4	Spell: Bedlam	19400	10	6
+Bank7-Slot4	Spell: Bedlam	19400	11	6
 Bank7-Slot5	Spell: Asphyxiate	19402	10	6
 Bank7-Slot6	Spell: Torment of Argli	19391	3	6
 Bank7-Slot7	Spell: Augment	19416	5	6
 Bank7-Slot8	Spell: Cripple	19269	7	6
 Bank7-Slot9	Spell: Paralyzing Earth	16240	8	6
 Bank7-Slot10	Spell: Enlightenment	19396	10	6
-Bank7-Slot11	Spell: Dictate	19406	17	6
-Bank7-Slot12	Spell: Visions of Grandeur	19407	19	6
+Bank7-Slot11	Spell: Dictate	19406	19	6
+Bank7-Slot12	Spell: Visions of Grandeur	19407	20	6
 Bank7-Slot13	Spell: Wind of Tashani	19387	5	6
 Bank7-Slot14	Spell: Gift of Pure Thought	19401	5	6
-Bank7-Slot15	Spell: Wind of Tashanian	19405	11	6
+Bank7-Slot15	Spell: Wind of Tashanian	19405	13	6
 Bank7-Slot16	Spell: Dementia	19384	13	6
 Bank7-Slot17	Spell: Gift of Brilliance	30410	20	6
 Bank7-Slot18	Spell: Color Slant	19378	12	6
-Bank7-Slot19	Spell: Umbra	19393	1	6
-Bank7-Slot20	Spell: Forlorn Deeds	19395	3	6
+Bank7-Slot19	Spell: Umbra	19393	3	6
+Bank7-Slot20	Spell: Forlorn Deeds	19395	4	6
 Bank8	Large Bank Box	976012	1	20
 Bank8-Slot1	Spell: Theft of Thought	19374	7	6
 Bank8-Slot2	Spell: Wake of Tranquility	19215	7	6
 Bank8-Slot3	Spell: Gift of Insight	30409	4	6
 Bank8-Slot4	Spell: Largarn`s Lamentation	19388	3	6
-Bank8-Slot5	Spell: Dementing Visions	19481	2	6
-Bank8-Slot6	Spell: Gift of Brilliance	30410	1	6
+Bank8-Slot5	Spell: Dementing Visions	19481	3	6
+Bank8-Slot6	Spell: Gift of Brilliance	30410	4	6
 Bank8-Slot7	Empty	0	0	0
 Bank8-Slot8	Empty	0	0	0
 Bank8-Slot9	Empty	0	0	0
@@ -293,28 +293,28 @@ Bank8-Slot18	Empty	0	0	0
 Bank8-Slot19	Empty	0	0	0
 Bank8-Slot20	Empty	0	0	0
 Bank9	Large Bank Box	976012	1	20
-Bank9-Slot1	Ancient: Shock of Sun	26617	2	6
-Bank9-Slot2	Ancient: Burnout Blaze	26618	1	6
-Bank9-Slot3	Spell: Vocarate: Water	19362	4	6
-Bank9-Slot4	Spell: Mala	19418	14	6
-Bank9-Slot5	Spell: Greater Vocaration: Air	19371	10	6
-Bank9-Slot6	Spell: Greater Vocaration: Water	19372	13	6
-Bank9-Slot7	Spell: Summon: Muzzle of Mardu	19363	2	6
+Bank9-Slot1	Ancient: Shock of Sun	26617	5	6
+Bank9-Slot2	Ancient: Burnout Blaze	26618	5	6
+Bank9-Slot3	Spell: Vocarate: Water	19362	5	6
+Bank9-Slot4	Spell: Mala	19418	15	6
+Bank9-Slot5	Spell: Greater Vocaration: Air	19371	12	6
+Bank9-Slot6	Spell: Greater Vocaration: Water	19372	14	6
+Bank9-Slot7	Spell: Summon: Muzzle of Mardu	19363	3	6
 Bank9-Slot8	Spell: Rage of Zomm	19417	3	6
 Bank9-Slot9	Spell: Quiver of Marr	19354	6	6
 Bank9-Slot10	Spell: Scars of Sigil	19358	13	6
 Bank9-Slot11	Spell: Gift of Xev	19347	7	6
-Bank9-Slot12	Spell: Manastorm	19370	5	6
-Bank9-Slot13	Spell: Greater Vocaration: Fire	19367	1	6
+Bank9-Slot12	Spell: Manastorm	19370	6	6
+Bank9-Slot13	Spell: Greater Vocaration: Fire	19367	2	6
 Bank9-Slot14	Spell: Bandoleer of Luclin	19356	1	6
 Bank9-Slot15	Spell: Wrath of the Elements	30405	5	6
 Bank9-Slot16	Spell: Burnout IV	30472	7	6
-Bank9-Slot17	Spell: Monster Summoning III	30404	10	6
+Bank9-Slot17	Spell: Monster Summoning III	30404	12	6
 Bank9-Slot18	Spell: Aegis of Ro	15863	16	6
 Bank9-Slot19	Spell: Monster Summoning II	30402	3	6
 Bank9-Slot20	Spell: Dyzil`s Deafening Decoy	19364	8	6
 Bank10	Large Bank Box	976012	1	20
-Bank10-Slot1	Empty	0	0	0
+Bank10-Slot1	Spell: Velocity	19348	1	6
 Bank10-Slot2	Empty	0	0	0
 Bank10-Slot3	Empty	0	0	0
 Bank10-Slot4	Empty	0	0	0
@@ -335,8 +335,8 @@ Bank10-Slot18	Empty	0	0	0
 Bank10-Slot19	Empty	0	0	0
 Bank10-Slot20	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
-Bank11-Slot1	Ancient: Lifebane	26614	1	6
-Bank11-Slot2	Spell: Levant	19303	4	6
+Bank11-Slot1	Ancient: Lifebane	26614	2	6
+Bank11-Slot2	Ancient: Master of Death	26613	1	6
 Bank11-Slot3	Spell: Thrall of Bones	19299	19	6
 Bank11-Slot4	Spell: Dead Men Floating	19495	1	6
 Bank11-Slot5	Spell: Trepidation	19220	4	6
@@ -345,21 +345,21 @@ Bank11-Slot7	Spell: Incinerate Bones	19479	4	6
 Bank11-Slot8	Spell: Infusion	19424	4	6
 Bank11-Slot9	Spell: Sedulous Subversion	19410	8	6
 Bank11-Slot10	Spell: Quivering Veil of Xarn	19309	4	6
-Bank11-Slot11	Spell: Enslave Death	19313	9	6
-Bank11-Slot12	Spell: Servant of Bones	19305	1	6
+Bank11-Slot11	Spell: Enslave Death	19313	10	6
+Bank11-Slot12	Spell: Servant of Bones	19305	2	6
 Bank11-Slot13	Spell: Splurt	19294	4	6
 Bank11-Slot14	Spell: Demi Lich	19314	11	6
 Bank11-Slot15	Spell: Augmentation of Death	30414	4	6
 Bank11-Slot16	Spell: Devouring Darkness	19312	2	6
-Bank11-Slot17	Spell: Death Peace	30460	16	6
+Bank11-Slot17	Spell: Death Peace	30460	20	6
 Bank11-Slot18	Spell: Defoliation	19296	4	6
-Bank11-Slot19	Spell: Arch Lich	30416	14	6
-Bank11-Slot20	Spell: Chill Bones	19302	1	6
+Bank11-Slot19	Spell: Arch Lich	30416	15	6
+Bank11-Slot20	Spell: Chill Bones	19302	3	6
 Bank12	Large Bank Box	976012	1	20
-Bank12-Slot1	Spell: Trucidation	19425	16	6
+Bank12-Slot1	Spell: Trucidation	19425	17	6
 Bank12-Slot2	Spell: Gangrenous Touch of Zum`uul	19496	1	6
-Bank12-Slot3	Empty	0	0	0
-Bank12-Slot4	Empty	0	0	0
+Bank12-Slot3	Spell: Levant	19303	4	6
+Bank12-Slot4	Spell: Death Peace	30460	2	6
 Bank12-Slot5	Empty	0	0	0
 Bank12-Slot6	Empty	0	0	0
 Bank12-Slot7	Empty	0	0	0
@@ -420,7 +420,7 @@ Bank14-Slot19	Empty	0	0	0
 Bank14-Slot20	Empty	0	0	0
 Bank15	Large Bank Box	976012	1	20
 Bank15-Slot1	Spell: Ethereal Cleansing	59003	1	6
-Bank15-Slot2	Spell: Divine Strength	30456	17	6
+Bank15-Slot2	Spell: Divine Strength	30456	18	6
 Bank15-Slot3	Spell: Wave of Healing	30455	2	6
 Bank15-Slot4	Empty	0	0	0
 Bank15-Slot5	Empty	0	0	0
@@ -440,7 +440,7 @@ Bank15-Slot18	Empty	0	0	0
 Bank15-Slot19	Empty	0	0	0
 Bank15-Slot20	Empty	0	0	0
 Bank16	Large Bank Box	976012	1	20
-Bank16-Slot1	Spell: Call of the Predator	30464	15	6
+Bank16-Slot1	Spell: Call of the Predator	30464	17	6
 Bank16-Slot2	Spell: Call of Fire	30463	5	6
 Bank16-Slot3	Spell: Call of Earth	30462	2	6
 Bank16-Slot4	Empty	0	0	0
@@ -461,21 +461,21 @@ Bank16-Slot18	Empty	0	0	0
 Bank16-Slot19	Empty	0	0	0
 Bank16-Slot20	Empty	0	0	0
 Bank17	Large Bank Box	976012	1	20
-Bank17-Slot1	Spell: Acumen	19278	20	6
-Bank17-Slot2	Spell: Primal Avatar	19491	1	6
-Bank17-Slot3	Spell: Malo	19291	7	6
-Bank17-Slot4	Spell: Unfailing Reverence	19287	9	6
-Bank17-Slot5	Spell: Cannibalize III	19272	7	6
-Bank17-Slot6	Spell: Pox of Bertoxxulous	19288	4	6
-Bank17-Slot7	Spell: Cannibalize IV	19473	20	6
-Bank17-Slot8	Spell: Form of the Great Bear	30431	1	6
-Bank17-Slot9	Spell: Focus of Spirit	30432	9	6
-Bank17-Slot10	Spell: Insidious Decay	19266	1	6
-Bank17-Slot11	Spell: Spirit of the Howler	19275	9	6
-Bank17-Slot12	Empty	0	0	0
-Bank17-Slot13	Spell: Avatar	19292	8	6
-Bank17-Slot14	Spell: Talisman of Jasinth	19264	3	6
-Bank17-Slot15	Empty	0	0	0
+Bank17-Slot1	Ancient: Feral Avatar	26611	4	6
+Bank17-Slot2	Ancient: Scourge of Nife	26612	2	6
+Bank17-Slot3	Spell: Acumen	19278	20	6
+Bank17-Slot4	Spell: Primal Avatar	19491	2	6
+Bank17-Slot5	Spell: Malo	19291	8	6
+Bank17-Slot6	Spell: Unfailing Reverence	19287	9	6
+Bank17-Slot7	Spell: Cannibalize III	19272	7	6
+Bank17-Slot8	Spell: Pox of Bertoxxulous	19288	4	6
+Bank17-Slot9	Spell: Cannibalize IV	19473	20	6
+Bank17-Slot10	Spell: Form of the Great Bear	30431	1	6
+Bank17-Slot11	Spell: Focus of Spirit	30432	13	6
+Bank17-Slot12	Spell: Insidious Decay	19266	1	6
+Bank17-Slot13	Spell: Spirit of the Howler	19275	9	6
+Bank17-Slot14	Spell: Avatar	19292	8	6
+Bank17-Slot15	Spell: Talisman of Jasinth	19264	3	6
 Bank17-Slot16	Spell: Talisman of the Brute	19281	5	6
 Bank17-Slot17	Spell: Torpor	19293	14	6
 Bank17-Slot18	Empty	0	0	0
@@ -591,9 +591,9 @@ Bank23-Slot1	Spell: Sunstrike	19345	1	6
 Bank23-Slot2	Spell: Tears of Druzzil	19319	3	6
 Bank23-Slot3	Spell: Translocate	30422	3	6
 Bank23-Slot4	Spell: Translocate: Group	19474	2	6
-Bank23-Slot5	Spell: Winds of Gelid	19343	9	6
+Bank23-Slot5	Spell: Winds of Gelid	19343	10	6
 Bank23-Slot6	Spell: Vengeance of Al`Kabor	19342	1	6
-Bank23-Slot7	Empty	0	0	0
+Bank23-Slot7	Spell: Improved Invisibility	30406	2	6
 Bank23-Slot8	Empty	0	0	0
 Bank23-Slot9	Empty	0	0	0
 Bank23-Slot10	Empty	0	0	0
@@ -608,31 +608,31 @@ Bank23-Slot18	Empty	0	0	0
 Bank23-Slot19	Empty	0	0	0
 Bank23-Slot20	Empty	0	0	0
 Bank24	Large Bank Box	976012	1	20
-Bank24-Slot1	Ancient: Destruction of Ice	26615	3	6
-Bank24-Slot2	Ancient: Greater Concussion	26616	4	6
+Bank24-Slot1	Ancient: Destruction of Ice	26615	7	6
+Bank24-Slot2	Ancient: Greater Concussion	26616	8	6
 Bank24-Slot3	Spell: Atol`s Spectral Shackles	19315	1	6
 Bank24-Slot4	Spell: Disintegrate	19415	12	6
 Bank24-Slot5	Spell: Draught of Jiva	19328	7	6
 Bank24-Slot6	Spell: Evacuate	19336	6	6
 Bank24-Slot7	Spell: Eye of Tallon	19411	16	6
-Bank24-Slot8	Spell: Flaming Sword of Xuzl	19344	6	6
+Bank24-Slot8	Spell: Flaming Sword of Xuzl	19344	7	6
 Bank24-Slot9	Spell: Great Divide Portal	30423	3	6
-Bank24-Slot10	Spell: Ice Spear of Solist	30426	14	6
+Bank24-Slot10	Spell: Ice Spear of Solist	30426	15	6
 Bank24-Slot11	Spell: Inferno of Al`Kabor	19322	3	6
 Bank24-Slot12	Spell: Invert Gravity	19341	2	6
-Bank24-Slot13	Spell: Lure of Ice	19422	12	6
-Bank24-Slot14	Spell: Manasink	19414	1	6
+Bank24-Slot13	Spell: Lure of Ice	19422	13	6
+Bank24-Slot14	Spell: Manasink	19414	3	6
 Bank24-Slot15	Spell: Markar`s Discord	19331	4	6
-Bank24-Slot16	Spell: Pillar of Flame	19335	6	6
+Bank24-Slot16	Spell: Pillar of Flame	19335	7	6
 Bank24-Slot17	Spell: Pillar of Frost	19318	7	6
-Bank24-Slot18	Spell: Pillar of Lightning	19326	5	6
-Bank24-Slot19	Spell: Plainsight	19330	3	6
-Bank24-Slot20	Empty	0	0	0
+Bank24-Slot18	Spell: Pillar of Lightning	19326	4	6
+Bank24-Slot19	Spell: Plainsight	19330	6	6
+Bank24-Slot20	Spell: Tears of Prexus	19339	2	6
 SharedBank1	Large Bank Box	976012	1	20
-SharedBank1-Slot1	Empty	0	0	0
-SharedBank1-Slot2	Empty	0	0	0
-SharedBank1-Slot3	Empty	0	0	0
-SharedBank1-Slot4	Empty	0	0	0
+SharedBank1-Slot1	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot2	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot3	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot4	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot5	Empty	0	0	0
 SharedBank1-Slot6	Empty	0	0	0
 SharedBank1-Slot7	Empty	0	0	0
@@ -650,7 +650,7 @@ SharedBank1-Slot18	Empty	0	0	0
 SharedBank1-Slot19	Empty	0	0	0
 SharedBank1-Slot20	Empty	0	0	0
 SharedBank2	Large Bank Box	976012	1	20
-SharedBank2-Slot1	Empty	0	0	0
+SharedBank2-Slot1	Harnessing Stone	52946	1	6
 SharedBank2-Slot2	Empty	0	0	0
 SharedBank2-Slot3	Empty	0	0	0
 SharedBank2-Slot4	Empty	0	0	0
