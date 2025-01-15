@@ -259,8 +259,8 @@ Bank1-Slot18	Black Tear	31262	1	6
 Bank1-Slot19	Black Tear	31262	1	6
 Bank1-Slot20	Black Tear	31262	1	6
 Bank2	Large Bank Box	976012	1	20
-Bank2-Slot1	Emerald Symbol	31257	1	6
-Bank2-Slot2	Emerald Symbol	31257	1	6
+Bank2-Slot1	Empty	0	0	0
+Bank2-Slot2	Empty	0	0	0
 Bank2-Slot3	Emerald Symbol	31257	1	6
 Bank2-Slot4	Emerald Symbol	31257	1	6
 Bank2-Slot5	Emerald Symbol	31257	1	6
@@ -418,8 +418,8 @@ Bank9-Slot9	Empty	0	0	0
 Bank9-Slot10	Empty	0	0	0
 Bank9-Slot11	Platinum Tear	31269	1	6
 Bank9-Slot12	Platinum Tear	31269	1	6
-Bank9-Slot13	Platinum Tear	31269	1	6
-Bank9-Slot14	Platinum Tear	31269	1	6
+Bank9-Slot13	Empty	0	0	0
+Bank9-Slot14	Empty	0	0	0
 Bank9-Slot15	Empty	0	0	0
 Bank9-Slot16	Empty	0	0	0
 Bank9-Slot17	Empty	0	0	0
@@ -448,10 +448,10 @@ Bank10-Slot18	Poison Tear	31266	1	6
 Bank10-Slot19	Poison Tear	31266	1	6
 Bank10-Slot20	Poison Tear	31266	1	6
 Bank11	Large Bank Box	976012	1	20
-Bank11-Slot1	Platinum Symbol	31258	1	6
+Bank11-Slot1	Empty	0	0	0
 Bank11-Slot2	Platinum Symbol	31258	1	6
 Bank11-Slot3	Platinum Symbol	31258	1	6
-Bank11-Slot4	Platinum Symbol	31258	1	6
+Bank11-Slot4	Empty	0	0	0
 Bank11-Slot5	Empty	0	0	0
 Bank11-Slot6	Empty	0	0	0
 Bank11-Slot7	Empty	0	0	0
@@ -499,7 +499,7 @@ Bank13-Slot6	Runed Symbol	31252	1	6
 Bank13-Slot7	Runed Symbol	31252	1	6
 Bank13-Slot8	Runed Symbol	31252	1	6
 Bank13-Slot9	Ruby Symbol	31259	1	6
-Bank13-Slot10	Runed Symbol	31252	1	6
+Bank13-Slot10	Empty	0	0	0
 Bank13-Slot11	Runed Tear	31263	1	6
 Bank13-Slot12	Runed Tear	31263	1	6
 Bank13-Slot13	Runed Tear	31263	1	6
@@ -559,8 +559,8 @@ Bank16-Slot3	Silver Symbol	31253	1	6
 Bank16-Slot4	Silver Symbol	31253	1	6
 Bank16-Slot5	Silver Symbol	31253	1	6
 Bank16-Slot6	Silver Symbol	31253	1	6
-Bank16-Slot7	Silver Symbol	31253	1	6
-Bank16-Slot8	Silver Symbol	31253	1	6
+Bank16-Slot7	Empty	0	0	0
+Bank16-Slot8	Empty	0	0	0
 Bank16-Slot9	Empty	0	0	0
 Bank16-Slot10	Empty	0	0	0
 Bank16-Slot11	Silver Tear	31264	1	6

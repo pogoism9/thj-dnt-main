@@ -32,19 +32,48 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Backpack	17005	1	8
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
+General1-Slot1	Broom (Enchanted)	1016544	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot3	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
+General1-Slot2	Kedge Backbone	20524	1	6
+General1-Slot3	Pegasus Feather Cloak (Enchanted)	1002463	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot4	Pegasus Feather Cloak	2463	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot5	Shovel	6026	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot4	Empty	0	0	0
+General1-Slot5-Slot5	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Petrified Werewolf Skull	20525	1	6
+General1-Slot7	Undead Dragon Sinew (Legendary)	2006478	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot7-Slot6	Empty	0	0	0
+General1-Slot8	Staff of Elemental Mastery: Earth (Legendary)	2011567	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot8-Slot3	Empty	0	0	0
+General1-Slot8-Slot4	Empty	0	0	0
+General1-Slot8-Slot6	Empty	0	0	0
 General2	Backpack	17005	1	8
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
+General2-Slot1	Red Wurm Gut	20528	1	6
+General2-Slot2	Pegasus Feather Cloak	2463	1	6
+General2-Slot2-Slot1	Empty	0	0	0
+General2-Slot2-Slot2	Empty	0	0	0
+General2-Slot3	Staff of Elemental Mastery: Fire	11566	1	6
+General2-Slot3-Slot1	Empty	0	0	0
+General2-Slot3-Slot2	Empty	0	0	0
+General2-Slot3-Slot3	Empty	0	0	0
+General2-Slot3-Slot4	Empty	0	0	0
+General2-Slot3-Slot6	Empty	0	0	0
+General2-Slot4	Decaying Liver	60206	1	6
 General2-Slot5	Empty	0	0	0
 General2-Slot6	Empty	0	0	0
 General2-Slot7	Empty	0	0	0
@@ -127,8 +156,8 @@ General10-Slot7	Empty	0	0	0
 General10-Slot8	Empty	0	0	0
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
-Bank1-Slot1	Kedge Backbone	20524	1	6
-Bank1-Slot2	Kedge Backbone	20524	1	6
+Bank1-Slot1	Empty	0	0	0
+Bank1-Slot2	Empty	0	0	0
 Bank1-Slot3	Empty	0	0	0
 Bank1-Slot4	Empty	0	0	0
 Bank1-Slot5	Empty	0	0	0
@@ -204,7 +233,7 @@ Bank4-Slot7	Empty	0	0	0
 Bank4-Slot8	Empty	0	0	0
 Bank4-Slot9	Empty	0	0	0
 Bank4-Slot10	Empty	0	0	0
-Bank4-Slot11	Pearlescent Fragment	24995	1	6
+Bank4-Slot11	Empty	0	0	0
 Bank4-Slot12	Lord Gimblox's Signet Ring (Legendary)	2028018	1	6
 Bank4-Slot12-Slot1	Empty	0	0	0
 Bank4-Slot12-Slot2	Empty	0	0	0
