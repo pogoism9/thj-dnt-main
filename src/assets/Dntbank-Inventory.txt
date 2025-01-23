@@ -32,10 +32,26 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Large Bank Box	976012	1	20
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
+General1-Slot1	Ancient Prismatic Staff (Legendary)	2029442	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot3	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
+General1-Slot2	Maclaer's Boots of Silence	31238	1	6
+General1-Slot2-Slot1	Empty	0	0	0
+General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
+General1-Slot3	Staff of the Elder Claws (Legendary)	2001173	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot3-Slot3	Empty	0	0	0
+General1-Slot3-Slot4	Empty	0	0	0
+General1-Slot3-Slot5	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
+General1-Slot4	Kelsiferous' Armband of Artistry	31237	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot4-Slot6	Empty	0	0	0
 General1-Slot5	Helmet of Rallos Zek (Legendary)	2025209	1	6
 General1-Slot5-Slot1	Empty	0	0	0
 General1-Slot5-Slot6	Empty	0	0	0
@@ -45,7 +61,13 @@ General1-Slot6-Slot6	Empty	0	0	0
 General1-Slot7	Helmet of Rallos Zek	25209	1	6
 General1-Slot7-Slot1	Empty	0	0	0
 General1-Slot7-Slot6	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
+General1-Slot8	Primal Velium Reinforced Bow (Legendary)	2027326	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot8-Slot3	Empty	0	0	0
+General1-Slot8-Slot4	Empty	0	0	0
+General1-Slot8-Slot5	Empty	0	0	0
+General1-Slot8-Slot6	Empty	0	0	0
 General1-Slot9	Empty	0	0	0
 General1-Slot10	Empty	0	0	0
 General1-Slot11	Empty	0	0	0
@@ -1125,13 +1147,7 @@ SharedBank1-Slot1	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot2	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot3	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot4	Glowing Drake Orb	31260	1	6
-SharedBank1-Slot5	Soul Leech, Dark Sword of Blood	11609	1	6
-SharedBank1-Slot5-Slot1	Empty	0	0	0
-SharedBank1-Slot5-Slot2	Empty	0	0	0
-SharedBank1-Slot5-Slot3	Empty	0	0	0
-SharedBank1-Slot5-Slot4	Empty	0	0	0
-SharedBank1-Slot5-Slot5	Empty	0	0	0
-SharedBank1-Slot5-Slot6	Empty	0	0	0
+SharedBank1-Slot5	Empty	0	0	0
 SharedBank1-Slot6	Empty	0	0	0
 SharedBank1-Slot7	Empty	0	0	0
 SharedBank1-Slot8	Empty	0	0	0

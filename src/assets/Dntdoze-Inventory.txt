@@ -27,15 +27,15 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Large Bank Box	976012	1	20
-General1-Slot1	Empty	0	0	0
+General1-Slot1	Black Symbol	31251	1	6
 General1-Slot2	Empty	0	0	0
 General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
+General1-Slot4	Platinum Symbol	31258	1	6
+General1-Slot5	Ruby Tear	31270	1	6
+General1-Slot6	Runed Symbol	31252	1	6
+General1-Slot7	Serrated Symbol	31254	1	6
+General1-Slot8	Silver Tear	31264	1	6
+General1-Slot9	White Symbol	31250	1	6
 General1-Slot10	Empty	0	0	0
 General1-Slot11	Empty	0	0	0
 General1-Slot12	Empty	0	0	0
@@ -294,7 +294,7 @@ Bank3-Slot11	Emerald Tear	31268	1	6
 Bank3-Slot12	Emerald Tear	31268	1	6
 Bank3-Slot13	Emerald Tear	31268	1	6
 Bank3-Slot14	Emerald Tear	31268	1	6
-Bank3-Slot15	Emerald Tear	31268	1	6
+Bank3-Slot15	Empty	0	0	0
 Bank3-Slot16	Empty	0	0	0
 Bank3-Slot17	Empty	0	0	0
 Bank3-Slot18	Empty	0	0	0
@@ -431,7 +431,7 @@ Bank10-Slot1	Poison Symbol	31255	1	6
 Bank10-Slot2	Poison Symbol	31255	1	6
 Bank10-Slot3	Poison Symbol	31255	1	6
 Bank10-Slot4	Poison Symbol	31255	1	6
-Bank10-Slot5	Poison Symbol	31255	1	6
+Bank10-Slot5	Empty	0	0	0
 Bank10-Slot6	Poison Symbol	31255	1	6
 Bank10-Slot7	Poison Symbol	31255	1	6
 Bank10-Slot8	Poison Symbol	31255	1	6

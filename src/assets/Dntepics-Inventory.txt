@@ -32,24 +32,11 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Backpack	17005	1	8
-General1-Slot1	Decaying Liver	60206	1	6
-General1-Slot2	Gnarled Staff (Enchanted)	1014338	1	6
-General1-Slot2-Slot1	Empty	0	0	0
-General1-Slot2-Slot2	Empty	0	0	0
-General1-Slot2-Slot3	Empty	0	0	0
-General1-Slot2-Slot6	Empty	0	0	0
+General1-Slot1	Empty	0	0	0
+General1-Slot2	Empty	0	0	0
 General1-Slot3	Plains Pebble	12832	1	6
-General1-Slot4	Gnarled Staff	14338	1	6
-General1-Slot4-Slot1	Empty	0	0	0
-General1-Slot4-Slot2	Empty	0	0	0
-General1-Slot4-Slot3	Empty	0	0	0
-General1-Slot4-Slot6	Empty	0	0	0
-General1-Slot5	Staff of Elemental Mastery: Water (Enchanted)	1011569	1	6
-General1-Slot5-Slot1	Empty	0	0	0
-General1-Slot5-Slot2	Empty	0	0	0
-General1-Slot5-Slot3	Empty	0	0	0
-General1-Slot5-Slot4	Empty	0	0	0
-General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
 General1-Slot6	Empty	0	0	0
 General1-Slot7	Empty	0	0	0
 General1-Slot8	Empty	0	0	0
@@ -165,7 +152,7 @@ Bank2-Slot1	Red Dragon Scales	11622	1	6
 Bank2-Slot2	Red Dragon Scales	11622	1	6
 Bank2-Slot3	Red Dragon Scales	11622	1	6
 Bank2-Slot4	Empty	0	0	0
-Bank2-Slot5	Empty	0	0	0
+Bank2-Slot5	Chromodrac Gut	20527	1	6
 Bank2-Slot6	Empty	0	0	0
 Bank2-Slot7	Empty	0	0	0
 Bank2-Slot8	Empty	0	0	0
@@ -211,8 +198,8 @@ Bank4-Slot1	Child's Tear	1673	1	6
 Bank4-Slot2	Child's Tear	1673	1	6
 Bank4-Slot3	Child's Tear	1673	1	6
 Bank4-Slot4	Child's Tear	1673	1	6
-Bank4-Slot5	Empty	0	0	0
-Bank4-Slot6	Child's Tear	1673	1	6
+Bank4-Slot5	Child's Tear	1673	1	6
+Bank4-Slot6	Empty	0	0	0
 Bank4-Slot7	Empty	0	0	0
 Bank4-Slot8	Empty	0	0	0
 Bank4-Slot9	Empty	0	0	0
@@ -280,7 +267,7 @@ Bank7-Slot3	Empty	0	0	0
 Bank7-Slot4	Empty	0	0	0
 Bank7-Slot5	Empty	0	0	0
 Bank7-Slot6	Empty	0	0	0
-Bank7-Slot7	Empty	0	0	0
+Bank7-Slot7	Decaying Liver	60206	1	6
 Bank7-Slot8	Empty	0	0	0
 Bank7-Slot9	Empty	0	0	0
 Bank7-Slot10	Empty	0	0	0
@@ -336,10 +323,7 @@ Bank9-Slot5	Elemental Binder	28043	1	6
 Bank9-Slot5-Slot1	Empty	0	0	0
 Bank9-Slot5-Slot2	Empty	0	0	0
 Bank9-Slot5-Slot6	Empty	0	0	0
-Bank9-Slot6	Elemental Binder (Legendary)	2028043	1	6
-Bank9-Slot6-Slot1	Empty	0	0	0
-Bank9-Slot6-Slot2	Empty	0	0	0
-Bank9-Slot6-Slot6	Empty	0	0	0
+Bank9-Slot6	Empty	0	0	0
 Bank9-Slot7	Empty	0	0	0
 Bank9-Slot8	Empty	0	0	0
 Bank9-Slot9	Empty	0	0	0
@@ -348,83 +332,58 @@ Bank9-Slot11	Torch of the Elements	28007	1	6
 Bank9-Slot12	Torch of the Elements	28007	1	6
 Bank9-Slot13	Torch of the Elements	28007	1	6
 Bank9-Slot14	Empty	0	0	0
-Bank9-Slot15	Shovel	6026	1	6
-Bank9-Slot15-Slot1	Empty	0	0	0
-Bank9-Slot15-Slot2	Empty	0	0	0
-Bank9-Slot15-Slot3	Empty	0	0	0
-Bank9-Slot15-Slot4	Empty	0	0	0
-Bank9-Slot15-Slot5	Empty	0	0	0
-Bank9-Slot15-Slot6	Empty	0	0	0
+Bank9-Slot15	Empty	0	0	0
 Bank9-Slot16	Empty	0	0	0
-Bank9-Slot17	Empty	0	0	0
+Bank9-Slot17	Staff of Elemental Mastery: Earth (Legendary)	2011567	1	6
+Bank9-Slot17-Slot1	Empty	0	0	0
+Bank9-Slot17-Slot2	Empty	0	0	0
+Bank9-Slot17-Slot3	Empty	0	0	0
+Bank9-Slot17-Slot4	Empty	0	0	0
+Bank9-Slot17-Slot6	Empty	0	0	0
 Bank9-Slot18	Empty	0	0	0
 Bank9-Slot19	Empty	0	0	0
 Bank9-Slot20	Empty	0	0	0
 Bank10	Large Bank Box	976012	1	20
-Bank10-Slot1	Staff of Elemental Mastery: Earth (Legendary)	2011567	1	6
-Bank10-Slot1-Slot1	Empty	0	0	0
-Bank10-Slot1-Slot2	Empty	0	0	0
-Bank10-Slot1-Slot3	Empty	0	0	0
-Bank10-Slot1-Slot4	Empty	0	0	0
-Bank10-Slot1-Slot6	Empty	0	0	0
-Bank10-Slot2	Staff of Elemental Mastery: Fire (Legendary)	2011566	1	6
-Bank10-Slot2-Slot1	Empty	0	0	0
-Bank10-Slot2-Slot2	Empty	0	0	0
-Bank10-Slot2-Slot3	Empty	0	0	0
-Bank10-Slot2-Slot4	Empty	0	0	0
-Bank10-Slot2-Slot6	Empty	0	0	0
-Bank10-Slot3	Staff of Elemental Mastery: Water	11569	1	6
-Bank10-Slot3-Slot1	Empty	0	0	0
-Bank10-Slot3-Slot2	Empty	0	0	0
-Bank10-Slot3-Slot3	Empty	0	0	0
-Bank10-Slot3-Slot4	Empty	0	0	0
-Bank10-Slot3-Slot6	Empty	0	0	0
-Bank10-Slot4	Staff of Elemental Mastery: Fire (Enchanted)	1011566	1	6
-Bank10-Slot4-Slot1	Empty	0	0	0
-Bank10-Slot4-Slot2	Empty	0	0	0
-Bank10-Slot4-Slot3	Empty	0	0	0
-Bank10-Slot4-Slot4	Empty	0	0	0
-Bank10-Slot4-Slot6	Empty	0	0	0
-Bank10-Slot5	Staff of Elemental Mastery: Water (Legendary)	2011569	1	6
-Bank10-Slot5-Slot1	Empty	0	0	0
-Bank10-Slot5-Slot2	Empty	0	0	0
-Bank10-Slot5-Slot3	Empty	0	0	0
-Bank10-Slot5-Slot4	Empty	0	0	0
-Bank10-Slot5-Slot6	Empty	0	0	0
-Bank10-Slot6	Staff of Elemental Mastery: Fire	11566	1	6
-Bank10-Slot6-Slot1	Empty	0	0	0
-Bank10-Slot6-Slot2	Empty	0	0	0
-Bank10-Slot6-Slot3	Empty	0	0	0
-Bank10-Slot6-Slot4	Empty	0	0	0
-Bank10-Slot6-Slot6	Empty	0	0	0
-Bank10-Slot7	Staff of Elemental Mastery: Water	11569	1	6
-Bank10-Slot7-Slot1	Empty	0	0	0
-Bank10-Slot7-Slot2	Empty	0	0	0
-Bank10-Slot7-Slot3	Empty	0	0	0
-Bank10-Slot7-Slot4	Empty	0	0	0
-Bank10-Slot7-Slot6	Empty	0	0	0
-Bank10-Slot8	Staff of Elemental Mastery: Fire	11566	1	6
-Bank10-Slot8-Slot1	Empty	0	0	0
-Bank10-Slot8-Slot2	Empty	0	0	0
-Bank10-Slot8-Slot3	Empty	0	0	0
-Bank10-Slot8-Slot4	Empty	0	0	0
-Bank10-Slot8-Slot6	Empty	0	0	0
+Bank10-Slot1	Empty	0	0	0
+Bank10-Slot2	Empty	0	0	0
+Bank10-Slot3	Empty	0	0	0
+Bank10-Slot4	Empty	0	0	0
+Bank10-Slot5	Empty	0	0	0
+Bank10-Slot6	Empty	0	0	0
+Bank10-Slot7	Empty	0	0	0
+Bank10-Slot8	Empty	0	0	0
 Bank10-Slot9	Empty	0	0	0
 Bank10-Slot10	Empty	0	0	0
 Bank10-Slot11	Griffon Feathers	16538	1	6
 Bank10-Slot12	Griffon Feathers	16538	1	6
 Bank10-Slot13	Empty	0	0	0
 Bank10-Slot14	Empty	0	0	0
-Bank10-Slot15	Broom (Enchanted)	1016544	1	6
-Bank10-Slot15-Slot1	Empty	0	0	0
-Bank10-Slot15-Slot2	Empty	0	0	0
-Bank10-Slot15-Slot3	Empty	0	0	0
-Bank10-Slot15-Slot6	Empty	0	0	0
+Bank10-Slot15	Empty	0	0	0
 Bank10-Slot16	Empty	0	0	0
-Bank10-Slot17	Empty	0	0	0
-Bank10-Slot18	Empty	0	0	0
-Bank10-Slot19	Empty	0	0	0
-Bank10-Slot20	Empty	0	0	0
+Bank10-Slot17	Staff of Elemental Mastery: Fire	11566	1	6
+Bank10-Slot17-Slot1	Empty	0	0	0
+Bank10-Slot17-Slot2	Empty	0	0	0
+Bank10-Slot17-Slot3	Empty	0	0	0
+Bank10-Slot17-Slot4	Empty	0	0	0
+Bank10-Slot17-Slot6	Empty	0	0	0
+Bank10-Slot18	Staff of Elemental Mastery: Fire	11566	1	6
+Bank10-Slot18-Slot1	Empty	0	0	0
+Bank10-Slot18-Slot2	Empty	0	0	0
+Bank10-Slot18-Slot3	Empty	0	0	0
+Bank10-Slot18-Slot4	Empty	0	0	0
+Bank10-Slot18-Slot6	Empty	0	0	0
+Bank10-Slot19	Staff of Elemental Mastery: Fire (Enchanted)	1011566	1	6
+Bank10-Slot19-Slot1	Empty	0	0	0
+Bank10-Slot19-Slot2	Empty	0	0	0
+Bank10-Slot19-Slot3	Empty	0	0	0
+Bank10-Slot19-Slot4	Empty	0	0	0
+Bank10-Slot19-Slot6	Empty	0	0	0
+Bank10-Slot20	Staff of Elemental Mastery: Fire (Legendary)	2011566	1	6
+Bank10-Slot20-Slot1	Empty	0	0	0
+Bank10-Slot20-Slot2	Empty	0	0	0
+Bank10-Slot20-Slot3	Empty	0	0	0
+Bank10-Slot20-Slot4	Empty	0	0	0
+Bank10-Slot20-Slot6	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
 Bank11-Slot1	Burning Essence of Rage	60203	1	6
 Bank11-Slot2	Power of Water	28039	1	6
@@ -448,10 +407,30 @@ Bank11-Slot13	Empty	0	0	0
 Bank11-Slot14	Empty	0	0	0
 Bank11-Slot15	Empty	0	0	0
 Bank11-Slot16	Empty	0	0	0
-Bank11-Slot17	Empty	0	0	0
-Bank11-Slot18	Empty	0	0	0
-Bank11-Slot19	Empty	0	0	0
-Bank11-Slot20	Empty	0	0	0
+Bank11-Slot17	Staff of Elemental Mastery: Water (Enchanted)	1011569	1	6
+Bank11-Slot17-Slot1	Empty	0	0	0
+Bank11-Slot17-Slot2	Empty	0	0	0
+Bank11-Slot17-Slot3	Empty	0	0	0
+Bank11-Slot17-Slot4	Empty	0	0	0
+Bank11-Slot17-Slot6	Empty	0	0	0
+Bank11-Slot18	Staff of Elemental Mastery: Water	11569	1	6
+Bank11-Slot18-Slot1	Empty	0	0	0
+Bank11-Slot18-Slot2	Empty	0	0	0
+Bank11-Slot18-Slot3	Empty	0	0	0
+Bank11-Slot18-Slot4	Empty	0	0	0
+Bank11-Slot18-Slot6	Empty	0	0	0
+Bank11-Slot19	Staff of Elemental Mastery: Water (Legendary)	2011569	1	6
+Bank11-Slot19-Slot1	Empty	0	0	0
+Bank11-Slot19-Slot2	Empty	0	0	0
+Bank11-Slot19-Slot3	Empty	0	0	0
+Bank11-Slot19-Slot4	Empty	0	0	0
+Bank11-Slot19-Slot6	Empty	0	0	0
+Bank11-Slot20	Staff of Elemental Mastery: Water	11569	1	6
+Bank11-Slot20-Slot1	Empty	0	0	0
+Bank11-Slot20-Slot2	Empty	0	0	0
+Bank11-Slot20-Slot3	Empty	0	0	0
+Bank11-Slot20-Slot4	Empty	0	0	0
+Bank11-Slot20-Slot6	Empty	0	0	0
 Bank12	Large Bank Box	976012	1	20
 Bank12-Slot1	Torn Page of Mastery Wind	28028	1	6
 Bank12-Slot2	Torn Page of Mastery Fire	28027	1	6
@@ -465,8 +444,8 @@ Bank12-Slot9	Torn Page of Mastery Water	28030	1	6
 Bank12-Slot10	Torn Page of Mastery Wind	28028	1	6
 Bank12-Slot11	Torn Page of Magi`kot pg. 2	28001	1	6
 Bank12-Slot12	Torn Page of Magi`kot pg. 3	28002	1	6
-Bank12-Slot13	Empty	0	0	0
-Bank12-Slot14	Empty	0	0	0
+Bank12-Slot13	Torn Page of Mastery Earth	28029	1	6
+Bank12-Slot14	Torn Page of Mastery Fire	28027	1	6
 Bank12-Slot15	Empty	0	0	0
 Bank12-Slot16	Empty	0	0	0
 Bank12-Slot17	Empty	0	0	0
@@ -748,11 +727,7 @@ Bank23-Slot7	Empty	0	0	0
 Bank23-Slot8	Empty	0	0	0
 Bank23-Slot9	Empty	0	0	0
 Bank23-Slot10	Empty	0	0	0
-Bank23-Slot11	Gnarled Staff (Enchanted)	1014338	1	6
-Bank23-Slot11-Slot1	Empty	0	0	0
-Bank23-Slot11-Slot2	Empty	0	0	0
-Bank23-Slot11-Slot3	Empty	0	0	0
-Bank23-Slot11-Slot6	Empty	0	0	0
+Bank23-Slot11	Empty	0	0	0
 Bank23-Slot12	Empty	0	0	0
 Bank23-Slot13	Empty	0	0	0
 Bank23-Slot14	Empty	0	0	0
@@ -778,9 +753,21 @@ Bank24-Slot3-Slot1	Empty	0	0	0
 Bank24-Slot3-Slot2	Empty	0	0	0
 Bank24-Slot3-Slot3	Empty	0	0	0
 Bank24-Slot3-Slot6	Empty	0	0	0
-Bank24-Slot4	Empty	0	0	0
-Bank24-Slot5	Empty	0	0	0
-Bank24-Slot6	Empty	0	0	0
+Bank24-Slot4	Gnarled Staff	14338	1	6
+Bank24-Slot4-Slot1	Empty	0	0	0
+Bank24-Slot4-Slot2	Empty	0	0	0
+Bank24-Slot4-Slot3	Empty	0	0	0
+Bank24-Slot4-Slot6	Empty	0	0	0
+Bank24-Slot5	Gnarled Staff (Enchanted)	1014338	1	6
+Bank24-Slot5-Slot1	Empty	0	0	0
+Bank24-Slot5-Slot2	Empty	0	0	0
+Bank24-Slot5-Slot3	Empty	0	0	0
+Bank24-Slot5-Slot6	Empty	0	0	0
+Bank24-Slot6	Gnarled Staff (Enchanted)	1014338	1	6
+Bank24-Slot6-Slot1	Empty	0	0	0
+Bank24-Slot6-Slot2	Empty	0	0	0
+Bank24-Slot6-Slot3	Empty	0	0	0
+Bank24-Slot6-Slot6	Empty	0	0	0
 Bank24-Slot7	Empty	0	0	0
 Bank24-Slot8	Kedge Backbone	20524	1	6
 Bank24-Slot9	Empty	0	0	0
