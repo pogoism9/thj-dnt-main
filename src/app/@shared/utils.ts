@@ -35,7 +35,8 @@ export function outputFileToJson(rawData: string): BankEntry[] {
             if (
                 +id === 0 ||
                 blacklistedItemIds.includes(+id) ||
-                blacklistedItemLocations.includes(location)
+                blacklistedItemLocations.includes(location) ||
+                location.startsWith('SharedBank')
             )
                 continue;
 
@@ -59,3 +60,4 @@ export function outputFileToJson(rawData: string): BankEntry[] {
     }
     return result;
 }
+

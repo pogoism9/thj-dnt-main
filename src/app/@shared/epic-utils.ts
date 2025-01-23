@@ -1,0 +1,152 @@
+import { getBaseItemId, ItemQuality } from "./@enums/item-quality.enum";
+import { PlayerClass } from "./@enums/player-class.enum";
+import { BankEntry } from "./@models/bank-entry.type";
+
+export const bardEpicItemIds = [
+    20527, // Chromadrac Gut
+    20524, // Kedge Backbone
+    20525, // Petrified Werewolf Skull
+    11622, // Red Dragon Scales
+    20528, // Red Wyrm Gut
+    6478, // Undead Dragon Sinew
+    11602, // White Dragon Scales
+];
+
+export const beastlordEpicItemIds: Array<number> = [
+    
+];
+
+export const berserkerEpicItemIds = [
+    60203, // Burning Essence of Rage
+    60206, // Decaying Liver
+];
+
+export const clericEpicItemIds = [
+    28018, // Lord Gimblox's Signet Ring
+
+];
+
+export const druidEpicItemIds = [
+    20692, // Ocean of Tears Seavines
+
+];
+
+export const enchanterEpicItemIds = [
+    10624, // Essence of a Vampire
+];
+
+export const magicianEpicItemIds = [
+    10376, // Blazing Wand
+    28008, // Burning Embers
+    16543, // Cyclops Toes => Broom of Trilon Quest
+    28042, // Dirt of Underfoot
+    28043, // Elemental Binder
+    10014, // Gargoyle Eye => Shovel of Ponz Quest
+    16538, // Griffon Feathers => Broom of Trilon Quest
+    16539, // Hill Giant Toes => Shovel of Ponz Quest
+    2463, // Pegasus Feather Cloak
+    28039, // Power of Water
+    28037, // Power of Wind
+    28041, // Rain of Karana
+    11567, // Staff of Elemental Mastery: Earth
+    11569, // Staff of Elemental Mastery: Water
+    28007, // Torch of the Elements
+    
+    28000, // Torn Page of Magi`kot pg. 1
+    28001, // Torn Page of Magi`kot pg. 1
+    28002, // Torn Page of Magi`kot pg. 1
+    
+    28027, // Torn Page of Mastery Fire
+    28028, // Torn Page of Mastery Wind
+    28029, // Torn Page of Mastery Earth
+    28030, // Torn Page of Mastery Water
+
+];
+
+export const monkEpicItemIds = [
+    18195, // Immortals
+    12980, // Metal Pipe (Chardok)
+    12979, // Metal Pipe (Karnor's Castle)
+];
+
+export const necromancerEpicItemIds = [
+    20655, // Slime Blood of Cazic-Thule
+
+];
+
+export const paladinEpicItemIds = [
+    19070, // Torn, Frost-covered Book
+];
+
+export const rangerEpicItemIds = [
+    20484, // Shattered Emerald of Corruption
+];
+
+export const rogueEpicItemIds = [
+    1253, // Robe of the Kedge
+];
+
+export const shadowknightEpicItemIds = [
+    5430, // Blade of Abrogation
+    14371, // Decrepit Hide
+    14372, // Drake Spine
+    11609, // Soul Leech, Dark Sword of Blood
+
+];
+
+export const shamanEpicItemIds = [
+    1673, // Child's Tear
+    18457, // Crusades of the High Scale
+    18458, // Head Housekeeper's Log
+    18456, // Historic Article
+
+];
+
+export const warriorEpicItemIds = [
+    20677, // Ball of Everliving Golem
+    20676, // Hand of the Maestro
+    11622, // Red Dragon Scales
+];
+
+export const wizardEpicItemIds = [
+    14337, // Blue Crystal Staff
+    14338, // Gnarled Staff
+    14349, // Green Oil
+
+];
+
+export const epicClassMappings = new Map<PlayerClass, Array<number>> ([
+    [PlayerClass.Bard, bardEpicItemIds],
+    [PlayerClass.Beastlord, beastlordEpicItemIds],
+    [PlayerClass.Berserker, berserkerEpicItemIds],
+    [PlayerClass.Cleric, clericEpicItemIds],
+    [PlayerClass.Druid, druidEpicItemIds],
+    [PlayerClass.Enchanter, enchanterEpicItemIds],
+    [PlayerClass.Magician, magicianEpicItemIds],
+    [PlayerClass.Monk, monkEpicItemIds],
+    [PlayerClass.Necromancer, necromancerEpicItemIds],
+    [PlayerClass.Paladin, paladinEpicItemIds],
+    [PlayerClass.Ranger, rangerEpicItemIds],
+    [PlayerClass.Rogue, rogueEpicItemIds],
+    [PlayerClass.Shadowknight, shadowknightEpicItemIds],
+    [PlayerClass.Shaman, shamanEpicItemIds],
+    [PlayerClass.Warrior, warriorEpicItemIds],
+    [PlayerClass.Wizard, wizardEpicItemIds],
+]);
+
+export const itemIdToPlayerClassMap = (): Map<number, Array<PlayerClass>> => {
+    const itemIdToPlayerClassesMap = new Map<number, Array<PlayerClass>>();
+    epicClassMappings.forEach((itemIds, playerClass) => {
+        itemIds.forEach((itemId) => {
+            if (itemIdToPlayerClassesMap.has(itemId)) {
+                const existingPlayerClasses = itemIdToPlayerClassesMap.get(itemId);
+                if (existingPlayerClasses) {
+                    existingPlayerClasses.push(playerClass);
+                }
+            } else {
+                itemIdToPlayerClassesMap.set(itemId, [playerClass]);
+            }
+        });
+    });
+    return itemIdToPlayerClassesMap;
+}

@@ -1,5 +1,5 @@
 .bold-text {
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .center-text {
@@ -7,5 +7,16 @@
 }
 
 .spaced-card {
+    margin: 16px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container mat-card {
+    width: 450px;
     margin: 16px;
 }

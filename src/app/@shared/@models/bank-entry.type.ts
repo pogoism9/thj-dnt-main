@@ -1,3 +1,5 @@
+import { PlayerClass } from "../@enums/player-class.enum";
+
 export type BankEntry = {
     location: string;
     name: string;
