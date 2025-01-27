@@ -32,9 +32,13 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Backpack	17005	1	8
-General1-Slot1	Empty	0	0	0
+General1-Slot1	Fiery Defender (Legendary)	2010099	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot3	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
 General1-Slot2	Empty	0	0	0
-General1-Slot3	Plains Pebble	12832	1	6
+General1-Slot3	Empty	0	0	0
 General1-Slot4	Empty	0	0	0
 General1-Slot5	Empty	0	0	0
 General1-Slot6	Empty	0	0	0
@@ -237,7 +241,7 @@ Bank5-Slot19	Empty	0	0	0
 Bank5-Slot20	Empty	0	0	0
 Bank6	Large Bank Box	976012	1	20
 Bank6-Slot1	Shattered Emerald of Corruption	20484	1	6
-Bank6-Slot2	Empty	0	0	0
+Bank6-Slot2	Plains Pebble	12832	1	6
 Bank6-Slot3	Empty	0	0	0
 Bank6-Slot4	Empty	0	0	0
 Bank6-Slot5	Empty	0	0	0
@@ -268,8 +272,8 @@ Bank7-Slot4	Empty	0	0	0
 Bank7-Slot5	Empty	0	0	0
 Bank7-Slot6	Empty	0	0	0
 Bank7-Slot7	Decaying Liver	60206	1	6
-Bank7-Slot8	Empty	0	0	0
-Bank7-Slot9	Empty	0	0	0
+Bank7-Slot8	Decaying Liver	60206	1	6
+Bank7-Slot9	Burning Essence of Rage	60203	1	6
 Bank7-Slot10	Empty	0	0	0
 Bank7-Slot11	Empty	0	0	0
 Bank7-Slot12	Empty	0	0	0
@@ -329,7 +333,7 @@ Bank9-Slot8	Empty	0	0	0
 Bank9-Slot9	Empty	0	0	0
 Bank9-Slot10	Empty	0	0	0
 Bank9-Slot11	Torch of the Elements	28007	1	6
-Bank9-Slot12	Torch of the Elements	28007	1	6
+Bank9-Slot12	Empty	0	0	0
 Bank9-Slot13	Torch of the Elements	28007	1	6
 Bank9-Slot14	Empty	0	0	0
 Bank9-Slot15	Empty	0	0	0
@@ -385,18 +389,16 @@ Bank10-Slot20-Slot3	Empty	0	0	0
 Bank10-Slot20-Slot4	Empty	0	0	0
 Bank10-Slot20-Slot6	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
-Bank11-Slot1	Burning Essence of Rage	60203	1	6
+Bank11-Slot1	Empty	0	0	0
 Bank11-Slot2	Power of Water	28039	1	6
 Bank11-Slot3	Empty	0	0	0
 Bank11-Slot4	Power of Wind	28037	1	6
 Bank11-Slot5	Empty	0	0	0
-Bank11-Slot6	Burning Embers	28008	1	6
+Bank11-Slot6	Empty	0	0	0
 Bank11-Slot7	Pegasus Feather Cloak	2463	1	6
 Bank11-Slot7-Slot1	Empty	0	0	0
 Bank11-Slot7-Slot2	Empty	0	0	0
-Bank11-Slot8	Pegasus Feather Cloak	2463	1	6
-Bank11-Slot8-Slot1	Empty	0	0	0
-Bank11-Slot8-Slot2	Empty	0	0	0
+Bank11-Slot8	Empty	0	0	0
 Bank11-Slot9	Pegasus Feather Cloak (Enchanted)	1002463	1	6
 Bank11-Slot9-Slot1	Empty	0	0	0
 Bank11-Slot9-Slot2	Empty	0	0	0
@@ -499,7 +501,7 @@ Bank14-Slot18	Empty	0	0	0
 Bank14-Slot19	Empty	0	0	0
 Bank14-Slot20	Empty	0	0	0
 Bank15	Large Bank Box	976012	1	20
-Bank15-Slot1	Spiroc Feathers	20782	1	6
+Bank15-Slot1	Empty	0	0	0
 Bank15-Slot2	Empty	0	0	0
 Bank15-Slot3	Empty	0	0	0
 Bank15-Slot4	Empty	0	0	0
@@ -521,12 +523,12 @@ Bank15-Slot19	Empty	0	0	0
 Bank15-Slot20	Empty	0	0	0
 Bank16	Large Bank Box	976012	1	20
 Bank16-Slot1	Torn, Frost-covered Book	19070	1	6
-Bank16-Slot2	Crusades of the High Scale	18457	1	6
-Bank16-Slot3	Head Housekeeper's Log	18458	1	6
+Bank16-Slot2	Torn, Burnt Book	19071	1	6
+Bank16-Slot3	Torn, Frost-covered Book	19070	1	6
 Bank16-Slot4	Historic Article	18456	1	6
 Bank16-Slot5	Immortals	18195	1	6
-Bank16-Slot6	Empty	0	0	0
-Bank16-Slot7	Empty	0	0	0
+Bank16-Slot6	Crusades of the High Scale	18457	1	6
+Bank16-Slot7	Head Housekeeper's Log	18458	1	6
 Bank16-Slot8	Empty	0	0	0
 Bank16-Slot9	Empty	0	0	0
 Bank16-Slot10	Empty	0	0	0
@@ -551,10 +553,7 @@ Bank17-Slot7	Empty	0	0	0
 Bank17-Slot8	Empty	0	0	0
 Bank17-Slot9	Empty	0	0	0
 Bank17-Slot10	Empty	0	0	0
-Bank17-Slot11	Slime Blood of Cazic-Thule (Enchanted)	1020655	1	6
-Bank17-Slot11-Slot1	Empty	0	0	0
-Bank17-Slot11-Slot2	Empty	0	0	0
-Bank17-Slot11-Slot6	Empty	0	0	0
+Bank17-Slot11	Empty	0	0	0
 Bank17-Slot12	Empty	0	0	0
 Bank17-Slot13	Undead Dragon Sinew (Legendary)	2006478	1	6
 Bank17-Slot13-Slot1	Empty	0	0	0
@@ -568,11 +567,7 @@ Bank17-Slot18	Empty	0	0	0
 Bank17-Slot19	Empty	0	0	0
 Bank17-Slot20	Empty	0	0	0
 Bank18	Large Bank Box	976012	1	20
-Bank18-Slot1	Blue Crystal Staff	14337	1	6
-Bank18-Slot1-Slot1	Empty	0	0	0
-Bank18-Slot1-Slot2	Empty	0	0	0
-Bank18-Slot1-Slot3	Empty	0	0	0
-Bank18-Slot1-Slot6	Empty	0	0	0
+Bank18-Slot1	Empty	0	0	0
 Bank18-Slot2	Empty	0	0	0
 Bank18-Slot3	Empty	0	0	0
 Bank18-Slot4	Empty	0	0	0
@@ -605,7 +600,7 @@ Bank19-Slot5	Empty	0	0	0
 Bank19-Slot6	Empty	0	0	0
 Bank19-Slot7	Empty	0	0	0
 Bank19-Slot8	Empty	0	0	0
-Bank19-Slot9	Decaying Liver	60206	1	6
+Bank19-Slot9	Empty	0	0	0
 Bank19-Slot10	Empty	0	0	0
 Bank19-Slot11	Empty	0	0	0
 Bank19-Slot12	Empty	0	0	0
@@ -656,7 +651,11 @@ Bank20-Slot11	Empty	0	0	0
 Bank20-Slot12	Empty	0	0	0
 Bank20-Slot13	Empty	0	0	0
 Bank20-Slot14	Empty	0	0	0
-Bank20-Slot15	Empty	0	0	0
+Bank20-Slot15	Ghoulbane (Enchanted)	1005403	1	6
+Bank20-Slot15-Slot1	Empty	0	0	0
+Bank20-Slot15-Slot2	Empty	0	0	0
+Bank20-Slot15-Slot3	Empty	0	0	0
+Bank20-Slot15-Slot6	Empty	0	0	0
 Bank20-Slot16	Empty	0	0	0
 Bank20-Slot17	Empty	0	0	0
 Bank20-Slot18	Empty	0	0	0
@@ -768,9 +767,17 @@ Bank24-Slot6-Slot1	Empty	0	0	0
 Bank24-Slot6-Slot2	Empty	0	0	0
 Bank24-Slot6-Slot3	Empty	0	0	0
 Bank24-Slot6-Slot6	Empty	0	0	0
-Bank24-Slot7	Empty	0	0	0
+Bank24-Slot7	Gnarled Staff (Legendary)	2014338	1	6
+Bank24-Slot7-Slot1	Empty	0	0	0
+Bank24-Slot7-Slot2	Empty	0	0	0
+Bank24-Slot7-Slot3	Empty	0	0	0
+Bank24-Slot7-Slot6	Empty	0	0	0
 Bank24-Slot8	Kedge Backbone	20524	1	6
-Bank24-Slot9	Empty	0	0	0
+Bank24-Slot9	Blue Crystal Staff	14337	1	6
+Bank24-Slot9-Slot1	Empty	0	0	0
+Bank24-Slot9-Slot2	Empty	0	0	0
+Bank24-Slot9-Slot3	Empty	0	0	0
+Bank24-Slot9-Slot6	Empty	0	0	0
 Bank24-Slot10	Empty	0	0	0
 Bank24-Slot11	Empty	0	0	0
 Bank24-Slot12	Empty	0	0	0
@@ -787,7 +794,7 @@ SharedBank1-Slot1	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot2	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot3	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot4	Glowing Drake Orb	31260	1	6
-SharedBank1-Slot5	Empty	0	0	0
+SharedBank1-Slot5	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot6	Empty	0	0	0
 SharedBank1-Slot7	Empty	0	0	0
 SharedBank1-Slot8	Empty	0	0	0

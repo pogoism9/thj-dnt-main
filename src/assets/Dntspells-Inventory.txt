@@ -30,15 +30,15 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Adventurer's Pack	17423	1	12
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
+General1-Slot1	Ancient: Burnout Blaze	26618	1	6
+General1-Slot2	Ancient: Chaotic Visions	26620	1	6
+General1-Slot3	Ancient: Destruction of Ice	26615	1	6
+General1-Slot4	Ancient: Feral Avatar	26611	2	6
+General1-Slot5	Ancient: High Priest's Bulwark	26608	1	6
+General1-Slot6	Ancient: Lifebane	26614	1	6
+General1-Slot7	Ancient: Master of Death	26613	3	6
+General1-Slot8	Ancient: Scourge of Nife	26612	2	6
+General1-Slot9	Spell: Summon: Muzzle of Mardu	19363	1	6
 General1-Slot10	Empty	0	0	0
 General1-Slot11	Empty	0	0	0
 General1-Slot12	Empty	0	0	0
@@ -633,7 +633,7 @@ SharedBank1-Slot1	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot2	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot3	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot4	Glowing Drake Orb	31260	1	6
-SharedBank1-Slot5	Empty	0	0	0
+SharedBank1-Slot5	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot6	Empty	0	0	0
 SharedBank1-Slot7	Empty	0	0	0
 SharedBank1-Slot8	Empty	0	0	0
