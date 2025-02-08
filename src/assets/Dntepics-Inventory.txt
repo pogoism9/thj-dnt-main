@@ -37,19 +37,44 @@ General1-Slot1-Slot1	Empty	0	0	0
 General1-Slot1-Slot2	Empty	0	0	0
 General1-Slot1-Slot3	Empty	0	0	0
 General1-Slot1-Slot6	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
+General1-Slot2	Gnarled Staff	14338	1	6
+General1-Slot2-Slot1	Empty	0	0	0
+General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot3	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
+General1-Slot3	Ancient Blade	20670	1	6
+General1-Slot4	Alluring Horn	20530	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot4-Slot3	Empty	0	0	0
+General1-Slot4-Slot6	Empty	0	0	0
+General1-Slot5	Alluring Horn (Enchanted)	1020530	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Gnarled Staff	14338	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot3	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Red Dragon Scales	11622	1	6
+General1-Slot8	Red Wurm Gut	20528	1	6
 General2	Backpack	17005	1	8
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
-General2-Slot5	Empty	0	0	0
+General2-Slot1	Red Wurm Gut	20528	1	6
+General2-Slot2	Lord Bergurgle's Crown	28044	1	6
+General2-Slot2-Slot1	Empty	0	0	0
+General2-Slot2-Slot2	Empty	0	0	0
+General2-Slot2-Slot6	Empty	0	0	0
+General2-Slot3	Lord Bergurgle's Crown	28044	1	6
+General2-Slot3-Slot1	Empty	0	0	0
+General2-Slot3-Slot2	Empty	0	0	0
+General2-Slot3-Slot6	Empty	0	0	0
+General2-Slot4	Lord Bergurgle's Crown	28044	1	6
+General2-Slot4-Slot1	Empty	0	0	0
+General2-Slot4-Slot2	Empty	0	0	0
+General2-Slot4-Slot6	Empty	0	0	0
+General2-Slot5	Power of Wind	28037	1	6
 General2-Slot6	Empty	0	0	0
 General2-Slot7	Empty	0	0	0
 General2-Slot8	Empty	0	0	0
@@ -323,10 +348,7 @@ Bank9-Slot4	Elemental Binder	28043	1	6
 Bank9-Slot4-Slot1	Empty	0	0	0
 Bank9-Slot4-Slot2	Empty	0	0	0
 Bank9-Slot4-Slot6	Empty	0	0	0
-Bank9-Slot5	Elemental Binder	28043	1	6
-Bank9-Slot5-Slot1	Empty	0	0	0
-Bank9-Slot5-Slot2	Empty	0	0	0
-Bank9-Slot5-Slot6	Empty	0	0	0
+Bank9-Slot5	Empty	0	0	0
 Bank9-Slot6	Empty	0	0	0
 Bank9-Slot7	Empty	0	0	0
 Bank9-Slot8	Empty	0	0	0
@@ -338,12 +360,7 @@ Bank9-Slot13	Torch of the Elements	28007	1	6
 Bank9-Slot14	Empty	0	0	0
 Bank9-Slot15	Empty	0	0	0
 Bank9-Slot16	Empty	0	0	0
-Bank9-Slot17	Staff of Elemental Mastery: Earth (Legendary)	2011567	1	6
-Bank9-Slot17-Slot1	Empty	0	0	0
-Bank9-Slot17-Slot2	Empty	0	0	0
-Bank9-Slot17-Slot3	Empty	0	0	0
-Bank9-Slot17-Slot4	Empty	0	0	0
-Bank9-Slot17-Slot6	Empty	0	0	0
+Bank9-Slot17	Empty	0	0	0
 Bank9-Slot18	Empty	0	0	0
 Bank9-Slot19	Empty	0	0	0
 Bank9-Slot20	Empty	0	0	0
@@ -364,12 +381,7 @@ Bank10-Slot13	Empty	0	0	0
 Bank10-Slot14	Empty	0	0	0
 Bank10-Slot15	Empty	0	0	0
 Bank10-Slot16	Empty	0	0	0
-Bank10-Slot17	Staff of Elemental Mastery: Fire	11566	1	6
-Bank10-Slot17-Slot1	Empty	0	0	0
-Bank10-Slot17-Slot2	Empty	0	0	0
-Bank10-Slot17-Slot3	Empty	0	0	0
-Bank10-Slot17-Slot4	Empty	0	0	0
-Bank10-Slot17-Slot6	Empty	0	0	0
+Bank10-Slot17	Empty	0	0	0
 Bank10-Slot18	Staff of Elemental Mastery: Fire	11566	1	6
 Bank10-Slot18-Slot1	Empty	0	0	0
 Bank10-Slot18-Slot2	Empty	0	0	0
@@ -390,14 +402,12 @@ Bank10-Slot20-Slot4	Empty	0	0	0
 Bank10-Slot20-Slot6	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
 Bank11-Slot1	Empty	0	0	0
-Bank11-Slot2	Power of Water	28039	1	6
+Bank11-Slot2	Empty	0	0	0
 Bank11-Slot3	Empty	0	0	0
-Bank11-Slot4	Power of Wind	28037	1	6
+Bank11-Slot4	Empty	0	0	0
 Bank11-Slot5	Empty	0	0	0
 Bank11-Slot6	Empty	0	0	0
-Bank11-Slot7	Pegasus Feather Cloak	2463	1	6
-Bank11-Slot7-Slot1	Empty	0	0	0
-Bank11-Slot7-Slot2	Empty	0	0	0
+Bank11-Slot7	Empty	0	0	0
 Bank11-Slot8	Empty	0	0	0
 Bank11-Slot9	Pegasus Feather Cloak (Enchanted)	1002463	1	6
 Bank11-Slot9-Slot1	Empty	0	0	0
@@ -409,18 +419,8 @@ Bank11-Slot13	Empty	0	0	0
 Bank11-Slot14	Empty	0	0	0
 Bank11-Slot15	Empty	0	0	0
 Bank11-Slot16	Empty	0	0	0
-Bank11-Slot17	Staff of Elemental Mastery: Water (Enchanted)	1011569	1	6
-Bank11-Slot17-Slot1	Empty	0	0	0
-Bank11-Slot17-Slot2	Empty	0	0	0
-Bank11-Slot17-Slot3	Empty	0	0	0
-Bank11-Slot17-Slot4	Empty	0	0	0
-Bank11-Slot17-Slot6	Empty	0	0	0
-Bank11-Slot18	Staff of Elemental Mastery: Water	11569	1	6
-Bank11-Slot18-Slot1	Empty	0	0	0
-Bank11-Slot18-Slot2	Empty	0	0	0
-Bank11-Slot18-Slot3	Empty	0	0	0
-Bank11-Slot18-Slot4	Empty	0	0	0
-Bank11-Slot18-Slot6	Empty	0	0	0
+Bank11-Slot17	Empty	0	0	0
+Bank11-Slot18	Empty	0	0	0
 Bank11-Slot19	Staff of Elemental Mastery: Water (Legendary)	2011569	1	6
 Bank11-Slot19-Slot1	Empty	0	0	0
 Bank11-Slot19-Slot2	Empty	0	0	0
@@ -572,7 +572,7 @@ Bank18-Slot2	Empty	0	0	0
 Bank18-Slot3	Empty	0	0	0
 Bank18-Slot4	Empty	0	0	0
 Bank18-Slot5	Empty	0	0	0
-Bank18-Slot6	Green Oil	14349	1	6
+Bank18-Slot6	Empty	0	0	0
 Bank18-Slot7	Empty	0	0	0
 Bank18-Slot8	Empty	0	0	0
 Bank18-Slot9	Petrified Werewolf Skull	20525	1	6
@@ -714,11 +714,7 @@ Bank23-Slot2-Slot1	Empty	0	0	0
 Bank23-Slot2-Slot2	Empty	0	0	0
 Bank23-Slot2-Slot3	Empty	0	0	0
 Bank23-Slot2-Slot6	Empty	0	0	0
-Bank23-Slot3	Blazing Wand	10376	1	6
-Bank23-Slot3-Slot1	Empty	0	0	0
-Bank23-Slot3-Slot2	Empty	0	0	0
-Bank23-Slot3-Slot3	Empty	0	0	0
-Bank23-Slot3-Slot6	Empty	0	0	0
+Bank23-Slot3	Empty	0	0	0
 Bank23-Slot4	Empty	0	0	0
 Bank23-Slot5	Empty	0	0	0
 Bank23-Slot6	Empty	0	0	0
