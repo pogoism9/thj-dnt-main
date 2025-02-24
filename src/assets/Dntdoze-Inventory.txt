@@ -237,29 +237,549 @@ General10-Slot18	Empty	0	0	0
 General10-Slot19	Empty	0	0	0
 General10-Slot20	Empty	0	0	0
 Held	Empty	0	0	0
-Bank1	Empty	0	0	0
-Bank2	Empty	0	0	0
-Bank3	Empty	0	0	0
-Bank4	Empty	0	0	0
-Bank5	Empty	0	0	0
-Bank6	Empty	0	0	0
-Bank7	Empty	0	0	0
-Bank8	Empty	0	0	0
-Bank9	Empty	0	0	0
-Bank10	Empty	0	0	0
-Bank11	Empty	0	0	0
-Bank12	Empty	0	0	0
-Bank13	Empty	0	0	0
-Bank14	Empty	0	0	0
-Bank15	Empty	0	0	0
-Bank16	Empty	0	0	0
-Bank17	Empty	0	0	0
-Bank18	Empty	0	0	0
-Bank19	Empty	0	0	0
-Bank20	Empty	0	0	0
-Bank21	Empty	0	0	0
-Bank22	Empty	0	0	0
-Bank23	Empty	0	0	0
-Bank24	Empty	0	0	0
-SharedBank1	Empty	0	0	0
-SharedBank2	Empty	0	0	0
+Bank1	Large Bank Box	976012	1	20
+Bank1-Slot1	Black Symbol	31251	1	6
+Bank1-Slot2	Black Symbol	31251	1	6
+Bank1-Slot3	Black Symbol	31251	1	6
+Bank1-Slot4	Black Symbol	31251	1	6
+Bank1-Slot5	Black Symbol	31251	1	6
+Bank1-Slot6	Black Symbol	31251	1	6
+Bank1-Slot7	Black Symbol	31251	1	6
+Bank1-Slot8	Black Symbol	31251	1	6
+Bank1-Slot9	Black Symbol	31251	1	6
+Bank1-Slot10	Empty	0	0	0
+Bank1-Slot11	Black Tear	31262	1	6
+Bank1-Slot12	Black Tear	31262	1	6
+Bank1-Slot13	Black Tear	31262	1	6
+Bank1-Slot14	Black Tear	31262	1	6
+Bank1-Slot15	Black Tear	31262	1	6
+Bank1-Slot16	Black Tear	31262	1	6
+Bank1-Slot17	Black Tear	31262	1	6
+Bank1-Slot18	Black Tear	31262	1	6
+Bank1-Slot19	Black Tear	31262	1	6
+Bank1-Slot20	Black Tear	31262	1	6
+Bank2	Large Bank Box	976012	1	20
+Bank2-Slot1	Empty	0	0	0
+Bank2-Slot2	Empty	0	0	0
+Bank2-Slot3	Empty	0	0	0
+Bank2-Slot4	Empty	0	0	0
+Bank2-Slot5	Empty	0	0	0
+Bank2-Slot6	Empty	0	0	0
+Bank2-Slot7	Empty	0	0	0
+Bank2-Slot8	Empty	0	0	0
+Bank2-Slot9	Empty	0	0	0
+Bank2-Slot10	Empty	0	0	0
+Bank2-Slot11	Black Tear	31262	1	6
+Bank2-Slot12	Black Tear	31262	1	6
+Bank2-Slot13	Black Tear	31262	1	6
+Bank2-Slot14	Black Tear	31262	1	6
+Bank2-Slot15	Black Tear	31262	1	6
+Bank2-Slot16	Empty	0	0	0
+Bank2-Slot17	Empty	0	0	0
+Bank2-Slot18	Empty	0	0	0
+Bank2-Slot19	Empty	0	0	0
+Bank2-Slot20	Empty	0	0	0
+Bank3	Large Bank Box	976012	1	20
+Bank3-Slot1	Emerald Symbol	31257	1	6
+Bank3-Slot2	Emerald Symbol	31257	1	6
+Bank3-Slot3	Emerald Symbol	31257	1	6
+Bank3-Slot4	Emerald Symbol	31257	1	6
+Bank3-Slot5	Emerald Symbol	31257	1	6
+Bank3-Slot6	Emerald Symbol	31257	1	6
+Bank3-Slot7	Emerald Symbol	31257	1	6
+Bank3-Slot8	Empty	0	0	0
+Bank3-Slot9	Empty	0	0	0
+Bank3-Slot10	Empty	0	0	0
+Bank3-Slot11	Emerald Tear	31268	1	6
+Bank3-Slot12	Emerald Tear	31268	1	6
+Bank3-Slot13	Emerald Tear	31268	1	6
+Bank3-Slot14	Emerald Tear	31268	1	6
+Bank3-Slot15	Emerald Tear	31268	1	6
+Bank3-Slot16	Emerald Tear	31268	1	6
+Bank3-Slot17	Empty	0	0	0
+Bank3-Slot18	Empty	0	0	0
+Bank3-Slot19	Empty	0	0	0
+Bank3-Slot20	Empty	0	0	0
+Bank4	Large Bank Box	976012	1	20
+Bank4-Slot1	Empty	0	0	0
+Bank4-Slot2	Empty	0	0	0
+Bank4-Slot3	Empty	0	0	0
+Bank4-Slot4	Empty	0	0	0
+Bank4-Slot5	Empty	0	0	0
+Bank4-Slot6	Empty	0	0	0
+Bank4-Slot7	Empty	0	0	0
+Bank4-Slot8	Empty	0	0	0
+Bank4-Slot9	Empty	0	0	0
+Bank4-Slot10	Empty	0	0	0
+Bank4-Slot11	Empty	0	0	0
+Bank4-Slot12	Empty	0	0	0
+Bank4-Slot13	Empty	0	0	0
+Bank4-Slot14	Empty	0	0	0
+Bank4-Slot15	Empty	0	0	0
+Bank4-Slot16	Empty	0	0	0
+Bank4-Slot17	Empty	0	0	0
+Bank4-Slot18	Empty	0	0	0
+Bank4-Slot19	Empty	0	0	0
+Bank4-Slot20	Empty	0	0	0
+Bank5	Large Bank Box	976012	1	20
+Bank5-Slot1	Flame Kissed Symbol	31256	1	6
+Bank5-Slot2	Flame Kissed Symbol	31256	1	6
+Bank5-Slot3	Flame Kissed Symbol	31256	1	6
+Bank5-Slot4	Flame Kissed Symbol	31256	1	6
+Bank5-Slot5	Flame Kissed Symbol	31256	1	6
+Bank5-Slot6	Flame Kissed Symbol	31256	1	6
+Bank5-Slot7	Flame Kissed Symbol	31256	1	6
+Bank5-Slot8	Flame Kissed Symbol	31256	1	6
+Bank5-Slot9	Flame Kissed Symbol	31256	1	6
+Bank5-Slot10	Empty	0	0	0
+Bank5-Slot11	Flame Kissed Tear	31267	1	6
+Bank5-Slot12	Flame Kissed Tear	31267	1	6
+Bank5-Slot13	Flame Kissed Tear	31267	1	6
+Bank5-Slot14	Flame Kissed Tear	31267	1	6
+Bank5-Slot15	Flame Kissed Tear	31267	1	6
+Bank5-Slot16	Flame Kissed Tear	31267	1	6
+Bank5-Slot17	Flame Kissed Tear	31267	1	6
+Bank5-Slot18	Flame Kissed Tear	31267	1	6
+Bank5-Slot19	Flame Kissed Tear	31267	1	6
+Bank5-Slot20	Flame Kissed Tear	31267	1	6
+Bank6	Large Bank Box	976012	1	20
+Bank6-Slot1	Empty	0	0	0
+Bank6-Slot2	Empty	0	0	0
+Bank6-Slot3	Empty	0	0	0
+Bank6-Slot4	Empty	0	0	0
+Bank6-Slot5	Empty	0	0	0
+Bank6-Slot6	Empty	0	0	0
+Bank6-Slot7	Empty	0	0	0
+Bank6-Slot8	Empty	0	0	0
+Bank6-Slot9	Empty	0	0	0
+Bank6-Slot10	Empty	0	0	0
+Bank6-Slot11	Flame Kissed Tear	31267	1	6
+Bank6-Slot12	Flame Kissed Tear	31267	1	6
+Bank6-Slot13	Flame Kissed Tear	31267	1	6
+Bank6-Slot14	Flame Kissed Tear	31267	1	6
+Bank6-Slot15	Flame Kissed Tear	31267	1	6
+Bank6-Slot16	Empty	0	0	0
+Bank6-Slot17	Empty	0	0	0
+Bank6-Slot18	Empty	0	0	0
+Bank6-Slot19	Empty	0	0	0
+Bank6-Slot20	Empty	0	0	0
+Bank7	Large Bank Box	976012	1	20
+Bank7-Slot1	Empty	0	0	0
+Bank7-Slot2	Empty	0	0	0
+Bank7-Slot3	Empty	0	0	0
+Bank7-Slot4	Empty	0	0	0
+Bank7-Slot5	Empty	0	0	0
+Bank7-Slot6	Empty	0	0	0
+Bank7-Slot7	Empty	0	0	0
+Bank7-Slot8	Empty	0	0	0
+Bank7-Slot9	Empty	0	0	0
+Bank7-Slot10	Empty	0	0	0
+Bank7-Slot11	Empty	0	0	0
+Bank7-Slot12	Empty	0	0	0
+Bank7-Slot13	Empty	0	0	0
+Bank7-Slot14	Empty	0	0	0
+Bank7-Slot15	Empty	0	0	0
+Bank7-Slot16	Empty	0	0	0
+Bank7-Slot17	Empty	0	0	0
+Bank7-Slot18	Empty	0	0	0
+Bank7-Slot19	Empty	0	0	0
+Bank7-Slot20	Empty	0	0	0
+Bank8	Large Bank Box	976012	1	20
+Bank8-Slot1	Platinum Symbol	31258	1	6
+Bank8-Slot2	Empty	0	0	0
+Bank8-Slot3	Empty	0	0	0
+Bank8-Slot4	Empty	0	0	0
+Bank8-Slot5	Empty	0	0	0
+Bank8-Slot6	Empty	0	0	0
+Bank8-Slot7	Empty	0	0	0
+Bank8-Slot8	Empty	0	0	0
+Bank8-Slot9	Empty	0	0	0
+Bank8-Slot10	Empty	0	0	0
+Bank8-Slot11	Empty	0	0	0
+Bank8-Slot12	Empty	0	0	0
+Bank8-Slot13	Empty	0	0	0
+Bank8-Slot14	Empty	0	0	0
+Bank8-Slot15	Empty	0	0	0
+Bank8-Slot16	Empty	0	0	0
+Bank8-Slot17	Empty	0	0	0
+Bank8-Slot18	Empty	0	0	0
+Bank8-Slot19	Empty	0	0	0
+Bank8-Slot20	Empty	0	0	0
+Bank9	Large Bank Box	976012	1	20
+Bank9-Slot1	Poison Symbol	31255	1	6
+Bank9-Slot2	Poison Symbol	31255	1	6
+Bank9-Slot3	Empty	0	0	0
+Bank9-Slot4	Empty	0	0	0
+Bank9-Slot5	Empty	0	0	0
+Bank9-Slot6	Empty	0	0	0
+Bank9-Slot7	Empty	0	0	0
+Bank9-Slot8	Empty	0	0	0
+Bank9-Slot9	Empty	0	0	0
+Bank9-Slot10	Empty	0	0	0
+Bank9-Slot11	Poison Tear	31266	1	6
+Bank9-Slot12	Poison Tear	31266	1	6
+Bank9-Slot13	Poison Tear	31266	1	6
+Bank9-Slot14	Poison Tear	31266	1	6
+Bank9-Slot15	Empty	0	0	0
+Bank9-Slot16	Empty	0	0	0
+Bank9-Slot17	Empty	0	0	0
+Bank9-Slot18	Empty	0	0	0
+Bank9-Slot19	Empty	0	0	0
+Bank9-Slot20	Empty	0	0	0
+Bank10	Large Bank Box	976012	1	20
+Bank10-Slot1	Poison Symbol	31255	1	6
+Bank10-Slot2	Poison Symbol	31255	1	6
+Bank10-Slot3	Poison Symbol	31255	1	6
+Bank10-Slot4	Poison Symbol	31255	1	6
+Bank10-Slot5	Empty	0	0	0
+Bank10-Slot6	Poison Symbol	31255	1	6
+Bank10-Slot7	Poison Symbol	31255	1	6
+Bank10-Slot8	Poison Symbol	31255	1	6
+Bank10-Slot9	Poison Symbol	31255	1	6
+Bank10-Slot10	Poison Symbol	31255	1	6
+Bank10-Slot11	Poison Tear	31266	1	6
+Bank10-Slot12	Poison Tear	31266	1	6
+Bank10-Slot13	Poison Tear	31266	1	6
+Bank10-Slot14	Poison Tear	31266	1	6
+Bank10-Slot15	Poison Tear	31266	1	6
+Bank10-Slot16	Poison Tear	31266	1	6
+Bank10-Slot17	Poison Tear	31266	1	6
+Bank10-Slot18	Poison Tear	31266	1	6
+Bank10-Slot19	Poison Tear	31266	1	6
+Bank10-Slot20	Poison Tear	31266	1	6
+Bank11	Large Bank Box	976012	1	20
+Bank11-Slot1	Platinum Symbol	31258	1	6
+Bank11-Slot2	Platinum Symbol	31258	1	6
+Bank11-Slot3	Empty	0	0	0
+Bank11-Slot4	Empty	0	0	0
+Bank11-Slot5	Empty	0	0	0
+Bank11-Slot6	Empty	0	0	0
+Bank11-Slot7	Empty	0	0	0
+Bank11-Slot8	Empty	0	0	0
+Bank11-Slot9	Empty	0	0	0
+Bank11-Slot10	Empty	0	0	0
+Bank11-Slot11	Empty	0	0	0
+Bank11-Slot12	Empty	0	0	0
+Bank11-Slot13	Empty	0	0	0
+Bank11-Slot14	Empty	0	0	0
+Bank11-Slot15	Empty	0	0	0
+Bank11-Slot16	Empty	0	0	0
+Bank11-Slot17	Empty	0	0	0
+Bank11-Slot18	Empty	0	0	0
+Bank11-Slot19	Empty	0	0	0
+Bank11-Slot20	Empty	0	0	0
+Bank12	Large Bank Box	976012	1	20
+Bank12-Slot1	Ruby Symbol	31259	1	6
+Bank12-Slot2	Ruby Symbol	31259	1	6
+Bank12-Slot3	Ruby Symbol	31259	1	6
+Bank12-Slot4	Ruby Symbol	31259	1	6
+Bank12-Slot5	Ruby Symbol	31259	1	6
+Bank12-Slot6	Ruby Symbol	31259	1	6
+Bank12-Slot7	Ruby Symbol	31259	1	6
+Bank12-Slot8	Ruby Symbol	31259	1	6
+Bank12-Slot9	Empty	0	0	0
+Bank12-Slot10	Empty	0	0	0
+Bank12-Slot11	Ruby Tear	31270	1	6
+Bank12-Slot12	Ruby Tear	31270	1	6
+Bank12-Slot13	Ruby Tear	31270	1	6
+Bank12-Slot14	Ruby Tear	31270	1	6
+Bank12-Slot15	Ruby Tear	31270	1	6
+Bank12-Slot16	Ruby Tear	31270	1	6
+Bank12-Slot17	Ruby Tear	31270	1	6
+Bank12-Slot18	Ruby Tear	31270	1	6
+Bank12-Slot19	Ruby Tear	31270	1	6
+Bank12-Slot20	Ruby Tear	31270	1	6
+Bank13	Large Bank Box	976012	1	20
+Bank13-Slot1	Empty	0	0	0
+Bank13-Slot2	Runed Symbol	31252	1	6
+Bank13-Slot3	Runed Symbol	31252	1	6
+Bank13-Slot4	Runed Symbol	31252	1	6
+Bank13-Slot5	Runed Symbol	31252	1	6
+Bank13-Slot6	Runed Symbol	31252	1	6
+Bank13-Slot7	Runed Symbol	31252	1	6
+Bank13-Slot8	Runed Symbol	31252	1	6
+Bank13-Slot9	Empty	0	0	0
+Bank13-Slot10	Empty	0	0	0
+Bank13-Slot11	Runed Tear	31263	1	6
+Bank13-Slot12	Runed Tear	31263	1	6
+Bank13-Slot13	Runed Tear	31263	1	6
+Bank13-Slot14	Runed Tear	31263	1	6
+Bank13-Slot15	Runed Tear	31263	1	6
+Bank13-Slot16	Runed Tear	31263	1	6
+Bank13-Slot17	Runed Tear	31263	1	6
+Bank13-Slot18	Runed Tear	31263	1	6
+Bank13-Slot19	Runed Tear	31263	1	6
+Bank13-Slot20	Runed Tear	31263	1	6
+Bank14	Large Bank Box	976012	1	20
+Bank14-Slot1	Runed Symbol	31252	1	6
+Bank14-Slot2	Empty	0	0	0
+Bank14-Slot3	Empty	0	0	0
+Bank14-Slot4	Empty	0	0	0
+Bank14-Slot5	Empty	0	0	0
+Bank14-Slot6	Empty	0	0	0
+Bank14-Slot7	Empty	0	0	0
+Bank14-Slot8	Empty	0	0	0
+Bank14-Slot9	Empty	0	0	0
+Bank14-Slot10	Empty	0	0	0
+Bank14-Slot11	Runed Tear	31263	1	6
+Bank14-Slot12	Runed Tear	31263	1	6
+Bank14-Slot13	Runed Tear	31263	1	6
+Bank14-Slot14	Runed Tear	31263	1	6
+Bank14-Slot15	Empty	0	0	0
+Bank14-Slot16	Empty	0	0	0
+Bank14-Slot17	Empty	0	0	0
+Bank14-Slot18	Empty	0	0	0
+Bank14-Slot19	Empty	0	0	0
+Bank14-Slot20	Empty	0	0	0
+Bank15	Large Bank Box	976012	1	20
+Bank15-Slot1	Rune of Coruscation	16631	1	6
+Bank15-Slot2	Empty	0	0	0
+Bank15-Slot3	Empty	0	0	0
+Bank15-Slot4	Empty	0	0	0
+Bank15-Slot5	Empty	0	0	0
+Bank15-Slot6	Empty	0	0	0
+Bank15-Slot7	Empty	0	0	0
+Bank15-Slot8	Empty	0	0	0
+Bank15-Slot9	Empty	0	0	0
+Bank15-Slot10	Empty	0	0	0
+Bank15-Slot11	Empty	0	0	0
+Bank15-Slot12	Empty	0	0	0
+Bank15-Slot13	Empty	0	0	0
+Bank15-Slot14	Empty	0	0	0
+Bank15-Slot15	Empty	0	0	0
+Bank15-Slot16	Empty	0	0	0
+Bank15-Slot17	Empty	0	0	0
+Bank15-Slot18	Empty	0	0	0
+Bank15-Slot19	Empty	0	0	0
+Bank15-Slot20	Empty	0	0	0
+Bank16	Large Bank Box	976012	1	20
+Bank16-Slot1	Silver Symbol	31253	1	6
+Bank16-Slot2	Silver Symbol	31253	1	6
+Bank16-Slot3	Silver Symbol	31253	1	6
+Bank16-Slot4	Silver Symbol	31253	1	6
+Bank16-Slot5	Silver Symbol	31253	1	6
+Bank16-Slot6	Silver Symbol	31253	1	6
+Bank16-Slot7	Empty	0	0	0
+Bank16-Slot8	Empty	0	0	0
+Bank16-Slot9	Empty	0	0	0
+Bank16-Slot10	Empty	0	0	0
+Bank16-Slot11	Silver Tear	31264	1	6
+Bank16-Slot12	Silver Tear	31264	1	6
+Bank16-Slot13	Silver Tear	31264	1	6
+Bank16-Slot14	Silver Tear	31264	1	6
+Bank16-Slot15	Silver Tear	31264	1	6
+Bank16-Slot16	Silver Tear	31264	1	6
+Bank16-Slot17	Empty	0	0	0
+Bank16-Slot18	Empty	0	0	0
+Bank16-Slot19	Empty	0	0	0
+Bank16-Slot20	Empty	0	0	0
+Bank17	Large Bank Box	976012	1	20
+Bank17-Slot1	Empty	0	0	0
+Bank17-Slot2	Empty	0	0	0
+Bank17-Slot3	Empty	0	0	0
+Bank17-Slot4	Empty	0	0	0
+Bank17-Slot5	Empty	0	0	0
+Bank17-Slot6	Empty	0	0	0
+Bank17-Slot7	Empty	0	0	0
+Bank17-Slot8	Empty	0	0	0
+Bank17-Slot9	Empty	0	0	0
+Bank17-Slot10	Empty	0	0	0
+Bank17-Slot11	Serrated Tear	31265	1	6
+Bank17-Slot12	Serrated Tear	31265	1	6
+Bank17-Slot13	Serrated Tear	31265	1	6
+Bank17-Slot14	Serrated Tear	31265	1	6
+Bank17-Slot15	Serrated Tear	31265	1	6
+Bank17-Slot16	Serrated Tear	31265	1	6
+Bank17-Slot17	Serrated Tear	31265	1	6
+Bank17-Slot18	Empty	0	0	0
+Bank17-Slot19	Empty	0	0	0
+Bank17-Slot20	Empty	0	0	0
+Bank18	Large Bank Box	976012	1	20
+Bank18-Slot1	Empty	0	0	0
+Bank18-Slot2	Empty	0	0	0
+Bank18-Slot3	Empty	0	0	0
+Bank18-Slot4	Empty	0	0	0
+Bank18-Slot5	Empty	0	0	0
+Bank18-Slot6	Empty	0	0	0
+Bank18-Slot7	Empty	0	0	0
+Bank18-Slot8	Empty	0	0	0
+Bank18-Slot9	Empty	0	0	0
+Bank18-Slot10	Empty	0	0	0
+Bank18-Slot11	Silver Tear	31264	1	6
+Bank18-Slot12	Serrated Tear	31265	1	6
+Bank18-Slot13	Serrated Tear	31265	1	6
+Bank18-Slot14	Silver Tear	31264	1	6
+Bank18-Slot15	Silver Tear	31264	1	6
+Bank18-Slot16	Silver Tear	31264	1	6
+Bank18-Slot17	Empty	0	0	0
+Bank18-Slot18	Empty	0	0	0
+Bank18-Slot19	Empty	0	0	0
+Bank18-Slot20	Empty	0	0	0
+Bank19	Large Bank Box	976012	1	20
+Bank19-Slot1	Empty	0	0	0
+Bank19-Slot2	Empty	0	0	0
+Bank19-Slot3	Empty	0	0	0
+Bank19-Slot4	Empty	0	0	0
+Bank19-Slot5	Empty	0	0	0
+Bank19-Slot6	Empty	0	0	0
+Bank19-Slot7	Empty	0	0	0
+Bank19-Slot8	Empty	0	0	0
+Bank19-Slot9	Empty	0	0	0
+Bank19-Slot10	Empty	0	0	0
+Bank19-Slot11	Empty	0	0	0
+Bank19-Slot12	Empty	0	0	0
+Bank19-Slot13	Empty	0	0	0
+Bank19-Slot14	Empty	0	0	0
+Bank19-Slot15	Empty	0	0	0
+Bank19-Slot16	Empty	0	0	0
+Bank19-Slot17	Empty	0	0	0
+Bank19-Slot18	Empty	0	0	0
+Bank19-Slot19	Empty	0	0	0
+Bank19-Slot20	Empty	0	0	0
+Bank20	Large Bank Box	976012	1	20
+Bank20-Slot1	Empty	0	0	0
+Bank20-Slot2	Empty	0	0	0
+Bank20-Slot3	Empty	0	0	0
+Bank20-Slot4	Empty	0	0	0
+Bank20-Slot5	Empty	0	0	0
+Bank20-Slot6	Empty	0	0	0
+Bank20-Slot7	Empty	0	0	0
+Bank20-Slot8	Empty	0	0	0
+Bank20-Slot9	Empty	0	0	0
+Bank20-Slot10	Empty	0	0	0
+Bank20-Slot11	Empty	0	0	0
+Bank20-Slot12	Empty	0	0	0
+Bank20-Slot13	Empty	0	0	0
+Bank20-Slot14	Empty	0	0	0
+Bank20-Slot15	Empty	0	0	0
+Bank20-Slot16	Empty	0	0	0
+Bank20-Slot17	Empty	0	0	0
+Bank20-Slot18	Empty	0	0	0
+Bank20-Slot19	Empty	0	0	0
+Bank20-Slot20	Empty	0	0	0
+Bank21	Large Bank Box	976012	1	20
+Bank21-Slot1	Empty	0	0	0
+Bank21-Slot2	Empty	0	0	0
+Bank21-Slot3	Empty	0	0	0
+Bank21-Slot4	Empty	0	0	0
+Bank21-Slot5	Empty	0	0	0
+Bank21-Slot6	Empty	0	0	0
+Bank21-Slot7	Empty	0	0	0
+Bank21-Slot8	Empty	0	0	0
+Bank21-Slot9	Empty	0	0	0
+Bank21-Slot10	Empty	0	0	0
+Bank21-Slot11	Empty	0	0	0
+Bank21-Slot12	Empty	0	0	0
+Bank21-Slot13	Empty	0	0	0
+Bank21-Slot14	Empty	0	0	0
+Bank21-Slot15	Empty	0	0	0
+Bank21-Slot16	Empty	0	0	0
+Bank21-Slot17	Empty	0	0	0
+Bank21-Slot18	Empty	0	0	0
+Bank21-Slot19	Empty	0	0	0
+Bank21-Slot20	Empty	0	0	0
+Bank22	Large Bank Box	976012	1	20
+Bank22-Slot1	Empty	0	0	0
+Bank22-Slot2	Empty	0	0	0
+Bank22-Slot3	Empty	0	0	0
+Bank22-Slot4	Empty	0	0	0
+Bank22-Slot5	Empty	0	0	0
+Bank22-Slot6	Empty	0	0	0
+Bank22-Slot7	Empty	0	0	0
+Bank22-Slot8	Empty	0	0	0
+Bank22-Slot9	Empty	0	0	0
+Bank22-Slot10	Empty	0	0	0
+Bank22-Slot11	Empty	0	0	0
+Bank22-Slot12	Empty	0	0	0
+Bank22-Slot13	Empty	0	0	0
+Bank22-Slot14	Empty	0	0	0
+Bank22-Slot15	Empty	0	0	0
+Bank22-Slot16	Empty	0	0	0
+Bank22-Slot17	Empty	0	0	0
+Bank22-Slot18	Empty	0	0	0
+Bank22-Slot19	Empty	0	0	0
+Bank22-Slot20	Empty	0	0	0
+Bank23	Large Bank Box	976012	1	20
+Bank23-Slot1	White Symbol	31250	1	6
+Bank23-Slot2	White Symbol	31250	1	6
+Bank23-Slot3	Empty	0	0	0
+Bank23-Slot4	Empty	0	0	0
+Bank23-Slot5	Empty	0	0	0
+Bank23-Slot6	Empty	0	0	0
+Bank23-Slot7	Empty	0	0	0
+Bank23-Slot8	Empty	0	0	0
+Bank23-Slot9	Empty	0	0	0
+Bank23-Slot10	Empty	0	0	0
+Bank23-Slot11	White Tear	31261	1	6
+Bank23-Slot12	White Tear	31261	1	6
+Bank23-Slot13	White Tear	31261	1	6
+Bank23-Slot14	Empty	0	0	0
+Bank23-Slot15	Empty	0	0	0
+Bank23-Slot16	Empty	0	0	0
+Bank23-Slot17	Empty	0	0	0
+Bank23-Slot18	Empty	0	0	0
+Bank23-Slot19	Empty	0	0	0
+Bank23-Slot20	Empty	0	0	0
+Bank24	Large Bank Box	976012	1	20
+Bank24-Slot1	White Symbol	31250	1	6
+Bank24-Slot2	White Symbol	31250	1	6
+Bank24-Slot3	White Symbol	31250	1	6
+Bank24-Slot4	White Symbol	31250	1	6
+Bank24-Slot5	White Symbol	31250	1	6
+Bank24-Slot6	White Symbol	31250	1	6
+Bank24-Slot7	White Symbol	31250	1	6
+Bank24-Slot8	White Symbol	31250	1	6
+Bank24-Slot9	White Symbol	31250	1	6
+Bank24-Slot10	White Symbol	31250	1	6
+Bank24-Slot11	White Tear	31261	1	6
+Bank24-Slot12	White Tear	31261	1	6
+Bank24-Slot13	White Tear	31261	1	6
+Bank24-Slot14	White Tear	31261	1	6
+Bank24-Slot15	White Tear	31261	1	6
+Bank24-Slot16	White Tear	31261	1	6
+Bank24-Slot17	White Tear	31261	1	6
+Bank24-Slot18	White Tear	31261	1	6
+Bank24-Slot19	White Tear	31261	1	6
+Bank24-Slot20	White Tear	31261	1	6
+SharedBank1	Large Bank Box	976012	1	20
+SharedBank1-Slot1	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot2	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot3	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot4	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot5	Glowing Drake Orb	31260	1	6
+SharedBank1-Slot6	Empty	0	0	0
+SharedBank1-Slot7	Empty	0	0	0
+SharedBank1-Slot8	Empty	0	0	0
+SharedBank1-Slot9	Empty	0	0	0
+SharedBank1-Slot10	Empty	0	0	0
+SharedBank1-Slot11	Empty	0	0	0
+SharedBank1-Slot12	Empty	0	0	0
+SharedBank1-Slot13	Empty	0	0	0
+SharedBank1-Slot14	Empty	0	0	0
+SharedBank1-Slot15	Empty	0	0	0
+SharedBank1-Slot16	Empty	0	0	0
+SharedBank1-Slot17	Empty	0	0	0
+SharedBank1-Slot18	Empty	0	0	0
+SharedBank1-Slot19	Empty	0	0	0
+SharedBank1-Slot20	Empty	0	0	0
+SharedBank2	Large Bank Box	976012	1	20
+SharedBank2-Slot1	Harnessing Stone	52946	1	6
+SharedBank2-Slot2	Empty	0	0	0
+SharedBank2-Slot3	Empty	0	0	0
+SharedBank2-Slot4	Empty	0	0	0
+SharedBank2-Slot5	Empty	0	0	0
+SharedBank2-Slot6	Empty	0	0	0
+SharedBank2-Slot7	Empty	0	0	0
+SharedBank2-Slot8	Empty	0	0	0
+SharedBank2-Slot9	Empty	0	0	0
+SharedBank2-Slot10	Empty	0	0	0
+SharedBank2-Slot11	Empty	0	0	0
+SharedBank2-Slot12	Empty	0	0	0
+SharedBank2-Slot13	Empty	0	0	0
+SharedBank2-Slot14	Empty	0	0	0
+SharedBank2-Slot15	Empty	0	0	0
+SharedBank2-Slot16	Empty	0	0	0
+SharedBank2-Slot17	Empty	0	0	0
+SharedBank2-Slot18	Empty	0	0	0
+SharedBank2-Slot19	Empty	0	0	0
+SharedBank2-Slot20	Empty	0	0	0
