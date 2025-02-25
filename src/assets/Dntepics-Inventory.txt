@@ -74,9 +74,7 @@ General2-Slot6-Slot1	Empty	0	0	0
 General2-Slot6-Slot2	Empty	0	0	0
 General2-Slot6-Slot3	Empty	0	0	0
 General2-Slot6-Slot6	Empty	0	0	0
-General2-Slot7	Pegasus Feather Cloak	2463	1	6
-General2-Slot7-Slot1	Empty	0	0	0
-General2-Slot7-Slot2	Empty	0	0	0
+General2-Slot7	Empty	0	0	0
 General2-Slot8	Red Wurm Gut	20528	1	6
 General3	Backpack	17005	1	8
 General3-Slot1	Staff of Elemental Mastery: Earth	11567	1	6
@@ -381,7 +379,7 @@ Bank9-Slot9	Empty	0	0	0
 Bank9-Slot10	Empty	0	0	0
 Bank9-Slot11	Empty	0	0	0
 Bank9-Slot12	Empty	0	0	0
-Bank9-Slot13	Torch of the Elements	28007	1	6
+Bank9-Slot13	Empty	0	0	0
 Bank9-Slot14	Empty	0	0	0
 Bank9-Slot15	Empty	0	0	0
 Bank9-Slot16	Empty	0	0	0
@@ -400,7 +398,7 @@ Bank10-Slot7	Empty	0	0	0
 Bank10-Slot8	Empty	0	0	0
 Bank10-Slot9	Empty	0	0	0
 Bank10-Slot10	Empty	0	0	0
-Bank10-Slot11	Griffon Feathers	16538	1	6
+Bank10-Slot11	Empty	0	0	0
 Bank10-Slot12	Griffon Feathers	16538	1	6
 Bank10-Slot13	Empty	0	0	0
 Bank10-Slot14	Empty	0	0	0
@@ -505,7 +503,7 @@ Bank13-Slot18	Empty	0	0	0
 Bank13-Slot19	Empty	0	0	0
 Bank13-Slot20	Empty	0	0	0
 Bank14	Large Bank Box	976012	1	20
-Bank14-Slot1	Rain of Karana	28041	1	6
+Bank14-Slot1	Empty	0	0	0
 Bank14-Slot2	Empty	0	0	0
 Bank14-Slot3	Empty	0	0	0
 Bank14-Slot4	Empty	0	0	0
@@ -536,7 +534,7 @@ Bank15-Slot7	Empty	0	0	0
 Bank15-Slot8	Empty	0	0	0
 Bank15-Slot9	Empty	0	0	0
 Bank15-Slot10	Empty	0	0	0
-Bank15-Slot11	Cyclops Toes	16543	1	6
+Bank15-Slot11	Empty	0	0	0
 Bank15-Slot12	Empty	0	0	0
 Bank15-Slot13	Empty	0	0	0
 Bank15-Slot14	Empty	0	0	0
@@ -557,7 +555,7 @@ Bank16-Slot7	Head Housekeeper's Log	18458	1	6
 Bank16-Slot8	Empty	0	0	0
 Bank16-Slot9	Empty	0	0	0
 Bank16-Slot10	Empty	0	0	0
-Bank16-Slot11	Hill Giant Toes	16539	1	6
+Bank16-Slot11	Empty	0	0	0
 Bank16-Slot12	Empty	0	0	0
 Bank16-Slot13	Empty	0	0	0
 Bank16-Slot14	Empty	0	0	0
@@ -711,7 +709,7 @@ Bank22-Slot3	Spirit-Touched Phased Spider Thorax	57562	1	6
 Bank22-Slot4	Empty	0	0	0
 Bank22-Slot5	Empty	0	0	0
 Bank22-Slot6	Empty	0	0	0
-Bank22-Slot7	Gargoyle Eye	10014	3	6
+Bank22-Slot7	Gargoyle Eye	10014	2	6
 Bank22-Slot8	Empty	0	0	0
 Bank22-Slot9	Empty	0	0	0
 Bank22-Slot10	Empty	0	0	0
@@ -726,11 +724,7 @@ Bank22-Slot18	Empty	0	0	0
 Bank22-Slot19	Empty	0	0	0
 Bank22-Slot20	Empty	0	0	0
 Bank23	Large Bank Box	976012	1	20
-Bank23-Slot1	Blazing Wand (Enchanted)	1010376	1	6
-Bank23-Slot1-Slot1	Empty	0	0	0
-Bank23-Slot1-Slot2	Empty	0	0	0
-Bank23-Slot1-Slot3	Empty	0	0	0
-Bank23-Slot1-Slot6	Empty	0	0	0
+Bank23-Slot1	Empty	0	0	0
 Bank23-Slot2	Blazing Wand (Legendary)	2010376	1	6
 Bank23-Slot2-Slot1	Empty	0	0	0
 Bank23-Slot2-Slot2	Empty	0	0	0

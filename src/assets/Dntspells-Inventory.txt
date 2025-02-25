@@ -216,7 +216,7 @@ Bank5-Slot4	Spell: Divine Intervention	19230	10	6
 Bank5-Slot5	Spell: Enforced Reverence	19222	2	6
 Bank5-Slot6	Spell: Heroic Bond	19224	6	6
 Bank5-Slot7	Spell: The Unspoken Word	19225	2	6
-Bank5-Slot8	Spell: Banishment of Shadows	19228	11	6
+Bank5-Slot8	Spell: Banishment of Shadows	19228	12	6
 Bank5-Slot9	Spell: Naltron's Mark	19435	3	6
 Bank5-Slot10	Spell: Death Pact	19203	5	6
 Bank5-Slot11	Spell: Fortitude	19216	4	6
@@ -423,7 +423,7 @@ Bank15-Slot1	Ancient: Feral Avatar	26611	16	6
 Bank15-Slot2	Ancient: Scourge of Nife	26612	11	6
 Bank15-Slot3	Spell: Acumen	19278	21	6
 Bank15-Slot4	Spell: Primal Avatar	19491	6	6
-Bank15-Slot5	Spell: Malo	19291	8	6
+Bank15-Slot5	Spell: Malo	19291	9	6
 Bank15-Slot6	Spell: Unfailing Reverence	19287	9	6
 Bank15-Slot7	Spell: Cannibalize III	19272	12	6
 Bank15-Slot8	Spell: Pox of Bertoxxulous	19288	3	6
@@ -432,7 +432,7 @@ Bank15-Slot10	Spell: Form of the Great Bear	30431	1	6
 Bank15-Slot11	Spell: Focus of Spirit	30432	25	6
 Bank15-Slot12	Spell: Talisman of Epuration	7629	2	6
 Bank15-Slot13	Spell: Spirit of the Howler	19275	8	6
-Bank15-Slot14	Spell: Avatar	19292	10	6
+Bank15-Slot14	Spell: Avatar	19292	11	6
 Bank15-Slot15	Spell: Talisman of Jasinth	19264	7	6
 Bank15-Slot16	Spell: Talisman of the Brute	19281	5	6
 Bank15-Slot17	Spell: Torpor	19293	15	6
