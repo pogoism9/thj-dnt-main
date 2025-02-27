@@ -432,9 +432,7 @@ Bank11-Slot5	Empty	0	0	0
 Bank11-Slot6	Empty	0	0	0
 Bank11-Slot7	Empty	0	0	0
 Bank11-Slot8	Empty	0	0	0
-Bank11-Slot9	Pegasus Feather Cloak (Enchanted)	1002463	1	6
-Bank11-Slot9-Slot1	Empty	0	0	0
-Bank11-Slot9-Slot2	Empty	0	0	0
+Bank11-Slot9	Empty	0	0	0
 Bank11-Slot10	Empty	0	0	0
 Bank11-Slot11	Empty	0	0	0
 Bank11-Slot12	Empty	0	0	0
