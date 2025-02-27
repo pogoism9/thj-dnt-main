@@ -33,16 +33,46 @@ Waist	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Large Bank Box	976012	1	20
 General1-Slot1	Small Brick of Yttrium Ore	22901	57	6
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
+General1-Slot2	Bone Chill Shield (Enchanted)	1028970	1	6
+General1-Slot2-Slot1	Empty	0	0	0
+General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot3	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
+General1-Slot3	Bracelet of Darkness	26752	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
+General1-Slot4	Crystal Shadow Cloak (Legendary)	2028918	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot5	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Leggings of Fiery Might	28965	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Leggings of Fiery Might	28965	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot7-Slot6	Empty	0	0	0
+General1-Slot8	Lunar Fungus Covered Tunic	28951	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot8-Slot6	Empty	0	0	0
+General1-Slot9	Rowyl's Metal Armguards (Legendary)	2031229	1	6
+General1-Slot9-Slot1	Empty	0	0	0
+General1-Slot9-Slot2	Empty	0	0	0
+General1-Slot9-Slot6	Empty	0	0	0
+General1-Slot10	Shield of Energy (Enchanted)	1026754	1	6
+General1-Slot10-Slot1	Empty	0	0	0
+General1-Slot10-Slot2	Empty	0	0	0
+General1-Slot10-Slot3	Empty	0	0	0
+General1-Slot10-Slot6	Empty	0	0	0
+General1-Slot11	Slimy Leather Tunic (Legendary)	2062249	1	6
+General1-Slot11-Slot1	Empty	0	0	0
+General1-Slot11-Slot2	Empty	0	0	0
+General1-Slot11-Slot6	Empty	0	0	0
 General1-Slot12	Empty	0	0	0
 General1-Slot13	Empty	0	0	0
 General1-Slot14	Empty	0	0	0

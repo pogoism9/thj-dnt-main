@@ -40,8 +40,8 @@ General1-Slot7	Spell: Shadowbond	19409	1	6
 General1-Slot8	Spell: Spirit of Flame	19530	1	6
 General1-Slot9	Spell: Torrent of Fatigue	7679	1	6
 General1-Slot10	Spell: Sunskin	19420	1	6
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
+General1-Slot11	Ancient: Chaotic Visions	26620	2	6
+General1-Slot12	Ancient: High Priest's Bulwark	26608	2	6
 General2	Backpack	17005	1	8
 General2-Slot1	Empty	0	0	0
 General2-Slot2	Empty	0	0	0
