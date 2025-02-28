@@ -43,13 +43,13 @@ General1-Slot10	Spell: Sunskin	19420	1	6
 General1-Slot11	Ancient: Chaotic Visions	26620	2	6
 General1-Slot12	Ancient: High Priest's Bulwark	26608	2	6
 General2	Backpack	17005	1	8
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
-General2-Slot5	Empty	0	0	0
-General2-Slot6	Empty	0	0	0
-General2-Slot7	Empty	0	0	0
+General2-Slot1	Ancient: Burnout Blaze	26618	1	6
+General2-Slot2	Ancient: Gift of Aegolism	26621	1	6
+General2-Slot3	Ancient: Lcea's Lament	26622	1	6
+General2-Slot4	Ancient: Legacy of Blades	26609	1	6
+General2-Slot5	Ancient: Lifebane	26614	1	6
+General2-Slot6	Ancient: Scourge of Nife	26612	3	6
+General2-Slot7	Ancient: Starfire of Ro	26610	3	6
 General2-Slot8	Empty	0	0	0
 General3	Backpack	17005	1	8
 General3-Slot1	Empty	0	0	0

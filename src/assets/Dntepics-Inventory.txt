@@ -97,7 +97,9 @@ General3-Slot3-Slot4	Empty	0	0	0
 General3-Slot3-Slot6	Empty	0	0	0
 General3-Slot4	Torn Page of Mastery Earth	28029	1	6
 General3-Slot5	Torn Page of Mastery Water	28030	1	6
-General3-Slot6	Empty	0	0	0
+General3-Slot6	Pegasus Feather Cloak	2463	1	6
+General3-Slot6-Slot1	Empty	0	0	0
+General3-Slot6-Slot2	Empty	0	0	0
 General3-Slot7	Torn Page of Mastery Wind	28028	1	6
 General3-Slot8	Undead Dragon Sinew	6478	1	6
 General3-Slot8-Slot1	Empty	0	0	0
