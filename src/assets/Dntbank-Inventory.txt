@@ -43,11 +43,9 @@ General1-Slot3-Slot1	Empty	0	0	0
 General1-Slot3-Slot6	Empty	0	0	0
 General1-Slot4	Crystal Shadow Cloak (Legendary)	2028918	1	6
 General1-Slot4-Slot1	Empty	0	0	0
-General1-Slot5	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+General1-Slot5	Belt of Mastery (Enchanted)	1026761	1	6
 General1-Slot5-Slot1	Empty	0	0	0
 General1-Slot5-Slot2	Empty	0	0	0
-General1-Slot5-Slot3	Empty	0	0	0
-General1-Slot5-Slot6	Empty	0	0	0
 General1-Slot6	Leggings of Fiery Might	28965	1	6
 General1-Slot6-Slot1	Empty	0	0	0
 General1-Slot6-Slot2	Empty	0	0	0
@@ -73,19 +71,58 @@ General1-Slot11	Slimy Leather Tunic (Legendary)	2062249	1	6
 General1-Slot11-Slot1	Empty	0	0	0
 General1-Slot11-Slot2	Empty	0	0	0
 General1-Slot11-Slot6	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
+General1-Slot12	Staff of the Elder Claws	1173	1	6
+General1-Slot12-Slot1	Empty	0	0	0
+General1-Slot12-Slot2	Empty	0	0	0
+General1-Slot12-Slot3	Empty	0	0	0
+General1-Slot12-Slot4	Empty	0	0	0
+General1-Slot12-Slot5	Empty	0	0	0
+General1-Slot12-Slot6	Empty	0	0	0
+General1-Slot13	Bone Necklace of Battle (Enchanted)	1028947	1	6
+General1-Slot13-Slot1	Empty	0	0	0
+General1-Slot13-Slot2	Empty	0	0	0
+General1-Slot14	Bow of Flames	28935	1	6
+General1-Slot14-Slot1	Empty	0	0	0
+General1-Slot14-Slot2	Empty	0	0	0
+General1-Slot14-Slot3	Empty	0	0	0
+General1-Slot14-Slot4	Empty	0	0	0
+General1-Slot14-Slot5	Empty	0	0	0
+General1-Slot14-Slot6	Empty	0	0	0
+General1-Slot15	Breastplate of Speed	28937	1	6
+General1-Slot15-Slot1	Empty	0	0	0
+General1-Slot15-Slot2	Empty	0	0	0
+General1-Slot15-Slot6	Empty	0	0	0
+General1-Slot16	Cerulean Sleeves (Enchanted)	1028926	1	6
+General1-Slot16-Slot1	Empty	0	0	0
+General1-Slot16-Slot2	Empty	0	0	0
+General1-Slot16-Slot6	Empty	0	0	0
+General1-Slot17	Cerulean Sleeves (Enchanted)	1028926	1	6
+General1-Slot17-Slot1	Empty	0	0	0
+General1-Slot17-Slot2	Empty	0	0	0
+General1-Slot17-Slot6	Empty	0	0	0
+General1-Slot18	Denon's Drums of Declivity (Enchanted)	1028149	1	6
+General1-Slot18-Slot1	Empty	0	0	0
+General1-Slot18-Slot2	Empty	0	0	0
+General1-Slot18-Slot3	Empty	0	0	0
+General1-Slot18-Slot6	Empty	0	0	0
+General1-Slot19	Lunar Fungus Covered Tunic	28951	1	6
+General1-Slot19-Slot1	Empty	0	0	0
+General1-Slot19-Slot2	Empty	0	0	0
+General1-Slot19-Slot6	Empty	0	0	0
+General1-Slot20	Mail of Judgment (Enchanted)	1026782	1	6
+General1-Slot20-Slot1	Empty	0	0	0
+General1-Slot20-Slot2	Empty	0	0	0
+General1-Slot20-Slot6	Empty	0	0	0
 General2	Large Bank Box	976012	1	20
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
+General2-Slot1	Soul Essence of Aten Ha Ra	8365	1	6
+General2-Slot2	Trident of Slaughter	28956	1	6
+General2-Slot2-Slot1	Empty	0	0	0
+General2-Slot2-Slot2	Empty	0	0	0
+General2-Slot2-Slot3	Empty	0	0	0
+General2-Slot2-Slot6	Empty	0	0	0
+General2-Slot3	Veil of Flames (Legendary)	2028971	1	6
+General2-Slot3-Slot1	Empty	0	0	0
+General2-Slot3-Slot2	Empty	0	0	0
 General2-Slot4	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
 General2-Slot6	Empty	0	0	0
@@ -1222,7 +1259,11 @@ Bank18-Slot18	Empty	0	0	0
 Bank18-Slot19	Empty	0	0	0
 Bank18-Slot20	Empty	0	0	0
 Bank19	Large Bank Box	976012	1	20
-Bank19-Slot1	Empty	0	0	0
+Bank19-Slot1	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+Bank19-Slot1-Slot1	Empty	0	0	0
+Bank19-Slot1-Slot2	Empty	0	0	0
+Bank19-Slot1-Slot3	Empty	0	0	0
+Bank19-Slot1-Slot6	Empty	0	0	0
 Bank19-Slot2	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
 Bank19-Slot2-Slot1	Empty	0	0	0
 Bank19-Slot2-Slot2	Empty	0	0	0
@@ -1613,13 +1654,7 @@ Bank23-Slot4	Empty	0	0	0
 Bank23-Slot5	Mithril Champion Arrows (Legendary)	2024488	1	6
 Bank23-Slot5-Slot1	Empty	0	0	0
 Bank23-Slot5-Slot2	Empty	0	0	0
-Bank23-Slot6	Bow of Flames	28935	1	6
-Bank23-Slot6-Slot1	Empty	0	0	0
-Bank23-Slot6-Slot2	Empty	0	0	0
-Bank23-Slot6-Slot3	Empty	0	0	0
-Bank23-Slot6-Slot4	Empty	0	0	0
-Bank23-Slot6-Slot5	Empty	0	0	0
-Bank23-Slot6-Slot6	Empty	0	0	0
+Bank23-Slot6	Empty	0	0	0
 Bank23-Slot7	Bow of Shadows (Legendary)	2028989	1	6
 Bank23-Slot7-Slot1	Empty	0	0	0
 Bank23-Slot7-Slot2	Empty	0	0	0
@@ -1678,13 +1713,7 @@ Bank23-Slot14-Slot5	Empty	0	0	0
 Bank23-Slot14-Slot6	Empty	0	0	0
 Bank23-Slot15	Empty	0	0	0
 Bank23-Slot16	Empty	0	0	0
-Bank23-Slot17	Fleeting Quiver	17327	1	6
-Bank23-Slot17-Slot1	Empty	0	0	0
-Bank23-Slot17-Slot2	Empty	0	0	0
-Bank23-Slot17-Slot3	Empty	0	0	0
-Bank23-Slot17-Slot4	Empty	0	0	0
-Bank23-Slot17-Slot5	Empty	0	0	0
-Bank23-Slot17-Slot6	Empty	0	0	0
+Bank23-Slot17	Empty	0	0	0
 Bank23-Slot18	Fleeting Quiver	17327	1	6
 Bank23-Slot18-Slot1	Empty	0	0	0
 Bank23-Slot18-Slot2	Empty	0	0	0
