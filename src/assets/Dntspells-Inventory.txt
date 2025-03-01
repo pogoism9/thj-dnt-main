@@ -30,26 +30,26 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Adventurer's Pack	17423	1	12
-General1-Slot1	Spell: Cloak of the Akheva	7680	1	6
-General1-Slot2	Spell: Mask of the Stalker	19529	2	6
-General1-Slot3	Spell: Mind Wrack	7649	2	6
-General1-Slot4	Spell: Nature's Recovery	7620	1	6
-General1-Slot5	Spell: Sacrifice	19421	2	6
-General1-Slot6	Spell: Scent of Terris	19408	3	6
-General1-Slot7	Spell: Shadowbond	19409	1	6
-General1-Slot8	Spell: Spirit of Flame	19530	1	6
-General1-Slot9	Spell: Torrent of Fatigue	7679	1	6
-General1-Slot10	Spell: Sunskin	19420	1	6
-General1-Slot11	Ancient: Chaotic Visions	26620	2	6
-General1-Slot12	Ancient: High Priest's Bulwark	26608	2	6
+General1-Slot1	Empty	0	0	0
+General1-Slot2	Empty	0	0	0
+General1-Slot3	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
+General1-Slot9	Empty	0	0	0
+General1-Slot10	Empty	0	0	0
+General1-Slot11	Empty	0	0	0
+General1-Slot12	Empty	0	0	0
 General2	Backpack	17005	1	8
-General2-Slot1	Ancient: Burnout Blaze	26618	1	6
-General2-Slot2	Ancient: Gift of Aegolism	26621	1	6
-General2-Slot3	Ancient: Lcea's Lament	26622	1	6
-General2-Slot4	Ancient: Legacy of Blades	26609	1	6
-General2-Slot5	Ancient: Lifebane	26614	1	6
-General2-Slot6	Ancient: Scourge of Nife	26612	3	6
-General2-Slot7	Ancient: Starfire of Ro	26610	3	6
+General2-Slot1	Empty	0	0	0
+General2-Slot2	Empty	0	0	0
+General2-Slot3	Empty	0	0	0
+General2-Slot4	Empty	0	0	0
+General2-Slot5	Empty	0	0	0
+General2-Slot6	Empty	0	0	0
+General2-Slot7	Empty	0	0	0
 General2-Slot8	Empty	0	0	0
 General3	Backpack	17005	1	8
 General3-Slot1	Empty	0	0	0
@@ -125,16 +125,16 @@ General10-Slot7	Empty	0	0	0
 General10-Slot8	Empty	0	0	0
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
-Bank1-Slot1	Empty	0	0	0
-Bank1-Slot2	Empty	0	0	0
-Bank1-Slot3	Empty	0	0	0
-Bank1-Slot4	Empty	0	0	0
-Bank1-Slot5	Empty	0	0	0
-Bank1-Slot6	Empty	0	0	0
-Bank1-Slot7	Empty	0	0	0
-Bank1-Slot8	Empty	0	0	0
-Bank1-Slot9	Empty	0	0	0
-Bank1-Slot10	Empty	0	0	0
+Bank1-Slot1	Spell: Cloak of the Akheva	7680	1	6
+Bank1-Slot2	Spell: Mask of the Stalker	19529	2	6
+Bank1-Slot3	Spell: Mind Wrack	7649	2	6
+Bank1-Slot4	Spell: Nature's Recovery	7620	1	6
+Bank1-Slot5	Spell: Sacrifice	19421	2	6
+Bank1-Slot6	Spell: Scent of Terris	19408	3	6
+Bank1-Slot7	Spell: Shadowbond	19409	1	6
+Bank1-Slot8	Spell: Spirit of Flame	19530	1	6
+Bank1-Slot9	Spell: Torrent of Fatigue	7679	1	6
+Bank1-Slot10	Spell: Sunskin	19420	1	6
 Bank1-Slot11	Empty	0	0	0
 Bank1-Slot12	Empty	0	0	0
 Bank1-Slot13	Empty	0	0	0
@@ -209,8 +209,8 @@ Bank4-Slot18	Empty	0	0	0
 Bank4-Slot19	Empty	0	0	0
 Bank4-Slot20	Empty	0	0	0
 Bank5	Large Bank Box	976012	1	20
-Bank5-Slot1	Ancient: High Priest's Bulwark	26608	10	6
-Bank5-Slot2	Ancient: Gift of Aegolism	26621	4	6
+Bank5-Slot1	Ancient: High Priest's Bulwark	26608	12	6
+Bank5-Slot2	Ancient: Gift of Aegolism	26621	5	6
 Bank5-Slot3	Spell: Aegolism	30447	22	6
 Bank5-Slot4	Spell: Divine Intervention	19230	10	6
 Bank5-Slot5	Spell: Enforced Reverence	19222	2	6
@@ -251,8 +251,8 @@ Bank6-Slot18	Empty	0	0	0
 Bank6-Slot19	Empty	0	0	0
 Bank6-Slot20	Empty	0	0	0
 Bank7	Large Bank Box	976012	1	20
-Bank7-Slot1	Ancient: Legacy of Blades	26609	19	6
-Bank7-Slot2	Ancient: Starfire of Ro	26610	8	6
+Bank7-Slot1	Ancient: Legacy of Blades	26609	20	6
+Bank7-Slot2	Ancient: Starfire of Ro	26610	14	6
 Bank7-Slot3	Spell: Banishment	19262	23	6
 Bank7-Slot4	Spell: Succor	19253	20	6
 Bank7-Slot5	Spell: Entrapping Roots	19263	20	6
@@ -293,7 +293,7 @@ Bank8-Slot18	Empty	0	0	0
 Bank8-Slot19	Empty	0	0	0
 Bank8-Slot20	Empty	0	0	0
 Bank9	Large Bank Box	976012	1	20
-Bank9-Slot1	Ancient: Chaotic Visions	26620	27	6
+Bank9-Slot1	Ancient: Chaotic Visions	26620	31	6
 Bank9-Slot2	Ancient: Eternal Rapture	26619	18	6
 Bank9-Slot3	Spell: Zumaik`s Animation	19389	10	6
 Bank9-Slot4	Spell: Bedlam	19400	11	6
@@ -335,8 +335,8 @@ Bank10-Slot18	Empty	0	0	0
 Bank10-Slot19	Empty	0	0	0
 Bank10-Slot20	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
-Bank11-Slot1	Ancient: Shock of Sun	26617	13	6
-Bank11-Slot2	Ancient: Burnout Blaze	26618	14	6
+Bank11-Slot1	Ancient: Shock of Sun	26617	14	6
+Bank11-Slot2	Ancient: Burnout Blaze	26618	18	6
 Bank11-Slot3	Spell: Vocarate: Water	19362	3	6
 Bank11-Slot4	Spell: Mala	19418	13	6
 Bank11-Slot5	Spell: Greater Vocaration: Air	19371	10	6
@@ -377,7 +377,7 @@ Bank12-Slot18	Empty	0	0	0
 Bank12-Slot19	Empty	0	0	0
 Bank12-Slot20	Empty	0	0	0
 Bank13	Large Bank Box	976012	1	20
-Bank13-Slot1	Ancient: Lifebane	26614	11	6
+Bank13-Slot1	Ancient: Lifebane	26614	14	6
 Bank13-Slot2	Ancient: Master of Death	26613	9	6
 Bank13-Slot3	Spell: Thrall of Bones	19299	19	6
 Bank13-Slot4	Spell: Arch Lich	30416	22	6
@@ -386,7 +386,7 @@ Bank13-Slot6	Spell: Conjure Corpse	19307	5	6
 Bank13-Slot7	Spell: Incinerate Bones	19479	4	6
 Bank13-Slot8	Spell: Infusion	19424	3	6
 Bank13-Slot9	Spell: Sedulous Subversion	19410	7	6
-Bank13-Slot10	Spell: Quivering Veil of Xarn	19309	2	6
+Bank13-Slot10	Spell: Quivering Veil of Xarn	19309	3	6
 Bank13-Slot11	Spell: Enslave Death	19313	9	6
 Bank13-Slot12	Spell: Convergence	19423	1	6
 Bank13-Slot13	Spell: Splurt	19294	1	6
@@ -419,8 +419,8 @@ Bank14-Slot18	Empty	0	0	0
 Bank14-Slot19	Empty	0	0	0
 Bank14-Slot20	Empty	0	0	0
 Bank15	Large Bank Box	976012	1	20
-Bank15-Slot1	Ancient: Feral Avatar	26611	16	6
-Bank15-Slot2	Ancient: Scourge of Nife	26612	11	6
+Bank15-Slot1	Ancient: Feral Avatar	26611	18	6
+Bank15-Slot2	Ancient: Scourge of Nife	26612	14	6
 Bank15-Slot3	Spell: Acumen	19278	21	6
 Bank15-Slot4	Spell: Primal Avatar	19491	6	6
 Bank15-Slot5	Spell: Malo	19291	9	6
@@ -462,7 +462,7 @@ Bank16-Slot19	Empty	0	0	0
 Bank16-Slot20	Empty	0	0	0
 Bank17	Large Bank Box	976012	1	20
 Bank17-Slot1	Ancient: Destruction of Ice	26615	14	6
-Bank17-Slot2	Ancient: Greater Concussion	26616	16	6
+Bank17-Slot2	Ancient: Greater Concussion	26616	17	6
 Bank17-Slot3	Spell: Atol`s Spectral Shackles	19315	3	6
 Bank17-Slot4	Spell: Disintegrate	19415	12	6
 Bank17-Slot5	Spell: Draught of Jiva	19328	9	6
@@ -506,7 +506,7 @@ Bank19	Large Bank Box	976012	1	20
 Bank19-Slot1	Song: Purifying Chorus	7708	1	6
 Bank19-Slot2	Song: Ervaj's Lost Composition	30479	1	6
 Bank19-Slot3	Ancient: Lullaby of Shadow	26623	7	6
-Bank19-Slot4	Ancient: Lcea's Lament	26622	10	6
+Bank19-Slot4	Ancient: Lcea's Lament	26622	11	6
 Bank19-Slot5	Song: Composition of Ervaj	30452	8	6
 Bank19-Slot6	Song: Rizlona's Fire	59604	6	6
 Bank19-Slot7	Song: Angstlich's Assonance	19466	2	6
