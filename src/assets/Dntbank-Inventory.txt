@@ -32,17 +32,50 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Large Bank Box	976012	1	20
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
+General1-Slot1	Amulet of Xuzl (Legendary)	2028977	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot2	Great Shadow Platemail	26770	1	6
+General1-Slot2-Slot1	Empty	0	0	0
+General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
+General1-Slot3	Grimoire of Enchantment (Legendary)	2028981	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
+General1-Slot4	Horn of Shadows	28933	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot4-Slot3	Empty	0	0	0
+General1-Slot4-Slot6	Empty	0	0	0
+General1-Slot5	Howling Orb	28913	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Orb of Secrets	26778	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Orb of the Sky (Enchanted)	1028975	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot7-Slot3	Empty	0	0	0
+General1-Slot7-Slot6	Empty	0	0	0
+General1-Slot8	Pendant of Malosini (Legendary)	2028976	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot9	Taskmaster's Pouch	17118	1	4
+General1-Slot9-Slot1	Empty	0	0	0
+General1-Slot9-Slot2	Empty	0	0	0
+General1-Slot9-Slot3	Empty	0	0	0
+General1-Slot9-Slot4	Empty	0	0	0
+General1-Slot10	Taskmaster's Pouch	17118	1	4
+General1-Slot10-Slot1	Empty	0	0	0
+General1-Slot10-Slot2	Empty	0	0	0
+General1-Slot10-Slot3	Empty	0	0	0
+General1-Slot10-Slot4	Empty	0	0	0
+General1-Slot11	Zherozsh's Ring	19717	1	6
 General1-Slot12	Empty	0	0	0
 General1-Slot13	Empty	0	0	0
 General1-Slot14	Empty	0	0	0
