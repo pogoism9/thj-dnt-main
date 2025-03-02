@@ -32,79 +32,32 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Backpack	17005	1	8
-General1-Slot1	Blue Crystal Staff	14337	1	6
-General1-Slot1-Slot1	Empty	0	0	0
-General1-Slot1-Slot2	Empty	0	0	0
-General1-Slot1-Slot3	Empty	0	0	0
-General1-Slot1-Slot6	Empty	0	0	0
-General1-Slot2	Shining Metallic Robes	1360	1	6
-General1-Slot2-Slot1	Empty	0	0	0
-General1-Slot2-Slot6	Empty	0	0	0
-General1-Slot3	Ancient Blade	20670	1	6
-General1-Slot4	Alluring Horn	20530	1	6
-General1-Slot4-Slot1	Empty	0	0	0
-General1-Slot4-Slot2	Empty	0	0	0
-General1-Slot4-Slot3	Empty	0	0	0
-General1-Slot4-Slot6	Empty	0	0	0
-General1-Slot5	Alluring Horn (Enchanted)	1020530	1	6
-General1-Slot5-Slot1	Empty	0	0	0
-General1-Slot5-Slot2	Empty	0	0	0
-General1-Slot5-Slot3	Empty	0	0	0
-General1-Slot5-Slot6	Empty	0	0	0
-General1-Slot6	Pearlescent Fragment	24995	1	6
-General1-Slot7	Red Dragon Scales	11622	1	6
-General1-Slot8	Decrepit Hide	14371	1	6
+General1-Slot1	Empty	0	0	0
+General1-Slot2	Empty	0	0	0
+General1-Slot3	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
 General2	Backpack	17005	1	8
-General2-Slot1	Decrepit Hide	14371	1	6
-General2-Slot2	Lord Bergurgle's Crown	28044	1	6
-General2-Slot2-Slot1	Empty	0	0	0
-General2-Slot2-Slot2	Empty	0	0	0
-General2-Slot2-Slot6	Empty	0	0	0
-General2-Slot3	Lord Bergurgle's Crown	28044	1	6
-General2-Slot3-Slot1	Empty	0	0	0
-General2-Slot3-Slot2	Empty	0	0	0
-General2-Slot3-Slot6	Empty	0	0	0
-General2-Slot4	Lord Bergurgle's Crown	28044	1	6
-General2-Slot4-Slot1	Empty	0	0	0
-General2-Slot4-Slot2	Empty	0	0	0
-General2-Slot4-Slot6	Empty	0	0	0
-General2-Slot5	Torn Page of Mastery Water	28030	1	6
-General2-Slot6	Eye of Innoruuk (Enchanted)	1020656	1	6
-General2-Slot6-Slot1	Empty	0	0	0
-General2-Slot6-Slot2	Empty	0	0	0
-General2-Slot6-Slot3	Empty	0	0	0
-General2-Slot6-Slot6	Empty	0	0	0
-General2-Slot7	Power of Water	28039	1	6
-General2-Slot8	Red Wurm Gut	20528	1	6
+General2-Slot1	Empty	0	0	0
+General2-Slot2	Empty	0	0	0
+General2-Slot3	Empty	0	0	0
+General2-Slot4	Empty	0	0	0
+General2-Slot5	Empty	0	0	0
+General2-Slot6	Empty	0	0	0
+General2-Slot7	Empty	0	0	0
+General2-Slot8	Empty	0	0	0
 General3	Backpack	17005	1	8
-General3-Slot1	Staff of Elemental Mastery: Earth	11567	1	6
-General3-Slot1-Slot1	Empty	0	0	0
-General3-Slot1-Slot2	Empty	0	0	0
-General3-Slot1-Slot3	Empty	0	0	0
-General3-Slot1-Slot4	Empty	0	0	0
-General3-Slot1-Slot6	Empty	0	0	0
-General3-Slot2	Staff of Elemental Mastery: Earth (Enchanted)	1011567	1	6
-General3-Slot2-Slot1	Empty	0	0	0
-General3-Slot2-Slot2	Empty	0	0	0
-General3-Slot2-Slot3	Empty	0	0	0
-General3-Slot2-Slot4	Empty	0	0	0
-General3-Slot2-Slot6	Empty	0	0	0
-General3-Slot3	Staff of Elemental Mastery: Water	11569	1	6
-General3-Slot3-Slot1	Empty	0	0	0
-General3-Slot3-Slot2	Empty	0	0	0
-General3-Slot3-Slot3	Empty	0	0	0
-General3-Slot3-Slot4	Empty	0	0	0
-General3-Slot3-Slot6	Empty	0	0	0
-General3-Slot4	Torn Page of Mastery Earth	28029	1	6
-General3-Slot5	Torn Page of Mastery Water	28030	1	6
-General3-Slot6	Pegasus Feather Cloak	2463	1	6
-General3-Slot6-Slot1	Empty	0	0	0
-General3-Slot6-Slot2	Empty	0	0	0
-General3-Slot7	Torn Page of Mastery Wind	28028	1	6
-General3-Slot8	Undead Dragon Sinew	6478	1	6
-General3-Slot8-Slot1	Empty	0	0	0
-General3-Slot8-Slot2	Empty	0	0	0
-General3-Slot8-Slot6	Empty	0	0	0
+General3-Slot1	Empty	0	0	0
+General3-Slot2	Empty	0	0	0
+General3-Slot3	Empty	0	0	0
+General3-Slot4	Empty	0	0	0
+General3-Slot5	Empty	0	0	0
+General3-Slot6	Empty	0	0	0
+General3-Slot7	Empty	0	0	0
+General3-Slot8	Empty	0	0	0
 General4	Backpack	17005	1	8
 General4-Slot1	Undead Dragon Sinew (Legendary)	2006478	1	6
 General4-Slot1-Slot1	Empty	0	0	0
@@ -115,17 +68,17 @@ General4-Slot2-Slot1	Empty	0	0	0
 General4-Slot2-Slot2	Empty	0	0	0
 General4-Slot2-Slot6	Empty	0	0	0
 General4-Slot3	Essence of a Vampire	10624	1	6
-General4-Slot4	Empty	0	0	0
+General4-Slot4	Burning Essence of Rage	60203	1	6
 General4-Slot5	Drake Spine	14372	1	6
 General4-Slot6	Drake Spine	14372	1	6
 General4-Slot7	Drake Spine	14372	1	6
 General4-Slot8	Drake Spine	14372	1	6
 General5	Backpack	17005	1	8
-General5-Slot1	Drake Spine	14372	1	6
-General5-Slot2	Metal Pipe	12979	1	6
-General5-Slot3	Metal Pipe	12979	1	6
-General5-Slot4	Pearlescent Fragment	24995	1	6
-General5-Slot5	Pearlescent Fragment	24995	1	6
+General5-Slot1	Empty	0	0	0
+General5-Slot2	Empty	0	0	0
+General5-Slot3	Empty	0	0	0
+General5-Slot4	Empty	0	0	0
+General5-Slot5	Empty	0	0	0
 General5-Slot6	Empty	0	0	0
 General5-Slot7	Empty	0	0	0
 General5-Slot8	Empty	0	0	0
@@ -189,7 +142,7 @@ Bank1-Slot2	Red Wurm Gut	20528	1	6
 Bank1-Slot3	Red Wurm Gut	20528	1	6
 Bank1-Slot4	Red Wurm Gut	20528	1	6
 Bank1-Slot5	Empty	0	0	0
-Bank1-Slot6	Empty	0	0	0
+Bank1-Slot6	Red Wurm Gut	20528	1	6
 Bank1-Slot7	Empty	0	0	0
 Bank1-Slot8	Empty	0	0	0
 Bank1-Slot9	Empty	0	0	0
@@ -198,17 +151,28 @@ Bank1-Slot11	Empty	0	0	0
 Bank1-Slot12	Empty	0	0	0
 Bank1-Slot13	Empty	0	0	0
 Bank1-Slot14	Empty	0	0	0
-Bank1-Slot15	Empty	0	0	0
-Bank1-Slot16	Empty	0	0	0
+Bank1-Slot15	Alluring Horn	20530	1	6
+Bank1-Slot15-Slot1	Empty	0	0	0
+Bank1-Slot15-Slot2	Empty	0	0	0
+Bank1-Slot15-Slot3	Empty	0	0	0
+Bank1-Slot15-Slot6	Empty	0	0	0
+Bank1-Slot16	Alluring Horn (Enchanted)	1020530	1	6
+Bank1-Slot16-Slot1	Empty	0	0	0
+Bank1-Slot16-Slot2	Empty	0	0	0
+Bank1-Slot16-Slot3	Empty	0	0	0
+Bank1-Slot16-Slot6	Empty	0	0	0
 Bank1-Slot17	Empty	0	0	0
 Bank1-Slot18	Empty	0	0	0
 Bank1-Slot19	Empty	0	0	0
-Bank1-Slot20	Empty	0	0	0
+Bank1-Slot20	Undead Dragon Sinew	6478	1	6
+Bank1-Slot20-Slot1	Empty	0	0	0
+Bank1-Slot20-Slot2	Empty	0	0	0
+Bank1-Slot20-Slot6	Empty	0	0	0
 Bank2	Large Bank Box	976012	1	20
 Bank2-Slot1	Red Dragon Scales	11622	1	6
 Bank2-Slot2	Red Dragon Scales	11622	1	6
 Bank2-Slot3	Empty	0	0	0
-Bank2-Slot4	Empty	0	0	0
+Bank2-Slot4	Red Dragon Scales	11622	1	6
 Bank2-Slot5	Empty	0	0	0
 Bank2-Slot6	Empty	0	0	0
 Bank2-Slot7	Empty	0	0	0
@@ -231,7 +195,11 @@ Bank3-Slot1-Slot1	Empty	0	0	0
 Bank3-Slot1-Slot2	Empty	0	0	0
 Bank3-Slot1-Slot3	Empty	0	0	0
 Bank3-Slot1-Slot6	Empty	0	0	0
-Bank3-Slot2	Empty	0	0	0
+Bank3-Slot2	Hand of the Maestro	20676	1	6
+Bank3-Slot2-Slot1	Empty	0	0	0
+Bank3-Slot2-Slot2	Empty	0	0	0
+Bank3-Slot2-Slot3	Empty	0	0	0
+Bank3-Slot2-Slot6	Empty	0	0	0
 Bank3-Slot3	Empty	0	0	0
 Bank3-Slot4	Empty	0	0	0
 Bank3-Slot5	Empty	0	0	0
@@ -268,28 +236,28 @@ Bank4-Slot14	Empty	0	0	0
 Bank4-Slot15	Empty	0	0	0
 Bank4-Slot16	Empty	0	0	0
 Bank4-Slot17	Empty	0	0	0
-Bank4-Slot18	Empty	0	0	0
-Bank4-Slot19	Empty	0	0	0
-Bank4-Slot20	Empty	0	0	0
+Bank4-Slot18	Historic Article	18456	1	6
+Bank4-Slot19	Head Housekeeper's Log	18458	1	6
+Bank4-Slot20	Crusades of the High Scale	18457	1	6
 Bank5	Large Bank Box	976012	1	20
 Bank5-Slot1	Corrupted Panther Skin	31429	1	6
 Bank5-Slot2	Empty	0	0	0
 Bank5-Slot3	Empty	0	0	0
 Bank5-Slot4	Empty	0	0	0
 Bank5-Slot5	Empty	0	0	0
-Bank5-Slot6	Empty	0	0	0
+Bank5-Slot6	Decrepit Hide	14371	1	6
 Bank5-Slot7	Decrepit Hide	14371	1	6
 Bank5-Slot8	Decrepit Hide	14371	1	6
 Bank5-Slot9	Decrepit Hide	14371	1	6
-Bank5-Slot10	Empty	0	0	0
+Bank5-Slot10	Decrepit Hide	14371	1	6
 Bank5-Slot11	Dirt of Underfoot	28042	1	6
 Bank5-Slot12	Dirt of Underfoot	28042	1	6
 Bank5-Slot13	Empty	0	0	0
 Bank5-Slot14	Empty	0	0	0
 Bank5-Slot15	Empty	0	0	0
 Bank5-Slot16	Empty	0	0	0
-Bank5-Slot17	Empty	0	0	0
-Bank5-Slot18	Empty	0	0	0
+Bank5-Slot17	Drake Spine	14372	1	6
+Bank5-Slot18	Drake Spine	14372	1	6
 Bank5-Slot19	Empty	0	0	0
 Bank5-Slot20	Empty	0	0	0
 Bank6	Large Bank Box	976012	1	20
@@ -335,9 +303,18 @@ Bank7-Slot14	Empty	0	0	0
 Bank7-Slot15	Empty	0	0	0
 Bank7-Slot16	Empty	0	0	0
 Bank7-Slot17	Empty	0	0	0
-Bank7-Slot18	Empty	0	0	0
-Bank7-Slot19	Empty	0	0	0
-Bank7-Slot20	Empty	0	0	0
+Bank7-Slot18	Lord Bergurgle's Crown	28044	1	6
+Bank7-Slot18-Slot1	Empty	0	0	0
+Bank7-Slot18-Slot2	Empty	0	0	0
+Bank7-Slot18-Slot6	Empty	0	0	0
+Bank7-Slot19	Lord Bergurgle's Crown	28044	1	6
+Bank7-Slot19-Slot1	Empty	0	0	0
+Bank7-Slot19-Slot2	Empty	0	0	0
+Bank7-Slot19-Slot6	Empty	0	0	0
+Bank7-Slot20	Lord Bergurgle's Crown	28044	1	6
+Bank7-Slot20-Slot1	Empty	0	0	0
+Bank7-Slot20-Slot2	Empty	0	0	0
+Bank7-Slot20-Slot6	Empty	0	0	0
 Bank8	Large Bank Box	976012	1	20
 Bank8-Slot1	Replica of the Wyrm Queen	20927	1	6
 Bank8-Slot2	Replica of the Wyrm Queen	20927	1	6
@@ -353,8 +330,20 @@ Bank8-Slot11	Empty	0	0	0
 Bank8-Slot12	Empty	0	0	0
 Bank8-Slot13	Empty	0	0	0
 Bank8-Slot14	Empty	0	0	0
-Bank8-Slot15	Empty	0	0	0
-Bank8-Slot16	Empty	0	0	0
+Bank8-Slot15	Jade Reaver	5664	1	6
+Bank8-Slot15-Slot1	Empty	0	0	0
+Bank8-Slot15-Slot2	Empty	0	0	0
+Bank8-Slot15-Slot3	Empty	0	0	0
+Bank8-Slot15-Slot4	Empty	0	0	0
+Bank8-Slot15-Slot5	Empty	0	0	0
+Bank8-Slot15-Slot6	Empty	0	0	0
+Bank8-Slot16	Jade Reaver	5664	1	6
+Bank8-Slot16-Slot1	Empty	0	0	0
+Bank8-Slot16-Slot2	Empty	0	0	0
+Bank8-Slot16-Slot3	Empty	0	0	0
+Bank8-Slot16-Slot4	Empty	0	0	0
+Bank8-Slot16-Slot5	Empty	0	0	0
+Bank8-Slot16-Slot6	Empty	0	0	0
 Bank8-Slot17	Empty	0	0	0
 Bank8-Slot18	Empty	0	0	0
 Bank8-Slot19	Empty	0	0	0
@@ -390,20 +379,47 @@ Bank9-Slot18	Empty	0	0	0
 Bank9-Slot19	Empty	0	0	0
 Bank9-Slot20	Empty	0	0	0
 Bank10	Large Bank Box	976012	1	20
-Bank10-Slot1	Empty	0	0	0
-Bank10-Slot2	Empty	0	0	0
-Bank10-Slot3	Empty	0	0	0
+Bank10-Slot1	Griffon Feathers	16538	1	6
+Bank10-Slot2	Pegasus Feather Cloak	2463	1	6
+Bank10-Slot2-Slot1	Empty	0	0	0
+Bank10-Slot2-Slot2	Empty	0	0	0
+Bank10-Slot3	Power of Water	28039	1	6
 Bank10-Slot4	Empty	0	0	0
 Bank10-Slot5	Empty	0	0	0
 Bank10-Slot6	Empty	0	0	0
-Bank10-Slot7	Empty	0	0	0
-Bank10-Slot8	Empty	0	0	0
+Bank10-Slot7	Staff of Elemental Mastery: Water (Legendary)	2011569	1	6
+Bank10-Slot7-Slot1	Empty	0	0	0
+Bank10-Slot7-Slot2	Empty	0	0	0
+Bank10-Slot7-Slot3	Empty	0	0	0
+Bank10-Slot7-Slot4	Empty	0	0	0
+Bank10-Slot7-Slot6	Empty	0	0	0
+Bank10-Slot8	Staff of Elemental Mastery: Water	11569	1	6
+Bank10-Slot8-Slot1	Empty	0	0	0
+Bank10-Slot8-Slot2	Empty	0	0	0
+Bank10-Slot8-Slot3	Empty	0	0	0
+Bank10-Slot8-Slot4	Empty	0	0	0
+Bank10-Slot8-Slot6	Empty	0	0	0
 Bank10-Slot9	Empty	0	0	0
 Bank10-Slot10	Empty	0	0	0
-Bank10-Slot11	Empty	0	0	0
-Bank10-Slot12	Griffon Feathers	16538	1	6
-Bank10-Slot13	Empty	0	0	0
-Bank10-Slot14	Empty	0	0	0
+Bank10-Slot11	Staff of Elemental Mastery: Water	11569	1	6
+Bank10-Slot11-Slot1	Empty	0	0	0
+Bank10-Slot11-Slot2	Empty	0	0	0
+Bank10-Slot11-Slot3	Empty	0	0	0
+Bank10-Slot11-Slot4	Empty	0	0	0
+Bank10-Slot11-Slot6	Empty	0	0	0
+Bank10-Slot12	Empty	0	0	0
+Bank10-Slot13	Staff of Elemental Mastery: Earth	11567	1	6
+Bank10-Slot13-Slot1	Empty	0	0	0
+Bank10-Slot13-Slot2	Empty	0	0	0
+Bank10-Slot13-Slot3	Empty	0	0	0
+Bank10-Slot13-Slot4	Empty	0	0	0
+Bank10-Slot13-Slot6	Empty	0	0	0
+Bank10-Slot14	Staff of Elemental Mastery: Earth (Enchanted)	1011567	1	6
+Bank10-Slot14-Slot1	Empty	0	0	0
+Bank10-Slot14-Slot2	Empty	0	0	0
+Bank10-Slot14-Slot3	Empty	0	0	0
+Bank10-Slot14-Slot4	Empty	0	0	0
+Bank10-Slot14-Slot6	Empty	0	0	0
 Bank10-Slot15	Empty	0	0	0
 Bank10-Slot16	Empty	0	0	0
 Bank10-Slot17	Empty	0	0	0
@@ -442,24 +458,14 @@ Bank11-Slot13	Empty	0	0	0
 Bank11-Slot14	Empty	0	0	0
 Bank11-Slot15	Empty	0	0	0
 Bank11-Slot16	Empty	0	0	0
-Bank11-Slot17	Empty	0	0	0
+Bank11-Slot17	Pearlescent Fragment	24995	1	6
 Bank11-Slot18	Empty	0	0	0
-Bank11-Slot19	Staff of Elemental Mastery: Water (Legendary)	2011569	1	6
-Bank11-Slot19-Slot1	Empty	0	0	0
-Bank11-Slot19-Slot2	Empty	0	0	0
-Bank11-Slot19-Slot3	Empty	0	0	0
-Bank11-Slot19-Slot4	Empty	0	0	0
-Bank11-Slot19-Slot6	Empty	0	0	0
-Bank11-Slot20	Staff of Elemental Mastery: Water	11569	1	6
-Bank11-Slot20-Slot1	Empty	0	0	0
-Bank11-Slot20-Slot2	Empty	0	0	0
-Bank11-Slot20-Slot3	Empty	0	0	0
-Bank11-Slot20-Slot4	Empty	0	0	0
-Bank11-Slot20-Slot6	Empty	0	0	0
+Bank11-Slot19	Pearlescent Fragment	24995	1	6
+Bank11-Slot20	Pearlescent Fragment	24995	1	6
 Bank12	Large Bank Box	976012	1	20
 Bank12-Slot1	Torn Page of Mastery Wind	28028	1	6
 Bank12-Slot2	Torn Page of Mastery Fire	28027	1	6
-Bank12-Slot3	Empty	0	0	0
+Bank12-Slot3	Torn Page of Mastery Water	28030	1	6
 Bank12-Slot4	Empty	0	0	0
 Bank12-Slot5	Torn Page of Mastery Water	28030	1	6
 Bank12-Slot6	Torn Page of Mastery Water	28030	1	6
@@ -473,18 +479,26 @@ Bank12-Slot13	Torn Page of Mastery Earth	28029	1	6
 Bank12-Slot14	Torn Page of Mastery Fire	28027	1	6
 Bank12-Slot15	Empty	0	0	0
 Bank12-Slot16	Empty	0	0	0
-Bank12-Slot17	Empty	0	0	0
+Bank12-Slot17	Torn Page of Mastery Wind	28028	1	6
 Bank12-Slot18	Empty	0	0	0
-Bank12-Slot19	Empty	0	0	0
-Bank12-Slot20	Empty	0	0	0
+Bank12-Slot19	Torn Page of Mastery Earth	28029	1	6
+Bank12-Slot20	Torn Page of Mastery Water	28030	1	6
 Bank13	Large Bank Box	976012	1	20
 Bank13-Slot1	Ball of Everliving Golem	20677	1	6
 Bank13-Slot1-Slot1	Empty	0	0	0
 Bank13-Slot1-Slot2	Empty	0	0	0
 Bank13-Slot1-Slot3	Empty	0	0	0
 Bank13-Slot1-Slot6	Empty	0	0	0
-Bank13-Slot2	Empty	0	0	0
-Bank13-Slot3	Empty	0	0	0
+Bank13-Slot2	Ball of Everliving Golem	20677	1	6
+Bank13-Slot2-Slot1	Empty	0	0	0
+Bank13-Slot2-Slot2	Empty	0	0	0
+Bank13-Slot2-Slot3	Empty	0	0	0
+Bank13-Slot2-Slot6	Empty	0	0	0
+Bank13-Slot3	Ball of Everliving Golem (Enchanted)	1020677	1	6
+Bank13-Slot3-Slot1	Empty	0	0	0
+Bank13-Slot3-Slot2	Empty	0	0	0
+Bank13-Slot3-Slot3	Empty	0	0	0
+Bank13-Slot3-Slot6	Empty	0	0	0
 Bank13-Slot4	Empty	0	0	0
 Bank13-Slot5	Empty	0	0	0
 Bank13-Slot6	Empty	0	0	0
@@ -540,18 +554,30 @@ Bank15-Slot13	Empty	0	0	0
 Bank15-Slot14	Empty	0	0	0
 Bank15-Slot15	Empty	0	0	0
 Bank15-Slot16	Empty	0	0	0
-Bank15-Slot17	Empty	0	0	0
+Bank15-Slot17	Eye of Innoruuk	20656	1	6
+Bank15-Slot17-Slot1	Empty	0	0	0
+Bank15-Slot17-Slot2	Empty	0	0	0
+Bank15-Slot17-Slot3	Empty	0	0	0
+Bank15-Slot17-Slot6	Empty	0	0	0
 Bank15-Slot18	Empty	0	0	0
-Bank15-Slot19	Empty	0	0	0
-Bank15-Slot20	Empty	0	0	0
+Bank15-Slot19	Eye of Innoruuk (Enchanted)	1020656	1	6
+Bank15-Slot19-Slot1	Empty	0	0	0
+Bank15-Slot19-Slot2	Empty	0	0	0
+Bank15-Slot19-Slot3	Empty	0	0	0
+Bank15-Slot19-Slot6	Empty	0	0	0
+Bank15-Slot20	Eye of Innoruuk (Enchanted)	1020656	1	6
+Bank15-Slot20-Slot1	Empty	0	0	0
+Bank15-Slot20-Slot2	Empty	0	0	0
+Bank15-Slot20-Slot3	Empty	0	0	0
+Bank15-Slot20-Slot6	Empty	0	0	0
 Bank16	Large Bank Box	976012	1	20
 Bank16-Slot1	Torn, Frost-covered Book	19070	1	6
 Bank16-Slot2	Torn, Burnt Book	19071	1	6
 Bank16-Slot3	Torn, Frost-covered Book	19070	1	6
-Bank16-Slot4	Historic Article	18456	1	6
-Bank16-Slot5	Immortals	18195	1	6
-Bank16-Slot6	Crusades of the High Scale	18457	1	6
-Bank16-Slot7	Head Housekeeper's Log	18458	1	6
+Bank16-Slot4	Empty	0	0	0
+Bank16-Slot5	Empty	0	0	0
+Bank16-Slot6	Empty	0	0	0
+Bank16-Slot7	Empty	0	0	0
 Bank16-Slot8	Empty	0	0	0
 Bank16-Slot9	Empty	0	0	0
 Bank16-Slot10	Empty	0	0	0
@@ -571,8 +597,8 @@ Bank17-Slot2	Metal Pipe	12980	1	6
 Bank17-Slot3	Metal Pipe	12979	1	6
 Bank17-Slot4	Metal Pipe	12979	1	6
 Bank17-Slot5	Metal Pipe	12979	1	6
-Bank17-Slot6	Empty	0	0	0
-Bank17-Slot7	Empty	0	0	0
+Bank17-Slot6	Metal Pipe	12979	1	6
+Bank17-Slot7	Metal Pipe	12979	1	6
 Bank17-Slot8	Empty	0	0	0
 Bank17-Slot9	Empty	0	0	0
 Bank17-Slot10	Empty	0	0	0
@@ -585,7 +611,7 @@ Bank17-Slot16	Empty	0	0	0
 Bank17-Slot17	Empty	0	0	0
 Bank17-Slot18	Empty	0	0	0
 Bank17-Slot19	Empty	0	0	0
-Bank17-Slot20	Empty	0	0	0
+Bank17-Slot20	Immortals	18195	1	6
 Bank18	Large Bank Box	976012	1	20
 Bank18-Slot1	Shissar Cerebral Cortex	9945	1	6
 Bank18-Slot2	Shissar Cerebral Cortex	9945	1	6
@@ -620,7 +646,9 @@ Bank19-Slot5	Empty	0	0	0
 Bank19-Slot6	Empty	0	0	0
 Bank19-Slot7	Empty	0	0	0
 Bank19-Slot8	Empty	0	0	0
-Bank19-Slot9	Empty	0	0	0
+Bank19-Slot9	Shining Metallic Robes	1360	1	6
+Bank19-Slot9-Slot1	Empty	0	0	0
+Bank19-Slot9-Slot6	Empty	0	0	0
 Bank19-Slot10	Empty	0	0	0
 Bank19-Slot11	Empty	0	0	0
 Bank19-Slot12	Empty	0	0	0
@@ -680,9 +708,9 @@ Bank20-Slot16	Empty	0	0	0
 Bank20-Slot17	Empty	0	0	0
 Bank20-Slot18	Empty	0	0	0
 Bank20-Slot19	Empty	0	0	0
-Bank20-Slot20	Empty	0	0	0
+Bank20-Slot20	Ancient Blade	20670	1	6
 Bank21	Large Bank Box	976012	1	20
-Bank21-Slot1	Drake Spine	14372	1	6
+Bank21-Slot1	Empty	0	0	0
 Bank21-Slot2	Empty	0	0	0
 Bank21-Slot3	Empty	0	0	0
 Bank21-Slot4	Empty	0	0	0
@@ -804,7 +832,11 @@ Bank24-Slot15-Slot1	Empty	0	0	0
 Bank24-Slot15-Slot2	Empty	0	0	0
 Bank24-Slot15-Slot3	Empty	0	0	0
 Bank24-Slot15-Slot6	Empty	0	0	0
-Bank24-Slot16	Empty	0	0	0
+Bank24-Slot16	Blue Crystal Staff	14337	1	6
+Bank24-Slot16-Slot1	Empty	0	0	0
+Bank24-Slot16-Slot2	Empty	0	0	0
+Bank24-Slot16-Slot3	Empty	0	0	0
+Bank24-Slot16-Slot6	Empty	0	0	0
 Bank24-Slot17	Empty	0	0	0
 Bank24-Slot18	Empty	0	0	0
 Bank24-Slot19	Empty	0	0	0
