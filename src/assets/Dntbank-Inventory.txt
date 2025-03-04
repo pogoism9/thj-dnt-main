@@ -592,7 +592,9 @@ Bank8-Slot5-Slot2	Empty	0	0	0
 Bank8-Slot6	Tattered Chelaki Hide Cloak	62253	1	6
 Bank8-Slot6-Slot1	Empty	0	0	0
 Bank8-Slot6-Slot2	Empty	0	0	0
-Bank8-Slot7	Empty	0	0	0
+Bank8-Slot7	Steel Skin Cloak	28904	1	6
+Bank8-Slot7-Slot1	Empty	0	0	0
+Bank8-Slot7-Slot2	Empty	0	0	0
 Bank8-Slot8	Despondent Shroud (Legendary)	2029451	1	6
 Bank8-Slot8-Slot1	Empty	0	0	0
 Bank8-Slot8-Slot2	Empty	0	0	0

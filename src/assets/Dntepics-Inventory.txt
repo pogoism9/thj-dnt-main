@@ -219,9 +219,15 @@ Bank3-Slot18	Empty	0	0	0
 Bank3-Slot19	Empty	0	0	0
 Bank3-Slot20	Empty	0	0	0
 Bank4	Large Bank Box	976012	1	20
-Bank4-Slot1	Child's Tear	1673	1	6
-Bank4-Slot2	Child's Tear	1673	1	6
-Bank4-Slot3	Child's Tear	1673	1	6
+Bank4-Slot1	Spear of Fate (Legendary)	2010651	1	6
+Bank4-Slot1-Slot1	Empty	0	0	0
+Bank4-Slot1-Slot2	Empty	0	0	0
+Bank4-Slot1-Slot6	Empty	0	0	0
+Bank4-Slot2	Spear of Fate (Legendary)	2010651	1	6
+Bank4-Slot2-Slot1	Empty	0	0	0
+Bank4-Slot2-Slot2	Empty	0	0	0
+Bank4-Slot2-Slot6	Empty	0	0	0
+Bank4-Slot3	Empty	0	0	0
 Bank4-Slot4	Empty	0	0	0
 Bank4-Slot5	Empty	0	0	0
 Bank4-Slot6	Empty	0	0	0
@@ -344,8 +350,20 @@ Bank8-Slot16-Slot3	Empty	0	0	0
 Bank8-Slot16-Slot4	Empty	0	0	0
 Bank8-Slot16-Slot5	Empty	0	0	0
 Bank8-Slot16-Slot6	Empty	0	0	0
-Bank8-Slot17	Empty	0	0	0
-Bank8-Slot18	Empty	0	0	0
+Bank8-Slot17	Jade Reaver (Enchanted)	1005664	1	6
+Bank8-Slot17-Slot1	Empty	0	0	0
+Bank8-Slot17-Slot2	Empty	0	0	0
+Bank8-Slot17-Slot3	Empty	0	0	0
+Bank8-Slot17-Slot4	Empty	0	0	0
+Bank8-Slot17-Slot5	Empty	0	0	0
+Bank8-Slot17-Slot6	Empty	0	0	0
+Bank8-Slot18	Jade Reaver (Legendary)	2005664	1	6
+Bank8-Slot18-Slot1	Empty	0	0	0
+Bank8-Slot18-Slot2	Empty	0	0	0
+Bank8-Slot18-Slot3	Empty	0	0	0
+Bank8-Slot18-Slot4	Empty	0	0	0
+Bank8-Slot18-Slot5	Empty	0	0	0
+Bank8-Slot18-Slot6	Empty	0	0	0
 Bank8-Slot19	Empty	0	0	0
 Bank8-Slot20	Empty	0	0	0
 Bank9	Large Bank Box	976012	1	20
