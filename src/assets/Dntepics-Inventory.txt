@@ -32,16 +32,46 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Backpack	17005	1	8
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
+General1-Slot1	Jade Reaver	5664	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot3	Empty	0	0	0
+General1-Slot1-Slot4	Empty	0	0	0
+General1-Slot1-Slot5	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
+General1-Slot2	Shattered Emerald of Corruption	20484	1	6
+General1-Slot3	Shattered Emerald of Corruption	20484	1	6
+General1-Slot4	Shattered Emerald of Corruption	20484	1	6
+General1-Slot5	Staff of Elemental Mastery: Earth (Enchanted)	1011567	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot4	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Staff of Elemental Mastery: Earth (Legendary)	2011567	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot3	Empty	0	0	0
+General1-Slot6-Slot4	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Staff of Elemental Mastery: Fire	11566	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot7-Slot3	Empty	0	0	0
+General1-Slot7-Slot4	Empty	0	0	0
+General1-Slot7-Slot6	Empty	0	0	0
+General1-Slot8	Staff of Elemental Mastery: Fire (Enchanted)	1011566	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot8-Slot3	Empty	0	0	0
+General1-Slot8-Slot4	Empty	0	0	0
+General1-Slot8-Slot6	Empty	0	0	0
 General2	Backpack	17005	1	8
-General2-Slot1	Empty	0	0	0
+General2-Slot1	Trueheart Shield (Legendary)	2009403	1	6
+General2-Slot1-Slot1	Empty	0	0	0
+General2-Slot1-Slot2	Empty	0	0	0
+General2-Slot1-Slot3	Empty	0	0	0
+General2-Slot1-Slot6	Empty	0	0	0
 General2-Slot2	Empty	0	0	0
 General2-Slot3	Empty	0	0	0
 General2-Slot4	Empty	0	0	0
@@ -172,7 +202,7 @@ Bank2	Large Bank Box	976012	1	20
 Bank2-Slot1	Red Dragon Scales	11622	1	6
 Bank2-Slot2	Red Dragon Scales	11622	1	6
 Bank2-Slot3	Empty	0	0	0
-Bank2-Slot4	Red Dragon Scales	11622	1	6
+Bank2-Slot4	Empty	0	0	0
 Bank2-Slot5	Empty	0	0	0
 Bank2-Slot6	Empty	0	0	0
 Bank2-Slot7	Empty	0	0	0
@@ -219,14 +249,8 @@ Bank3-Slot18	Empty	0	0	0
 Bank3-Slot19	Empty	0	0	0
 Bank3-Slot20	Empty	0	0	0
 Bank4	Large Bank Box	976012	1	20
-Bank4-Slot1	Spear of Fate (Legendary)	2010651	1	6
-Bank4-Slot1-Slot1	Empty	0	0	0
-Bank4-Slot1-Slot2	Empty	0	0	0
-Bank4-Slot1-Slot6	Empty	0	0	0
-Bank4-Slot2	Spear of Fate (Legendary)	2010651	1	6
-Bank4-Slot2-Slot1	Empty	0	0	0
-Bank4-Slot2-Slot2	Empty	0	0	0
-Bank4-Slot2-Slot6	Empty	0	0	0
+Bank4-Slot1	Empty	0	0	0
+Bank4-Slot2	Empty	0	0	0
 Bank4-Slot3	Empty	0	0	0
 Bank4-Slot4	Empty	0	0	0
 Bank4-Slot5	Empty	0	0	0
@@ -237,14 +261,14 @@ Bank4-Slot9	Empty	0	0	0
 Bank4-Slot10	Empty	0	0	0
 Bank4-Slot11	Empty	0	0	0
 Bank4-Slot12	Empty	0	0	0
-Bank4-Slot13	Empty	0	0	0
-Bank4-Slot14	Empty	0	0	0
+Bank4-Slot13	Child's Tear	1673	1	6
+Bank4-Slot14	Child's Tear	1673	1	6
 Bank4-Slot15	Empty	0	0	0
 Bank4-Slot16	Empty	0	0	0
 Bank4-Slot17	Empty	0	0	0
-Bank4-Slot18	Historic Article	18456	1	6
-Bank4-Slot19	Head Housekeeper's Log	18458	1	6
-Bank4-Slot20	Crusades of the High Scale	18457	1	6
+Bank4-Slot18	Empty	0	0	0
+Bank4-Slot19	Empty	0	0	0
+Bank4-Slot20	Empty	0	0	0
 Bank5	Large Bank Box	976012	1	20
 Bank5-Slot1	Corrupted Panther Skin	31429	1	6
 Bank5-Slot2	Empty	0	0	0
@@ -560,8 +584,14 @@ Bank15-Slot1	Empty	0	0	0
 Bank15-Slot2	Empty	0	0	0
 Bank15-Slot3	Empty	0	0	0
 Bank15-Slot4	Empty	0	0	0
-Bank15-Slot5	Empty	0	0	0
-Bank15-Slot6	Empty	0	0	0
+Bank15-Slot5	Slime Blood of Cazic-Thule	20655	1	6
+Bank15-Slot5-Slot1	Empty	0	0	0
+Bank15-Slot5-Slot2	Empty	0	0	0
+Bank15-Slot5-Slot6	Empty	0	0	0
+Bank15-Slot6	Slime Blood of Cazic-Thule	20655	1	6
+Bank15-Slot6-Slot1	Empty	0	0	0
+Bank15-Slot6-Slot2	Empty	0	0	0
+Bank15-Slot6-Slot6	Empty	0	0	0
 Bank15-Slot7	Empty	0	0	0
 Bank15-Slot8	Empty	0	0	0
 Bank15-Slot9	Empty	0	0	0

@@ -32,20 +32,47 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Large Bank Box	976012	1	20
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
+General1-Slot1	Small Brick of Yttrium Ore	22901	12	6
+General1-Slot2	Small Brick of Yttrium Ore	22901	100	6
+General1-Slot3	Ring of Superiority (Enchanted)	1031222	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot4	Sky Watcher's Monocle (Legendary)	2031328	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot5	Taskmaster's Pouch	17118	1	4
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot4	Empty	0	0	0
+General1-Slot6	Taskmaster's Pouch	17118	1	4
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot3	Empty	0	0	0
+General1-Slot6-Slot4	Empty	0	0	0
+General1-Slot7	Taskmaster's Pouch	17118	1	4
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot7-Slot3	Empty	0	0	0
+General1-Slot7-Slot4	Empty	0	0	0
+General1-Slot8	Taskmaster's Pouch	17118	1	4
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot8-Slot3	Empty	0	0	0
+General1-Slot8-Slot4	Empty	0	0	0
+General1-Slot9	Taskmaster's Pouch	17118	1	4
+General1-Slot9-Slot1	Empty	0	0	0
+General1-Slot9-Slot2	Empty	0	0	0
+General1-Slot9-Slot3	Empty	0	0	0
+General1-Slot9-Slot4	Empty	0	0	0
+General1-Slot10	White Dragon Tooth	11605	1	6
 General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
-General1-Slot14	Empty	0	0	0
+General1-Slot12	Smolder (Legendary)	2001136	1	6
+General1-Slot12-Slot1	Empty	0	0	0
+General1-Slot12-Slot2	Empty	0	0	0
+General1-Slot12-Slot3	Empty	0	0	0
+General1-Slot12-Slot6	Empty	0	0	0
+General1-Slot13	Ssraeshzian Insignia	19718	1	6
+General1-Slot14	Zazuzh's Idol	19716	1	6
 General1-Slot15	Empty	0	0	0
 General1-Slot16	Empty	0	0	0
 General1-Slot17	Empty	0	0	0
@@ -454,17 +481,13 @@ Bank5-Slot19	Dain Frostreaver's Head	30501	1	6
 Bank5-Slot20	Dain Frostreaver's Head	30501	1	6
 Bank6	Large Bank Box	976012	1	20
 Bank6-Slot1	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot2	Ssraeshzian Insignia	19718	1	6
+Bank6-Slot2	Empty	0	0	0
 Bank6-Slot3	Empty	0	0	0
-Bank6-Slot4	Zherozsh's Ring	19717	1	6
+Bank6-Slot4	Empty	0	0	0
 Bank6-Slot5	Zazuzh's Idol	19716	1	6
-Bank6-Slot6	Zazuzh's Idol	19716	1	6
+Bank6-Slot6	Empty	0	0	0
 Bank6-Slot7	Empty	0	0	0
-Bank6-Slot8	Taskmaster's Pouch	17118	1	4
-Bank6-Slot8-Slot1	Empty	0	0	0
-Bank6-Slot8-Slot2	Empty	0	0	0
-Bank6-Slot8-Slot3	Empty	0	0	0
-Bank6-Slot8-Slot4	Empty	0	0	0
+Bank6-Slot8	Empty	0	0	0
 Bank6-Slot9	Taskmaster's Pouch	17118	1	4
 Bank6-Slot9-Slot1	Empty	0	0	0
 Bank6-Slot9-Slot2	Empty	0	0	0
@@ -650,9 +673,7 @@ Bank9-Slot8	Gauntlets of Dark Embers (Legendary)	2028897	1	6
 Bank9-Slot8-Slot1	Empty	0	0	0
 Bank9-Slot8-Slot2	Empty	0	0	0
 Bank9-Slot8-Slot6	Empty	0	0	0
-Bank9-Slot9	Gauntlets of View (Legendary)	2028982	1	6
-Bank9-Slot9-Slot1	Empty	0	0	0
-Bank9-Slot9-Slot6	Empty	0	0	0
+Bank9-Slot9	Empty	0	0	0
 Bank9-Slot10	Gloves of Temperantia (Legendary)	2029447	1	6
 Bank9-Slot10-Slot1	Empty	0	0	0
 Bank9-Slot10-Slot2	Empty	0	0	0
@@ -696,10 +717,7 @@ Bank10-Slot4	Breastplate of Eradication (Enchanted)	1025206	1	6
 Bank10-Slot4-Slot1	Empty	0	0	0
 Bank10-Slot4-Slot2	Empty	0	0	0
 Bank10-Slot4-Slot6	Empty	0	0	0
-Bank10-Slot5	Breastplate of Speed (Enchanted)	1028937	1	6
-Bank10-Slot5-Slot1	Empty	0	0	0
-Bank10-Slot5-Slot2	Empty	0	0	0
-Bank10-Slot5-Slot6	Empty	0	0	0
+Bank10-Slot5	Empty	0	0	0
 Bank10-Slot6	Blood Ember Breastplate	4523	1	6
 Bank10-Slot6-Slot1	Empty	0	0	0
 Bank10-Slot6-Slot2	Empty	0	0	0
@@ -880,10 +898,7 @@ Bank13-Slot10	Flayed Barbarian Skin Leggings	25212	1	6
 Bank13-Slot10-Slot1	Empty	0	0	0
 Bank13-Slot10-Slot2	Empty	0	0	0
 Bank13-Slot10-Slot6	Empty	0	0	0
-Bank13-Slot11	Leggings of Fiery Might	28965	1	6
-Bank13-Slot11-Slot1	Empty	0	0	0
-Bank13-Slot11-Slot2	Empty	0	0	0
-Bank13-Slot11-Slot6	Empty	0	0	0
+Bank13-Slot11	Empty	0	0	0
 Bank13-Slot12	Leggings of Fiery Might (Legendary)	2028965	1	6
 Bank13-Slot12-Slot1	Empty	0	0	0
 Bank13-Slot12-Slot2	Empty	0	0	0
@@ -1129,15 +1144,9 @@ Bank17-Slot11	Empty	0	0	0
 Bank17-Slot12	Empty	0	0	0
 Bank17-Slot13	Empty	0	0	0
 Bank17-Slot14	Empty	0	0	0
-Bank17-Slot15	Ancient Prismatic Lance (Legendary)	2029434	1	6
-Bank17-Slot15-Slot1	Empty	0	0	0
-Bank17-Slot15-Slot2	Empty	0	0	0
-Bank17-Slot15-Slot3	Empty	0	0	0
-Bank17-Slot15-Slot4	Empty	0	0	0
-Bank17-Slot15-Slot5	Empty	0	0	0
-Bank17-Slot15-Slot6	Empty	0	0	0
+Bank17-Slot15	Empty	0	0	0
 Bank17-Slot16	Empty	0	0	0
-Bank17-Slot17	Primal Velium Battle Axe (Legendary)	2027327	1	6
+Bank17-Slot17	Ancient Prismatic Lance (Legendary)	2029434	1	6
 Bank17-Slot17-Slot1	Empty	0	0	0
 Bank17-Slot17-Slot2	Empty	0	0	0
 Bank17-Slot17-Slot3	Empty	0	0	0
@@ -1151,11 +1160,7 @@ Bank17-Slot18-Slot3	Empty	0	0	0
 Bank17-Slot18-Slot4	Empty	0	0	0
 Bank17-Slot18-Slot5	Empty	0	0	0
 Bank17-Slot18-Slot6	Empty	0	0	0
-Bank17-Slot19	Ancient Prismatic Battlehammer (Enchanted)	1029438	1	6
-Bank17-Slot19-Slot1	Empty	0	0	0
-Bank17-Slot19-Slot2	Empty	0	0	0
-Bank17-Slot19-Slot3	Empty	0	0	0
-Bank17-Slot19-Slot6	Empty	0	0	0
+Bank17-Slot19	Empty	0	0	0
 Bank17-Slot20	Primal Velium Battlehammer	27321	1	6
 Bank17-Slot20-Slot1	Empty	0	0	0
 Bank17-Slot20-Slot2	Empty	0	0	0
@@ -1457,13 +1462,7 @@ Bank21-Slot13	Empty	0	0	0
 Bank21-Slot14	Empty	0	0	0
 Bank21-Slot15	Empty	0	0	0
 Bank21-Slot16	Empty	0	0	0
-Bank21-Slot17	The Sword of Ssraeshza	26587	1	6
-Bank21-Slot17-Slot1	Empty	0	0	0
-Bank21-Slot17-Slot2	Empty	0	0	0
-Bank21-Slot17-Slot3	Empty	0	0	0
-Bank21-Slot17-Slot4	Empty	0	0	0
-Bank21-Slot17-Slot5	Empty	0	0	0
-Bank21-Slot17-Slot6	Empty	0	0	0
+Bank21-Slot17	Empty	0	0	0
 Bank21-Slot18	Great Sword of Pestilence (Legendary)	2028961	1	6
 Bank21-Slot18-Slot1	Empty	0	0	0
 Bank21-Slot18-Slot2	Empty	0	0	0
@@ -1471,13 +1470,7 @@ Bank21-Slot18-Slot3	Empty	0	0	0
 Bank21-Slot18-Slot4	Empty	0	0	0
 Bank21-Slot18-Slot5	Empty	0	0	0
 Bank21-Slot18-Slot6	Empty	0	0	0
-Bank21-Slot19	The Sword of Ssraeshza	26587	1	6
-Bank21-Slot19-Slot1	Empty	0	0	0
-Bank21-Slot19-Slot2	Empty	0	0	0
-Bank21-Slot19-Slot3	Empty	0	0	0
-Bank21-Slot19-Slot4	Empty	0	0	0
-Bank21-Slot19-Slot5	Empty	0	0	0
-Bank21-Slot19-Slot6	Empty	0	0	0
+Bank21-Slot19	Empty	0	0	0
 Bank21-Slot20	Palladius' Axe of Slaughter	31232	1	6
 Bank21-Slot20-Slot1	Empty	0	0	0
 Bank21-Slot20-Slot2	Empty	0	0	0
