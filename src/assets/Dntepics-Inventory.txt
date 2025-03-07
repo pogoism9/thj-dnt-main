@@ -84,7 +84,10 @@ General2-Slot3-Slot2	Empty	0	0	0
 General2-Slot3-Slot3	Empty	0	0	0
 General2-Slot3-Slot4	Empty	0	0	0
 General2-Slot3-Slot6	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
+General2-Slot4	Spear of Fate (Legendary)	2010651	1	6
+General2-Slot4-Slot1	Empty	0	0	0
+General2-Slot4-Slot2	Empty	0	0	0
+General2-Slot4-Slot6	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
 General2-Slot6	Empty	0	0	0
 General2-Slot7	Empty	0	0	0
