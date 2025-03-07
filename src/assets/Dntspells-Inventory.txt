@@ -30,16 +30,16 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Adventurer's Pack	17423	1	12
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
+General1-Slot1	Ancient: Burnout Blaze	26618	1	6
+General1-Slot2	Ancient: Feral Avatar	26611	1	6
+General1-Slot3	Ancient: Lcea's Lament	26622	2	6
+General1-Slot4	Ancient: Lifebane	26614	1	6
+General1-Slot5	Ancient: Lullaby of Shadow	26623	1	6
+General1-Slot6	Ancient: Master of Death	26613	1	6
+General1-Slot7	Ancient: Scourge of Nife	26612	1	6
+General1-Slot8	Ancient: Shock of Sun	26617	3	6
+General1-Slot9	Spell: Divine Intervention	19230	1	6
+General1-Slot10	Spell: Gift of Brilliance	30410	1	6
 General1-Slot11	Empty	0	0	0
 General1-Slot12	Empty	0	0	0
 General2	Backpack	17005	1	8
