@@ -548,8 +548,7 @@ Bank6-Slot20-Slot2	Empty	0	0	0
 Bank6-Slot20-Slot3	Empty	0	0	0
 Bank6-Slot20-Slot4	Empty	0	0	0
 Bank7	Large Bank Box	976012	1	20
-Bank7-Slot1	Talisman of Vah Kerrath (Legendary)	2008364	1	6
-Bank7-Slot1-Slot1	Empty	0	0	0
+Bank7-Slot1	Empty	0	0	0
 Bank7-Slot2	Amulet of Xuzl (Legendary)	2028977	1	6
 Bank7-Slot2-Slot1	Empty	0	0	0
 Bank7-Slot2-Slot2	Empty	0	0	0

@@ -32,8 +32,17 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Backpack	17005	1	8
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
+General1-Slot1	Jade Reaver (Enchanted)	1005664	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot3	Empty	0	0	0
+General1-Slot1-Slot4	Empty	0	0	0
+General1-Slot1-Slot5	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
+General1-Slot2	Spear of Fate (Legendary)	2010651	1	6
+General1-Slot2-Slot1	Empty	0	0	0
+General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
 General1-Slot3	Empty	0	0	0
 General1-Slot4	Empty	0	0	0
 General1-Slot5	Empty	0	0	0
