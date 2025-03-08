@@ -40,11 +40,11 @@ General1-Slot7	Ancient: Scourge of Nife	26612	1	6
 General1-Slot8	Ancient: Shock of Sun	26617	3	6
 General1-Slot9	Spell: Divine Intervention	19230	1	6
 General1-Slot10	Spell: Gift of Brilliance	30410	1	6
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
+General1-Slot11	Spell: Aegolism	30447	1	6
+General1-Slot12	Spell: Call of the Predator	30464	1	6
 General2	Backpack	17005	1	8
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
+General2-Slot1	Spell: Focus of Spirit	30432	1	6
+General2-Slot2	Spell: Improved Invis vs Undead	30411	1	6
 General2-Slot3	Empty	0	0	0
 General2-Slot4	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
