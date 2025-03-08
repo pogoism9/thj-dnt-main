@@ -30,21 +30,21 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Adventurer's Pack	17423	1	12
-General1-Slot1	Ancient: Burnout Blaze	26618	1	6
-General1-Slot2	Ancient: Feral Avatar	26611	1	6
-General1-Slot3	Ancient: Lcea's Lament	26622	2	6
-General1-Slot4	Ancient: Lifebane	26614	1	6
-General1-Slot5	Ancient: Lullaby of Shadow	26623	1	6
-General1-Slot6	Ancient: Master of Death	26613	1	6
-General1-Slot7	Ancient: Scourge of Nife	26612	1	6
-General1-Slot8	Ancient: Shock of Sun	26617	3	6
-General1-Slot9	Spell: Divine Intervention	19230	1	6
-General1-Slot10	Spell: Gift of Brilliance	30410	1	6
-General1-Slot11	Spell: Aegolism	30447	1	6
-General1-Slot12	Spell: Call of the Predator	30464	1	6
+General1-Slot1	Empty	0	0	0
+General1-Slot2	Empty	0	0	0
+General1-Slot3	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
+General1-Slot9	Empty	0	0	0
+General1-Slot10	Empty	0	0	0
+General1-Slot11	Empty	0	0	0
+General1-Slot12	Empty	0	0	0
 General2	Backpack	17005	1	8
-General2-Slot1	Spell: Focus of Spirit	30432	1	6
-General2-Slot2	Spell: Improved Invis vs Undead	30411	1	6
+General2-Slot1	Empty	0	0	0
+General2-Slot2	Empty	0	0	0
 General2-Slot3	Empty	0	0	0
 General2-Slot4	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
@@ -126,8 +126,8 @@ General10-Slot8	Empty	0	0	0
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
 Bank1-Slot1	Spell: Chloroblast	19507	1	6
-Bank1-Slot2	Empty	0	0	0
-Bank1-Slot3	Empty	0	0	0
+Bank1-Slot2	Spell: Improved Invis vs Undead	30411	1	6
+Bank1-Slot3	Spell: Thunder of Karana	7686	1	6
 Bank1-Slot4	Empty	0	0	0
 Bank1-Slot5	Empty	0	0	0
 Bank1-Slot6	Empty	0	0	0
@@ -211,8 +211,8 @@ Bank4-Slot20	Empty	0	0	0
 Bank5	Large Bank Box	976012	1	20
 Bank5-Slot1	Ancient: High Priest's Bulwark	26608	12	6
 Bank5-Slot2	Ancient: Gift of Aegolism	26621	5	6
-Bank5-Slot3	Spell: Aegolism	30447	22	6
-Bank5-Slot4	Spell: Divine Intervention	19230	10	6
+Bank5-Slot3	Spell: Aegolism	30447	23	6
+Bank5-Slot4	Spell: Divine Intervention	19230	11	6
 Bank5-Slot5	Spell: Enforced Reverence	19222	2	6
 Bank5-Slot6	Spell: Heroic Bond	19224	6	6
 Bank5-Slot7	Spell: The Unspoken Word	19225	2	6
@@ -309,7 +309,7 @@ Bank9-Slot13	Spell: Wind of Tashani	19387	6	6
 Bank9-Slot14	Spell: Gift of Pure Thought	19401	8	6
 Bank9-Slot15	Spell: Wind of Tashanian	19405	14	6
 Bank9-Slot16	Spell: Dementia	19384	16	6
-Bank9-Slot17	Spell: Gift of Brilliance	30410	20	6
+Bank9-Slot17	Spell: Gift of Brilliance	30410	21	6
 Bank9-Slot18	Spell: Color Slant	19378	13	6
 Bank9-Slot19	Spell: Umbra	19393	3	6
 Bank9-Slot20	Spell: Forlorn Deeds	19395	6	6
@@ -335,8 +335,8 @@ Bank10-Slot18	Empty	0	0	0
 Bank10-Slot19	Empty	0	0	0
 Bank10-Slot20	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
-Bank11-Slot1	Ancient: Shock of Sun	26617	13	6
-Bank11-Slot2	Ancient: Burnout Blaze	26618	17	6
+Bank11-Slot1	Ancient: Shock of Sun	26617	16	6
+Bank11-Slot2	Ancient: Burnout Blaze	26618	18	6
 Bank11-Slot3	Spell: Vocarate: Water	19362	2	6
 Bank11-Slot4	Spell: Mala	19418	12	6
 Bank11-Slot5	Spell: Greater Vocaration: Air	19371	10	6
@@ -377,8 +377,8 @@ Bank12-Slot18	Empty	0	0	0
 Bank12-Slot19	Empty	0	0	0
 Bank12-Slot20	Empty	0	0	0
 Bank13	Large Bank Box	976012	1	20
-Bank13-Slot1	Ancient: Lifebane	26614	16	6
-Bank13-Slot2	Ancient: Master of Death	26613	11	6
+Bank13-Slot1	Ancient: Lifebane	26614	17	6
+Bank13-Slot2	Ancient: Master of Death	26613	12	6
 Bank13-Slot3	Spell: Thrall of Bones	19299	19	6
 Bank13-Slot4	Spell: Arch Lich	30416	22	6
 Bank13-Slot5	Spell: Death Peace	30460	23	6
@@ -461,8 +461,8 @@ Bank16-Slot18	Empty	0	0	0
 Bank16-Slot19	Empty	0	0	0
 Bank16-Slot20	Empty	0	0	0
 Bank17	Large Bank Box	976012	1	20
-Bank17-Slot1	Ancient: Feral Avatar	26611	17	6
-Bank17-Slot2	Ancient: Scourge of Nife	26612	13	6
+Bank17-Slot1	Ancient: Feral Avatar	26611	18	6
+Bank17-Slot2	Ancient: Scourge of Nife	26612	14	6
 Bank17-Slot3	Spell: Cannibalize IV	19473	23	6
 Bank17-Slot4	Spell: Primal Avatar	19491	6	6
 Bank17-Slot5	Spell: Malo	19291	8	6
@@ -471,7 +471,7 @@ Bank17-Slot7	Spell: Cannibalize III	19272	12	6
 Bank17-Slot8	Spell: Pox of Bertoxxulous	19288	2	6
 Bank17-Slot9	Spell: Acumen	19278	21	6
 Bank17-Slot10	Spell: Form of the Great Bear	30431	1	6
-Bank17-Slot11	Spell: Focus of Spirit	30432	24	6
+Bank17-Slot11	Spell: Focus of Spirit	30432	25	6
 Bank17-Slot12	Spell: Talisman of Epuration	7629	2	6
 Bank17-Slot13	Spell: Spirit of the Howler	19275	7	6
 Bank17-Slot14	Spell: Avatar	19292	11	6
@@ -479,11 +479,11 @@ Bank17-Slot15	Spell: Talisman of Jasinth	19264	7	6
 Bank17-Slot16	Spell: Talisman of the Brute	19281	4	6
 Bank17-Slot17	Spell: Torpor	19293	14	6
 Bank17-Slot18	Spell: Spirit Salve	1377	1	6
-Bank17-Slot19	Spell: Spirit Quickening	30430	1	6
+Bank17-Slot19	Empty	0	0	0
 Bank17-Slot20	Spell: Khura's Focusing	7630	2	6
 Bank18	Large Bank Box	976012	1	20
-Bank18-Slot1	Spell: Primal Essence	19520	1	6
-Bank18-Slot2	Spell: Blood of Nadox	59525	4	6
+Bank18-Slot1	Empty	0	0	0
+Bank18-Slot2	Spell: Blood of Nadox	59525	3	6
 Bank18-Slot3	Empty	0	0	0
 Bank18-Slot4	Empty	0	0	0
 Bank18-Slot5	Empty	0	0	0
@@ -503,8 +503,8 @@ Bank18-Slot18	Empty	0	0	0
 Bank18-Slot19	Empty	0	0	0
 Bank18-Slot20	Empty	0	0	0
 Bank19	Large Bank Box	976012	1	20
-Bank19-Slot1	Ancient: Lullaby of Shadow	26623	8	6
-Bank19-Slot2	Ancient: Lcea's Lament	26622	12	6
+Bank19-Slot1	Ancient: Lullaby of Shadow	26623	9	6
+Bank19-Slot2	Ancient: Lcea's Lament	26622	14	6
 Bank19-Slot3	Song: Purifying Chorus	7708	1	6
 Bank19-Slot4	Song: Ervaj's Lost Composition	30479	1	6
 Bank19-Slot5	Song: Composition of Ervaj	30452	8	6
@@ -566,7 +566,7 @@ Bank21-Slot18	Empty	0	0	0
 Bank21-Slot19	Empty	0	0	0
 Bank21-Slot20	Empty	0	0	0
 Bank22	Large Bank Box	976012	1	20
-Bank22-Slot1	Spell: Call of the Predator	30464	23	6
+Bank22-Slot1	Spell: Call of the Predator	30464	24	6
 Bank22-Slot2	Spell: Call of Fire	30463	4	6
 Bank22-Slot3	Spell: Call of Earth	30462	3	6
 Bank22-Slot4	Spell: Warder's Protection	7700	6	6
@@ -587,7 +587,7 @@ Bank22-Slot18	Empty	0	0	0
 Bank22-Slot19	Empty	0	0	0
 Bank22-Slot20	Empty	0	0	0
 Bank23	Large Bank Box	976012	1	20
-Bank23-Slot1	Spell: Shroud of Death	30459	6	6
+Bank23-Slot1	Spell: Shroud of Death	30459	5	6
 Bank23-Slot2	Spell: Cloak of the Akheva	7680	1	6
 Bank23-Slot3	Spell: Deathly Temptation	19532	5	6
 Bank23-Slot4	Spell: Torrent of Fatigue	7679	1	6

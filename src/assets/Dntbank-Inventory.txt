@@ -42,37 +42,25 @@ General1-Slot4	Donal's Gauntlets of Mourning (Enchanted)	1004568	1	6
 General1-Slot4-Slot1	Empty	0	0	0
 General1-Slot4-Slot2	Empty	0	0	0
 General1-Slot4-Slot6	Empty	0	0	0
-General1-Slot5	Taskmaster's Pouch	17118	1	4
-General1-Slot5-Slot1	Empty	0	0	0
-General1-Slot5-Slot2	Empty	0	0	0
-General1-Slot5-Slot3	Empty	0	0	0
-General1-Slot5-Slot4	Empty	0	0	0
-General1-Slot6	Taskmaster's Pouch	17118	1	4
-General1-Slot6-Slot1	Empty	0	0	0
-General1-Slot6-Slot2	Empty	0	0	0
-General1-Slot6-Slot3	Empty	0	0	0
-General1-Slot6-Slot4	Empty	0	0	0
-General1-Slot7	Taskmaster's Pouch	17118	1	4
-General1-Slot7-Slot1	Empty	0	0	0
-General1-Slot7-Slot2	Empty	0	0	0
-General1-Slot7-Slot3	Empty	0	0	0
-General1-Slot7-Slot4	Empty	0	0	0
-General1-Slot8	Ssraeshzian Insignia	19718	1	6
-General1-Slot9	Ssraeshzian Insignia	19718	1	6
-General1-Slot10	Ssraeshzian Insignia	19718	1	6
-General1-Slot11	Zazuzh's Idol	19716	1	6
-General1-Slot12	Zazuzh's Idol	19716	1	6
-General1-Slot13	Zazuzh's Idol	19716	1	6
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
+General1-Slot9	Empty	0	0	0
+General1-Slot10	Empty	0	0	0
+General1-Slot11	Empty	0	0	0
+General1-Slot12	Empty	0	0	0
+General1-Slot13	Empty	0	0	0
 General1-Slot14	Zazuzh's Idol	19716	1	6
 General1-Slot15	Zazuzh's Idol	19716	1	6
 General1-Slot16	Zazuzh's Idol	19716	1	6
 General1-Slot17	Zazuzh's Idol	19716	1	6
 General1-Slot18	Zazuzh's Idol	19716	1	6
-General1-Slot19	Zherozsh's Ring (Enchanted)	1019717	1	6
-General1-Slot20	Zherozsh's Ring (Enchanted)	1019717	1	6
+General1-Slot19	Empty	0	0	0
+General1-Slot20	Empty	0	0	0
 General2	Large Bank Box	976012	1	20
-General2-Slot1	Zherozsh's Ring (Enchanted)	1019717	1	6
-General2-Slot2	Zherozsh's Ring (Enchanted)	1019717	1	6
+General2-Slot1	Empty	0	0	0
+General2-Slot2	Empty	0	0	0
 General2-Slot3	Empty	0	0	0
 General2-Slot4	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
@@ -88,8 +76,12 @@ General2-Slot14	Empty	0	0	0
 General2-Slot15	Empty	0	0	0
 General2-Slot16	Empty	0	0	0
 General2-Slot17	Empty	0	0	0
-General2-Slot18	Empty	0	0	0
-General2-Slot19	Empty	0	0	0
+General2-Slot18	Wand of Casual Blessings	26588	1	6
+General2-Slot18-Slot1	Empty	0	0	0
+General2-Slot18-Slot2	Empty	0	0	0
+General2-Slot18-Slot3	Empty	0	0	0
+General2-Slot18-Slot6	Empty	0	0	0
+General2-Slot19	White Dragon Tooth	11605	1	6
 General2-Slot20	Empty	0	0	0
 General3	Large Bank Box	976012	1	20
 General3-Slot1	Empty	0	0	0
@@ -471,7 +463,7 @@ Bank5-Slot20	Dain Frostreaver's Head	30501	1	6
 Bank6	Large Bank Box	976012	1	20
 Bank6-Slot1	Ssraeshzian Insignia	19718	1	6
 Bank6-Slot2	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot3	Empty	0	0	0
+Bank6-Slot3	Zherozsh's Ring (Enchanted)	1019717	1	6
 Bank6-Slot4	Zherozsh's Ring	19717	1	6
 Bank6-Slot5	Zazuzh's Idol	19716	1	6
 Bank6-Slot6	Zazuzh's Idol	19716	1	6

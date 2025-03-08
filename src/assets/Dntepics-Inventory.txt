@@ -84,7 +84,11 @@ General2-Slot3-Slot2	Empty	0	0	0
 General2-Slot3-Slot3	Empty	0	0	0
 General2-Slot3-Slot4	Empty	0	0	0
 General2-Slot3-Slot6	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
+General2-Slot4	Gnarled Staff (Legendary)	2014338	1	6
+General2-Slot4-Slot1	Empty	0	0	0
+General2-Slot4-Slot2	Empty	0	0	0
+General2-Slot4-Slot3	Empty	0	0	0
+General2-Slot4-Slot6	Empty	0	0	0
 General2-Slot5	Jade Reaver (Enchanted)	1005664	1	6
 General2-Slot5-Slot1	Empty	0	0	0
 General2-Slot5-Slot2	Empty	0	0	0
@@ -92,14 +96,48 @@ General2-Slot5-Slot3	Empty	0	0	0
 General2-Slot5-Slot4	Empty	0	0	0
 General2-Slot5-Slot5	Empty	0	0	0
 General2-Slot5-Slot6	Empty	0	0	0
-General2-Slot6	Empty	0	0	0
-General2-Slot7	Empty	0	0	0
-General2-Slot8	Empty	0	0	0
+General2-Slot6	Shield of the Immaculate (Enchanted)	1011551	1	6
+General2-Slot6-Slot1	Empty	0	0	0
+General2-Slot6-Slot2	Empty	0	0	0
+General2-Slot6-Slot3	Empty	0	0	0
+General2-Slot6-Slot6	Empty	0	0	0
+General2-Slot7	Staff of Elemental Mastery: Earth	11567	1	6
+General2-Slot7-Slot1	Empty	0	0	0
+General2-Slot7-Slot2	Empty	0	0	0
+General2-Slot7-Slot3	Empty	0	0	0
+General2-Slot7-Slot4	Empty	0	0	0
+General2-Slot7-Slot6	Empty	0	0	0
+General2-Slot8	Staff of Elemental Mastery: Earth	11567	1	6
+General2-Slot8-Slot1	Empty	0	0	0
+General2-Slot8-Slot2	Empty	0	0	0
+General2-Slot8-Slot3	Empty	0	0	0
+General2-Slot8-Slot4	Empty	0	0	0
+General2-Slot8-Slot6	Empty	0	0	0
 General3	Backpack	17005	1	8
-General3-Slot1	Empty	0	0	0
-General3-Slot2	Empty	0	0	0
-General3-Slot3	Empty	0	0	0
-General3-Slot4	Empty	0	0	0
+General3-Slot1	Staff of Elemental Mastery: Earth (Legendary)	2011567	1	6
+General3-Slot1-Slot1	Empty	0	0	0
+General3-Slot1-Slot2	Empty	0	0	0
+General3-Slot1-Slot3	Empty	0	0	0
+General3-Slot1-Slot4	Empty	0	0	0
+General3-Slot1-Slot6	Empty	0	0	0
+General3-Slot2	Staff of Elemental Mastery: Fire	11566	1	6
+General3-Slot2-Slot1	Empty	0	0	0
+General3-Slot2-Slot2	Empty	0	0	0
+General3-Slot2-Slot3	Empty	0	0	0
+General3-Slot2-Slot4	Empty	0	0	0
+General3-Slot2-Slot6	Empty	0	0	0
+General3-Slot3	Staff of Elemental Mastery: Fire	11566	1	6
+General3-Slot3-Slot1	Empty	0	0	0
+General3-Slot3-Slot2	Empty	0	0	0
+General3-Slot3-Slot3	Empty	0	0	0
+General3-Slot3-Slot4	Empty	0	0	0
+General3-Slot3-Slot6	Empty	0	0	0
+General3-Slot4	Staff of Elemental Mastery: Fire	11566	1	6
+General3-Slot4-Slot1	Empty	0	0	0
+General3-Slot4-Slot2	Empty	0	0	0
+General3-Slot4-Slot3	Empty	0	0	0
+General3-Slot4-Slot4	Empty	0	0	0
+General3-Slot4-Slot6	Empty	0	0	0
 General3-Slot5	Empty	0	0	0
 General3-Slot6	Empty	0	0	0
 General3-Slot7	Empty	0	0	0
