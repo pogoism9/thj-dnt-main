@@ -30,14 +30,14 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Adventurer's Pack	17423	1	12
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
+General1-Slot1	Ancient: Chaotic Visions	26620	3	6
+General1-Slot2	Ancient: Destruction of Ice	26615	1	6
+General1-Slot3	Ancient: Lullaby of Shadow	26623	1	6
+General1-Slot4	Ancient: Eternal Rapture	26619	1	6
+General1-Slot5	Ancient: Master of Death	26613	1	6
+General1-Slot6	Ancient: Scourge of Nife	26612	1	6
+General1-Slot7	Ancient: Starfire of Ro	26610	1	6
+General1-Slot8	Spell: Divine Strength	30456	1	6
 General1-Slot9	Empty	0	0	0
 General1-Slot10	Empty	0	0	0
 General1-Slot11	Empty	0	0	0
@@ -400,7 +400,7 @@ Bank13-Slot20	Spell: Chill Bones	19302	4	6
 Bank14	Large Bank Box	976012	1	20
 Bank14-Slot1	Spell: Trucidation	19425	16	6
 Bank14-Slot2	Spell: Crippling Claudication	7648	3	6
-Bank14-Slot3	Spell: Levant	19303	1	6
+Bank14-Slot3	Empty	0	0	0
 Bank14-Slot4	Spell: Zevfeer's Theft of Vitae	7650	4	6
 Bank14-Slot5	Spell: Funeral Pyre of Kelador	19527	4	6
 Bank14-Slot6	Spell: Mind Wrack	7649	2	6
