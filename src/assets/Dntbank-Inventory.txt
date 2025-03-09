@@ -34,17 +34,38 @@ Ammo	Empty	0	0	0
 General1	Large Bank Box	976012	1	20
 General1-Slot1	Small Brick of Yttrium Ore	22901	12	6
 General1-Slot2	Small Brick of Yttrium Ore	22901	100	6
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
+General1-Slot3	Armguard of Purity (Enchanted)	1028924	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
+General1-Slot4	Crown of Energy (Enchanted)	1026762	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot6	Empty	0	0	0
+General1-Slot5	Leg Guard of Shadows (Enchanted)	1026772	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Mail of Judgment (Enchanted)	1026782	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Pauldrons of Seething Darkness (Enchanted)	1028997	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot8	Ssraeshzian Insignia	19718	1	6
+General1-Slot9	Ssraeshzian Insignia	19718	1	6
+General1-Slot10	Ssraeshzian Insignia	19718	1	6
+General1-Slot11	Staff of Assault (Enchanted)	1026767	1	6
+General1-Slot11-Slot1	Empty	0	0	0
+General1-Slot11-Slot2	Empty	0	0	0
+General1-Slot11-Slot3	Empty	0	0	0
+General1-Slot11-Slot6	Empty	0	0	0
+General1-Slot12	Staff of Assault (Enchanted)	1026767	1	6
+General1-Slot12-Slot1	Empty	0	0	0
+General1-Slot12-Slot2	Empty	0	0	0
+General1-Slot12-Slot3	Empty	0	0	0
+General1-Slot12-Slot6	Empty	0	0	0
+General1-Slot13	Zherozsh's Ring	19717	1	6
 General1-Slot14	Empty	0	0	0
 General1-Slot15	Empty	0	0	0
 General1-Slot16	Empty	0	0	0
