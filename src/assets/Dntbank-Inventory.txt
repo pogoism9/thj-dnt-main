@@ -66,10 +66,22 @@ General1-Slot12-Slot2	Empty	0	0	0
 General1-Slot12-Slot3	Empty	0	0	0
 General1-Slot12-Slot6	Empty	0	0	0
 General1-Slot13	Zherozsh's Ring	19717	1	6
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
+General1-Slot14	Akkirus' Mask of Warfare (Enchanted)	1031233	1	6
+General1-Slot14-Slot1	Empty	0	0	0
+General1-Slot14-Slot2	Empty	0	0	0
+General1-Slot15	Ssraeshzaen Blood Cord	26549	1	6
+General1-Slot15-Slot1	Empty	0	0	0
+General1-Slot15-Slot2	Empty	0	0	0
+General1-Slot16	Staff of the Elder Claws (Legendary)	2001173	1	6
+General1-Slot16-Slot1	Empty	0	0	0
+General1-Slot16-Slot2	Empty	0	0	0
+General1-Slot16-Slot3	Empty	0	0	0
+General1-Slot16-Slot4	Empty	0	0	0
+General1-Slot16-Slot5	Empty	0	0	0
+General1-Slot16-Slot6	Empty	0	0	0
+General1-Slot17	Vyrinn's Earring of Insanity (Enchanted)	1031236	1	6
+General1-Slot17-Slot1	Empty	0	0	0
+General1-Slot17-Slot2	Empty	0	0	0
 General1-Slot18	Empty	0	0	0
 General1-Slot19	Empty	0	0	0
 General1-Slot20	Empty	0	0	0
@@ -857,9 +869,7 @@ Bank12-Slot2-Slot2	Empty	0	0	0
 Bank12-Slot3	Essence Pearl (Legendary)	2002748	1	6
 Bank12-Slot3-Slot1	Empty	0	0	0
 Bank12-Slot3-Slot2	Empty	0	0	0
-Bank12-Slot4	Hoop of Chaos (Enchanted)	1028939	1	6
-Bank12-Slot4-Slot1	Empty	0	0	0
-Bank12-Slot4-Slot2	Empty	0	0	0
+Bank12-Slot4	Empty	0	0	0
 Bank12-Slot5	Essence Pearl (Legendary)	2002748	1	6
 Bank12-Slot5-Slot1	Empty	0	0	0
 Bank12-Slot5-Slot2	Empty	0	0	0
@@ -1772,11 +1782,7 @@ Bank24-Slot17-Slot1	Empty	0	0	0
 Bank24-Slot17-Slot2	Empty	0	0	0
 Bank24-Slot17-Slot3	Empty	0	0	0
 Bank24-Slot17-Slot6	Empty	0	0	0
-Bank24-Slot18	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
-Bank24-Slot18-Slot1	Empty	0	0	0
-Bank24-Slot18-Slot2	Empty	0	0	0
-Bank24-Slot18-Slot3	Empty	0	0	0
-Bank24-Slot18-Slot6	Empty	0	0	0
+Bank24-Slot18	Empty	0	0	0
 Bank24-Slot19	Empty	0	0	0
 Bank24-Slot20	Empty	0	0	0
 SharedBank1	Large Bank Box	976012	1	20

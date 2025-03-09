@@ -43,15 +43,38 @@ General1-Slot2	Spear of Fate (Legendary)	2010651	1	6
 General1-Slot2-Slot1	Empty	0	0	0
 General1-Slot2-Slot2	Empty	0	0	0
 General1-Slot2-Slot6	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
+General1-Slot3	Ghoulbane	5403	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot3-Slot3	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
+General1-Slot4	Ghoulbane (Enchanted)	1005403	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot4-Slot3	Empty	0	0	0
+General1-Slot4-Slot6	Empty	0	0	0
+General1-Slot5	Ghoulbane (Legendary)	2005403	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Immortals	18195	1	6
+General1-Slot7	Shattered Emerald of Corruption	20484	1	6
+General1-Slot8	Shining Metallic Robes (Enchanted)	1001360	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot6	Empty	0	0	0
 General2	Backpack	17005	1	8
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
+General2-Slot1	Soul Leech, Dark Sword of Blood (Enchanted)	1011609	1	6
+General2-Slot1-Slot1	Empty	0	0	0
+General2-Slot1-Slot2	Empty	0	0	0
+General2-Slot1-Slot3	Empty	0	0	0
+General2-Slot1-Slot4	Empty	0	0	0
+General2-Slot1-Slot5	Empty	0	0	0
+General2-Slot1-Slot6	Empty	0	0	0
+General2-Slot2	Tainted Darksteel Breastplate (Enchanted)	1029001	1	6
+General2-Slot2-Slot1	Empty	0	0	0
+General2-Slot2-Slot2	Empty	0	0	0
+General2-Slot2-Slot6	Empty	0	0	0
 General2-Slot3	Empty	0	0	0
 General2-Slot4	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
