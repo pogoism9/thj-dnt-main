@@ -30,18 +30,18 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Adventurer's Pack	17423	1	12
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
+General1-Slot1	Spell: Boon of the Garou	30474	1	6
+General1-Slot2	Spell: Decession	7658	1	6
+General1-Slot3	Spell: Degeneration	7646	1	6
+General1-Slot4	Spell: Emissary of Thule	19311	1	6
+General1-Slot5	Spell: Gift of Insight	30409	1	6
+General1-Slot6	Spell: Great Divide Portal	30423	1	6
+General1-Slot7	Spell: Hammer of Divinity	15997	1	6
+General1-Slot8	Spell: Mask of the Stalker	19529	1	6
+General1-Slot9	Spell: Mind Wrack	7649	1	6
+General1-Slot10	Spell: Plague of Insects	7627	1	6
+General1-Slot11	Spell: Translocate: Group	19474	1	6
+General1-Slot12	Spell: Veil of Elements	7637	1	6
 General2	Backpack	17005	1	8
 General2-Slot1	Empty	0	0	0
 General2-Slot2	Empty	0	0	0
@@ -587,7 +587,7 @@ Bank22-Slot18	Empty	0	0	0
 Bank22-Slot19	Empty	0	0	0
 Bank22-Slot20	Empty	0	0	0
 Bank23	Large Bank Box	976012	1	20
-Bank23-Slot1	Spell: Shroud of Death	30459	6	6
+Bank23-Slot1	Spell: Shroud of Death	30459	5	6
 Bank23-Slot2	Spell: Cloak of the Akheva	7680	2	6
 Bank23-Slot3	Spell: Deathly Temptation	19532	5	6
 Bank23-Slot4	Spell: Torrent of Fatigue	7679	1	6

@@ -75,20 +75,46 @@ General2-Slot2	Tainted Darksteel Breastplate (Enchanted)	1029001	1	6
 General2-Slot2-Slot1	Empty	0	0	0
 General2-Slot2-Slot2	Empty	0	0	0
 General2-Slot2-Slot6	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
-General2-Slot5	Empty	0	0	0
-General2-Slot6	Empty	0	0	0
-General2-Slot7	Empty	0	0	0
-General2-Slot8	Empty	0	0	0
+General2-Slot3	Blade of Abrogation	5430	1	6
+General2-Slot3-Slot1	Empty	0	0	0
+General2-Slot3-Slot2	Empty	0	0	0
+General2-Slot3-Slot3	Empty	0	0	0
+General2-Slot3-Slot6	Empty	0	0	0
+General2-Slot4	Power of Water	28039	1	6
+General2-Slot5	Power of Water	28039	1	6
+General2-Slot6	Power of Water	28039	1	6
+General2-Slot7	Red Wurm Gut	20528	1	6
+General2-Slot8	Red Wurm Gut	20528	1	6
 General3	Backpack	17005	1	8
-General3-Slot1	Empty	0	0	0
-General3-Slot2	Empty	0	0	0
-General3-Slot3	Empty	0	0	0
-General3-Slot4	Empty	0	0	0
-General3-Slot5	Empty	0	0	0
-General3-Slot6	Empty	0	0	0
-General3-Slot7	Empty	0	0	0
+General3-Slot1	Shovel	16545	1	6
+General3-Slot1-Slot1	Empty	0	0	0
+General3-Slot1-Slot2	Empty	0	0	0
+General3-Slot1-Slot3	Empty	0	0	0
+General3-Slot1-Slot6	Empty	0	0	0
+General3-Slot2	Shovel (Legendary)	2016545	1	6
+General3-Slot2-Slot1	Empty	0	0	0
+General3-Slot2-Slot2	Empty	0	0	0
+General3-Slot2-Slot3	Empty	0	0	0
+General3-Slot2-Slot6	Empty	0	0	0
+General3-Slot3	Shovel (Legendary)	2016545	1	6
+General3-Slot3-Slot1	Empty	0	0	0
+General3-Slot3-Slot2	Empty	0	0	0
+General3-Slot3-Slot3	Empty	0	0	0
+General3-Slot3-Slot6	Empty	0	0	0
+General3-Slot4	Staff of Elemental Mastery: Earth (Enchanted)	1011567	1	6
+General3-Slot4-Slot1	Empty	0	0	0
+General3-Slot4-Slot2	Empty	0	0	0
+General3-Slot4-Slot3	Empty	0	0	0
+General3-Slot4-Slot4	Empty	0	0	0
+General3-Slot4-Slot6	Empty	0	0	0
+General3-Slot5	Staff of Elemental Mastery: Fire	11566	1	6
+General3-Slot5-Slot1	Empty	0	0	0
+General3-Slot5-Slot2	Empty	0	0	0
+General3-Slot5-Slot3	Empty	0	0	0
+General3-Slot5-Slot4	Empty	0	0	0
+General3-Slot5-Slot6	Empty	0	0	0
+General3-Slot6	Torn Page of Mastery Earth	28029	1	6
+General3-Slot7	Torn Page of Mastery Water	28030	1	6
 General3-Slot8	Empty	0	0	0
 General4	Backpack	17005	1	8
 General4-Slot1	Empty	0	0	0
@@ -427,9 +453,7 @@ Bank9-Slot19	Empty	0	0	0
 Bank9-Slot20	Empty	0	0	0
 Bank10	Large Bank Box	976012	1	20
 Bank10-Slot1	Griffon Feathers	16538	1	6
-Bank10-Slot2	Pegasus Feather Cloak	2463	1	6
-Bank10-Slot2-Slot1	Empty	0	0	0
-Bank10-Slot2-Slot2	Empty	0	0	0
+Bank10-Slot2	Empty	0	0	0
 Bank10-Slot3	Power of Water	28039	1	6
 Bank10-Slot4	Dirt of Underfoot	28042	1	6
 Bank10-Slot5	Empty	0	0	0
@@ -446,12 +470,7 @@ Bank10-Slot8-Slot2	Empty	0	0	0
 Bank10-Slot8-Slot3	Empty	0	0	0
 Bank10-Slot8-Slot4	Empty	0	0	0
 Bank10-Slot8-Slot6	Empty	0	0	0
-Bank10-Slot9	Staff of Elemental Mastery: Water	11569	1	6
-Bank10-Slot9-Slot1	Empty	0	0	0
-Bank10-Slot9-Slot2	Empty	0	0	0
-Bank10-Slot9-Slot3	Empty	0	0	0
-Bank10-Slot9-Slot4	Empty	0	0	0
-Bank10-Slot9-Slot6	Empty	0	0	0
+Bank10-Slot9	Empty	0	0	0
 Bank10-Slot10	Empty	0	0	0
 Bank10-Slot11	Staff of Elemental Mastery: Earth (Enchanted)	1011567	1	6
 Bank10-Slot11-Slot1	Empty	0	0	0
@@ -459,12 +478,7 @@ Bank10-Slot11-Slot2	Empty	0	0	0
 Bank10-Slot11-Slot3	Empty	0	0	0
 Bank10-Slot11-Slot4	Empty	0	0	0
 Bank10-Slot11-Slot6	Empty	0	0	0
-Bank10-Slot12	Staff of Elemental Mastery: Earth	11567	1	6
-Bank10-Slot12-Slot1	Empty	0	0	0
-Bank10-Slot12-Slot2	Empty	0	0	0
-Bank10-Slot12-Slot3	Empty	0	0	0
-Bank10-Slot12-Slot4	Empty	0	0	0
-Bank10-Slot12-Slot6	Empty	0	0	0
+Bank10-Slot12	Empty	0	0	0
 Bank10-Slot13	Staff of Elemental Mastery: Earth (Legendary)	2011567	1	6
 Bank10-Slot13-Slot1	Empty	0	0	0
 Bank10-Slot13-Slot2	Empty	0	0	0
