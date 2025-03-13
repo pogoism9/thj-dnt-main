@@ -31,111 +31,147 @@ Feet	Empty	0	0	0
 Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
-General1	Backpack	17005	1	8
-General1-Slot1	Jade Reaver (Enchanted)	1005664	1	6
+General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
+General1-Slot1	Fiery Defender (Legendary)	2010099	1	6
 General1-Slot1-Slot1	Empty	0	0	0
 General1-Slot1-Slot2	Empty	0	0	0
 General1-Slot1-Slot3	Empty	0	0	0
-General1-Slot1-Slot4	Empty	0	0	0
-General1-Slot1-Slot5	Empty	0	0	0
 General1-Slot1-Slot6	Empty	0	0	0
 General1-Slot2	Spear of Fate (Legendary)	2010651	1	6
 General1-Slot2-Slot1	Empty	0	0	0
 General1-Slot2-Slot2	Empty	0	0	0
 General1-Slot2-Slot6	Empty	0	0	0
-General1-Slot3	Ghoulbane	5403	1	6
+General1-Slot3	Pegasus Feather Cloak (Enchanted)	1002463	1	6
 General1-Slot3-Slot1	Empty	0	0	0
 General1-Slot3-Slot2	Empty	0	0	0
-General1-Slot3-Slot3	Empty	0	0	0
-General1-Slot3-Slot6	Empty	0	0	0
-General1-Slot4	Ghoulbane (Enchanted)	1005403	1	6
-General1-Slot4-Slot1	Empty	0	0	0
-General1-Slot4-Slot2	Empty	0	0	0
-General1-Slot4-Slot3	Empty	0	0	0
-General1-Slot4-Slot6	Empty	0	0	0
-General1-Slot5	Ghoulbane (Legendary)	2005403	1	6
-General1-Slot5-Slot1	Empty	0	0	0
-General1-Slot5-Slot2	Empty	0	0	0
-General1-Slot5-Slot3	Empty	0	0	0
-General1-Slot5-Slot6	Empty	0	0	0
-General1-Slot6	Immortals	18195	1	6
-General1-Slot7	Shattered Emerald of Corruption	20484	1	6
-General1-Slot8	Shining Metallic Robes (Enchanted)	1001360	1	6
-General1-Slot8-Slot1	Empty	0	0	0
-General1-Slot8-Slot6	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Blue Crystal Staff	14337	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot3	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
+General1-Slot9	Staff of Elemental Mastery: Fire	11566	1	6
+General1-Slot9-Slot1	Empty	0	0	0
+General1-Slot9-Slot2	Empty	0	0	0
+General1-Slot9-Slot3	Empty	0	0	0
+General1-Slot9-Slot4	Empty	0	0	0
+General1-Slot9-Slot6	Empty	0	0	0
+General1-Slot10	Staff of Elemental Mastery: Earth (Enchanted)	1011567	1	6
+General1-Slot10-Slot1	Empty	0	0	0
+General1-Slot10-Slot2	Empty	0	0	0
+General1-Slot10-Slot3	Empty	0	0	0
+General1-Slot10-Slot4	Empty	0	0	0
+General1-Slot10-Slot6	Empty	0	0	0
+General1-Slot11	Empty	0	0	0
+General1-Slot12	Empty	0	0	0
+General1-Slot13	Empty	0	0	0
+General1-Slot14	Empty	0	0	0
+General1-Slot15	Empty	0	0	0
+General1-Slot16	Empty	0	0	0
+General1-Slot17	Empty	0	0	0
+General1-Slot18	Empty	0	0	0
+General1-Slot19	Empty	0	0	0
+General1-Slot20	Empty	0	0	0
+General1-Slot21	Empty	0	0	0
+General1-Slot22	Empty	0	0	0
+General1-Slot23	Empty	0	0	0
+General1-Slot24	Empty	0	0	0
+General1-Slot25	Empty	0	0	0
+General1-Slot26	Empty	0	0	0
+General1-Slot27	Empty	0	0	0
+General1-Slot28	Empty	0	0	0
+General1-Slot29	Empty	0	0	0
+General1-Slot30	Empty	0	0	0
 General2	Backpack	17005	1	8
-General2-Slot1	Soul Leech, Dark Sword of Blood (Enchanted)	1011609	1	6
-General2-Slot1-Slot1	Empty	0	0	0
-General2-Slot1-Slot2	Empty	0	0	0
-General2-Slot1-Slot3	Empty	0	0	0
-General2-Slot1-Slot4	Empty	0	0	0
-General2-Slot1-Slot5	Empty	0	0	0
-General2-Slot1-Slot6	Empty	0	0	0
-General2-Slot2	Tainted Darksteel Breastplate (Enchanted)	1029001	1	6
-General2-Slot2-Slot1	Empty	0	0	0
-General2-Slot2-Slot2	Empty	0	0	0
-General2-Slot2-Slot6	Empty	0	0	0
-General2-Slot3	Blade of Abrogation	5430	1	6
+General2-Slot1	Empty	0	0	0
+General2-Slot2	Empty	0	0	0
+General2-Slot3	Ghoulbane	5403	1	6
 General2-Slot3-Slot1	Empty	0	0	0
 General2-Slot3-Slot2	Empty	0	0	0
 General2-Slot3-Slot3	Empty	0	0	0
 General2-Slot3-Slot6	Empty	0	0	0
-General2-Slot4	Power of Water	28039	1	6
-General2-Slot5	Power of Water	28039	1	6
-General2-Slot6	Power of Water	28039	1	6
-General2-Slot7	Red Wurm Gut	20528	1	6
-General2-Slot8	Red Wurm Gut	20528	1	6
+General2-Slot4	Ghoulbane (Enchanted)	1005403	1	6
+General2-Slot4-Slot1	Empty	0	0	0
+General2-Slot4-Slot2	Empty	0	0	0
+General2-Slot4-Slot3	Empty	0	0	0
+General2-Slot4-Slot6	Empty	0	0	0
+General2-Slot5	Ghoulbane (Legendary)	2005403	1	6
+General2-Slot5-Slot1	Empty	0	0	0
+General2-Slot5-Slot2	Empty	0	0	0
+General2-Slot5-Slot3	Empty	0	0	0
+General2-Slot5-Slot6	Empty	0	0	0
+General2-Slot6	Immortals	18195	1	6
+General2-Slot7	Shattered Emerald of Corruption	20484	1	6
+General2-Slot8	Shining Metallic Robes (Enchanted)	1001360	1	6
+General2-Slot8-Slot1	Empty	0	0	0
+General2-Slot8-Slot6	Empty	0	0	0
 General3	Backpack	17005	1	8
-General3-Slot1	Shovel	16545	1	6
+General3-Slot1	Soul Leech, Dark Sword of Blood (Enchanted)	1011609	1	6
 General3-Slot1-Slot1	Empty	0	0	0
 General3-Slot1-Slot2	Empty	0	0	0
 General3-Slot1-Slot3	Empty	0	0	0
+General3-Slot1-Slot4	Empty	0	0	0
+General3-Slot1-Slot5	Empty	0	0	0
 General3-Slot1-Slot6	Empty	0	0	0
-General3-Slot2	Shovel (Legendary)	2016545	1	6
+General3-Slot2	Tainted Darksteel Breastplate (Enchanted)	1029001	1	6
 General3-Slot2-Slot1	Empty	0	0	0
 General3-Slot2-Slot2	Empty	0	0	0
-General3-Slot2-Slot3	Empty	0	0	0
 General3-Slot2-Slot6	Empty	0	0	0
-General3-Slot3	Shovel (Legendary)	2016545	1	6
+General3-Slot3	Blade of Abrogation	5430	1	6
 General3-Slot3-Slot1	Empty	0	0	0
 General3-Slot3-Slot2	Empty	0	0	0
 General3-Slot3-Slot3	Empty	0	0	0
 General3-Slot3-Slot6	Empty	0	0	0
-General3-Slot4	Staff of Elemental Mastery: Earth (Enchanted)	1011567	1	6
-General3-Slot4-Slot1	Empty	0	0	0
-General3-Slot4-Slot2	Empty	0	0	0
-General3-Slot4-Slot3	Empty	0	0	0
-General3-Slot4-Slot4	Empty	0	0	0
-General3-Slot4-Slot6	Empty	0	0	0
-General3-Slot5	Staff of Elemental Mastery: Fire	11566	1	6
-General3-Slot5-Slot1	Empty	0	0	0
-General3-Slot5-Slot2	Empty	0	0	0
-General3-Slot5-Slot3	Empty	0	0	0
-General3-Slot5-Slot4	Empty	0	0	0
-General3-Slot5-Slot6	Empty	0	0	0
-General3-Slot6	Torn Page of Mastery Earth	28029	1	6
-General3-Slot7	Torn Page of Mastery Water	28030	1	6
-General3-Slot8	Empty	0	0	0
+General3-Slot4	Power of Water	28039	1	6
+General3-Slot5	Power of Water	28039	1	6
+General3-Slot6	Power of Water	28039	1	6
+General3-Slot7	Red Wurm Gut	20528	1	6
+General3-Slot8	Red Wurm Gut	20528	1	6
 General4	Backpack	17005	1	8
-General4-Slot1	Empty	0	0	0
-General4-Slot2	Empty	0	0	0
-General4-Slot3	Empty	0	0	0
+General4-Slot1	Shovel	16545	1	6
+General4-Slot1-Slot1	Empty	0	0	0
+General4-Slot1-Slot2	Empty	0	0	0
+General4-Slot1-Slot3	Empty	0	0	0
+General4-Slot1-Slot6	Empty	0	0	0
+General4-Slot2	Shovel (Legendary)	2016545	1	6
+General4-Slot2-Slot1	Empty	0	0	0
+General4-Slot2-Slot2	Empty	0	0	0
+General4-Slot2-Slot3	Empty	0	0	0
+General4-Slot2-Slot6	Empty	0	0	0
+General4-Slot3	Shovel (Legendary)	2016545	1	6
+General4-Slot3-Slot1	Empty	0	0	0
+General4-Slot3-Slot2	Empty	0	0	0
+General4-Slot3-Slot3	Empty	0	0	0
+General4-Slot3-Slot6	Empty	0	0	0
 General4-Slot4	Empty	0	0	0
 General4-Slot5	Empty	0	0	0
-General4-Slot6	Empty	0	0	0
-General4-Slot7	Empty	0	0	0
+General4-Slot6	Torn Page of Mastery Earth	28029	1	6
+General4-Slot7	Torn Page of Mastery Water	28030	1	6
 General4-Slot8	Empty	0	0	0
 General5	Backpack	17005	1	8
-General5-Slot1	Empty	0	0	0
-General5-Slot2	Empty	0	0	0
-General5-Slot3	Empty	0	0	0
-General5-Slot4	Empty	0	0	0
+General5-Slot1	Hill Giant Toes	16539	1	6
+General5-Slot2	Hill Giant Toes	16539	1	6
+General5-Slot3	Hill Giant Toes	16539	1	6
+General5-Slot4	Kedge Backbone	20524	1	6
 General5-Slot5	Empty	0	0	0
-General5-Slot6	Empty	0	0	0
-General5-Slot7	Empty	0	0	0
-General5-Slot8	Empty	0	0	0
+General5-Slot6	Rain of Karana	28041	1	6
+General5-Slot7	Rain of Karana	28041	1	6
+General5-Slot8	Shovel	16545	1	6
+General5-Slot8-Slot1	Empty	0	0	0
+General5-Slot8-Slot2	Empty	0	0	0
+General5-Slot8-Slot3	Empty	0	0	0
+General5-Slot8-Slot6	Empty	0	0	0
 General6	Adventurer's Pack	17423	1	12
-General6-Slot1	Empty	0	0	0
+General6-Slot1	Jade Reaver (Enchanted)	1005664	1	6
+General6-Slot1-Slot1	Empty	0	0	0
+General6-Slot1-Slot2	Empty	0	0	0
+General6-Slot1-Slot3	Empty	0	0	0
+General6-Slot1-Slot4	Empty	0	0	0
+General6-Slot1-Slot5	Empty	0	0	0
+General6-Slot1-Slot6	Empty	0	0	0
 General6-Slot2	Empty	0	0	0
 General6-Slot3	Empty	0	0	0
 General6-Slot4	Empty	0	0	0
@@ -148,11 +184,27 @@ General6-Slot10	Empty	0	0	0
 General6-Slot11	Empty	0	0	0
 General6-Slot12	Empty	0	0	0
 General7	Backpack	17005	1	8
-General7-Slot1	Empty	0	0	0
-General7-Slot2	Empty	0	0	0
-General7-Slot3	Empty	0	0	0
-General7-Slot4	Empty	0	0	0
-General7-Slot5	Empty	0	0	0
+General7-Slot1	Shovel (Enchanted)	1016545	1	6
+General7-Slot1-Slot1	Empty	0	0	0
+General7-Slot1-Slot2	Empty	0	0	0
+General7-Slot1-Slot3	Empty	0	0	0
+General7-Slot1-Slot6	Empty	0	0	0
+General7-Slot2	Shovel (Legendary)	2016545	1	6
+General7-Slot2-Slot1	Empty	0	0	0
+General7-Slot2-Slot2	Empty	0	0	0
+General7-Slot2-Slot3	Empty	0	0	0
+General7-Slot2-Slot6	Empty	0	0	0
+General7-Slot3	Shovel (Legendary)	2016545	1	6
+General7-Slot3-Slot1	Empty	0	0	0
+General7-Slot3-Slot2	Empty	0	0	0
+General7-Slot3-Slot3	Empty	0	0	0
+General7-Slot3-Slot6	Empty	0	0	0
+General7-Slot4	Shovel (Legendary)	2016545	1	6
+General7-Slot4-Slot1	Empty	0	0	0
+General7-Slot4-Slot2	Empty	0	0	0
+General7-Slot4-Slot3	Empty	0	0	0
+General7-Slot4-Slot6	Empty	0	0	0
+General7-Slot5	Torn Page of Mastery Water	28030	1	6
 General7-Slot6	Empty	0	0	0
 General7-Slot7	Empty	0	0	0
 General7-Slot8	Empty	0	0	0
@@ -181,12 +233,16 @@ General10-Slot3	Tattered Note	18756	1	6
 General10-Slot4	Empty	0	0	0
 General10-Slot5	Empty	0	0	0
 General10-Slot6	Empty	0	0	0
-General10-Slot7	Empty	0	0	0
-General10-Slot8	Fiery Defender (Legendary)	2010099	1	6
-General10-Slot8-Slot1	Empty	0	0	0
-General10-Slot8-Slot2	Empty	0	0	0
-General10-Slot8-Slot3	Empty	0	0	0
-General10-Slot8-Slot6	Empty	0	0	0
+General10-Slot7	Backpack	17005	1	8
+General10-Slot7-Slot1	Empty	0	0	0
+General10-Slot7-Slot2	Empty	0	0	0
+General10-Slot7-Slot3	Empty	0	0	0
+General10-Slot7-Slot4	Empty	0	0	0
+General10-Slot7-Slot5	Empty	0	0	0
+General10-Slot7-Slot6	Empty	0	0	0
+General10-Slot7-Slot7	Empty	0	0	0
+General10-Slot7-Slot8	Empty	0	0	0
+General10-Slot8	Empty	0	0	0
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
 Bank1-Slot1	Red Wurm Gut	20528	1	6
