@@ -32,15 +32,42 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
+General1-Slot1	Belt of Mastery	26761	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot2	Crimson Headband (Enchanted)	1028955	1	6
+General1-Slot2-Slot1	Empty	0	0	0
+General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
+General1-Slot3	Dagger of Thought (Legendary)	2028917	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot3-Slot3	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
+General1-Slot4	Great Shadow Platemail (Enchanted)	1026770	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot4-Slot6	Empty	0	0	0
+General1-Slot5	Horn of Shadows (Enchanted)	1028933	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Mail of Judgment	26782	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Orb of Evasion (Enchanted)	1028903	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot7-Slot3	Empty	0	0	0
+General1-Slot7-Slot6	Empty	0	0	0
+General1-Slot8	Steel Skin Cloak	28904	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot9	Steel Skin Cloak	28904	1	6
+General1-Slot9-Slot1	Empty	0	0	0
+General1-Slot9-Slot2	Empty	0	0	0
 General1-Slot10	Staff of the Elder Claws (Legendary)	2001173	1	6
 General1-Slot10-Slot1	Empty	0	0	0
 General1-Slot10-Slot2	Empty	0	0	0
@@ -48,8 +75,13 @@ General1-Slot10-Slot3	Empty	0	0	0
 General1-Slot10-Slot4	Empty	0	0	0
 General1-Slot10-Slot5	Empty	0	0	0
 General1-Slot10-Slot6	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
+General1-Slot11	Tiny Cap of Sight	28909	1	6
+General1-Slot11-Slot1	Empty	0	0	0
+General1-Slot11-Slot6	Empty	0	0	0
+General1-Slot12	Umbral Vambraces	28927	1	6
+General1-Slot12-Slot1	Empty	0	0	0
+General1-Slot12-Slot2	Empty	0	0	0
+General1-Slot12-Slot6	Empty	0	0	0
 General1-Slot13	Empty	0	0	0
 General1-Slot14	Empty	0	0	0
 General1-Slot15	Empty	0	0	0
@@ -1046,14 +1078,8 @@ Bank15-Slot2	Maclaer's Boots of Silence	31238	1	6
 Bank15-Slot2-Slot1	Empty	0	0	0
 Bank15-Slot2-Slot2	Empty	0	0	0
 Bank15-Slot2-Slot6	Empty	0	0	0
-Bank15-Slot3	Maclaer's Boots of Silence	31238	1	6
-Bank15-Slot3-Slot1	Empty	0	0	0
-Bank15-Slot3-Slot2	Empty	0	0	0
-Bank15-Slot3-Slot6	Empty	0	0	0
-Bank15-Slot4	Maclaer's Boots of Silence	31238	1	6
-Bank15-Slot4-Slot1	Empty	0	0	0
-Bank15-Slot4-Slot2	Empty	0	0	0
-Bank15-Slot4-Slot6	Empty	0	0	0
+Bank15-Slot3	Empty	0	0	0
+Bank15-Slot4	Empty	0	0	0
 Bank15-Slot5	Empty	0	0	0
 Bank15-Slot6	Maclaer's Boots of Silence	31238	1	6
 Bank15-Slot6-Slot1	Empty	0	0	0
