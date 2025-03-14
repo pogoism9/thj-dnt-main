@@ -32,56 +32,18 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Belt of Mastery	26761	1	6
-General1-Slot1-Slot1	Empty	0	0	0
-General1-Slot1-Slot2	Empty	0	0	0
-General1-Slot2	Crimson Headband (Enchanted)	1028955	1	6
-General1-Slot2-Slot1	Empty	0	0	0
-General1-Slot2-Slot2	Empty	0	0	0
-General1-Slot2-Slot6	Empty	0	0	0
-General1-Slot3	Dagger of Thought (Legendary)	2028917	1	6
-General1-Slot3-Slot1	Empty	0	0	0
-General1-Slot3-Slot2	Empty	0	0	0
-General1-Slot3-Slot3	Empty	0	0	0
-General1-Slot3-Slot6	Empty	0	0	0
-General1-Slot4	Great Shadow Platemail (Enchanted)	1026770	1	6
-General1-Slot4-Slot1	Empty	0	0	0
-General1-Slot4-Slot2	Empty	0	0	0
-General1-Slot4-Slot6	Empty	0	0	0
-General1-Slot5	Horn of Shadows (Enchanted)	1028933	1	6
-General1-Slot5-Slot1	Empty	0	0	0
-General1-Slot5-Slot2	Empty	0	0	0
-General1-Slot5-Slot3	Empty	0	0	0
-General1-Slot5-Slot6	Empty	0	0	0
-General1-Slot6	Mail of Judgment	26782	1	6
-General1-Slot6-Slot1	Empty	0	0	0
-General1-Slot6-Slot2	Empty	0	0	0
-General1-Slot6-Slot6	Empty	0	0	0
-General1-Slot7	Orb of Evasion (Enchanted)	1028903	1	6
-General1-Slot7-Slot1	Empty	0	0	0
-General1-Slot7-Slot2	Empty	0	0	0
-General1-Slot7-Slot3	Empty	0	0	0
-General1-Slot7-Slot6	Empty	0	0	0
-General1-Slot8	Steel Skin Cloak	28904	1	6
-General1-Slot8-Slot1	Empty	0	0	0
-General1-Slot8-Slot2	Empty	0	0	0
-General1-Slot9	Steel Skin Cloak	28904	1	6
-General1-Slot9-Slot1	Empty	0	0	0
-General1-Slot9-Slot2	Empty	0	0	0
-General1-Slot10	Staff of the Elder Claws (Legendary)	2001173	1	6
-General1-Slot10-Slot1	Empty	0	0	0
-General1-Slot10-Slot2	Empty	0	0	0
-General1-Slot10-Slot3	Empty	0	0	0
-General1-Slot10-Slot4	Empty	0	0	0
-General1-Slot10-Slot5	Empty	0	0	0
-General1-Slot10-Slot6	Empty	0	0	0
-General1-Slot11	Tiny Cap of Sight	28909	1	6
-General1-Slot11-Slot1	Empty	0	0	0
-General1-Slot11-Slot6	Empty	0	0	0
-General1-Slot12	Umbral Vambraces	28927	1	6
-General1-Slot12-Slot1	Empty	0	0	0
-General1-Slot12-Slot2	Empty	0	0	0
-General1-Slot12-Slot6	Empty	0	0	0
+General1-Slot1	Empty	0	0	0
+General1-Slot2	Empty	0	0	0
+General1-Slot3	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
+General1-Slot9	Empty	0	0	0
+General1-Slot10	Empty	0	0	0
+General1-Slot11	Empty	0	0	0
+General1-Slot12	Empty	0	0	0
 General1-Slot13	Empty	0	0	0
 General1-Slot14	Empty	0	0	0
 General1-Slot15	Empty	0	0	0
@@ -122,14 +84,14 @@ General2-Slot18	Empty	0	0	0
 General2-Slot19	Empty	0	0	0
 General2-Slot20	Empty	0	0	0
 General3	Large Bank Box	976012	1	20
-General3-Slot1	Small Brick of Yttrium Ore	22901	100	6
-General3-Slot2	Small Brick of Yttrium Ore	22901	12	6
-General3-Slot3	Empty	0	0	0
-General3-Slot4	Empty	0	0	0
-General3-Slot5	Empty	0	0	0
-General3-Slot6	Empty	0	0	0
-General3-Slot7	Empty	0	0	0
-General3-Slot8	Empty	0	0	0
+General3-Slot1	Ssraeshzian Insignia	19718	1	6
+General3-Slot2	Ssraeshzian Insignia	19718	1	6
+General3-Slot3	Ssraeshzian Insignia	19718	1	6
+General3-Slot4	Ssraeshzian Insignia	19718	1	6
+General3-Slot5	Ssraeshzian Insignia	19718	1	6
+General3-Slot6	Ssraeshzian Insignia	19718	1	6
+General3-Slot7	Ssraeshzian Insignia	19718	1	6
+General3-Slot8	Ssraeshzian Insignia	19718	1	6
 General3-Slot9	Ssraeshzian Insignia	19718	1	6
 General3-Slot10	Ssraeshzian Insignia	19718	1	6
 General3-Slot11	Ssraeshzian Insignia	19718	1	6
@@ -143,43 +105,103 @@ General3-Slot18	Ssraeshzian Insignia	19718	1	6
 General3-Slot19	Ssraeshzian Insignia	19718	1	6
 General3-Slot20	Ssraeshzian Insignia	19718	1	6
 General4	Large Bank Box	976012	1	20
-General4-Slot1	Empty	0	0	0
-General4-Slot2	Empty	0	0	0
-General4-Slot3	Empty	0	0	0
-General4-Slot4	Empty	0	0	0
-General4-Slot5	Empty	0	0	0
-General4-Slot6	Empty	0	0	0
-General4-Slot7	Empty	0	0	0
-General4-Slot8	Empty	0	0	0
-General4-Slot9	Empty	0	0	0
-General4-Slot10	Empty	0	0	0
-General4-Slot11	Empty	0	0	0
-General4-Slot12	Empty	0	0	0
+General4-Slot1	Zazuzh's Idol	19716	1	6
+General4-Slot2	Zazuzh's Idol	19716	1	6
+General4-Slot3	Zazuzh's Idol	19716	1	6
+General4-Slot4	Zazuzh's Idol	19716	1	6
+General4-Slot5	Zazuzh's Idol	19716	1	6
+General4-Slot6	Zazuzh's Idol	19716	1	6
+General4-Slot7	Zazuzh's Idol	19716	1	6
+General4-Slot8	Zazuzh's Idol	19716	1	6
+General4-Slot9	Zazuzh's Idol	19716	1	6
+General4-Slot10	Zazuzh's Idol	19716	1	6
+General4-Slot11	Zazuzh's Idol	19716	1	6
+General4-Slot12	Zazuzh's Idol	19716	1	6
 General4-Slot13	Empty	0	0	0
 General4-Slot14	Empty	0	0	0
 General4-Slot15	Empty	0	0	0
 General4-Slot16	Empty	0	0	0
 General4-Slot17	Empty	0	0	0
 General4-Slot18	Empty	0	0	0
-General4-Slot19	Empty	0	0	0
-General4-Slot20	Empty	0	0	0
+General4-Slot19	Ssraeshzian Insignia	19718	1	6
+General4-Slot20	Ssraeshzian Insignia	19718	1	6
 General5	Large Bank Box	976012	1	20
-General5-Slot1	Empty	0	0	0
-General5-Slot2	Empty	0	0	0
-General5-Slot3	Empty	0	0	0
-General5-Slot4	Empty	0	0	0
-General5-Slot5	Empty	0	0	0
-General5-Slot6	Empty	0	0	0
-General5-Slot7	Empty	0	0	0
-General5-Slot8	Empty	0	0	0
-General5-Slot9	Empty	0	0	0
-General5-Slot10	Empty	0	0	0
-General5-Slot11	Empty	0	0	0
-General5-Slot12	Empty	0	0	0
-General5-Slot13	Empty	0	0	0
-General5-Slot14	Empty	0	0	0
+General5-Slot1	Taskmaster's Pouch	17118	1	4
+General5-Slot1-Slot1	Empty	0	0	0
+General5-Slot1-Slot2	Empty	0	0	0
+General5-Slot1-Slot3	Empty	0	0	0
+General5-Slot1-Slot4	Empty	0	0	0
+General5-Slot2	Taskmaster's Pouch	17118	1	4
+General5-Slot2-Slot1	Empty	0	0	0
+General5-Slot2-Slot2	Empty	0	0	0
+General5-Slot2-Slot3	Empty	0	0	0
+General5-Slot2-Slot4	Empty	0	0	0
+General5-Slot3	Taskmaster's Pouch	17118	1	4
+General5-Slot3-Slot1	Empty	0	0	0
+General5-Slot3-Slot2	Empty	0	0	0
+General5-Slot3-Slot3	Empty	0	0	0
+General5-Slot3-Slot4	Empty	0	0	0
+General5-Slot4	Taskmaster's Pouch	17118	1	4
+General5-Slot4-Slot1	Empty	0	0	0
+General5-Slot4-Slot2	Empty	0	0	0
+General5-Slot4-Slot3	Empty	0	0	0
+General5-Slot4-Slot4	Empty	0	0	0
+General5-Slot5	Taskmaster's Pouch	17118	1	4
+General5-Slot5-Slot1	Empty	0	0	0
+General5-Slot5-Slot2	Empty	0	0	0
+General5-Slot5-Slot3	Empty	0	0	0
+General5-Slot5-Slot4	Empty	0	0	0
+General5-Slot6	Taskmaster's Pouch	17118	1	4
+General5-Slot6-Slot1	Empty	0	0	0
+General5-Slot6-Slot2	Empty	0	0	0
+General5-Slot6-Slot3	Empty	0	0	0
+General5-Slot6-Slot4	Empty	0	0	0
+General5-Slot7	Taskmaster's Pouch	17118	1	4
+General5-Slot7-Slot1	Empty	0	0	0
+General5-Slot7-Slot2	Empty	0	0	0
+General5-Slot7-Slot3	Empty	0	0	0
+General5-Slot7-Slot4	Empty	0	0	0
+General5-Slot8	Taskmaster's Pouch	17118	1	4
+General5-Slot8-Slot1	Empty	0	0	0
+General5-Slot8-Slot2	Empty	0	0	0
+General5-Slot8-Slot3	Empty	0	0	0
+General5-Slot8-Slot4	Empty	0	0	0
+General5-Slot9	Taskmaster's Pouch	17118	1	4
+General5-Slot9-Slot1	Empty	0	0	0
+General5-Slot9-Slot2	Empty	0	0	0
+General5-Slot9-Slot3	Empty	0	0	0
+General5-Slot9-Slot4	Empty	0	0	0
+General5-Slot10	Taskmaster's Pouch	17118	1	4
+General5-Slot10-Slot1	Empty	0	0	0
+General5-Slot10-Slot2	Empty	0	0	0
+General5-Slot10-Slot3	Empty	0	0	0
+General5-Slot10-Slot4	Empty	0	0	0
+General5-Slot11	Taskmaster's Pouch	17118	1	4
+General5-Slot11-Slot1	Empty	0	0	0
+General5-Slot11-Slot2	Empty	0	0	0
+General5-Slot11-Slot3	Empty	0	0	0
+General5-Slot11-Slot4	Empty	0	0	0
+General5-Slot12	Taskmaster's Pouch	17118	1	4
+General5-Slot12-Slot1	Empty	0	0	0
+General5-Slot12-Slot2	Empty	0	0	0
+General5-Slot12-Slot3	Empty	0	0	0
+General5-Slot12-Slot4	Empty	0	0	0
+General5-Slot13	Taskmaster's Pouch	17118	1	4
+General5-Slot13-Slot1	Empty	0	0	0
+General5-Slot13-Slot2	Empty	0	0	0
+General5-Slot13-Slot3	Empty	0	0	0
+General5-Slot13-Slot4	Empty	0	0	0
+General5-Slot14	Taskmaster's Pouch	17118	1	4
+General5-Slot14-Slot1	Empty	0	0	0
+General5-Slot14-Slot2	Empty	0	0	0
+General5-Slot14-Slot3	Empty	0	0	0
+General5-Slot14-Slot4	Empty	0	0	0
 General5-Slot15	Empty	0	0	0
-General5-Slot16	Empty	0	0	0
+General5-Slot16	Taskmaster's Pouch	17118	1	4
+General5-Slot16-Slot1	Empty	0	0	0
+General5-Slot16-Slot2	Empty	0	0	0
+General5-Slot16-Slot3	Empty	0	0	0
+General5-Slot16-Slot4	Empty	0	0	0
 General5-Slot17	Empty	0	0	0
 General5-Slot18	Empty	0	0	0
 General5-Slot19	Empty	0	0	0
@@ -388,14 +410,8 @@ Bank1-Slot17-Slot3	Empty	0	0	0
 Bank1-Slot17-Slot4	Empty	0	0	0
 Bank1-Slot17-Slot5	Empty	0	0	0
 Bank1-Slot17-Slot6	Empty	0	0	0
-Bank1-Slot18	Shissar Bow	9241	1	6
-Bank1-Slot18-Slot1	Empty	0	0	0
-Bank1-Slot18-Slot2	Empty	0	0	0
-Bank1-Slot18-Slot3	Empty	0	0	0
-Bank1-Slot18-Slot4	Empty	0	0	0
-Bank1-Slot18-Slot5	Empty	0	0	0
-Bank1-Slot18-Slot6	Empty	0	0	0
-Bank1-Slot19	Strange Green Metal	7966	1	6
+Bank1-Slot18	Empty	0	0	0
+Bank1-Slot19	Empty	0	0	0
 Bank1-Slot20	Strange Green Metal	7966	1	6
 Bank2	Large Bank Box	976012	1	20
 Bank2-Slot1	Globe of Frozen Vigor	29469	1	6
@@ -431,7 +447,7 @@ Bank2-Slot18	Arx Key	3650	1	6
 Bank2-Slot18-Slot1	Empty	0	0	0
 Bank2-Slot18-Slot2	Empty	0	0	0
 Bank2-Slot19	Zazuzh's Key	19711	1	6
-Bank2-Slot20	Zherozsh's Key	19710	1	6
+Bank2-Slot20	Empty	0	0	0
 Bank3	Large Bank Box	976012	1	20
 Bank3-Slot1	Ethereal Silver Dragon Essence	9346	1	6
 Bank3-Slot2	Ethereal Silver Dragon Essence	9346	1	6
@@ -488,12 +504,17 @@ Bank4-Slot8	Thorny Chain Helm	28995	1	6
 Bank4-Slot8-Slot1	Empty	0	0	0
 Bank4-Slot8-Slot2	Empty	0	0	0
 Bank4-Slot8-Slot6	Empty	0	0	0
-Bank4-Slot9	Empty	0	0	0
+Bank4-Slot9	Tiny Cap of Sight	28909	1	6
+Bank4-Slot9-Slot1	Empty	0	0	0
+Bank4-Slot9-Slot6	Empty	0	0	0
 Bank4-Slot10	Crown of Energy (Enchanted)	1026762	1	6
 Bank4-Slot10-Slot1	Empty	0	0	0
 Bank4-Slot10-Slot6	Empty	0	0	0
 Bank4-Slot11	Empty	0	0	0
-Bank4-Slot12	Empty	0	0	0
+Bank4-Slot12	Crimson Headband (Enchanted)	1028955	1	6
+Bank4-Slot12-Slot1	Empty	0	0	0
+Bank4-Slot12-Slot2	Empty	0	0	0
+Bank4-Slot12-Slot6	Empty	0	0	0
 Bank4-Slot13	Empty	0	0	0
 Bank4-Slot14	Empty	0	0	0
 Bank4-Slot15	Empty	0	0	0
@@ -518,76 +539,20 @@ Bank4-Slot20-Slot1	Empty	0	0	0
 Bank4-Slot20-Slot2	Empty	0	0	0
 Bank4-Slot20-Slot6	Empty	0	0	0
 Bank5	Large Bank Box	976012	1	20
-Bank5-Slot1	Taskmaster's Pouch	17118	1	4
-Bank5-Slot1-Slot1	Empty	0	0	0
-Bank5-Slot1-Slot2	Empty	0	0	0
-Bank5-Slot1-Slot3	Empty	0	0	0
-Bank5-Slot1-Slot4	Empty	0	0	0
-Bank5-Slot2	Taskmaster's Pouch	17118	1	4
-Bank5-Slot2-Slot1	Empty	0	0	0
-Bank5-Slot2-Slot2	Empty	0	0	0
-Bank5-Slot2-Slot3	Empty	0	0	0
-Bank5-Slot2-Slot4	Empty	0	0	0
-Bank5-Slot3	Taskmaster's Pouch	17118	1	4
-Bank5-Slot3-Slot1	Empty	0	0	0
-Bank5-Slot3-Slot2	Empty	0	0	0
-Bank5-Slot3-Slot3	Empty	0	0	0
-Bank5-Slot3-Slot4	Empty	0	0	0
-Bank5-Slot4	Taskmaster's Pouch	17118	1	4
-Bank5-Slot4-Slot1	Empty	0	0	0
-Bank5-Slot4-Slot2	Empty	0	0	0
-Bank5-Slot4-Slot3	Empty	0	0	0
-Bank5-Slot4-Slot4	Empty	0	0	0
-Bank5-Slot5	Taskmaster's Pouch	17118	1	4
-Bank5-Slot5-Slot1	Empty	0	0	0
-Bank5-Slot5-Slot2	Empty	0	0	0
-Bank5-Slot5-Slot3	Empty	0	0	0
-Bank5-Slot5-Slot4	Empty	0	0	0
-Bank5-Slot6	Taskmaster's Pouch	17118	1	4
-Bank5-Slot6-Slot1	Empty	0	0	0
-Bank5-Slot6-Slot2	Empty	0	0	0
-Bank5-Slot6-Slot3	Empty	0	0	0
-Bank5-Slot6-Slot4	Empty	0	0	0
-Bank5-Slot7	Taskmaster's Pouch	17118	1	4
-Bank5-Slot7-Slot1	Empty	0	0	0
-Bank5-Slot7-Slot2	Empty	0	0	0
-Bank5-Slot7-Slot3	Empty	0	0	0
-Bank5-Slot7-Slot4	Empty	0	0	0
-Bank5-Slot8	Taskmaster's Pouch	17118	1	4
-Bank5-Slot8-Slot1	Empty	0	0	0
-Bank5-Slot8-Slot2	Empty	0	0	0
-Bank5-Slot8-Slot3	Empty	0	0	0
-Bank5-Slot8-Slot4	Empty	0	0	0
-Bank5-Slot9	Taskmaster's Pouch	17118	1	4
-Bank5-Slot9-Slot1	Empty	0	0	0
-Bank5-Slot9-Slot2	Empty	0	0	0
-Bank5-Slot9-Slot3	Empty	0	0	0
-Bank5-Slot9-Slot4	Empty	0	0	0
-Bank5-Slot10	Taskmaster's Pouch	17118	1	4
-Bank5-Slot10-Slot1	Empty	0	0	0
-Bank5-Slot10-Slot2	Empty	0	0	0
-Bank5-Slot10-Slot3	Empty	0	0	0
-Bank5-Slot10-Slot4	Empty	0	0	0
-Bank5-Slot11	Taskmaster's Pouch	17118	1	4
-Bank5-Slot11-Slot1	Empty	0	0	0
-Bank5-Slot11-Slot2	Empty	0	0	0
-Bank5-Slot11-Slot3	Empty	0	0	0
-Bank5-Slot11-Slot4	Empty	0	0	0
-Bank5-Slot12	Taskmaster's Pouch	17118	1	4
-Bank5-Slot12-Slot1	Empty	0	0	0
-Bank5-Slot12-Slot2	Empty	0	0	0
-Bank5-Slot12-Slot3	Empty	0	0	0
-Bank5-Slot12-Slot4	Empty	0	0	0
-Bank5-Slot13	Taskmaster's Pouch	17118	1	4
-Bank5-Slot13-Slot1	Empty	0	0	0
-Bank5-Slot13-Slot2	Empty	0	0	0
-Bank5-Slot13-Slot3	Empty	0	0	0
-Bank5-Slot13-Slot4	Empty	0	0	0
-Bank5-Slot14	Taskmaster's Pouch	17118	1	4
-Bank5-Slot14-Slot1	Empty	0	0	0
-Bank5-Slot14-Slot2	Empty	0	0	0
-Bank5-Slot14-Slot3	Empty	0	0	0
-Bank5-Slot14-Slot4	Empty	0	0	0
+Bank5-Slot1	Empty	0	0	0
+Bank5-Slot2	Empty	0	0	0
+Bank5-Slot3	Empty	0	0	0
+Bank5-Slot4	Empty	0	0	0
+Bank5-Slot5	Empty	0	0	0
+Bank5-Slot6	Empty	0	0	0
+Bank5-Slot7	Empty	0	0	0
+Bank5-Slot8	Empty	0	0	0
+Bank5-Slot9	Empty	0	0	0
+Bank5-Slot10	Empty	0	0	0
+Bank5-Slot11	Empty	0	0	0
+Bank5-Slot12	Empty	0	0	0
+Bank5-Slot13	Empty	0	0	0
+Bank5-Slot14	Empty	0	0	0
 Bank5-Slot15	Empty	0	0	0
 Bank5-Slot16	Zherozsh's Ring	19717	1	6
 Bank5-Slot17	Empty	0	0	0
@@ -595,26 +560,26 @@ Bank5-Slot18	Empty	0	0	0
 Bank5-Slot19	Dain Frostreaver's Head	30501	1	6
 Bank5-Slot20	Hand of Glory	17274	1	6
 Bank6	Large Bank Box	976012	1	20
-Bank6-Slot1	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot2	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot3	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot4	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot5	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot6	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot7	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot8	Ssraeshzian Insignia	19718	1	6
-Bank6-Slot9	Zazuzh's Idol	19716	1	6
-Bank6-Slot10	Zazuzh's Idol	19716	1	6
-Bank6-Slot11	Zazuzh's Idol	19716	1	6
-Bank6-Slot12	Zazuzh's Idol	19716	1	6
-Bank6-Slot13	Zazuzh's Idol	19716	1	6
-Bank6-Slot14	Zazuzh's Idol	19716	1	6
-Bank6-Slot15	Zazuzh's Idol	19716	1	6
-Bank6-Slot16	Zazuzh's Idol	19716	1	6
-Bank6-Slot17	Zazuzh's Idol	19716	1	6
-Bank6-Slot18	Zazuzh's Idol	19716	1	6
-Bank6-Slot19	Zazuzh's Idol	19716	1	6
-Bank6-Slot20	Zazuzh's Idol	19716	1	6
+Bank6-Slot1	Empty	0	0	0
+Bank6-Slot2	Empty	0	0	0
+Bank6-Slot3	Empty	0	0	0
+Bank6-Slot4	Empty	0	0	0
+Bank6-Slot5	Empty	0	0	0
+Bank6-Slot6	Empty	0	0	0
+Bank6-Slot7	Empty	0	0	0
+Bank6-Slot8	Empty	0	0	0
+Bank6-Slot9	Empty	0	0	0
+Bank6-Slot10	Empty	0	0	0
+Bank6-Slot11	Empty	0	0	0
+Bank6-Slot12	Empty	0	0	0
+Bank6-Slot13	Empty	0	0	0
+Bank6-Slot14	Empty	0	0	0
+Bank6-Slot15	Empty	0	0	0
+Bank6-Slot16	Empty	0	0	0
+Bank6-Slot17	Empty	0	0	0
+Bank6-Slot18	Empty	0	0	0
+Bank6-Slot19	Small Brick of Yttrium Ore	22901	12	6
+Bank6-Slot20	Small Brick of Yttrium Ore	22901	100	6
 Bank7	Large Bank Box	976012	1	20
 Bank7-Slot1	Empty	0	0	0
 Bank7-Slot2	Amulet of Xuzl (Legendary)	2028977	1	6
@@ -698,8 +663,12 @@ Bank8-Slot9-Slot2	Empty	0	0	0
 Bank8-Slot10	Cloak of Thorns (Legendary)	2031366	1	6
 Bank8-Slot10-Slot1	Empty	0	0	0
 Bank8-Slot10-Slot2	Empty	0	0	0
-Bank8-Slot11	Empty	0	0	0
-Bank8-Slot12	Empty	0	0	0
+Bank8-Slot11	Steel Skin Cloak	28904	1	6
+Bank8-Slot11-Slot1	Empty	0	0	0
+Bank8-Slot11-Slot2	Empty	0	0	0
+Bank8-Slot12	Steel Skin Cloak	28904	1	6
+Bank8-Slot12-Slot1	Empty	0	0	0
+Bank8-Slot12-Slot2	Empty	0	0	0
 Bank8-Slot13	Empty	0	0	0
 Bank8-Slot14	Empty	0	0	0
 Bank8-Slot15	Empty	0	0	0
@@ -721,10 +690,7 @@ Bank9-Slot3	Fervid Gloves of the Warder	28104	1	6
 Bank9-Slot3-Slot1	Empty	0	0	0
 Bank9-Slot3-Slot2	Empty	0	0	0
 Bank9-Slot3-Slot6	Empty	0	0	0
-Bank9-Slot4	Gloves of the Crimson Sigil (Legendary)	2026774	1	6
-Bank9-Slot4-Slot1	Empty	0	0	0
-Bank9-Slot4-Slot2	Empty	0	0	0
-Bank9-Slot4-Slot6	Empty	0	0	0
+Bank9-Slot4	Empty	0	0	0
 Bank9-Slot5	Silver Skin Gauntlets	28972	1	6
 Bank9-Slot5-Slot1	Empty	0	0	0
 Bank9-Slot5-Slot2	Empty	0	0	0
@@ -836,7 +802,10 @@ Bank10-Slot17	Slimy Leather Tunic (Legendary)	2062249	1	6
 Bank10-Slot17-Slot1	Empty	0	0	0
 Bank10-Slot17-Slot2	Empty	0	0	0
 Bank10-Slot17-Slot6	Empty	0	0	0
-Bank10-Slot18	Empty	0	0	0
+Bank10-Slot18	Mail of Judgment	26782	1	6
+Bank10-Slot18-Slot1	Empty	0	0	0
+Bank10-Slot18-Slot2	Empty	0	0	0
+Bank10-Slot18-Slot6	Empty	0	0	0
 Bank10-Slot19	Mail of Judgment (Enchanted)	1026782	1	6
 Bank10-Slot19-Slot1	Empty	0	0	0
 Bank10-Slot19-Slot2	Empty	0	0	0
@@ -850,7 +819,7 @@ Bank11-Slot1	Beldron's Vambraces of Impiety (Legendary)	2031325	1	6
 Bank11-Slot1-Slot1	Empty	0	0	0
 Bank11-Slot1-Slot2	Empty	0	0	0
 Bank11-Slot1-Slot6	Empty	0	0	0
-Bank11-Slot2	Karn's Armplates of Retaliation (Enchanted)	1028146	1	6
+Bank11-Slot2	Rowyl's Metal Armguards (Legendary)	2031229	1	6
 Bank11-Slot2-Slot1	Empty	0	0	0
 Bank11-Slot2-Slot2	Empty	0	0	0
 Bank11-Slot2-Slot6	Empty	0	0	0
@@ -858,11 +827,11 @@ Bank11-Slot3	Armguard of Purity (Enchanted)	1028924	1	6
 Bank11-Slot3-Slot1	Empty	0	0	0
 Bank11-Slot3-Slot2	Empty	0	0	0
 Bank11-Slot3-Slot6	Empty	0	0	0
-Bank11-Slot4	Armguard of Piety (Enchanted)	1028925	1	6
+Bank11-Slot4	Umbral Vambraces	28927	1	6
 Bank11-Slot4-Slot1	Empty	0	0	0
 Bank11-Slot4-Slot2	Empty	0	0	0
 Bank11-Slot4-Slot6	Empty	0	0	0
-Bank11-Slot5	Elder's Armbands of Ro	28145	1	6
+Bank11-Slot5	Karn's Armplates of Retaliation (Enchanted)	1028146	1	6
 Bank11-Slot5-Slot1	Empty	0	0	0
 Bank11-Slot5-Slot2	Empty	0	0	0
 Bank11-Slot5-Slot6	Empty	0	0	0
@@ -882,7 +851,7 @@ Bank11-Slot9	Armguard of Piety	28925	1	6
 Bank11-Slot9-Slot1	Empty	0	0	0
 Bank11-Slot9-Slot2	Empty	0	0	0
 Bank11-Slot9-Slot6	Empty	0	0	0
-Bank11-Slot10	Rowyl's Metal Armguards (Legendary)	2031229	1	6
+Bank11-Slot10	Armguard of Piety (Enchanted)	1028925	1	6
 Bank11-Slot10-Slot1	Empty	0	0	0
 Bank11-Slot10-Slot2	Empty	0	0	0
 Bank11-Slot10-Slot6	Empty	0	0	0
@@ -894,7 +863,10 @@ Bank11-Slot12	Kelsiferous' Armband of Artistry	31237	1	6
 Bank11-Slot12-Slot1	Empty	0	0	0
 Bank11-Slot12-Slot2	Empty	0	0	0
 Bank11-Slot12-Slot6	Empty	0	0	0
-Bank11-Slot13	Empty	0	0	0
+Bank11-Slot13	Elder's Armbands of Ro	28145	1	6
+Bank11-Slot13-Slot1	Empty	0	0	0
+Bank11-Slot13-Slot2	Empty	0	0	0
+Bank11-Slot13-Slot6	Empty	0	0	0
 Bank11-Slot14	Empty	0	0	0
 Bank11-Slot15	Empty	0	0	0
 Bank11-Slot16	Empty	0	0	0
@@ -1055,7 +1027,9 @@ Bank14-Slot11-Slot1	Empty	0	0	0
 Bank14-Slot11-Slot2	Empty	0	0	0
 Bank14-Slot12	Grotesque Girdle (Legendary)	2001556	1	6
 Bank14-Slot12-Slot1	Empty	0	0	0
-Bank14-Slot13	Empty	0	0	0
+Bank14-Slot13	Belt of Mastery	26761	1	6
+Bank14-Slot13-Slot1	Empty	0	0	0
+Bank14-Slot13-Slot2	Empty	0	0	0
 Bank14-Slot14	Belt of Lunacy (Legendary)	2032979	1	6
 Bank14-Slot14-Slot1	Empty	0	0	0
 Bank14-Slot14-Slot2	Empty	0	0	0
@@ -1157,7 +1131,9 @@ Bank16-Slot8	Clawed Guardian Bracer (Enchanted)	1001172	1	6
 Bank16-Slot8-Slot1	Empty	0	0	0
 Bank16-Slot8-Slot2	Empty	0	0	0
 Bank16-Slot8-Slot6	Empty	0	0	0
-Bank16-Slot9	Empty	0	0	0
+Bank16-Slot9	Wristband of Judgement	26787	1	6
+Bank16-Slot9-Slot1	Empty	0	0	0
+Bank16-Slot9-Slot6	Empty	0	0	0
 Bank16-Slot10	Wristband of Judgement (Legendary)	2026787	1	6
 Bank16-Slot10-Slot1	Empty	0	0	0
 Bank16-Slot10-Slot6	Empty	0	0	0
@@ -1199,10 +1175,7 @@ Bank17-Slot2-Slot1	Empty	0	0	0
 Bank17-Slot2-Slot2	Empty	0	0	0
 Bank17-Slot2-Slot3	Empty	0	0	0
 Bank17-Slot2-Slot6	Empty	0	0	0
-Bank17-Slot3	Aegis of Judgment (Legendary)	2026786	1	6
-Bank17-Slot3-Slot1	Empty	0	0	0
-Bank17-Slot3-Slot2	Empty	0	0	0
-Bank17-Slot3-Slot6	Empty	0	0	0
+Bank17-Slot3	Empty	0	0	0
 Bank17-Slot4	Shield of Spiked Energy (Enchanted)	1028990	1	6
 Bank17-Slot4-Slot1	Empty	0	0	0
 Bank17-Slot4-Slot2	Empty	0	0	0
@@ -1224,7 +1197,11 @@ Bank17-Slot10-Slot3	Empty	0	0	0
 Bank17-Slot10-Slot6	Empty	0	0	0
 Bank17-Slot11	Empty	0	0	0
 Bank17-Slot12	Empty	0	0	0
-Bank17-Slot13	Empty	0	0	0
+Bank17-Slot13	Dagger of Thought (Legendary)	2028917	1	6
+Bank17-Slot13-Slot1	Empty	0	0	0
+Bank17-Slot13-Slot2	Empty	0	0	0
+Bank17-Slot13-Slot3	Empty	0	0	0
+Bank17-Slot13-Slot6	Empty	0	0	0
 Bank17-Slot14	Smolder (Legendary)	2001136	1	6
 Bank17-Slot14-Slot1	Empty	0	0	0
 Bank17-Slot14-Slot2	Empty	0	0	0
@@ -1369,8 +1346,12 @@ Bank19-Slot4-Slot2	Empty	0	0	0
 Bank19-Slot5	Mask of Tinkering (Enchanted)	1001135	1	6
 Bank19-Slot5-Slot1	Empty	0	0	0
 Bank19-Slot5-Slot2	Empty	0	0	0
-Bank19-Slot6	Empty	0	0	0
-Bank19-Slot7	Denon's Drums of Declivity (Enchanted)	1028149	1	6
+Bank19-Slot6	Horn of Shadows (Enchanted)	1028933	1	6
+Bank19-Slot6-Slot1	Empty	0	0	0
+Bank19-Slot6-Slot2	Empty	0	0	0
+Bank19-Slot6-Slot3	Empty	0	0	0
+Bank19-Slot6-Slot6	Empty	0	0	0
+Bank19-Slot7	Horn of Shadows (Enchanted)	1028933	1	6
 Bank19-Slot7-Slot1	Empty	0	0	0
 Bank19-Slot7-Slot2	Empty	0	0	0
 Bank19-Slot7-Slot3	Empty	0	0	0
@@ -1380,7 +1361,7 @@ Bank19-Slot8-Slot1	Empty	0	0	0
 Bank19-Slot8-Slot2	Empty	0	0	0
 Bank19-Slot8-Slot3	Empty	0	0	0
 Bank19-Slot8-Slot6	Empty	0	0	0
-Bank19-Slot9	Howling Orb	28913	1	6
+Bank19-Slot9	Denon's Drums of Declivity (Enchanted)	1028149	1	6
 Bank19-Slot9-Slot1	Empty	0	0	0
 Bank19-Slot9-Slot2	Empty	0	0	0
 Bank19-Slot9-Slot3	Empty	0	0	0
@@ -1395,7 +1376,11 @@ Bank19-Slot11-Slot1	Empty	0	0	0
 Bank19-Slot11-Slot2	Empty	0	0	0
 Bank19-Slot11-Slot3	Empty	0	0	0
 Bank19-Slot11-Slot6	Empty	0	0	0
-Bank19-Slot12	Empty	0	0	0
+Bank19-Slot12	Howling Orb	28913	1	6
+Bank19-Slot12-Slot1	Empty	0	0	0
+Bank19-Slot12-Slot2	Empty	0	0	0
+Bank19-Slot12-Slot3	Empty	0	0	0
+Bank19-Slot12-Slot6	Empty	0	0	0
 Bank19-Slot13	Orb of Tishan	11625	1	6
 Bank19-Slot13-Slot1	Empty	0	0	0
 Bank19-Slot13-Slot2	Empty	0	0	0
@@ -1465,9 +1450,10 @@ Bank20-Slot8-Slot1	Empty	0	0	0
 Bank20-Slot8-Slot2	Empty	0	0	0
 Bank20-Slot8-Slot3	Empty	0	0	0
 Bank20-Slot8-Slot6	Empty	0	0	0
-Bank20-Slot9	Tome of Secrets (Enchanted)	1026780	1	6
+Bank20-Slot9	Orb of Evasion (Enchanted)	1028903	1	6
 Bank20-Slot9-Slot1	Empty	0	0	0
 Bank20-Slot9-Slot2	Empty	0	0	0
+Bank20-Slot9-Slot3	Empty	0	0	0
 Bank20-Slot9-Slot6	Empty	0	0	0
 Bank20-Slot10	Grimoire of Enchantment (Legendary)	2028981	1	6
 Bank20-Slot10-Slot1	Empty	0	0	0
@@ -1486,7 +1472,10 @@ Bank20-Slot13-Slot1	Empty	0	0	0
 Bank20-Slot13-Slot2	Empty	0	0	0
 Bank20-Slot13-Slot3	Empty	0	0	0
 Bank20-Slot13-Slot6	Empty	0	0	0
-Bank20-Slot14	Empty	0	0	0
+Bank20-Slot14	Tome of Secrets (Enchanted)	1026780	1	6
+Bank20-Slot14-Slot1	Empty	0	0	0
+Bank20-Slot14-Slot2	Empty	0	0	0
+Bank20-Slot14-Slot6	Empty	0	0	0
 Bank20-Slot15	Empty	0	0	0
 Bank20-Slot16	Empty	0	0	0
 Bank20-Slot17	Empty	0	0	0
@@ -1658,7 +1647,13 @@ Bank22-Slot11-Slot3	Empty	0	0	0
 Bank22-Slot11-Slot4	Empty	0	0	0
 Bank22-Slot11-Slot5	Empty	0	0	0
 Bank22-Slot11-Slot6	Empty	0	0	0
-Bank22-Slot12	Empty	0	0	0
+Bank22-Slot12	Staff of the Elder Claws (Legendary)	2001173	1	6
+Bank22-Slot12-Slot1	Empty	0	0	0
+Bank22-Slot12-Slot2	Empty	0	0	0
+Bank22-Slot12-Slot3	Empty	0	0	0
+Bank22-Slot12-Slot4	Empty	0	0	0
+Bank22-Slot12-Slot5	Empty	0	0	0
+Bank22-Slot12-Slot6	Empty	0	0	0
 Bank22-Slot13	Empty	0	0	0
 Bank22-Slot14	Empty	0	0	0
 Bank22-Slot15	Wand of Deflection (Legendary)	2028968	1	6
@@ -1846,7 +1841,11 @@ Bank24-Slot15-Slot1	Empty	0	0	0
 Bank24-Slot15-Slot2	Empty	0	0	0
 Bank24-Slot15-Slot3	Empty	0	0	0
 Bank24-Slot15-Slot6	Empty	0	0	0
-Bank24-Slot16	Empty	0	0	0
+Bank24-Slot16	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+Bank24-Slot16-Slot1	Empty	0	0	0
+Bank24-Slot16-Slot2	Empty	0	0	0
+Bank24-Slot16-Slot3	Empty	0	0	0
+Bank24-Slot16-Slot6	Empty	0	0	0
 Bank24-Slot17	Empty	0	0	0
 Bank24-Slot18	Empty	0	0	0
 Bank24-Slot19	Empty	0	0	0
