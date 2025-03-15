@@ -32,29 +32,54 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
+General1-Slot1	Acrylia Handled Broadsword	26585	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot3	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
+General1-Slot2	Cerulean Sleeves (Enchanted)	1028926	1	6
+General1-Slot2-Slot1	Empty	0	0	0
+General1-Slot2-Slot2	Empty	0	0	0
+General1-Slot2-Slot6	Empty	0	0	0
+General1-Slot3	Cloak of Glowing Embers (Legendary)	2028992	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot4	Dark Wind Shroud (Enchanted)	1028902	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot5	McVaxius` Horn of War (Legendary)	2011607	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot3	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Pearls of the Frozen Wind (Legendary)	2028953	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
+General1-Slot7	Short Sword of Slaughter (Legendary)	2028929	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot7-Slot3	Empty	0	0	0
+General1-Slot7-Slot6	Empty	0	0	0
+General1-Slot8	Zazuzh's Idol	19716	1	6
 General1-Slot9	Empty	0	0	0
 General1-Slot10	Empty	0	0	0
 General1-Slot11	Empty	0	0	0
 General1-Slot12	Empty	0	0	0
 General1-Slot13	Empty	0	0	0
 General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
+General1-Slot15	Bone Necklace of Battle (Legendary)	2028947	1	6
+General1-Slot15-Slot1	Empty	0	0	0
+General1-Slot15-Slot2	Empty	0	0	0
+General1-Slot16	Yunnb's Earring (Enchanted)	1010912	1	6
+General1-Slot16-Slot1	Empty	0	0	0
+General1-Slot17	Zherozsh's Ring (Enchanted)	1019717	1	6
+General1-Slot18	Zherozsh's Ring (Enchanted)	1019717	1	6
 General1-Slot19	Empty	0	0	0
 General1-Slot20	Empty	0	0	0
 General1-Slot21	Empty	0	0	0
 General1-Slot22	Empty	0	0	0
-General1-Slot23	Empty	0	0	0
+General1-Slot23	Zherozsh's Key	19710	1	6
 General1-Slot24	Empty	0	0	0
 General1-Slot25	Empty	0	0	0
 General1-Slot26	Empty	0	0	0
@@ -196,14 +221,26 @@ General5-Slot14-Slot1	Empty	0	0	0
 General5-Slot14-Slot2	Empty	0	0	0
 General5-Slot14-Slot3	Empty	0	0	0
 General5-Slot14-Slot4	Empty	0	0	0
-General5-Slot15	Empty	0	0	0
+General5-Slot15	Taskmaster's Pouch	17118	1	4
+General5-Slot15-Slot1	Empty	0	0	0
+General5-Slot15-Slot2	Empty	0	0	0
+General5-Slot15-Slot3	Empty	0	0	0
+General5-Slot15-Slot4	Empty	0	0	0
 General5-Slot16	Taskmaster's Pouch	17118	1	4
 General5-Slot16-Slot1	Empty	0	0	0
 General5-Slot16-Slot2	Empty	0	0	0
 General5-Slot16-Slot3	Empty	0	0	0
 General5-Slot16-Slot4	Empty	0	0	0
-General5-Slot17	Empty	0	0	0
-General5-Slot18	Empty	0	0	0
+General5-Slot17	Taskmaster's Pouch	17118	1	4
+General5-Slot17-Slot1	Empty	0	0	0
+General5-Slot17-Slot2	Empty	0	0	0
+General5-Slot17-Slot3	Empty	0	0	0
+General5-Slot17-Slot4	Empty	0	0	0
+General5-Slot18	Taskmaster's Pouch	17118	1	4
+General5-Slot18-Slot1	Empty	0	0	0
+General5-Slot18-Slot2	Empty	0	0	0
+General5-Slot18-Slot3	Empty	0	0	0
+General5-Slot18-Slot4	Empty	0	0	0
 General5-Slot19	Empty	0	0	0
 General5-Slot20	Empty	0	0	0
 General6	Large Bank Box	976012	1	20
@@ -486,8 +523,9 @@ Bank4-Slot3	Crown of Hatred	2191	1	6
 Bank4-Slot3-Slot1	Empty	0	0	0
 Bank4-Slot3-Slot2	Empty	0	0	0
 Bank4-Slot3-Slot6	Empty	0	0	0
-Bank4-Slot4	Crown of the Kromzek Kings (Legendary)	2025194	1	6
+Bank4-Slot4	Crown of Rile (Enchanted)	1010913	1	6
 Bank4-Slot4-Slot1	Empty	0	0	0
+Bank4-Slot4-Slot2	Empty	0	0	0
 Bank4-Slot4-Slot6	Empty	0	0	0
 Bank4-Slot5	Helmet of Shadow (Legendary)	2028986	1	6
 Bank4-Slot5-Slot1	Empty	0	0	0
@@ -510,7 +548,9 @@ Bank4-Slot9-Slot6	Empty	0	0	0
 Bank4-Slot10	Crown of Energy (Enchanted)	1026762	1	6
 Bank4-Slot10-Slot1	Empty	0	0	0
 Bank4-Slot10-Slot6	Empty	0	0	0
-Bank4-Slot11	Empty	0	0	0
+Bank4-Slot11	Crown of the Kromzek Kings (Legendary)	2025194	1	6
+Bank4-Slot11-Slot1	Empty	0	0	0
+Bank4-Slot11-Slot6	Empty	0	0	0
 Bank4-Slot12	Crimson Headband (Enchanted)	1028955	1	6
 Bank4-Slot12-Slot1	Empty	0	0	0
 Bank4-Slot12-Slot2	Empty	0	0	0
@@ -539,8 +579,14 @@ Bank4-Slot20-Slot1	Empty	0	0	0
 Bank4-Slot20-Slot2	Empty	0	0	0
 Bank4-Slot20-Slot6	Empty	0	0	0
 Bank5	Large Bank Box	976012	1	20
-Bank5-Slot1	Empty	0	0	0
-Bank5-Slot2	Empty	0	0	0
+Bank5-Slot1	Vengeful Mail of the Void	30564	1	6
+Bank5-Slot1-Slot1	Empty	0	0	0
+Bank5-Slot1-Slot2	Empty	0	0	0
+Bank5-Slot1-Slot6	Empty	0	0	0
+Bank5-Slot2	Vengeful Mail of the Void	30564	1	6
+Bank5-Slot2-Slot1	Empty	0	0	0
+Bank5-Slot2-Slot2	Empty	0	0	0
+Bank5-Slot2-Slot6	Empty	0	0	0
 Bank5-Slot3	Empty	0	0	0
 Bank5-Slot4	Empty	0	0	0
 Bank5-Slot5	Empty	0	0	0
@@ -603,9 +649,7 @@ Bank7-Slot9	Opaline Charm (Enchanted)	1030527	1	6
 Bank7-Slot9-Slot1	Empty	0	0	0
 Bank7-Slot9-Slot2	Empty	0	0	0
 Bank7-Slot9-Slot6	Empty	0	0	0
-Bank7-Slot10	Pendant of Malosini (Legendary)	2028976	1	6
-Bank7-Slot10-Slot1	Empty	0	0	0
-Bank7-Slot10-Slot2	Empty	0	0	0
+Bank7-Slot10	Empty	0	0	0
 Bank7-Slot11	Empty	0	0	0
 Bank7-Slot12	Empty	0	0	0
 Bank7-Slot13	Spiked Shoulderpads	26753	1	6
@@ -637,9 +681,7 @@ Bank8	Large Bank Box	976012	1	20
 Bank8-Slot1	Gebron's Demented Cloak	8359	1	6
 Bank8-Slot1-Slot1	Empty	0	0	0
 Bank8-Slot1-Slot2	Empty	0	0	0
-Bank8-Slot2	Cloak of Destruction (Legendary)	2028979	1	6
-Bank8-Slot2-Slot1	Empty	0	0	0
-Bank8-Slot2-Slot2	Empty	0	0	0
+Bank8-Slot2	Empty	0	0	0
 Bank8-Slot3	Crystal Shadow Cloak (Legendary)	2028918	1	6
 Bank8-Slot3-Slot1	Empty	0	0	0
 Bank8-Slot4	Cloak of the Sky (Enchanted)	1031376	1	6
@@ -669,8 +711,12 @@ Bank8-Slot11-Slot2	Empty	0	0	0
 Bank8-Slot12	Steel Skin Cloak	28904	1	6
 Bank8-Slot12-Slot1	Empty	0	0	0
 Bank8-Slot12-Slot2	Empty	0	0	0
-Bank8-Slot13	Empty	0	0	0
-Bank8-Slot14	Empty	0	0	0
+Bank8-Slot13	Silver Steel Cloak (Enchanted)	1026765	1	6
+Bank8-Slot13-Slot1	Empty	0	0	0
+Bank8-Slot13-Slot2	Empty	0	0	0
+Bank8-Slot14	Silver Steel Cloak (Enchanted)	1026765	1	6
+Bank8-Slot14-Slot1	Empty	0	0	0
+Bank8-Slot14-Slot2	Empty	0	0	0
 Bank8-Slot15	Empty	0	0	0
 Bank8-Slot16	Empty	0	0	0
 Bank8-Slot17	Empty	0	0	0
@@ -700,10 +746,7 @@ Bank9-Slot6-Slot1	Empty	0	0	0
 Bank9-Slot6-Slot2	Empty	0	0	0
 Bank9-Slot6-Slot6	Empty	0	0	0
 Bank9-Slot7	Empty	0	0	0
-Bank9-Slot8	Gauntlets of Dark Embers (Legendary)	2028897	1	6
-Bank9-Slot8-Slot1	Empty	0	0	0
-Bank9-Slot8-Slot2	Empty	0	0	0
-Bank9-Slot8-Slot6	Empty	0	0	0
+Bank9-Slot8	Empty	0	0	0
 Bank9-Slot9	Empty	0	0	0
 Bank9-Slot10	Cobalt Gauntlets (Enchanted)	1004519	1	6
 Bank9-Slot10-Slot1	Empty	0	0	0
@@ -769,7 +812,10 @@ Bank10-Slot8	Chestplate of Vindication (Enchanted)	1025044	1	6
 Bank10-Slot8-Slot1	Empty	0	0	0
 Bank10-Slot8-Slot2	Empty	0	0	0
 Bank10-Slot8-Slot6	Empty	0	0	0
-Bank10-Slot9	Empty	0	0	0
+Bank10-Slot9	Sal`Varae's Robe of Darkness	31239	1	6
+Bank10-Slot9-Slot1	Empty	0	0	0
+Bank10-Slot9-Slot2	Empty	0	0	0
+Bank10-Slot9-Slot6	Empty	0	0	0
 Bank10-Slot10	Breastplate of Speed	28937	1	6
 Bank10-Slot10-Slot1	Empty	0	0	0
 Bank10-Slot10-Slot2	Empty	0	0	0
@@ -867,7 +913,10 @@ Bank11-Slot13	Elder's Armbands of Ro	28145	1	6
 Bank11-Slot13-Slot1	Empty	0	0	0
 Bank11-Slot13-Slot2	Empty	0	0	0
 Bank11-Slot13-Slot6	Empty	0	0	0
-Bank11-Slot14	Empty	0	0	0
+Bank11-Slot14	Armguard of Shadows (Enchanted)	1026771	1	6
+Bank11-Slot14-Slot1	Empty	0	0	0
+Bank11-Slot14-Slot2	Empty	0	0	0
+Bank11-Slot14-Slot6	Empty	0	0	0
 Bank11-Slot15	Empty	0	0	0
 Bank11-Slot16	Empty	0	0	0
 Bank11-Slot17	Empty	0	0	0
@@ -907,13 +956,13 @@ Bank12-Slot9-Slot2	Empty	0	0	0
 Bank12-Slot10	Earring of Eradication	26775	1	6
 Bank12-Slot10-Slot1	Empty	0	0	0
 Bank12-Slot10-Slot2	Empty	0	0	0
-Bank12-Slot11	Empty	0	0	0
+Bank12-Slot11	Bone Earring of Evasion	28950	1	6
+Bank12-Slot11-Slot1	Empty	0	0	0
+Bank12-Slot11-Slot2	Empty	0	0	0
 Bank12-Slot12	Vyrinn's Earring of Insanity (Enchanted)	1031236	1	6
 Bank12-Slot12-Slot1	Empty	0	0	0
 Bank12-Slot12-Slot2	Empty	0	0	0
-Bank12-Slot13	Ring of Superiority (Legendary)	2031222	1	6
-Bank12-Slot13-Slot1	Empty	0	0	0
-Bank12-Slot13-Slot2	Empty	0	0	0
+Bank12-Slot13	Empty	0	0	0
 Bank12-Slot14	Ring of Resistance (Enchanted)	1026757	1	6
 Bank12-Slot14-Slot1	Empty	0	0	0
 Bank12-Slot14-Slot2	Empty	0	0	0
@@ -961,10 +1010,7 @@ Bank13-Slot10-Slot6	Empty	0	0	0
 Bank13-Slot11	Chain Pants of Lunacy	32930	1	6
 Bank13-Slot11-Slot1	Empty	0	0	0
 Bank13-Slot11-Slot6	Empty	0	0	0
-Bank13-Slot12	Leggings of Fiery Might (Legendary)	2028965	1	6
-Bank13-Slot12-Slot1	Empty	0	0	0
-Bank13-Slot12-Slot2	Empty	0	0	0
-Bank13-Slot12-Slot6	Empty	0	0	0
+Bank13-Slot12	Empty	0	0	0
 Bank13-Slot13	Leggings of Fiery Might	28965	1	6
 Bank13-Slot13-Slot1	Empty	0	0	0
 Bank13-Slot13-Slot2	Empty	0	0	0
@@ -1053,8 +1099,14 @@ Bank15-Slot2-Slot1	Empty	0	0	0
 Bank15-Slot2-Slot2	Empty	0	0	0
 Bank15-Slot2-Slot6	Empty	0	0	0
 Bank15-Slot3	Empty	0	0	0
-Bank15-Slot4	Empty	0	0	0
-Bank15-Slot5	Empty	0	0	0
+Bank15-Slot4	Sirran's Boots of Insanity	31245	1	6
+Bank15-Slot4-Slot1	Empty	0	0	0
+Bank15-Slot4-Slot2	Empty	0	0	0
+Bank15-Slot4-Slot6	Empty	0	0	0
+Bank15-Slot5	Maclaer's Boots of Silence	31238	1	6
+Bank15-Slot5-Slot1	Empty	0	0	0
+Bank15-Slot5-Slot2	Empty	0	0	0
+Bank15-Slot5-Slot6	Empty	0	0	0
 Bank15-Slot6	Maclaer's Boots of Silence	31238	1	6
 Bank15-Slot6-Slot1	Empty	0	0	0
 Bank15-Slot6-Slot2	Empty	0	0	0
@@ -1087,19 +1139,13 @@ Bank15-Slot13-Slot6	Empty	0	0	0
 Bank15-Slot14	Empty	0	0	0
 Bank15-Slot15	Empty	0	0	0
 Bank15-Slot16	Empty	0	0	0
-Bank15-Slot17	White Dragonscale Boots (Legendary)	2029645	1	6
-Bank15-Slot17-Slot1	Empty	0	0	0
-Bank15-Slot17-Slot2	Empty	0	0	0
-Bank15-Slot17-Slot6	Empty	0	0	0
+Bank15-Slot17	Empty	0	0	0
 Bank15-Slot18	Empty	0	0	0
 Bank15-Slot19	White Dragonscale Boots (Legendary)	2029645	1	6
 Bank15-Slot19-Slot1	Empty	0	0	0
 Bank15-Slot19-Slot2	Empty	0	0	0
 Bank15-Slot19-Slot6	Empty	0	0	0
-Bank15-Slot20	White Dragonscale Boots (Legendary)	2029645	1	6
-Bank15-Slot20-Slot1	Empty	0	0	0
-Bank15-Slot20-Slot2	Empty	0	0	0
-Bank15-Slot20-Slot6	Empty	0	0	0
+Bank15-Slot20	Empty	0	0	0
 Bank16	Large Bank Box	976012	1	20
 Bank16-Slot1	Tiny Bone Bracelet	28973	1	6
 Bank16-Slot1-Slot1	Empty	0	0	0
@@ -1158,7 +1204,10 @@ Bank16-Slot16	Bracer of Black Blood (Enchanted)	1028996	1	6
 Bank16-Slot16-Slot1	Empty	0	0	0
 Bank16-Slot16-Slot2	Empty	0	0	0
 Bank16-Slot16-Slot6	Empty	0	0	0
-Bank16-Slot17	Empty	0	0	0
+Bank16-Slot17	Camii's Bracer of Vigor (Enchanted)	1031246	1	6
+Bank16-Slot17-Slot1	Empty	0	0	0
+Bank16-Slot17-Slot2	Empty	0	0	0
+Bank16-Slot17-Slot6	Empty	0	0	0
 Bank16-Slot18	Steel Wristband of Strategy (Enchanted)	1025036	1	6
 Bank16-Slot18-Slot1	Empty	0	0	0
 Bank16-Slot18-Slot6	Empty	0	0	0
@@ -1530,8 +1579,16 @@ Bank21-Slot7-Slot1	Empty	0	0	0
 Bank21-Slot7-Slot2	Empty	0	0	0
 Bank21-Slot7-Slot3	Empty	0	0	0
 Bank21-Slot7-Slot6	Empty	0	0	0
-Bank21-Slot8	Empty	0	0	0
-Bank21-Slot9	Empty	0	0	0
+Bank21-Slot8	Khalshazar	28806	1	6
+Bank21-Slot8-Slot1	Empty	0	0	0
+Bank21-Slot8-Slot2	Empty	0	0	0
+Bank21-Slot8-Slot3	Empty	0	0	0
+Bank21-Slot8-Slot6	Empty	0	0	0
+Bank21-Slot9	Gharn's Rock of Smashing (Enchanted)	1031241	1	6
+Bank21-Slot9-Slot1	Empty	0	0	0
+Bank21-Slot9-Slot2	Empty	0	0	0
+Bank21-Slot9-Slot3	Empty	0	0	0
+Bank21-Slot9-Slot6	Empty	0	0	0
 Bank21-Slot10	Empty	0	0	0
 Bank21-Slot11	Empty	0	0	0
 Bank21-Slot12	Empty	0	0	0
