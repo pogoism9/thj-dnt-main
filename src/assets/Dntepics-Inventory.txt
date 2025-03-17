@@ -73,16 +73,40 @@ General1-Slot10-Slot6	Empty	0	0	0
 General1-Slot11	Swirling Sphere of Color	20494	1	6
 General1-Slot12	Swirling Sphere of Color	20494	1	6
 General1-Slot13	Swirling Sphere of Color	20494	1	6
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
-General1-Slot21	Empty	0	0	0
-General1-Slot22	Empty	0	0	0
-General1-Slot23	Empty	0	0	0
+General1-Slot14	Chromodrac Gut	20527	1	6
+General1-Slot15	Crown of Elemental Mastery	20764	1	6
+General1-Slot15-Slot1	Empty	0	0	0
+General1-Slot15-Slot2	Empty	0	0	0
+General1-Slot15-Slot6	Empty	0	0	0
+General1-Slot16	Elemental Binder	28043	1	6
+General1-Slot16-Slot1	Empty	0	0	0
+General1-Slot16-Slot2	Empty	0	0	0
+General1-Slot16-Slot6	Empty	0	0	0
+General1-Slot17	Elemental Binder	28043	1	6
+General1-Slot17-Slot1	Empty	0	0	0
+General1-Slot17-Slot2	Empty	0	0	0
+General1-Slot17-Slot6	Empty	0	0	0
+General1-Slot18	Elemental Binder (Enchanted)	1028043	1	6
+General1-Slot18-Slot1	Empty	0	0	0
+General1-Slot18-Slot2	Empty	0	0	0
+General1-Slot18-Slot6	Empty	0	0	0
+General1-Slot19	Pegasus Feather Cloak (Legendary)	2002463	1	6
+General1-Slot19-Slot1	Empty	0	0	0
+General1-Slot19-Slot2	Empty	0	0	0
+General1-Slot20	Shattered Emerald of Corruption	20484	1	6
+General1-Slot21	Staff of Elemental Mastery: Fire	11566	1	6
+General1-Slot21-Slot1	Empty	0	0	0
+General1-Slot21-Slot2	Empty	0	0	0
+General1-Slot21-Slot3	Empty	0	0	0
+General1-Slot21-Slot4	Empty	0	0	0
+General1-Slot21-Slot6	Empty	0	0	0
+General1-Slot22	Staff of Elemental Mastery: Fire	11566	1	6
+General1-Slot22-Slot1	Empty	0	0	0
+General1-Slot22-Slot2	Empty	0	0	0
+General1-Slot22-Slot3	Empty	0	0	0
+General1-Slot22-Slot4	Empty	0	0	0
+General1-Slot22-Slot6	Empty	0	0	0
+General1-Slot23	Torn Page of Magi`kot pg. 1	28000	1	6
 General1-Slot24	Empty	0	0	0
 General1-Slot25	Empty	0	0	0
 General1-Slot26	Empty	0	0	0

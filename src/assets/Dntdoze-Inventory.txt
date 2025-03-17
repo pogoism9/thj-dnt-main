@@ -45,7 +45,7 @@ General1-Slot15	White Tear	31261	1	6
 General1-Slot16	Emerald Symbol	31257	1	6
 General1-Slot17	Flame Kissed Symbol	31256	1	6
 General1-Slot18	Emerald Symbol	31257	1	6
-General1-Slot19	Empty	0	0	0
+General1-Slot19	Platinum Tear	31269	1	6
 General1-Slot20	Flame Kissed Symbol	31256	1	6
 General2	Large Bank Box	976012	1	20
 General2-Slot1	Empty	0	0	0
