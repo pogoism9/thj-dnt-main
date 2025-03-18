@@ -8,8 +8,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 // import { processEpicData } from '../@shared/epic-utils';
 import { PlayerClass } from '../@shared/@enums/player-class.enum';
-import { epicClassMappings, itemIdToPlayerClassMap } from '../@shared/epic-utils';
+import { itemIdToPlayerClassMap } from '../@shared/epic-utils';
 import { getBaseItemId } from '../@shared/@enums/item-quality.enum';
+import { spellIdToPlayerClassMap } from '../@shared/spell-utils';
 @Component({
     selector: 'ariza-bank',
     imports: [CommonModule, MatListModule, MatTabsModule, MatCardModule],
@@ -53,6 +54,9 @@ export class BankComponent {
                         if (name === 'epics') {
                             this._processEpicData(processedData);
                         }
+                        else if (name === 'spells') {
+                            this._processSpellData(processedData);
+                        }
                         this.bankData.set(name, processedData);
                     }
 
@@ -70,6 +74,7 @@ export class BankComponent {
 
     }
 
+    // TODO: Generalize between spells and epics
     private _classEpicToBankEntryMap: Map<PlayerClass, Array<BankEntry>> = new Map<PlayerClass, Array<BankEntry>>();
     private _processEpicData(data: BankEntry[]): Map<PlayerClass, Array<BankEntry>> {
         // Initialize each player class with an empty array
@@ -117,5 +122,42 @@ export class BankComponent {
     // Create a method that takes in a PlayerClass and returns an array of BankEntry objects
     public getEpicItemsByClass(playerClass: PlayerClass): Array<BankEntry> {
         return this._classEpicToBankEntryMap.get(playerClass) || [];
+    }
+
+    private _classSpellToBankEntryMap: Map<PlayerClass, Array<BankEntry>> = new Map<PlayerClass, Array<BankEntry>>();
+
+    private _processSpellData(processedData: BankEntry[]) {
+        const _spellIdToPlayerClassMap = spellIdToPlayerClassMap();
+
+        processedData.forEach((entry) => {
+            const playerClasses = _spellIdToPlayerClassMap.get(entry.id) || [PlayerClass.Unknown];
+
+            playerClasses.forEach((playerClass) => {
+                if (this._classSpellToBankEntryMap.has(playerClass)) {
+                    const existingEntries = this._classSpellToBankEntryMap.get(playerClass);
+                    if (existingEntries) {
+                        const existingEntry = existingEntries.find(
+                            (existingEntry) => existingEntry.id === entry.id
+                        );
+                        if (existingEntry) {
+                            existingEntry.count += entry.count;
+                        } else {
+                            existingEntries.push(entry);
+                        }
+                    }
+                } else {
+                    this._classSpellToBankEntryMap.set(playerClass, [entry]);
+                }
+            });
+        });
+    }
+
+    public getSpellItemsByClass(playerClass: PlayerClass): Array<BankEntry> {
+        return this._classSpellToBankEntryMap.get(playerClass) || [];
+    }
+
+    // Helper method to grab epics or spells by class
+    public getCategoryItemsByClass(playerClass: PlayerClass, category: string = 'epics'): Array<BankEntry> {
+        return category === 'epics' ? this.getEpicItemsByClass(playerClass) : this.getSpellItemsByClass(playerClass);
     }
 }
