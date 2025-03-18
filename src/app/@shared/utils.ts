@@ -1,3 +1,4 @@
+import { getBaseItemId } from './@enums/item-quality.enum';
 import { BankEntry } from './@models/bank-entry.type';
 
 export function outputFileToJson(rawData: string): BankEntry[] {
@@ -53,6 +54,7 @@ export function outputFileToJson(rawData: string): BankEntry[] {
                     id: +id,
                     count: +count,
                     slots: +slots,
+                    baseId: getBaseItemId(+id),
                 };
                 result.push(bankEntry);
             }

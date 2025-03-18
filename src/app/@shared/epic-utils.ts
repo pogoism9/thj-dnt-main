@@ -10,6 +10,8 @@ export const bardEpicItemIds = [
     20528, // Red Wyrm Gut
     6478, // Undead Dragon Sinew
     11602, // White Dragon Scales
+    20530, // Alluring Horn
+
 ];
 
 export const beastlordEpicItemIds: Array<number> = [
@@ -23,16 +25,24 @@ export const berserkerEpicItemIds = [
 
 export const clericEpicItemIds = [
     28018, // Lord Gimblox's Signet Ring
-
+    28044, // Lord Bergurgle's Crown 
+    24995, // Pearlescent Fragment
+    
+    9945, // Shissar Cerebral Cortex 
 ];
 
 export const druidEpicItemIds = [
     20692, // Ocean of Tears Seavines
+    5664, // Jade Reaver
 
 ];
 
 export const enchanterEpicItemIds = [
     10624, // Essence of a Vampire
+    1360, // Shining Metallic Robes 
+
+    // Epic 2.0
+    54946, // Harnessing Stone
 ];
 
 export const magicianEpicItemIds = [
@@ -50,6 +60,8 @@ export const magicianEpicItemIds = [
     28041, // Rain of Karana
     11567, // Staff of Elemental Mastery: Earth
     11569, // Staff of Elemental Mastery: Water
+
+    
     28007, // Torch of the Elements
     
     28000, // Torn Page of Magi`kot pg. 1
@@ -60,7 +72,9 @@ export const magicianEpicItemIds = [
     28028, // Torn Page of Mastery Wind
     28029, // Torn Page of Mastery Earth
     28030, // Torn Page of Mastery Water
-
+    
+    20764, // Crown of Elemental Mastery
+    16545, // Shovel
 ];
 
 export const monkEpicItemIds = [
@@ -71,19 +85,26 @@ export const monkEpicItemIds = [
 
 export const necromancerEpicItemIds = [
     20655, // Slime Blood of Cazic-Thule
-
+    20656, // Eye of Innoruuk
+    20654, // Manisi Herb
 ];
 
 export const paladinEpicItemIds = [
     19070, // Torn, Frost-covered Book
+    10099, // Fiery Defender
+    29001, // Tainted Darksteel Breastplate
+    19071, // Torn, Burnt Book
 ];
 
 export const rangerEpicItemIds = [
     20484, // Shattered Emerald of Corruption
+    5664, // Jade Reaver
+    20494, // Swirling Sphere of Color
 ];
 
 export const rogueEpicItemIds = [
     1253, // Robe of the Kedge
+    1360, // Shining Metallic Robes 
 ];
 
 export const shadowknightEpicItemIds = [
@@ -91,7 +112,10 @@ export const shadowknightEpicItemIds = [
     14371, // Decrepit Hide
     14372, // Drake Spine
     11609, // Soul Leech, Dark Sword of Blood
+    5403, // Ghoulbane
 
+    // Epic 2.0
+    23489, // Lhranc's Pendant
 ];
 
 export const shamanEpicItemIds = [
@@ -100,12 +124,18 @@ export const shamanEpicItemIds = [
     18458, // Head Housekeeper's Log
     18456, // Historic Article
 
+    10651, // Spear of Fate
+
+    57562, // Spirit-Touched Phased Spider Thorax
+
 ];
 
 export const warriorEpicItemIds = [
     20677, // Ball of Everliving Golem
     20676, // Hand of the Maestro
     11622, // Red Dragon Scales
+    20670, // Ancient Blade
+    22823, // Emerald Dragon Scales
 ];
 
 export const wizardEpicItemIds = [

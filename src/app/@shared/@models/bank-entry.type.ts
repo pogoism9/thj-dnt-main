@@ -6,4 +6,5 @@ export type BankEntry = {
     id: number;
     count: number;
     slots: number;
+    baseId: number;
 }
