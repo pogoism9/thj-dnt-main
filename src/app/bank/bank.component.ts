@@ -9,8 +9,8 @@ import { MatCardModule } from '@angular/material/card';
 // import { processEpicData } from '../@shared/epic-utils';
 import { PlayerClass } from '../@shared/@enums/player-class.enum';
 import { itemIdToPlayerClassMap } from '../@shared/epic-utils';
-import { getBaseItemId } from '../@shared/@enums/item-quality.enum';
 import { spellIdToPlayerClassMap } from '../@shared/spell-utils';
+import { BankCategory } from '../@shared/@enums/bank-category.enum';
 @Component({
     selector: 'ariza-bank',
     imports: [CommonModule, MatListModule, MatTabsModule, MatCardModule],
@@ -18,14 +18,19 @@ import { spellIdToPlayerClassMap } from '../@shared/spell-utils';
     styleUrl: './bank.component.scss',
 })
 export class BankComponent {
-    public bankData: Map<string, BankEntry[]> = new Map<string, BankEntry[]>();
+    public bankData: Map<BankCategory, BankEntry[]> = new Map<BankCategory, BankEntry[]>();
     public lastModified: Date | null = null;
     public currentDateTime: Date = new Date();
+    public BankCategory = BankCategory;
+    public PlayerClass = PlayerClass;
 
-    public getClasses(tabName: string): string[] {
-        return Object.keys(PlayerClass).filter(i => isNaN(+i)).filter((playerClass) => {
-            return true; // tabName === 'epics' || (!['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass) && tabName ==='spells')
-        });
+
+    public getClasses(category: BankCategory): PlayerClass[] {
+        let base = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
+        if (category !== BankCategory.Epics) {
+            base = base.filter((playerClass) => !['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass)) as PlayerClass[];
+        }
+        return base;
     }
     constructor(private _http: HttpClient) {}
 
@@ -54,14 +59,12 @@ export class BankComponent {
                         processedData = processedData.sort((a, b) =>
                             a.name.localeCompare(b.name)
                         );
-                        const name = file.substring(3).split('-')[0]; // Remove the first 3 characters
-                        if (name === 'epics') {
-                            this._processEpicData(processedData);
-                        }
-                        else if (name === 'spells') {
-                            this._processSpellData(processedData);
-                        }
-                        this.bankData.set(name, processedData);
+                        const category = file.substring(3).split('-')[0]; // Remove the first 3 characters
+                        const categoryEnum = Object.values(BankCategory).find(
+                            (value) => value.toLowerCase() === category.toLowerCase()
+                        ) as BankCategory;
+                        this._processData(processedData, categoryEnum);
+                        this.bankData.set(categoryEnum, processedData);
                     }
 
                     if (fileLastModified) {
@@ -74,94 +77,46 @@ export class BankComponent {
                     }
                 });
         });
-
-
     }
 
-    // TODO: Generalize between spells and epics
-    private _classEpicToBankEntryMap: Map<PlayerClass, Array<BankEntry>> = new Map<PlayerClass, Array<BankEntry>>();
-    private _processEpicData(data: BankEntry[]): Map<PlayerClass, Array<BankEntry>> {
-        // Initialize each player class with an empty array
-        const _itemIdToPlayerClassMap = itemIdToPlayerClassMap();
-        
-        data.forEach((entry) => {
-            const baseItemId = getBaseItemId(entry.id);
-            const baseItemName: string = baseItemId !== entry.id ? entry.name.replace(/ \(Legendary\)| \(Enchanted\)$/, '') : entry.name; 
-            
-
-            const playerClasses = _itemIdToPlayerClassMap.get(baseItemId) || [PlayerClass.Unknown];
-
+    private _classCategoryDataToBankEntryMap: Map<string, Map<PlayerClass, Array<BankEntry>>> = new Map<string, Map<PlayerClass, Array<BankEntry>>>();
+    private _get_classCategoryDataToBankEntryMap(category: string): Map<PlayerClass, Array<BankEntry>> {
+        if (this._classCategoryDataToBankEntryMap.get(category) === undefined) {
+            this._classCategoryDataToBankEntryMap.set(category, new Map<PlayerClass, Array<BankEntry>>());
+        }
+        return this._classCategoryDataToBankEntryMap.get(category)!;
+    }
+    private _processData(processedData: BankEntry[], category: BankCategory = BankCategory.Epics) {
+        const classDataToBankEntryMap = this._get_classCategoryDataToBankEntryMap(category);
+        const classMappedData = category === BankCategory.Epics ? itemIdToPlayerClassMap() : spellIdToPlayerClassMap();
+        processedData.forEach((bankEntry) => {
+            const playerClasses = classMappedData.get(bankEntry.id) || classMappedData.get(bankEntry.baseId) || [PlayerClass.Unknown];
             playerClasses.forEach((playerClass) => {
-                if (this._classEpicToBankEntryMap.has(playerClass)) {
-                    const existingEntries = this._classEpicToBankEntryMap.get(playerClass);
+                if (classDataToBankEntryMap.has(playerClass)) {
+                    const existingEntries = classDataToBankEntryMap.get(playerClass);
                     if (existingEntries) {
                         const existingEntry = existingEntries.find(
-                            (existingEntry) => existingEntry.id === baseItemId
+                            (existingEntry) => existingEntry.id === bankEntry.id
                         );
                         if (existingEntry) {
-                            existingEntry.count += entry.count;
+                            existingEntry.count += bankEntry.count;
                         } else {
-                            existingEntries.push({
-                                ...entry,
-                                id: baseItemId,
-                                name: baseItemName
-                            });
+                            existingEntries.push(bankEntry);
                         }
                     }
                 } else {
-                    this._classEpicToBankEntryMap.set(playerClass, [
-                        {
-                            ...entry,
-                            id: baseItemId,
-                            name: baseItemName
-                        },
-                    ]);
-                }
-            });
-        });
-
-        return this._classEpicToBankEntryMap;
-    }
-
-    // Create a method that takes in a PlayerClass and returns an array of BankEntry objects
-    public getEpicItemsByClass(playerClass: PlayerClass): Array<BankEntry> {
-        return this._classEpicToBankEntryMap.get(playerClass) || [];
-    }
-
-    private _classSpellToBankEntryMap: Map<PlayerClass, Array<BankEntry>> = new Map<PlayerClass, Array<BankEntry>>();
-
-    private _processSpellData(processedData: BankEntry[]) {
-        const _spellIdToPlayerClassMap = spellIdToPlayerClassMap();
-
-        processedData.forEach((entry) => {
-            const playerClasses = _spellIdToPlayerClassMap.get(entry.id) || [PlayerClass.Unknown];
-
-            playerClasses.forEach((playerClass) => {
-                if (this._classSpellToBankEntryMap.has(playerClass)) {
-                    const existingEntries = this._classSpellToBankEntryMap.get(playerClass);
-                    if (existingEntries) {
-                        const existingEntry = existingEntries.find(
-                            (existingEntry) => existingEntry.id === entry.id
-                        );
-                        if (existingEntry) {
-                            existingEntry.count += entry.count;
-                        } else {
-                            existingEntries.push(entry);
-                        }
-                    }
-                } else {
-                    this._classSpellToBankEntryMap.set(playerClass, [entry]);
+                    classDataToBankEntryMap.set(playerClass, [bankEntry]);
                 }
             });
         });
     }
 
-    public getSpellItemsByClass(playerClass: PlayerClass): Array<BankEntry> {
-        return this._classSpellToBankEntryMap.get(playerClass) || [];
+    public getDataByClass(playerClass: PlayerClass, category: BankCategory = BankCategory.Epics): Array<BankEntry> {
+        return this._classCategoryDataToBankEntryMap.get(category)?.get(playerClass) || [];
     }
 
-    // Helper method to grab epics or spells by class
-    public getCategoryItemsByClass(playerClass: PlayerClass, category: string = 'epics'): Array<BankEntry> {
-        return category === 'epics' ? this.getEpicItemsByClass(playerClass) : this.getSpellItemsByClass(playerClass);
+    public getCategoryItemsByClass(playerClass: PlayerClass, category: BankCategory = BankCategory.Epics): Array<BankEntry> {
+        return this.getDataByClass(playerClass, category);
     }
+    
 }
