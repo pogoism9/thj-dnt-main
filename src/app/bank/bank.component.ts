@@ -22,7 +22,11 @@ export class BankComponent {
     public lastModified: Date | null = null;
     public currentDateTime: Date = new Date();
 
-    public Classes = Object.keys(PlayerClass).filter( i => isNaN(+i) );
+    public getClasses(tabName: string): string[] {
+        return Object.keys(PlayerClass).filter(i => isNaN(+i)).filter((playerClass) => {
+            return tabName === 'epics' || (!['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass) && tabName ==='spells')
+        });
+    }
     constructor(private _http: HttpClient) {}
 
     ngOnInit(): void {

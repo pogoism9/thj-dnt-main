@@ -13,7 +13,7 @@
         <div class="bank-content">
             <div class="card-container" *ngIf="tab.key === 'epics' || tab.key === 'spells'; else others">
                 <mat-card 
-                    *ngFor="let class of Classes; let idx = index" 
+                    *ngFor="let class of getClasses(tab.key); let idx = index" 
                     class="spaced-card" 
                     appearance="outlined"
                 >
