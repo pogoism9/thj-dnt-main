@@ -24,7 +24,7 @@ export class BankComponent {
 
     public getClasses(tabName: string): string[] {
         return Object.keys(PlayerClass).filter(i => isNaN(+i)).filter((playerClass) => {
-            return tabName === 'epics' || (!['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass) && tabName ==='spells')
+            return true; // tabName === 'epics' || (!['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass) && tabName ==='spells')
         });
     }
     constructor(private _http: HttpClient) {}
