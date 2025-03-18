@@ -30,26 +30,26 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
+General1-Slot1	Ancient: Burnout Blaze	26618	1	6
+General1-Slot2	Ancient: Eternal Rapture	26619	4	6
+General1-Slot3	Ancient: Greater Concussion	26616	2	6
+General1-Slot4	Ancient: Lifebane	26614	1	6
+General1-Slot5	Ancient: Scourge of Nife	26612	1	6
+General1-Slot6	Song: Composition of Ervaj	30452	2	6
+General1-Slot7	Spell: Aegis of Ro	15863	1	6
+General1-Slot8	Spell: Arch Lich	30416	3	6
+General1-Slot9	Spell: Burnout IV	30472	1	6
+General1-Slot10	Spell: Form of the Great Bear	30431	2	6
+General1-Slot11	Spell: Mark of Karn	19218	1	6
+General1-Slot12	Spell: Regrowth of the Grove	19256	1	6
+General1-Slot13	Spell: Sha's Ferocity	7728	3	6
+General1-Slot14	Spell: Spirit of Khati Sha	7731	2	6
+General1-Slot15	Spell: Spirit of Zehkes	7726	3	6
+General1-Slot16	Spell: Sunstrike	19345	1	6
+General1-Slot17	Spell: Tigir`s Insects	19285	1	6
+General1-Slot18	Spell: Transon's Elemental Renewal	19536	1	6
+General1-Slot19	Spell: Wrath of the Elements	30405	3	6
+General1-Slot20	Spell: Greater Vocaration: Water	19372	1	6
 General1-Slot21	Spell: Boon of the Garou	30474	2	6
 General1-Slot22	Empty	0	0	0
 General1-Slot23	Spell: Aid of Khurenz	7722	1	6
@@ -61,47 +61,47 @@ General1-Slot28	Spell: Degeneration	7646	3	6
 General1-Slot29	Spell: Moonfire	19519	1	6
 General1-Slot30	Spell: Transons Elemental Infusion	7636	1	6
 General2	Large Bank Box	976012	1	20
-General2-Slot1	Spell: Healing Wave of Prexus	7689	1	6
-General2-Slot2	Spell: Transon's Phantasmal Protection	7639	1	6
-General2-Slot3	Spell: Yaulp IV	19209	1	6
-General2-Slot4	Spell: Corporeal Empathy	30413	1	6
-General2-Slot5	Spell: Emissary of Thule	19311	1	6
-General2-Slot6	Spell: Levant	19303	1	6
-General2-Slot7	Spell: Terror of Terris	24542	1	6
-General2-Slot8	Spell: Glamorous Visage	7669	1	6
-General2-Slot9	Spell: Eagle Eye	7699	2	6
-General2-Slot10	Spell: Beguiling Visage	7667	1	6
-General2-Slot11	Spell: Jolting Blades	7697	1	6
-General2-Slot12	Spell: Succussion of Shadows	7647	2	6
-General2-Slot13	Spell: Enticement of Flame	30421	2	6
-General2-Slot14	Spell: Circle of Wakening Lands	30398	1	6
-General2-Slot15	Spell: Improved Invis vs Undead	30411	2	6
-General2-Slot16	Spell: Mark of the Predator	7698	1	6
-General2-Slot17	Spell: Hammer of Divinity	15997	2	6
-General2-Slot18	Song: Melody of Ervaj	30449	1	6
-General2-Slot19	Spell: Circle of Cobalt Scar	30440	1	6
-General2-Slot20	Spell: Vengeance of Al`Kabor	19342	1	6
+General2-Slot1	Empty	0	0	0
+General2-Slot2	Empty	0	0	0
+General2-Slot3	Empty	0	0	0
+General2-Slot4	Empty	0	0	0
+General2-Slot5	Empty	0	0	0
+General2-Slot6	Empty	0	0	0
+General2-Slot7	Empty	0	0	0
+General2-Slot8	Empty	0	0	0
+General2-Slot9	Empty	0	0	0
+General2-Slot10	Empty	0	0	0
+General2-Slot11	Empty	0	0	0
+General2-Slot12	Empty	0	0	0
+General2-Slot13	Empty	0	0	0
+General2-Slot14	Empty	0	0	0
+General2-Slot15	Empty	0	0	0
+General2-Slot16	Empty	0	0	0
+General2-Slot17	Empty	0	0	0
+General2-Slot18	Empty	0	0	0
+General2-Slot19	Empty	0	0	0
+General2-Slot20	Empty	0	0	0
 General3	Large Bank Box	976012	1	20
-General3-Slot1	Empty	0	0	0
-General3-Slot2	Empty	0	0	0
-General3-Slot3	Empty	0	0	0
-General3-Slot4	Empty	0	0	0
-General3-Slot5	Empty	0	0	0
-General3-Slot6	Empty	0	0	0
-General3-Slot7	Empty	0	0	0
-General3-Slot8	Empty	0	0	0
-General3-Slot9	Empty	0	0	0
-General3-Slot10	Empty	0	0	0
-General3-Slot11	Empty	0	0	0
-General3-Slot12	Empty	0	0	0
-General3-Slot13	Empty	0	0	0
-General3-Slot14	Empty	0	0	0
-General3-Slot15	Empty	0	0	0
-General3-Slot16	Empty	0	0	0
-General3-Slot17	Empty	0	0	0
-General3-Slot18	Empty	0	0	0
-General3-Slot19	Empty	0	0	0
-General3-Slot20	Empty	0	0	0
+General3-Slot1	Spell: Healing Wave of Prexus	7689	1	6
+General3-Slot2	Spell: Transon's Phantasmal Protection	7639	1	6
+General3-Slot3	Spell: Yaulp IV	19209	1	6
+General3-Slot4	Spell: Corporeal Empathy	30413	1	6
+General3-Slot5	Spell: Emissary of Thule	19311	1	6
+General3-Slot6	Spell: Levant	19303	1	6
+General3-Slot7	Spell: Terror of Terris	24542	1	6
+General3-Slot8	Spell: Glamorous Visage	7669	1	6
+General3-Slot9	Spell: Eagle Eye	7699	2	6
+General3-Slot10	Spell: Beguiling Visage	7667	1	6
+General3-Slot11	Spell: Jolting Blades	7697	1	6
+General3-Slot12	Spell: Succussion of Shadows	7647	2	6
+General3-Slot13	Spell: Enticement of Flame	30421	2	6
+General3-Slot14	Spell: Circle of Wakening Lands	30398	1	6
+General3-Slot15	Spell: Improved Invis vs Undead	30411	2	6
+General3-Slot16	Spell: Mark of the Predator	7698	1	6
+General3-Slot17	Spell: Hammer of Divinity	15997	2	6
+General3-Slot18	Song: Melody of Ervaj	30449	1	6
+General3-Slot19	Spell: Circle of Cobalt Scar	30440	1	6
+General3-Slot20	Spell: Vengeance of Al`Kabor	19342	1	6
 General4	Adventurer's Pack	17423	1	12
 General4-Slot1	Empty	0	0	0
 General4-Slot2	Empty	0	0	0
@@ -365,24 +365,24 @@ Bank8-Slot20	Empty	0	0	0
 Bank9	Large Bank Box	976012	1	20
 Bank9-Slot1	Ancient: Chaotic Visions	26620	33	6
 Bank9-Slot2	Ancient: Eternal Rapture	26619	21	6
-Bank9-Slot3	Spell: Zumaik`s Animation	19389	8	6
+Bank9-Slot3	Spell: Zumaik`s Animation	19389	7	6
 Bank9-Slot4	Spell: Bedlam	19400	10	6
 Bank9-Slot5	Spell: Asphyxiate	19402	10	6
 Bank9-Slot6	Spell: Torment of Argli	19391	4	6
 Bank9-Slot7	Spell: Augment	19416	4	6
-Bank9-Slot8	Spell: Cripple	19269	14	6
+Bank9-Slot8	Spell: Cripple	19269	13	6
 Bank9-Slot9	Spell: Paralyzing Earth	16240	8	6
 Bank9-Slot10	Spell: Enlightenment	19396	9	6
 Bank9-Slot11	Spell: Dictate	19406	20	6
 Bank9-Slot12	Spell: Visions of Grandeur	19407	22	6
 Bank9-Slot13	Spell: Wind of Tashani	19387	5	6
 Bank9-Slot14	Spell: Gift of Pure Thought	19401	9	6
-Bank9-Slot15	Spell: Wind of Tashanian	19405	13	6
+Bank9-Slot15	Spell: Wind of Tashanian	19405	12	6
 Bank9-Slot16	Spell: Dementia	19384	18	6
 Bank9-Slot17	Spell: Gift of Brilliance	30410	37	6
 Bank9-Slot18	Spell: Color Slant	19378	15	6
 Bank9-Slot19	Spell: Umbra	19393	2	6
-Bank9-Slot20	Spell: Forlorn Deeds	19395	6	6
+Bank9-Slot20	Spell: Forlorn Deeds	19395	5	6
 Bank10	Large Bank Box	976012	1	20
 Bank10-Slot1	Spell: Theft of Thought	19374	10	6
 Bank10-Slot2	Spell: Wake of Tranquility	19215	8	6
@@ -407,10 +407,10 @@ Bank10-Slot20	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
 Bank11-Slot1	Ancient: Shock of Sun	26617	17	6
 Bank11-Slot2	Ancient: Burnout Blaze	26618	25	6
-Bank11-Slot3	Spell: Vocarate: Water	19362	1	6
+Bank11-Slot3	Empty	0	0	0
 Bank11-Slot4	Spell: Mala	19418	12	6
 Bank11-Slot5	Spell: Greater Vocaration: Air	19371	12	6
-Bank11-Slot6	Spell: Greater Vocaration: Water	19372	16	6
+Bank11-Slot6	Spell: Greater Vocaration: Water	19372	15	6
 Bank11-Slot7	Spell: Summon: Muzzle of Mardu	19363	1	6
 Bank11-Slot8	Empty	0	0	0
 Bank11-Slot9	Spell: Quiver of Marr	19354	8	6
@@ -426,7 +426,7 @@ Bank11-Slot18	Spell: Aegis of Ro	15863	17	6
 Bank11-Slot19	Spell: Monster Summoning II	30402	5	6
 Bank11-Slot20	Spell: Dyzil`s Deafening Decoy	19364	6	6
 Bank12	Large Bank Box	976012	1	20
-Bank12-Slot1	Spell: Call of the Hero	19360	3	6
+Bank12-Slot1	Spell: Call of the Hero	19360	2	6
 Bank12-Slot2	Spell: Bristlebane`s Bundle	19351	2	6
 Bank12-Slot3	Spell: Transon's Elemental Renewal	19536	1	6
 Bank12-Slot4	Empty	0	0	0
@@ -501,12 +501,12 @@ Bank15-Slot9	Spell: Great Divide Portal	30423	7	6
 Bank15-Slot10	Spell: Ice Spear of Solist	30426	29	6
 Bank15-Slot11	Spell: Inferno of Al`Kabor	19322	2	6
 Bank15-Slot12	Spell: Invert Gravity	19341	2	6
-Bank15-Slot13	Spell: Lure of Ice	19422	14	6
+Bank15-Slot13	Spell: Lure of Ice	19422	13	6
 Bank15-Slot14	Spell: Manasink	19414	3	6
 Bank15-Slot15	Spell: Markar`s Discord	19331	3	6
-Bank15-Slot16	Spell: Pillar of Flame	19335	6	6
-Bank15-Slot17	Spell: Pillar of Frost	19318	8	6
-Bank15-Slot18	Spell: Pillar of Lightning	19326	4	6
+Bank15-Slot16	Spell: Pillar of Flame	19335	5	6
+Bank15-Slot17	Spell: Pillar of Frost	19318	7	6
+Bank15-Slot18	Spell: Pillar of Lightning	19326	3	6
 Bank15-Slot19	Spell: Plainsight	19330	6	6
 Bank15-Slot20	Spell: Maelstrom of Electricity	19497	1	6
 Bank16	Large Bank Box	976012	1	20
@@ -514,7 +514,7 @@ Bank16-Slot1	Spell: Decession	7658	3	6
 Bank16-Slot2	Spell: Tears of Druzzil	19319	6	6
 Bank16-Slot3	Spell: Translocate	30422	6	6
 Bank16-Slot4	Spell: Translocate: Group	19474	4	6
-Bank16-Slot5	Spell: Winds of Gelid	19343	8	6
+Bank16-Slot5	Spell: Winds of Gelid	19343	7	6
 Bank16-Slot6	Spell: Greater Familiar	7660	9	6
 Bank16-Slot7	Spell: Improved Invisibility	30406	4	6
 Bank16-Slot8	Spell: Spell Shield	7659	2	6
@@ -543,7 +543,7 @@ Bank17-Slot9	Spell: Acumen	19278	21	6
 Bank17-Slot10	Spell: Blood of Nadox	59525	1	6
 Bank17-Slot11	Spell: Focus of Spirit	30432	29	6
 Bank17-Slot12	Spell: Talisman of Epuration	7629	1	6
-Bank17-Slot13	Spell: Spirit of the Howler	19275	4	6
+Bank17-Slot13	Spell: Spirit of the Howler	19275	3	6
 Bank17-Slot14	Spell: Avatar	19292	12	6
 Bank17-Slot15	Spell: Talisman of Jasinth	19264	5	6
 Bank17-Slot16	Spell: Talisman of the Brute	19281	3	6

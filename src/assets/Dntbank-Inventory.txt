@@ -131,7 +131,7 @@ General2	Large Bank Box	976012	1	20
 General2-Slot1	Ssraeshzaen Blood Cord	26549	1	6
 General2-Slot1-Slot1	Empty	0	0	0
 General2-Slot1-Slot2	Empty	0	0	0
-General2-Slot2	Ssraeshzian Insignia	19718	1	6
+General2-Slot2	Empty	0	0	0
 General2-Slot3	Zazuzh's Idol	19716	1	6
 General2-Slot4	Feeliux's Cord of Velocity	31235	1	6
 General2-Slot4-Slot1	Empty	0	0	0
@@ -146,217 +146,246 @@ General2-Slot7	Sirran's Boots of Insanity	31245	1	6
 General2-Slot7-Slot1	Empty	0	0	0
 General2-Slot7-Slot2	Empty	0	0	0
 General2-Slot7-Slot6	Empty	0	0	0
-General2-Slot8	Ssraeshzian Insignia	19718	1	6
-General2-Slot9	Empty	0	0	0
-General2-Slot10	Empty	0	0	0
-General2-Slot11	Empty	0	0	0
-General2-Slot12	Empty	0	0	0
-General2-Slot13	Empty	0	0	0
-General2-Slot14	Empty	0	0	0
-General2-Slot15	Empty	0	0	0
-General2-Slot16	Empty	0	0	0
-General2-Slot17	Empty	0	0	0
+General2-Slot8	Empty	0	0	0
+General2-Slot9	Aegis of Judgment (Enchanted)	1026786	1	6
+General2-Slot9-Slot1	Empty	0	0	0
+General2-Slot9-Slot2	Empty	0	0	0
+General2-Slot9-Slot6	Empty	0	0	0
+General2-Slot10	Cloudy Steel Mask (Legendary)	2028942	1	6
+General2-Slot10-Slot1	Empty	0	0	0
+General2-Slot10-Slot2	Empty	0	0	0
+General2-Slot11	Eye of Vyskudra (Legendary)	2029463	1	6
+General2-Slot11-Slot1	Empty	0	0	0
+General2-Slot11-Slot2	Empty	0	0	0
+General2-Slot11-Slot3	Empty	0	0	0
+General2-Slot11-Slot6	Empty	0	0	0
+General2-Slot12	Grand Pauldron of Study (Enchanted)	1062353	1	6
+General2-Slot12-Slot1	Empty	0	0	0
+General2-Slot12-Slot2	Empty	0	0	0
+General2-Slot13	Nightcaller Leggings (Legendary)	2026755	1	6
+General2-Slot13-Slot1	Empty	0	0	0
+General2-Slot13-Slot6	Empty	0	0	0
+General2-Slot14	Orb of Evasion (Legendary)	2028903	1	6
+General2-Slot14-Slot1	Empty	0	0	0
+General2-Slot14-Slot2	Empty	0	0	0
+General2-Slot14-Slot3	Empty	0	0	0
+General2-Slot14-Slot6	Empty	0	0	0
+General2-Slot15	Pristine Jade Idol (Legendary)	2030536	1	6
+General2-Slot15-Slot1	Empty	0	0	0
+General2-Slot15-Slot2	Empty	0	0	0
+General2-Slot15-Slot3	Empty	0	0	0
+General2-Slot15-Slot6	Empty	0	0	0
+General2-Slot16	Ring of the Crimson Bull (Enchanted)	1028914	1	6
+General2-Slot16-Slot1	Empty	0	0	0
+General2-Slot16-Slot2	Empty	0	0	0
+General2-Slot17	Shiny Trinket of Speed (Enchanted)	1026563	1	6
+General2-Slot17-Slot1	Empty	0	0	0
+General2-Slot17-Slot2	Empty	0	0	0
+General2-Slot17-Slot3	Empty	0	0	0
+General2-Slot17-Slot6	Empty	0	0	0
 General2-Slot18	Empty	0	0	0
 General2-Slot19	Empty	0	0	0
 General2-Slot20	Empty	0	0	0
 General3	Large Bank Box	976012	1	20
-General3-Slot1	Ssraeshzian Insignia	19718	1	6
-General3-Slot2	Ssraeshzian Insignia	19718	1	6
-General3-Slot3	Ssraeshzian Insignia	19718	1	6
-General3-Slot4	Ssraeshzian Insignia	19718	1	6
-General3-Slot5	Ssraeshzian Insignia	19718	1	6
-General3-Slot6	Ssraeshzian Insignia	19718	1	6
-General3-Slot7	Ssraeshzian Insignia	19718	1	6
-General3-Slot8	Ssraeshzian Insignia	19718	1	6
-General3-Slot9	Ssraeshzian Insignia	19718	1	6
-General3-Slot10	Ssraeshzian Insignia	19718	1	6
-General3-Slot11	Ssraeshzian Insignia	19718	1	6
-General3-Slot12	Ssraeshzian Insignia	19718	1	6
-General3-Slot13	Ssraeshzian Insignia	19718	1	6
-General3-Slot14	Ssraeshzian Insignia	19718	1	6
-General3-Slot15	Ssraeshzian Insignia	19718	1	6
-General3-Slot16	Ssraeshzian Insignia	19718	1	6
-General3-Slot17	Ssraeshzian Insignia	19718	1	6
-General3-Slot18	Ssraeshzian Insignia	19718	1	6
-General3-Slot19	Ssraeshzian Insignia	19718	1	6
-General3-Slot20	Ssraeshzian Insignia	19718	1	6
+General3-Slot1	Empty	0	0	0
+General3-Slot2	Empty	0	0	0
+General3-Slot3	Steel Skin Cloak	28904	1	6
+General3-Slot3-Slot1	Empty	0	0	0
+General3-Slot3-Slot2	Empty	0	0	0
+General3-Slot4	Empty	0	0	0
+General3-Slot5	Empty	0	0	0
+General3-Slot6	Empty	0	0	0
+General3-Slot7	Empty	0	0	0
+General3-Slot8	Empty	0	0	0
+General3-Slot9	Empty	0	0	0
+General3-Slot10	Empty	0	0	0
+General3-Slot11	Empty	0	0	0
+General3-Slot12	Empty	0	0	0
+General3-Slot13	Empty	0	0	0
+General3-Slot14	Empty	0	0	0
+General3-Slot15	Empty	0	0	0
+General3-Slot16	Empty	0	0	0
+General3-Slot17	Empty	0	0	0
+General3-Slot18	Empty	0	0	0
+General3-Slot19	Empty	0	0	0
+General3-Slot20	Empty	0	0	0
 General4	Large Bank Box	976012	1	20
-General4-Slot1	Zazuzh's Idol	19716	1	6
-General4-Slot2	Zazuzh's Idol	19716	1	6
-General4-Slot3	Zazuzh's Idol	19716	1	6
-General4-Slot4	Zazuzh's Idol	19716	1	6
-General4-Slot5	Zazuzh's Idol	19716	1	6
-General4-Slot6	Zazuzh's Idol	19716	1	6
-General4-Slot7	Zazuzh's Idol	19716	1	6
-General4-Slot8	Zazuzh's Idol	19716	1	6
-General4-Slot9	Zazuzh's Idol	19716	1	6
-General4-Slot10	Zazuzh's Idol	19716	1	6
-General4-Slot11	Zazuzh's Idol	19716	1	6
-General4-Slot12	Zazuzh's Idol	19716	1	6
+General4-Slot1	Empty	0	0	0
+General4-Slot2	Empty	0	0	0
+General4-Slot3	Empty	0	0	0
+General4-Slot4	Empty	0	0	0
+General4-Slot5	Empty	0	0	0
+General4-Slot6	Empty	0	0	0
+General4-Slot7	Empty	0	0	0
+General4-Slot8	Empty	0	0	0
+General4-Slot9	Empty	0	0	0
+General4-Slot10	Empty	0	0	0
+General4-Slot11	Empty	0	0	0
+General4-Slot12	Empty	0	0	0
 General4-Slot13	Empty	0	0	0
 General4-Slot14	Empty	0	0	0
 General4-Slot15	Empty	0	0	0
-General4-Slot16	Zherozsh's Ring	19717	1	6
+General4-Slot16	Empty	0	0	0
 General4-Slot17	Empty	0	0	0
 General4-Slot18	Empty	0	0	0
-General4-Slot19	Ssraeshzian Insignia	19718	1	6
-General4-Slot20	Ssraeshzian Insignia	19718	1	6
+General4-Slot19	Empty	0	0	0
+General4-Slot20	Empty	0	0	0
 General5	Large Bank Box	976012	1	20
-General5-Slot1	Taskmaster's Pouch	17118	1	4
-General5-Slot1-Slot1	Empty	0	0	0
-General5-Slot1-Slot2	Empty	0	0	0
-General5-Slot1-Slot3	Empty	0	0	0
-General5-Slot1-Slot4	Empty	0	0	0
-General5-Slot2	Taskmaster's Pouch	17118	1	4
-General5-Slot2-Slot1	Empty	0	0	0
-General5-Slot2-Slot2	Empty	0	0	0
-General5-Slot2-Slot3	Empty	0	0	0
-General5-Slot2-Slot4	Empty	0	0	0
-General5-Slot3	Taskmaster's Pouch	17118	1	4
-General5-Slot3-Slot1	Empty	0	0	0
-General5-Slot3-Slot2	Empty	0	0	0
-General5-Slot3-Slot3	Empty	0	0	0
-General5-Slot3-Slot4	Empty	0	0	0
-General5-Slot4	Taskmaster's Pouch	17118	1	4
-General5-Slot4-Slot1	Empty	0	0	0
-General5-Slot4-Slot2	Empty	0	0	0
-General5-Slot4-Slot3	Empty	0	0	0
-General5-Slot4-Slot4	Empty	0	0	0
-General5-Slot5	Taskmaster's Pouch	17118	1	4
-General5-Slot5-Slot1	Empty	0	0	0
-General5-Slot5-Slot2	Empty	0	0	0
-General5-Slot5-Slot3	Empty	0	0	0
-General5-Slot5-Slot4	Empty	0	0	0
-General5-Slot6	Taskmaster's Pouch	17118	1	4
-General5-Slot6-Slot1	Empty	0	0	0
-General5-Slot6-Slot2	Empty	0	0	0
-General5-Slot6-Slot3	Empty	0	0	0
-General5-Slot6-Slot4	Empty	0	0	0
-General5-Slot7	Taskmaster's Pouch	17118	1	4
-General5-Slot7-Slot1	Empty	0	0	0
-General5-Slot7-Slot2	Empty	0	0	0
-General5-Slot7-Slot3	Empty	0	0	0
-General5-Slot7-Slot4	Empty	0	0	0
-General5-Slot8	Taskmaster's Pouch	17118	1	4
-General5-Slot8-Slot1	Empty	0	0	0
-General5-Slot8-Slot2	Empty	0	0	0
-General5-Slot8-Slot3	Empty	0	0	0
-General5-Slot8-Slot4	Empty	0	0	0
-General5-Slot9	Taskmaster's Pouch	17118	1	4
-General5-Slot9-Slot1	Empty	0	0	0
-General5-Slot9-Slot2	Empty	0	0	0
-General5-Slot9-Slot3	Empty	0	0	0
-General5-Slot9-Slot4	Empty	0	0	0
-General5-Slot10	Taskmaster's Pouch	17118	1	4
-General5-Slot10-Slot1	Empty	0	0	0
-General5-Slot10-Slot2	Empty	0	0	0
-General5-Slot10-Slot3	Empty	0	0	0
-General5-Slot10-Slot4	Empty	0	0	0
-General5-Slot11	Taskmaster's Pouch	17118	1	4
-General5-Slot11-Slot1	Empty	0	0	0
-General5-Slot11-Slot2	Empty	0	0	0
-General5-Slot11-Slot3	Empty	0	0	0
-General5-Slot11-Slot4	Empty	0	0	0
-General5-Slot12	Taskmaster's Pouch	17118	1	4
-General5-Slot12-Slot1	Empty	0	0	0
-General5-Slot12-Slot2	Empty	0	0	0
-General5-Slot12-Slot3	Empty	0	0	0
-General5-Slot12-Slot4	Empty	0	0	0
-General5-Slot13	Taskmaster's Pouch	17118	1	4
-General5-Slot13-Slot1	Empty	0	0	0
-General5-Slot13-Slot2	Empty	0	0	0
-General5-Slot13-Slot3	Empty	0	0	0
-General5-Slot13-Slot4	Empty	0	0	0
-General5-Slot14	Taskmaster's Pouch	17118	1	4
-General5-Slot14-Slot1	Empty	0	0	0
-General5-Slot14-Slot2	Empty	0	0	0
-General5-Slot14-Slot3	Empty	0	0	0
-General5-Slot14-Slot4	Empty	0	0	0
-General5-Slot15	Taskmaster's Pouch	17118	1	4
-General5-Slot15-Slot1	Empty	0	0	0
-General5-Slot15-Slot2	Empty	0	0	0
-General5-Slot15-Slot3	Empty	0	0	0
-General5-Slot15-Slot4	Empty	0	0	0
-General5-Slot16	Taskmaster's Pouch	17118	1	4
-General5-Slot16-Slot1	Empty	0	0	0
-General5-Slot16-Slot2	Empty	0	0	0
-General5-Slot16-Slot3	Empty	0	0	0
-General5-Slot16-Slot4	Empty	0	0	0
-General5-Slot17	Taskmaster's Pouch	17118	1	4
-General5-Slot17-Slot1	Empty	0	0	0
-General5-Slot17-Slot2	Empty	0	0	0
-General5-Slot17-Slot3	Empty	0	0	0
-General5-Slot17-Slot4	Empty	0	0	0
-General5-Slot18	Taskmaster's Pouch	17118	1	4
-General5-Slot18-Slot1	Empty	0	0	0
-General5-Slot18-Slot2	Empty	0	0	0
-General5-Slot18-Slot3	Empty	0	0	0
-General5-Slot18-Slot4	Empty	0	0	0
-General5-Slot19	Empty	0	0	0
-General5-Slot20	Empty	0	0	0
+General5-Slot1	Empty	0	0	0
+General5-Slot2	Empty	0	0	0
+General5-Slot3	Empty	0	0	0
+General5-Slot4	Empty	0	0	0
+General5-Slot5	Empty	0	0	0
+General5-Slot6	Empty	0	0	0
+General5-Slot7	Empty	0	0	0
+General5-Slot8	Empty	0	0	0
+General5-Slot9	Empty	0	0	0
+General5-Slot10	Empty	0	0	0
+General5-Slot11	Empty	0	0	0
+General5-Slot12	Empty	0	0	0
+General5-Slot13	Empty	0	0	0
+General5-Slot14	Ssraeshzian Insignia	19718	1	6
+General5-Slot15	Ssraeshzian Insignia	19718	1	6
+General5-Slot16	Ssraeshzian Insignia	19718	1	6
+General5-Slot17	Ssraeshzian Insignia	19718	1	6
+General5-Slot18	Ssraeshzian Insignia	19718	1	6
+General5-Slot19	Ssraeshzian Insignia	19718	1	6
+General5-Slot20	Ssraeshzian Insignia	19718	1	6
 General6	Large Bank Box	976012	1	20
-General6-Slot1	Empty	0	0	0
-General6-Slot2	Empty	0	0	0
-General6-Slot3	Empty	0	0	0
-General6-Slot4	Empty	0	0	0
-General6-Slot5	Empty	0	0	0
-General6-Slot6	Empty	0	0	0
-General6-Slot7	Empty	0	0	0
-General6-Slot8	Empty	0	0	0
-General6-Slot9	Empty	0	0	0
-General6-Slot10	Empty	0	0	0
-General6-Slot11	Empty	0	0	0
-General6-Slot12	Empty	0	0	0
-General6-Slot13	Empty	0	0	0
-General6-Slot14	Empty	0	0	0
-General6-Slot15	Empty	0	0	0
-General6-Slot16	Empty	0	0	0
-General6-Slot17	Empty	0	0	0
-General6-Slot18	Empty	0	0	0
-General6-Slot19	Empty	0	0	0
-General6-Slot20	Empty	0	0	0
+General6-Slot1	Ssraeshzian Insignia	19718	1	6
+General6-Slot2	Ssraeshzian Insignia	19718	1	6
+General6-Slot3	Ssraeshzian Insignia	19718	1	6
+General6-Slot4	Ssraeshzian Insignia	19718	1	6
+General6-Slot5	Ssraeshzian Insignia	19718	1	6
+General6-Slot6	Ssraeshzian Insignia	19718	1	6
+General6-Slot7	Ssraeshzian Insignia	19718	1	6
+General6-Slot8	Ssraeshzian Insignia	19718	1	6
+General6-Slot9	Ssraeshzian Insignia	19718	1	6
+General6-Slot10	Ssraeshzian Insignia	19718	1	6
+General6-Slot11	Ssraeshzian Insignia	19718	1	6
+General6-Slot12	Ssraeshzian Insignia	19718	1	6
+General6-Slot13	Ssraeshzian Insignia	19718	1	6
+General6-Slot14	Ssraeshzian Insignia	19718	1	6
+General6-Slot15	Ssraeshzian Insignia	19718	1	6
+General6-Slot16	Ssraeshzian Insignia	19718	1	6
+General6-Slot17	Ssraeshzian Insignia	19718	1	6
+General6-Slot18	Ssraeshzian Insignia	19718	1	6
+General6-Slot19	Ssraeshzian Insignia	19718	1	6
+General6-Slot20	Ssraeshzian Insignia	19718	1	6
 General7	Large Bank Box	976012	1	20
-General7-Slot1	Empty	0	0	0
-General7-Slot2	Empty	0	0	0
-General7-Slot3	Empty	0	0	0
-General7-Slot4	Empty	0	0	0
-General7-Slot5	Empty	0	0	0
-General7-Slot6	Empty	0	0	0
-General7-Slot7	Empty	0	0	0
-General7-Slot8	Empty	0	0	0
-General7-Slot9	Empty	0	0	0
-General7-Slot10	Empty	0	0	0
-General7-Slot11	Empty	0	0	0
-General7-Slot12	Empty	0	0	0
-General7-Slot13	Empty	0	0	0
-General7-Slot14	Empty	0	0	0
-General7-Slot15	Empty	0	0	0
-General7-Slot16	Empty	0	0	0
-General7-Slot17	Empty	0	0	0
-General7-Slot18	Empty	0	0	0
+General7-Slot1	Taskmaster's Pouch	17118	1	4
+General7-Slot1-Slot1	Empty	0	0	0
+General7-Slot1-Slot2	Empty	0	0	0
+General7-Slot1-Slot3	Empty	0	0	0
+General7-Slot1-Slot4	Empty	0	0	0
+General7-Slot2	Taskmaster's Pouch	17118	1	4
+General7-Slot2-Slot1	Empty	0	0	0
+General7-Slot2-Slot2	Empty	0	0	0
+General7-Slot2-Slot3	Empty	0	0	0
+General7-Slot2-Slot4	Empty	0	0	0
+General7-Slot3	Taskmaster's Pouch	17118	1	4
+General7-Slot3-Slot1	Empty	0	0	0
+General7-Slot3-Slot2	Empty	0	0	0
+General7-Slot3-Slot3	Empty	0	0	0
+General7-Slot3-Slot4	Empty	0	0	0
+General7-Slot4	Taskmaster's Pouch	17118	1	4
+General7-Slot4-Slot1	Empty	0	0	0
+General7-Slot4-Slot2	Empty	0	0	0
+General7-Slot4-Slot3	Empty	0	0	0
+General7-Slot4-Slot4	Empty	0	0	0
+General7-Slot5	Taskmaster's Pouch	17118	1	4
+General7-Slot5-Slot1	Empty	0	0	0
+General7-Slot5-Slot2	Empty	0	0	0
+General7-Slot5-Slot3	Empty	0	0	0
+General7-Slot5-Slot4	Empty	0	0	0
+General7-Slot6	Taskmaster's Pouch	17118	1	4
+General7-Slot6-Slot1	Empty	0	0	0
+General7-Slot6-Slot2	Empty	0	0	0
+General7-Slot6-Slot3	Empty	0	0	0
+General7-Slot6-Slot4	Empty	0	0	0
+General7-Slot7	Taskmaster's Pouch	17118	1	4
+General7-Slot7-Slot1	Empty	0	0	0
+General7-Slot7-Slot2	Empty	0	0	0
+General7-Slot7-Slot3	Empty	0	0	0
+General7-Slot7-Slot4	Empty	0	0	0
+General7-Slot8	Taskmaster's Pouch	17118	1	4
+General7-Slot8-Slot1	Empty	0	0	0
+General7-Slot8-Slot2	Empty	0	0	0
+General7-Slot8-Slot3	Empty	0	0	0
+General7-Slot8-Slot4	Empty	0	0	0
+General7-Slot9	Taskmaster's Pouch	17118	1	4
+General7-Slot9-Slot1	Empty	0	0	0
+General7-Slot9-Slot2	Empty	0	0	0
+General7-Slot9-Slot3	Empty	0	0	0
+General7-Slot9-Slot4	Empty	0	0	0
+General7-Slot10	Taskmaster's Pouch	17118	1	4
+General7-Slot10-Slot1	Empty	0	0	0
+General7-Slot10-Slot2	Empty	0	0	0
+General7-Slot10-Slot3	Empty	0	0	0
+General7-Slot10-Slot4	Empty	0	0	0
+General7-Slot11	Taskmaster's Pouch	17118	1	4
+General7-Slot11-Slot1	Empty	0	0	0
+General7-Slot11-Slot2	Empty	0	0	0
+General7-Slot11-Slot3	Empty	0	0	0
+General7-Slot11-Slot4	Empty	0	0	0
+General7-Slot12	Taskmaster's Pouch	17118	1	4
+General7-Slot12-Slot1	Empty	0	0	0
+General7-Slot12-Slot2	Empty	0	0	0
+General7-Slot12-Slot3	Empty	0	0	0
+General7-Slot12-Slot4	Empty	0	0	0
+General7-Slot13	Taskmaster's Pouch	17118	1	4
+General7-Slot13-Slot1	Empty	0	0	0
+General7-Slot13-Slot2	Empty	0	0	0
+General7-Slot13-Slot3	Empty	0	0	0
+General7-Slot13-Slot4	Empty	0	0	0
+General7-Slot14	Taskmaster's Pouch	17118	1	4
+General7-Slot14-Slot1	Empty	0	0	0
+General7-Slot14-Slot2	Empty	0	0	0
+General7-Slot14-Slot3	Empty	0	0	0
+General7-Slot14-Slot4	Empty	0	0	0
+General7-Slot15	Taskmaster's Pouch	17118	1	4
+General7-Slot15-Slot1	Empty	0	0	0
+General7-Slot15-Slot2	Empty	0	0	0
+General7-Slot15-Slot3	Empty	0	0	0
+General7-Slot15-Slot4	Empty	0	0	0
+General7-Slot16	Taskmaster's Pouch	17118	1	4
+General7-Slot16-Slot1	Empty	0	0	0
+General7-Slot16-Slot2	Empty	0	0	0
+General7-Slot16-Slot3	Empty	0	0	0
+General7-Slot16-Slot4	Empty	0	0	0
+General7-Slot17	Taskmaster's Pouch	17118	1	4
+General7-Slot17-Slot1	Empty	0	0	0
+General7-Slot17-Slot2	Empty	0	0	0
+General7-Slot17-Slot3	Empty	0	0	0
+General7-Slot17-Slot4	Empty	0	0	0
+General7-Slot18	Taskmaster's Pouch	17118	1	4
+General7-Slot18-Slot1	Empty	0	0	0
+General7-Slot18-Slot2	Empty	0	0	0
+General7-Slot18-Slot3	Empty	0	0	0
+General7-Slot18-Slot4	Empty	0	0	0
 General7-Slot19	Empty	0	0	0
 General7-Slot20	Empty	0	0	0
 General8	Large Bank Box	976012	1	20
-General8-Slot1	Empty	0	0	0
-General8-Slot2	Empty	0	0	0
-General8-Slot3	Empty	0	0	0
-General8-Slot4	Empty	0	0	0
-General8-Slot5	Empty	0	0	0
-General8-Slot6	Empty	0	0	0
-General8-Slot7	Empty	0	0	0
-General8-Slot8	Empty	0	0	0
-General8-Slot9	Empty	0	0	0
-General8-Slot10	Empty	0	0	0
-General8-Slot11	Empty	0	0	0
-General8-Slot12	Empty	0	0	0
+General8-Slot1	Zazuzh's Idol	19716	1	6
+General8-Slot2	Zazuzh's Idol	19716	1	6
+General8-Slot3	Zazuzh's Idol	19716	1	6
+General8-Slot4	Zazuzh's Idol	19716	1	6
+General8-Slot5	Zazuzh's Idol	19716	1	6
+General8-Slot6	Zazuzh's Idol	19716	1	6
+General8-Slot7	Zazuzh's Idol	19716	1	6
+General8-Slot8	Zazuzh's Idol	19716	1	6
+General8-Slot9	Zazuzh's Idol	19716	1	6
+General8-Slot10	Zazuzh's Idol	19716	1	6
+General8-Slot11	Zazuzh's Idol	19716	1	6
+General8-Slot12	Zazuzh's Idol	19716	1	6
 General8-Slot13	Empty	0	0	0
 General8-Slot14	Empty	0	0	0
 General8-Slot15	Empty	0	0	0
-General8-Slot16	Empty	0	0	0
+General8-Slot16	Zherozsh's Ring	19717	1	6
 General8-Slot17	Empty	0	0	0
 General8-Slot18	Empty	0	0	0
-General8-Slot19	Empty	0	0	0
-General8-Slot20	Empty	0	0	0
+General8-Slot19	Ssraeshzian Insignia	19718	1	6
+General8-Slot20	Ssraeshzian Insignia	19718	1	6
 General9	Large Bank Box	976012	1	20
 General9-Slot1	Empty	0	0	0
 General9-Slot2	Empty	0	0	0
