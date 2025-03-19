@@ -3,6 +3,7 @@ import { PlayerClass } from "./@enums/player-class.enum";
 import { BankEntry } from "./@models/bank-entry.type";
 
 export const bardEpicItemIds = [
+    // Epic 1.0
     20527, // Chromadrac Gut
     20524, // Kedge Backbone
     20525, // Petrified Werewolf Skull
@@ -11,6 +12,19 @@ export const bardEpicItemIds = [
     6478, // Undead Dragon Sinew
     11602, // White Dragon Scales
     20530, // Alluring Horn
+    5520, // Amygdalan Tendril
+    20376, // Maestro's Symphony Page 24 Top
+    20383, // Maestro's Symphony Page 24 Bottom
+    20377, // Maestro's Symphony Page 25
+    20366, //Mahlin's Mystical Bongos
+    20367, // Maligar's Head
+    20370, //Mechanical Doll
+    20535, // Mystical Lute Head
+    20536, // Mystical Lute Body
+    20538, // Mystical Lute
+    20529, // Onyx Drake Gut
+    20525, // Petrified Werewolf Skull
+    20526, // Undead Dragongut Strings
 
 ];
 
@@ -21,19 +35,23 @@ export const beastlordEpicItemIds: Array<number> = [
 export const berserkerEpicItemIds = [
     60203, // Burning Essence of Rage
     60206, // Decaying Liver
+    60207, // Gnashing Kobold Paw
+    60208, // Scent Gland
 ];
 
 export const clericEpicItemIds = [
     28018, // Lord Gimblox's Signet Ring
     28044, // Lord Bergurgle's Crown 
     24995, // Pearlescent Fragment
-    
+    18170, // Singed Scroll
     9945, // Shissar Cerebral Cortex 
 ];
 
 export const druidEpicItemIds = [
     20692, // Ocean of Tears Seavines
     5664, // Jade Reaver
+    20461, // Pulsing Green Stone
+    20468, // Warmly Glowing Stone
 
 ];
 
@@ -42,7 +60,7 @@ export const enchanterEpicItemIds = [
     1360, // Shining Metallic Robes 
 
     // Epic 2.0
-    54946, // Harnessing Stone
+    52946, // Harnessing Stone
 ];
 
 export const magicianEpicItemIds = [
@@ -60,6 +78,7 @@ export const magicianEpicItemIds = [
     28041, // Rain of Karana
     11567, // Staff of Elemental Mastery: Earth
     11569, // Staff of Elemental Mastery: Water
+    11566, // Staff of Elemental Mastery: Fire
 
     
     28007, // Torch of the Elements
@@ -100,6 +119,8 @@ export const rangerEpicItemIds = [
     20484, // Shattered Emerald of Corruption
     5664, // Jade Reaver
     20494, // Swirling Sphere of Color
+    20468, // Warmly Glowing Stone
+    
 ];
 
 export const rogueEpicItemIds = [
