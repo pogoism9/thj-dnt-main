@@ -793,4 +793,5 @@ export const WizardSpells = [
     19331,  // Markar`s Discord
     7659,   // Spell Shield
     19342,  // Vengeance of Al`Kabor
+    26616, // Ancient: Greater Concussion
   ];

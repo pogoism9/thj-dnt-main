@@ -828,7 +828,6 @@ export const ClericSpells = [
     16307,
     16623,
     26621, // Ancient: Gift of Aegolism
-    26616, // Ancient: Greater Concussion
     26608, // Ancient: High Priest's Bulwark
     30411, // Improved Invis vs Undead
   ];
