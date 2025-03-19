@@ -73,7 +73,7 @@ General1-Slot10-Slot6	Empty	0	0	0
 General1-Slot11	Swirling Sphere of Color	20494	1	6
 General1-Slot12	Swirling Sphere of Color	20494	1	6
 General1-Slot13	Swirling Sphere of Color	20494	1	6
-General1-Slot14	Chromodrac Gut	20527	1	6
+General1-Slot14	Empty	0	0	0
 General1-Slot15	Crown of Elemental Mastery	20764	1	6
 General1-Slot15-Slot1	Empty	0	0	0
 General1-Slot15-Slot2	Empty	0	0	0
@@ -158,7 +158,7 @@ General3-Slot4	Power of Water	28039	1	6
 General3-Slot5	Power of Water	28039	1	6
 General3-Slot6	Power of Water	28039	1	6
 General3-Slot7	Red Wurm Gut	20528	1	6
-General3-Slot8	Red Wurm Gut	20528	1	6
+General3-Slot8	Empty	0	0	0
 General4	Backpack	17005	1	8
 General4-Slot1	Shovel	16545	1	6
 General4-Slot1-Slot1	Empty	0	0	0
@@ -184,7 +184,7 @@ General5	Backpack	17005	1	8
 General5-Slot1	Hill Giant Toes	16539	1	6
 General5-Slot2	Hill Giant Toes	16539	1	6
 General5-Slot3	Hill Giant Toes	16539	1	6
-General5-Slot4	Kedge Backbone	20524	1	6
+General5-Slot4	Empty	0	0	0
 General5-Slot5	Empty	0	0	0
 General5-Slot6	Rain of Karana	28041	1	6
 General5-Slot7	Rain of Karana	28041	1	6
@@ -291,11 +291,7 @@ Bank1-Slot13-Slot1	Empty	0	0	0
 Bank1-Slot13-Slot2	Empty	0	0	0
 Bank1-Slot13-Slot3	Empty	0	0	0
 Bank1-Slot13-Slot6	Empty	0	0	0
-Bank1-Slot14	Alluring Horn (Enchanted)	1020530	1	6
-Bank1-Slot14-Slot1	Empty	0	0	0
-Bank1-Slot14-Slot2	Empty	0	0	0
-Bank1-Slot14-Slot3	Empty	0	0	0
-Bank1-Slot14-Slot6	Empty	0	0	0
+Bank1-Slot14	Empty	0	0	0
 Bank1-Slot15	Empty	0	0	0
 Bank1-Slot16	Empty	0	0	0
 Bank1-Slot17	Empty	0	0	0
@@ -312,7 +308,7 @@ Bank1-Slot20-Slot1	Empty	0	0	0
 Bank1-Slot20-Slot2	Empty	0	0	0
 Bank1-Slot20-Slot6	Empty	0	0	0
 Bank2	Large Bank Box	976012	1	20
-Bank2-Slot1	Red Dragon Scales	11622	1	6
+Bank2-Slot1	Empty	0	0	0
 Bank2-Slot2	Red Dragon Scales	11622	1	6
 Bank2-Slot3	Empty	0	0	0
 Bank2-Slot4	Empty	0	0	0
@@ -936,7 +932,7 @@ Bank21-Slot6	Empty	0	0	0
 Bank21-Slot7	Empty	0	0	0
 Bank21-Slot8	Empty	0	0	0
 Bank21-Slot9	Emerald Dragon Scales	22823	1	6
-Bank21-Slot10	White Dragon Scales	11602	1	6
+Bank21-Slot10	Empty	0	0	0
 Bank21-Slot11	White Dragon Scales	11602	1	6
 Bank21-Slot12	Empty	0	0	0
 Bank21-Slot13	White Dragon Scales	11602	1	6
