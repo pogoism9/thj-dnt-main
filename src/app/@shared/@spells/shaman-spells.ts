@@ -689,5 +689,6 @@ export const ShamanSpells = [
     16623,
     26611, // Ancient: Feral Avatar
     26612, // Ancient: Scourge of Nife
+    19285, // Spell: Tigir`s Insects
     
   ];
