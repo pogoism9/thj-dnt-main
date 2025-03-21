@@ -30,18 +30,18 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
+General1-Slot1	Song: Warsong of the Vah Shir	7710	1	6
+General1-Slot2	Spell: Cloak of the Akheva	7680	1	6
+General1-Slot3	Spell: Crippling Claudication	7648	1	6
+General1-Slot4	Spell: Funeral Pyre of Kelador	19527	1	6
+General1-Slot5	Spell: Greater Familiar	7660	1	6
+General1-Slot6	Spell: Hammer of Souls	15995	1	6
+General1-Slot7	Spell: Maelstrom of Electricity	19497	1	6
+General1-Slot8	Spell: Marzin's Mark	19533	1	6
+General1-Slot9	Spell: Ro's Smoldering Disjunction	7618	1	6
+General1-Slot10	Spell: Shock of Fiery Blades	7640	1	6
+General1-Slot11	Spell: Spirit of Khati Sha	7731	1	6
+General1-Slot12	Spell: Talisman of Epuration	7629	1	6
 General1-Slot13	Empty	0	0	0
 General1-Slot14	Empty	0	0	0
 General1-Slot15	Empty	0	0	0
@@ -720,23 +720,87 @@ SharedBank1-Slot18	Empty	0	0	0
 SharedBank1-Slot19	Empty	0	0	0
 SharedBank1-Slot20	Empty	0	0	0
 SharedBank2	Large Bank Box	976012	1	20
-SharedBank2-Slot1	Empty	0	0	0
-SharedBank2-Slot2	Empty	0	0	0
-SharedBank2-Slot3	Empty	0	0	0
-SharedBank2-Slot4	Empty	0	0	0
-SharedBank2-Slot5	Empty	0	0	0
-SharedBank2-Slot6	Empty	0	0	0
-SharedBank2-Slot7	Empty	0	0	0
-SharedBank2-Slot8	Empty	0	0	0
-SharedBank2-Slot9	Empty	0	0	0
-SharedBank2-Slot10	Empty	0	0	0
-SharedBank2-Slot11	Empty	0	0	0
-SharedBank2-Slot12	Empty	0	0	0
-SharedBank2-Slot13	Empty	0	0	0
-SharedBank2-Slot14	Empty	0	0	0
-SharedBank2-Slot15	Empty	0	0	0
-SharedBank2-Slot16	Empty	0	0	0
+SharedBank2-Slot1	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot1-Slot1	Empty	0	0	0
+SharedBank2-Slot1-Slot2	Empty	0	0	0
+SharedBank2-Slot1-Slot3	Empty	0	0	0
+SharedBank2-Slot1-Slot6	Empty	0	0	0
+SharedBank2-Slot2	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot2-Slot1	Empty	0	0	0
+SharedBank2-Slot2-Slot2	Empty	0	0	0
+SharedBank2-Slot2-Slot3	Empty	0	0	0
+SharedBank2-Slot2-Slot6	Empty	0	0	0
+SharedBank2-Slot3	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot3-Slot1	Empty	0	0	0
+SharedBank2-Slot3-Slot2	Empty	0	0	0
+SharedBank2-Slot3-Slot3	Empty	0	0	0
+SharedBank2-Slot3-Slot6	Empty	0	0	0
+SharedBank2-Slot4	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot4-Slot1	Empty	0	0	0
+SharedBank2-Slot4-Slot2	Empty	0	0	0
+SharedBank2-Slot4-Slot3	Empty	0	0	0
+SharedBank2-Slot4-Slot6	Empty	0	0	0
+SharedBank2-Slot5	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot5-Slot1	Empty	0	0	0
+SharedBank2-Slot5-Slot2	Empty	0	0	0
+SharedBank2-Slot5-Slot3	Empty	0	0	0
+SharedBank2-Slot5-Slot6	Empty	0	0	0
+SharedBank2-Slot6	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot6-Slot1	Empty	0	0	0
+SharedBank2-Slot6-Slot2	Empty	0	0	0
+SharedBank2-Slot6-Slot3	Empty	0	0	0
+SharedBank2-Slot6-Slot6	Empty	0	0	0
+SharedBank2-Slot7	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot7-Slot1	Empty	0	0	0
+SharedBank2-Slot7-Slot2	Empty	0	0	0
+SharedBank2-Slot7-Slot3	Empty	0	0	0
+SharedBank2-Slot7-Slot6	Empty	0	0	0
+SharedBank2-Slot8	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot8-Slot1	Empty	0	0	0
+SharedBank2-Slot8-Slot2	Empty	0	0	0
+SharedBank2-Slot8-Slot3	Empty	0	0	0
+SharedBank2-Slot8-Slot6	Empty	0	0	0
+SharedBank2-Slot9	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot9-Slot1	Empty	0	0	0
+SharedBank2-Slot9-Slot2	Empty	0	0	0
+SharedBank2-Slot9-Slot3	Empty	0	0	0
+SharedBank2-Slot9-Slot6	Empty	0	0	0
+SharedBank2-Slot10	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot10-Slot1	Empty	0	0	0
+SharedBank2-Slot10-Slot2	Empty	0	0	0
+SharedBank2-Slot10-Slot3	Empty	0	0	0
+SharedBank2-Slot10-Slot6	Empty	0	0	0
+SharedBank2-Slot11	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot11-Slot1	Empty	0	0	0
+SharedBank2-Slot11-Slot2	Empty	0	0	0
+SharedBank2-Slot11-Slot3	Empty	0	0	0
+SharedBank2-Slot11-Slot6	Empty	0	0	0
+SharedBank2-Slot12	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot12-Slot1	Empty	0	0	0
+SharedBank2-Slot12-Slot2	Empty	0	0	0
+SharedBank2-Slot12-Slot3	Empty	0	0	0
+SharedBank2-Slot12-Slot6	Empty	0	0	0
+SharedBank2-Slot13	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot13-Slot1	Empty	0	0	0
+SharedBank2-Slot13-Slot2	Empty	0	0	0
+SharedBank2-Slot13-Slot3	Empty	0	0	0
+SharedBank2-Slot13-Slot6	Empty	0	0	0
+SharedBank2-Slot14	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot14-Slot1	Empty	0	0	0
+SharedBank2-Slot14-Slot2	Empty	0	0	0
+SharedBank2-Slot14-Slot3	Empty	0	0	0
+SharedBank2-Slot14-Slot6	Empty	0	0	0
+SharedBank2-Slot15	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot15-Slot1	Empty	0	0	0
+SharedBank2-Slot15-Slot2	Empty	0	0	0
+SharedBank2-Slot15-Slot3	Empty	0	0	0
+SharedBank2-Slot15-Slot6	Empty	0	0	0
+SharedBank2-Slot16	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot16-Slot1	Empty	0	0	0
+SharedBank2-Slot16-Slot2	Empty	0	0	0
+SharedBank2-Slot16-Slot3	Empty	0	0	0
+SharedBank2-Slot16-Slot6	Empty	0	0	0
 SharedBank2-Slot17	Empty	0	0	0
 SharedBank2-Slot18	Empty	0	0	0
-SharedBank2-Slot19	Empty	0	0	0
-SharedBank2-Slot20	Empty	0	0	0
+SharedBank2-Slot19	Clockwork Banker Tools	976008	1	6
+SharedBank2-Slot20	Clockwork Merchant Tools	976009	1	6
