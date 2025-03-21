@@ -196,7 +196,7 @@ General4-Slot19	Empty	0	0	0
 General4-Slot20	Empty	0	0	0
 General5	Large Bank Box	976012	1	20
 General5-Slot1	Empty	0	0	0
-General5-Slot2	Zazuzh's Idol	19716	1	6
+General5-Slot2	Empty	0	0	0
 General5-Slot3	Empty	0	0	0
 General5-Slot4	Empty	0	0	0
 General5-Slot5	Empty	0	0	0
@@ -205,10 +205,10 @@ General5-Slot7	Empty	0	0	0
 General5-Slot8	Empty	0	0	0
 General5-Slot9	Empty	0	0	0
 General5-Slot10	Empty	0	0	0
-General5-Slot11	Ssraeshzian Insignia	19718	1	6
-General5-Slot12	Ssraeshzian Insignia	19718	1	6
+General5-Slot11	Empty	0	0	0
+General5-Slot12	Empty	0	0	0
 General5-Slot13	Ssraeshzian Insignia	19718	1	6
-General5-Slot14	Ssraeshzian Insignia	19718	1	6
+General5-Slot14	Empty	0	0	0
 General5-Slot15	Ssraeshzian Insignia	19718	1	6
 General5-Slot16	Ssraeshzian Insignia	19718	1	6
 General5-Slot17	Ssraeshzian Insignia	19718	1	6
@@ -216,8 +216,8 @@ General5-Slot18	Ssraeshzian Insignia	19718	1	6
 General5-Slot19	Ssraeshzian Insignia	19718	1	6
 General5-Slot20	Ssraeshzian Insignia	19718	1	6
 General6	Large Bank Box	976012	1	20
-General6-Slot1	Empty	0	0	0
-General6-Slot2	Empty	0	0	0
+General6-Slot1	Ssraeshzian Insignia	19718	1	6
+General6-Slot2	Ssraeshzian Insignia	19718	1	6
 General6-Slot3	Ssraeshzian Insignia	19718	1	6
 General6-Slot4	Ssraeshzian Insignia	19718	1	6
 General6-Slot5	Ssraeshzian Insignia	19718	1	6
@@ -313,11 +313,7 @@ General7-Slot16-Slot1	Empty	0	0	0
 General7-Slot16-Slot2	Empty	0	0	0
 General7-Slot16-Slot3	Empty	0	0	0
 General7-Slot16-Slot4	Empty	0	0	0
-General7-Slot17	Taskmaster's Pouch	17118	1	4
-General7-Slot17-Slot1	Empty	0	0	0
-General7-Slot17-Slot2	Empty	0	0	0
-General7-Slot17-Slot3	Empty	0	0	0
-General7-Slot17-Slot4	Empty	0	0	0
+General7-Slot17	Empty	0	0	0
 General7-Slot18	Taskmaster's Pouch	17118	1	4
 General7-Slot18-Slot1	Empty	0	0	0
 General7-Slot18-Slot2	Empty	0	0	0
@@ -338,12 +334,12 @@ General8-Slot9	Zazuzh's Idol	19716	1	6
 General8-Slot10	Zazuzh's Idol	19716	1	6
 General8-Slot11	Zazuzh's Idol	19716	1	6
 General8-Slot12	Zazuzh's Idol	19716	1	6
-General8-Slot13	Empty	0	0	0
-General8-Slot14	Zazuzh's Idol	19716	1	6
+General8-Slot13	Zazuzh's Idol	19716	1	6
+General8-Slot14	Empty	0	0	0
 General8-Slot15	Empty	0	0	0
 General8-Slot16	Empty	0	0	0
 General8-Slot17	Empty	0	0	0
-General8-Slot18	Zherozsh's Ring (Enchanted)	1019717	1	6
+General8-Slot18	Empty	0	0	0
 General8-Slot19	Zherozsh's Ring (Legendary)	2019717	1	6
 General8-Slot20	Zherozsh's Ring	19717	1	6
 General9	Large Bank Box	976012	1	20
@@ -417,11 +413,7 @@ Bank1-Slot3-Slot1	Empty	0	0	0
 Bank1-Slot3-Slot2	Empty	0	0	0
 Bank1-Slot3-Slot3	Empty	0	0	0
 Bank1-Slot3-Slot6	Empty	0	0	0
-Bank1-Slot4	Shissar Ulak	7959	1	6
-Bank1-Slot4-Slot1	Empty	0	0	0
-Bank1-Slot4-Slot2	Empty	0	0	0
-Bank1-Slot4-Slot3	Empty	0	0	0
-Bank1-Slot4-Slot6	Empty	0	0	0
+Bank1-Slot4	Empty	0	0	0
 Bank1-Slot5	Shissar Battlehammer	7958	1	6
 Bank1-Slot5-Slot1	Empty	0	0	0
 Bank1-Slot5-Slot2	Empty	0	0	0
@@ -475,7 +467,7 @@ Bank1-Slot16	Empty	0	0	0
 Bank1-Slot17	Empty	0	0	0
 Bank1-Slot18	Empty	0	0	0
 Bank1-Slot19	Empty	0	0	0
-Bank1-Slot20	Strange Green Metal	7966	1	6
+Bank1-Slot20	Empty	0	0	0
 Bank2	Large Bank Box	976012	1	20
 Bank2-Slot1	Globe of Frozen Vigor	29469	1	6
 Bank2-Slot2	Globe of Frozen Vitality	29470	1	6
