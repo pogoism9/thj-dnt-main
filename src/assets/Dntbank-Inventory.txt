@@ -32,7 +32,11 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Empty	0	0	0
+General1-Slot1	Staff of the Morning Dew (Legendary)	2001156	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot3	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
 General1-Slot2	Bow of Shadows (Enchanted)	1028989	1	6
 General1-Slot2-Slot1	Empty	0	0	0
 General1-Slot2-Slot2	Empty	0	0	0
@@ -89,7 +93,11 @@ General1-Slot16-Slot6	Empty	0	0	0
 General1-Slot17	Petrified Green Slime Necklace (Enchanted)	1062250	1	6
 General1-Slot17-Slot1	Empty	0	0	0
 General1-Slot17-Slot2	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
+General1-Slot18	McVaxius` Horn of War (Legendary)	2011607	1	6
+General1-Slot18-Slot1	Empty	0	0	0
+General1-Slot18-Slot2	Empty	0	0	0
+General1-Slot18-Slot3	Empty	0	0	0
+General1-Slot18-Slot6	Empty	0	0	0
 General1-Slot19	Twilight Shroud (Enchanted)	1028920	1	6
 General1-Slot19-Slot1	Empty	0	0	0
 General1-Slot19-Slot2	Empty	0	0	0
@@ -125,16 +133,8 @@ General1-Slot28	Crown of Rile	10913	1	6
 General1-Slot28-Slot1	Empty	0	0	0
 General1-Slot28-Slot2	Empty	0	0	0
 General1-Slot28-Slot6	Empty	0	0	0
-General1-Slot29	McVaxius` Horn of War (Legendary)	2011607	1	6
-General1-Slot29-Slot1	Empty	0	0	0
-General1-Slot29-Slot2	Empty	0	0	0
-General1-Slot29-Slot3	Empty	0	0	0
-General1-Slot29-Slot6	Empty	0	0	0
-General1-Slot30	Staff of the Morning Dew (Legendary)	2001156	1	6
-General1-Slot30-Slot1	Empty	0	0	0
-General1-Slot30-Slot2	Empty	0	0	0
-General1-Slot30-Slot3	Empty	0	0	0
-General1-Slot30-Slot6	Empty	0	0	0
+General1-Slot29	Empty	0	0	0
+General1-Slot30	Empty	0	0	0
 General2	Large Bank Box	976012	1	20
 General2-Slot1	Empty	0	0	0
 General2-Slot2	Empty	0	0	0
@@ -2059,5 +2059,5 @@ SharedBank2-Slot16-Slot3	Empty	0	0	0
 SharedBank2-Slot16-Slot6	Empty	0	0	0
 SharedBank2-Slot17	Empty	0	0	0
 SharedBank2-Slot18	Empty	0	0	0
-SharedBank2-Slot19	Clockwork Banker Tools	976008	1	6
-SharedBank2-Slot20	Clockwork Merchant Tools	976009	1	6
+SharedBank2-Slot19	Empty	0	0	0
+SharedBank2-Slot20	Empty	0	0	0

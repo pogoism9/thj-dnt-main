@@ -41,7 +41,11 @@ General1-Slot2	Spear of Fate (Legendary)	2010651	1	6
 General1-Slot2-Slot1	Empty	0	0	0
 General1-Slot2-Slot2	Empty	0	0	0
 General1-Slot2-Slot6	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
+General1-Slot3	Eye of Innoruuk (Enchanted)	1020656	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot3-Slot3	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
 General1-Slot4	Torn Page of Mastery Water	28030	1	6
 General1-Slot5	Torn Page of Mastery Water	28030	1	6
 General1-Slot6	Torn Page of Mastery Water	28030	1	6
@@ -52,27 +56,36 @@ General1-Slot10	Torn Page of Magi`kot pg. 1	28000	1	6
 General1-Slot11	Torn Page of Magi`kot pg. 1	28000	1	6
 General1-Slot12	Torn Page of Mastery Water	28030	1	6
 General1-Slot13	Torn Page of Mastery Wind	28028	1	6
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
-General1-Slot21	Empty	0	0	0
-General1-Slot22	Empty	0	0	0
-General1-Slot23	Empty	0	0	0
-General1-Slot24	Empty	0	0	0
-General1-Slot25	Empty	0	0	0
-General1-Slot26	Empty	0	0	0
-General1-Slot27	Empty	0	0	0
-General1-Slot28	Empty	0	0	0
-General1-Slot29	Empty	0	0	0
-General1-Slot30	Empty	0	0	0
+General1-Slot14	Glowing Sword Hilt	12197	1	6
+General1-Slot15	Golem Sprocket	14319	1	6
+General1-Slot16	Golem Sprocket	14319	1	6
+General1-Slot17	Lord Bergurgle's Crown	28044	1	6
+General1-Slot17-Slot1	Empty	0	0	0
+General1-Slot17-Slot2	Empty	0	0	0
+General1-Slot17-Slot6	Empty	0	0	0
+General1-Slot18	Lord Gimblox's Signet Ring (Enchanted)	1028018	1	6
+General1-Slot18-Slot1	Empty	0	0	0
+General1-Slot18-Slot2	Empty	0	0	0
+General1-Slot19	Lord Gimblox's Signet Ring (Enchanted)	1028018	1	6
+General1-Slot19-Slot1	Empty	0	0	0
+General1-Slot19-Slot2	Empty	0	0	0
+General1-Slot20	Lord Gimblox's Signet Ring (Legendary)	2028018	1	6
+General1-Slot20-Slot1	Empty	0	0	0
+General1-Slot20-Slot2	Empty	0	0	0
+General1-Slot21	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot22	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot23	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot24	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot25	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot26	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot27	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot28	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot29	Maestro's Symphony Page 24 Top	20376	1	6
+General1-Slot30	Maestro's Symphony Page 24 Top	20376	1	6
 General2	Backpack	17005	1	8
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
+General2-Slot1	Pearlescent Fragment	24995	1	6
+General2-Slot2	Shattered Emerald of Corruption	20484	1	6
+General2-Slot3	Spoon	10614	1	6
 General2-Slot4	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
 General2-Slot6	Empty	0	0	0
@@ -1133,5 +1146,5 @@ SharedBank2-Slot16-Slot3	Empty	0	0	0
 SharedBank2-Slot16-Slot6	Empty	0	0	0
 SharedBank2-Slot17	Empty	0	0	0
 SharedBank2-Slot18	Empty	0	0	0
-SharedBank2-Slot19	Clockwork Banker Tools	976008	1	6
-SharedBank2-Slot20	Clockwork Merchant Tools	976009	1	6
+SharedBank2-Slot19	Empty	0	0	0
+SharedBank2-Slot20	Empty	0	0	0
