@@ -35,9 +35,9 @@ export class BankComponent {
     constructor(private _http: HttpClient) {}
 
     ngOnInit(): void {
-
         const targetFiles = [
             'Dntbank-Inventory.txt',
+            'Dntcraft-Inventory.txt',
             'Dntdoze-Inventory.txt',
             'Dntepics-Inventory.txt',
             'Dntspells-Inventory.txt',
@@ -51,15 +51,12 @@ export class BankComponent {
                 })
                 .subscribe((response: HttpResponse<string>) => {
                     const data = response.body;
-                    const fileLastModified =
-                        response.headers.get('Last-Modified');
+                    const fileLastModified = response.headers.get('Last-Modified');
 
                     if (data) {
-                        let processedData: BankEntry[] = outputFileToJson(data);
-                        processedData = processedData.sort((a, b) =>
-                            a.name.localeCompare(b.name)
-                        );
                         const category = file.substring(3).split('-')[0]; // Remove the first 3 characters
+                        let processedData: BankEntry[] = outputFileToJson(data);
+                        processedData = processedData.sort((a, b) => a.name.localeCompare(b.name));
                         const categoryEnum = Object.values(BankCategory).find(
                             (value) => value.toLowerCase() === category.toLowerCase()
                         ) as BankCategory;
@@ -68,10 +65,7 @@ export class BankComponent {
                     }
 
                     if (fileLastModified) {
-                        if (
-                            this.lastModified === null ||
-                            this.lastModified < new Date(fileLastModified)
-                        ) {
+                        if (this.lastModified === null || this.lastModified < new Date(fileLastModified)) {
                             this.lastModified = new Date(fileLastModified);
                         }
                     }
@@ -79,7 +73,10 @@ export class BankComponent {
         });
     }
 
-    private _classCategoryDataToBankEntryMap: Map<string, Map<PlayerClass, Array<BankEntry>>> = new Map<string, Map<PlayerClass, Array<BankEntry>>>();
+    private _classCategoryDataToBankEntryMap: Map<string, Map<PlayerClass, Array<BankEntry>>> = new Map<
+        string,
+        Map<PlayerClass, Array<BankEntry>>
+    >();
     private _get_classCategoryDataToBankEntryMap(category: string): Map<PlayerClass, Array<BankEntry>> {
         if (this._classCategoryDataToBankEntryMap.get(category) === undefined) {
             this._classCategoryDataToBankEntryMap.set(category, new Map<PlayerClass, Array<BankEntry>>());
@@ -95,9 +92,7 @@ export class BankComponent {
                 if (classDataToBankEntryMap.has(playerClass)) {
                     const existingEntries = classDataToBankEntryMap.get(playerClass);
                     if (existingEntries) {
-                        const existingEntry = existingEntries.find(
-                            (existingEntry) => existingEntry.id === bankEntry.id
-                        );
+                        const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
                         if (existingEntry) {
                             existingEntry.count += bankEntry.count;
                         } else {
@@ -118,5 +113,4 @@ export class BankComponent {
     public getCategoryItemsByClass(playerClass: PlayerClass, category: BankCategory = BankCategory.Epics): Array<BankEntry> {
         return this.getDataByClass(playerClass, category);
     }
-    
 }

@@ -3,4 +3,5 @@ export enum BankCategory {
     Doze = 'Doze',
     Epics = 'Epics',
     Spells = 'Spells',
+    Craft = 'Craft',
 }
