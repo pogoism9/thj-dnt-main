@@ -32,39 +32,39 @@ Waist	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
 General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
-General1-Slot21	Empty	0	0	0
-General1-Slot22	Empty	0	0	0
-General1-Slot23	Empty	0	0	0
-General1-Slot24	Empty	0	0	0
-General1-Slot25	Empty	0	0	0
-General1-Slot26	Empty	0	0	0
-General1-Slot27	Empty	0	0	0
-General1-Slot28	Empty	0	0	0
-General1-Slot29	Empty	0	0	0
-General1-Slot30	Empty	0	0	0
+General1-Slot2	Song: Melody of Mischief	28475	1	6
+General1-Slot3	Song: Saryrn's Scream of Pain	28476	1	6
+General1-Slot4	Song: Warsong of Zek	28484	1	6
+General1-Slot5	Spell: Armor of the Zealot	28565	2	6
+General1-Slot6	Spell: Aspect of the Reptile	17728	2	6
+General1-Slot7	Spell: Aura of Hate	26927	2	6
+General1-Slot8	Spell: Aura of Pain	26922	1	6
+General1-Slot9	Spell: Belt of Magi'Kot	21641	1	6
+General1-Slot10	Spell: Blade of the Kedge	21644	1	6
+General1-Slot11	Spell: Blood of Hate	21633	1	6
+General1-Slot12	Spell: Burning Sand	59639	1	6
+General1-Slot13	Spell: Call of the Arch Mage	16342	2	6
+General1-Slot14	Spell: Destroy Summoned	21659	1	6
+General1-Slot15	Spell: Destroy Undead	28559	1	6
+General1-Slot16	Spell: Elemental Silence	16341	1	6
+General1-Slot17	Spell: Fist of Ixiblat	21643	1	6
+General1-Slot18	Spell: Girdle of Magi'Kot	21645	1	6
+General1-Slot19	Spell: Greater Vocaration: Water	19372	1	6
+General1-Slot20	Spell: Illusion Froglok	21648	1	6
+General1-Slot21	Spell: Infusion of Spirit	28544	1	6
+General1-Slot22	Spell: Malicious Decay	28496	1	6
+General1-Slot23	Spell: Neurotoxin	21640	4	6
+General1-Slot24	Spell: Night's Dark Terror	21666	1	6
+General1-Slot25	Spell: Planar Renewal	21668	1	6
+General1-Slot26	Spell: Resistant Armor	28437	1	6
+General1-Slot27	Spell: Shield of Maelin	28415	1	6
+General1-Slot28	Spell: Sound of Might	28573	1	6
+General1-Slot29	Spell: Spiritual Vigor	28547	1	6
+General1-Slot30	Spell: Talisman of Return	21646	1	6
 General2	Large Bank Box	976012	1	20
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
+General2-Slot1	Spell: Voice of Quellious	28470	1	6
+General2-Slot2	Spell: Word of Redemption	19229	1	6
+General2-Slot3	Spell: Yaulp VI	21689	1	6
 General2-Slot4	Empty	0	0	0
 General2-Slot5	Empty	0	0	0
 General2-Slot6	Empty	0	0	0

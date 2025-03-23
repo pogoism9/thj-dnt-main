@@ -75,8 +75,8 @@ General2-Slot10	Bundle of Super Conductive Wires	9426	1	6
 General2-Slot11	Copper Node	9295	1	6
 General2-Slot12	Copper Node	9295	1	6
 General3	Large Bank Box	976012	1	20
-General3-Slot1	Brick of Ethereal Energy	16282	48	6
-General3-Slot2	Strand of Ether	16285	58	6
+General3-Slot1	Brick of Ethereal Energy	16282	55	6
+General3-Slot2	Strand of Ether	16285	64	6
 General3-Slot3	Ornate Vambrace Mold	16343	1	6
 General3-Slot4	Air Arachnid Silk	29983	5	6
 General3-Slot5	Elemental Leather Boot Pattern	16382	1	6
@@ -136,39 +136,39 @@ General5-Slot9-Slot3	Empty	0	0	0
 General5-Slot9-Slot4	Empty	0	0	0
 General5-Slot10	Alabaster Beak	26719	1	6
 General5-Slot11	Storm Volaas Beard	28750	1	6
-General5-Slot12	Empty	0	0	0
-General5-Slot13	Empty	0	0	0
-General5-Slot14	Empty	0	0	0
-General5-Slot15	Empty	0	0	0
-General5-Slot16	Empty	0	0	0
-General5-Slot17	Empty	0	0	0
-General5-Slot18	Empty	0	0	0
-General5-Slot19	Empty	0	0	0
-General5-Slot20	Empty	0	0	0
+General5-Slot12	Ornate Silk Turban Pattern	16354	1	6
+General5-Slot13	Ornate Silk Robe Pattern	16355	1	6
+General5-Slot14	Ornate Silk Robe Pattern	16355	1	6
+General5-Slot15	Ornate Silk Robe Pattern	16355	1	6
+General5-Slot16	Ornate Silk Robe Pattern	16355	1	6
+General5-Slot17	Ornate Silk Robe Pattern	16355	1	6
+General5-Slot18	Ornate Silk Robe Pattern	16355	1	6
+General5-Slot19	Ornate Silk Robe Pattern	16355	1	6
+General5-Slot20	Ornate Leather Wristband Pattern	16350	1	6
 General6	Large Bank Box	976012	1	20
-General6-Slot1	Empty	0	0	0
-General6-Slot2	Empty	0	0	0
-General6-Slot3	Empty	0	0	0
-General6-Slot4	Empty	0	0	0
-General6-Slot5	Empty	0	0	0
-General6-Slot6	Empty	0	0	0
-General6-Slot7	Empty	0	0	0
-General6-Slot8	Empty	0	0	0
-General6-Slot9	Empty	0	0	0
-General6-Slot10	Empty	0	0	0
-General6-Slot11	Empty	0	0	0
-General6-Slot12	Empty	0	0	0
-General6-Slot13	Empty	0	0	0
-General6-Slot14	Empty	0	0	0
-General6-Slot15	Empty	0	0	0
-General6-Slot16	Empty	0	0	0
-General6-Slot17	Empty	0	0	0
-General6-Slot18	Empty	0	0	0
-General6-Slot19	Empty	0	0	0
-General6-Slot20	Empty	0	0	0
+General6-Slot1	Ornate Greaves Mold	16344	1	6
+General6-Slot2	Ornate Breastplate Mold	16346	1	6
+General6-Slot3	Ornate Chain Coif Pattern	16290	1	6
+General6-Slot4	Ornate Leather Boot Pattern	16353	1	6
+General6-Slot5	Ornate Leather Helm Pattern	16347	1	6
+General6-Slot6	Ornate Leather Wristband Pattern	16350	1	6
+General6-Slot7	Ornate Bracer Mold	16297	1	6
+General6-Slot8	Ornate Bracer Mold	16297	1	6
+General6-Slot9	Ornate Breastplate Mold	16346	1	6
+General6-Slot10	Ornate Helm Mold	16299	1	6
+General6-Slot11	Ornate Leather Tunic Pattern	16348	1	6
+General6-Slot12	Ethereal Silk Swatch	16286	15	6
+General6-Slot13	Ethereal Sheet of Metal	16283	17	6
+General6-Slot14	Esoteric Medallion	28765	1	6
+General6-Slot15	Esoteric Medallion	28783	1	6
+General6-Slot16	Tornado Gem	9424	1	6
+General6-Slot17	Sandstorm Gem	9421	1	6
+General6-Slot18	Sandstorm Gem	9421	1	6
+General6-Slot19	Blizzard Gem	9423	1	6
+General6-Slot20	Storm Volaas Beard	28750	1	6
 General7	Large Bank Box	976012	1	20
-General7-Slot1	Empty	0	0	0
-General7-Slot2	Empty	0	0	0
+General7-Slot1	Storm Taarid Bone	28751	1	6
+General7-Slot2	Ivory Stormrider Canine	26732	1	6
 General7-Slot3	Empty	0	0	0
 General7-Slot4	Empty	0	0	0
 General7-Slot5	Empty	0	0	0
