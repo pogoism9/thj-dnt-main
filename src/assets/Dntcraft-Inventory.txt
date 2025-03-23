@@ -34,14 +34,14 @@ General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
 General1-Slot1	Ornate Leather Boot Pattern	16353	1	6
 General1-Slot2	Ornate Chain Sleeve Pattern	16292	1	6
 General1-Slot3	Ornate Chain Coif Pattern	16290	1	6
-General1-Slot4	Ornate Breastplate Mold	16346	1	6
+General1-Slot4	Elemental Chain Pant Pattern	16367	1	6
 General1-Slot5	Ornate Bracer Mold	16297	1	6
 General1-Slot6	Ornate Bracer Mold	16297	1	6
 General1-Slot7	Crystalline Silk	25306	62	6
 General1-Slot8	Tumpy Tonic	12114	43	6
-General1-Slot9	Liquefied Earth	21705	3	6
+General1-Slot9	Liquefied Earth	21705	19	6
 General1-Slot10	Magma Crystals	21752	2	6
-General1-Slot11	Sandstorm Pearl	29909	1	6
+General1-Slot11	Ornate Silk Robe Pattern	16355	1	6
 General1-Slot12	Ornate Silk Pant Pattern	16359	1	6
 General1-Slot13	Ornate Leather Glove Pattern	16351	1	6
 General1-Slot14	Ornate Breastplate Mold	16346	1	6
@@ -57,40 +57,348 @@ General1-Slot23	Esoteric Medallion	28783	1	6
 General1-Slot24	Esoteric Medallion	28783	1	6
 General1-Slot25	Esoteric Medallion	28780	1	6
 General1-Slot26	Esoteric Medallion	28780	1	6
-General1-Slot27	Bundle of Super Conductive Wires	9426	1	6
-General1-Slot28	Copper Node	9295	1	6
-General1-Slot29	Intact Power Cell	9434	1	6
-General1-Slot30	Intact Power Cell	9434	1	6
+General1-Slot27	Storm Giant Head	28749	1	6
+General1-Slot28	Storm Giant Head	28749	1	6
+General1-Slot29	Copper Node	9295	1	6
+General1-Slot30	Copper Node	9295	1	6
 General2	Adventurer's Pack	17423	1	12
-General2-Slot1	Intact Power Cell	9434	1	6
-General2-Slot2	Storm Giant Head	28749	1	6
-General2-Slot3	Copper Node	9295	1	6
+General2-Slot1	Raw Diamond	15981	3	6
+General2-Slot2	Intact Power Cell	9434	1	6
+General2-Slot3	Intact Power Cell	9434	1	6
 General2-Slot4	Intact Power Cell	9434	1	6
-General2-Slot5	Storm Giant Head	28749	1	6
-General2-Slot6	Bundle of Super Conductive Wires	9426	1	6
+General2-Slot5	Intact Power Cell	9434	1	6
+General2-Slot6	Intact Power Cell	9434	1	6
 General2-Slot7	Bundle of Super Conductive Wires	9426	1	6
-General2-Slot8	Copper Node	9295	1	6
-General2-Slot9	Intact Power Cell	9434	1	6
-General2-Slot10	Intact Power Cell	9434	1	6
+General2-Slot8	Bundle of Super Conductive Wires	9426	1	6
+General2-Slot9	Bundle of Super Conductive Wires	9426	1	6
+General2-Slot10	Bundle of Super Conductive Wires	9426	1	6
 General2-Slot11	Copper Node	9295	1	6
-General2-Slot12	Bundle of Super Conductive Wires	9426	1	6
-General3	Brick of Ethereal Energy	16282	26	6
-General4	Raw Diamond	15981	3	6
-General5	Strand of Ether	16285	26	6
-General6	Ornate Vambrace Mold	16343	1	6
-General7	Ornate Leather Wristband Pattern	16350	1	6
-General8	Ornate Leather Boot Pattern	16353	1	6
-General9	Bread Cakes	9991	5	6
-General10	Skin of Milk	9990	5	6
+General2-Slot12	Copper Node	9295	1	6
+General3	Large Bank Box	976012	1	20
+General3-Slot1	Brick of Ethereal Energy	16282	48	6
+General3-Slot2	Strand of Ether	16285	58	6
+General3-Slot3	Ornate Vambrace Mold	16343	1	6
+General3-Slot4	Air Arachnid Silk	29983	5	6
+General3-Slot5	Elemental Leather Boot Pattern	16382	1	6
+General3-Slot6	Elemental Chain Sleeve Pattern	16364	1	6
+General3-Slot7	Elemental Leather Wrist Pattern	16379	1	6
+General3-Slot8	Elemental Leather Wrist Pattern	16379	1	6
+General3-Slot9	Elemental Leather Wrist Pattern	16379	1	6
+General3-Slot10	Elemental Chain Glove Pattern	16366	1	6
+General3-Slot11	Elemental Silk Glove Pattern	16387	1	6
+General3-Slot12	Elemental Silk Glove Pattern	16387	1	6
+General3-Slot13	Intact Power Cell	9434	1	6
+General3-Slot14	Hero Parts	29763	39	6
+General3-Slot15	Elemental Silk Sleeve Pattern	16385	1	6
+General3-Slot16	Elemental Silk Boot Pattern	16389	1	6
+General3-Slot17	Intact Power Cell	9434	1	6
+General3-Slot18	Ornate Leather Tunic Pattern	16348	1	6
+General3-Slot19	Storm Giant Head	28749	1	6
+General3-Slot20	Storm Giant Head	28749	1	6
+General4	Large Bank Box	976012	1	20
+General4-Slot1	Ornate Leather Wristband Pattern	16350	1	6
+General4-Slot2	Ornate Leather Boot Pattern	16353	1	6
+General4-Slot3	Ornate Silk Robe Pattern	16355	1	6
+General4-Slot4	Ornate Silk Robe Pattern	16355	1	6
+General4-Slot5	Ornate Chain Tunic Pattern	16291	1	6
+General4-Slot6	Intact Power Cell	9434	1	6
+General4-Slot7	Elemental Chain Bracelet Pattern	16365	1	6
+General4-Slot8	Elemental Chain Bracelet Pattern	16365	1	6
+General4-Slot9	Copper Node	9295	1	6
+General4-Slot10	Copper Node	9295	1	6
+General4-Slot11	Bundle of Super Conductive Wires	9426	1	6
+General4-Slot12	Bundle of Super Conductive Wires	9426	1	6
+General4-Slot13	Bundle of Super Conductive Wires	9426	1	6
+General4-Slot14	Bundle of Super Conductive Wires	9426	1	6
+General4-Slot15	Copper Node	9295	1	6
+General4-Slot16	Storm Taarid Bone	28751	1	6
+General4-Slot17	Storm Volaas Beard	28750	1	6
+General4-Slot18	Storm Volaas Beard	28750	1	6
+General4-Slot19	Storm Volaas Beard	28750	1	6
+General4-Slot20	Storm Volaas Beard	28750	1	6
+General5	Large Bank Box	976012	1	20
+General5-Slot1	Storm Taarid Bone	28751	1	6
+General5-Slot2	Storm Taarid Bone	28751	1	6
+General5-Slot3	Storm Taarid Bone	28751	1	6
+General5-Slot4	Storm Taarid Bone	28751	1	6
+General5-Slot5	Storm Taarid Bone	28751	1	6
+General5-Slot6	Tornado Gem	9424	1	6
+General5-Slot7	Storm Taarid Bone	28751	1	6
+General5-Slot8	Ring of Torden	17168	1	4
+General5-Slot8-Slot1	Empty	0	0	0
+General5-Slot8-Slot2	Empty	0	0	0
+General5-Slot8-Slot3	Empty	0	0	0
+General5-Slot8-Slot4	Empty	0	0	0
+General5-Slot9	Ring of Torden	17168	1	4
+General5-Slot9-Slot1	Empty	0	0	0
+General5-Slot9-Slot2	Empty	0	0	0
+General5-Slot9-Slot3	Empty	0	0	0
+General5-Slot9-Slot4	Empty	0	0	0
+General5-Slot10	Alabaster Beak	26719	1	6
+General5-Slot11	Storm Volaas Beard	28750	1	6
+General5-Slot12	Empty	0	0	0
+General5-Slot13	Empty	0	0	0
+General5-Slot14	Empty	0	0	0
+General5-Slot15	Empty	0	0	0
+General5-Slot16	Empty	0	0	0
+General5-Slot17	Empty	0	0	0
+General5-Slot18	Empty	0	0	0
+General5-Slot19	Empty	0	0	0
+General5-Slot20	Empty	0	0	0
+General6	Large Bank Box	976012	1	20
+General6-Slot1	Empty	0	0	0
+General6-Slot2	Empty	0	0	0
+General6-Slot3	Empty	0	0	0
+General6-Slot4	Empty	0	0	0
+General6-Slot5	Empty	0	0	0
+General6-Slot6	Empty	0	0	0
+General6-Slot7	Empty	0	0	0
+General6-Slot8	Empty	0	0	0
+General6-Slot9	Empty	0	0	0
+General6-Slot10	Empty	0	0	0
+General6-Slot11	Empty	0	0	0
+General6-Slot12	Empty	0	0	0
+General6-Slot13	Empty	0	0	0
+General6-Slot14	Empty	0	0	0
+General6-Slot15	Empty	0	0	0
+General6-Slot16	Empty	0	0	0
+General6-Slot17	Empty	0	0	0
+General6-Slot18	Empty	0	0	0
+General6-Slot19	Empty	0	0	0
+General6-Slot20	Empty	0	0	0
+General7	Large Bank Box	976012	1	20
+General7-Slot1	Empty	0	0	0
+General7-Slot2	Empty	0	0	0
+General7-Slot3	Empty	0	0	0
+General7-Slot4	Empty	0	0	0
+General7-Slot5	Empty	0	0	0
+General7-Slot6	Empty	0	0	0
+General7-Slot7	Empty	0	0	0
+General7-Slot8	Empty	0	0	0
+General7-Slot9	Empty	0	0	0
+General7-Slot10	Empty	0	0	0
+General7-Slot11	Empty	0	0	0
+General7-Slot12	Empty	0	0	0
+General7-Slot13	Empty	0	0	0
+General7-Slot14	Empty	0	0	0
+General7-Slot15	Empty	0	0	0
+General7-Slot16	Empty	0	0	0
+General7-Slot17	Empty	0	0	0
+General7-Slot18	Empty	0	0	0
+General7-Slot19	Empty	0	0	0
+General7-Slot20	Empty	0	0	0
+General8	Large Bank Box	976012	1	20
+General8-Slot1	Empty	0	0	0
+General8-Slot2	Empty	0	0	0
+General8-Slot3	Empty	0	0	0
+General8-Slot4	Empty	0	0	0
+General8-Slot5	Empty	0	0	0
+General8-Slot6	Empty	0	0	0
+General8-Slot7	Empty	0	0	0
+General8-Slot8	Empty	0	0	0
+General8-Slot9	Empty	0	0	0
+General8-Slot10	Empty	0	0	0
+General8-Slot11	Empty	0	0	0
+General8-Slot12	Empty	0	0	0
+General8-Slot13	Empty	0	0	0
+General8-Slot14	Empty	0	0	0
+General8-Slot15	Empty	0	0	0
+General8-Slot16	Empty	0	0	0
+General8-Slot17	Empty	0	0	0
+General8-Slot18	Empty	0	0	0
+General8-Slot19	Empty	0	0	0
+General8-Slot20	Empty	0	0	0
+General9	Large Bank Box	976012	1	20
+General9-Slot1	Empty	0	0	0
+General9-Slot2	Empty	0	0	0
+General9-Slot3	Empty	0	0	0
+General9-Slot4	Empty	0	0	0
+General9-Slot5	Empty	0	0	0
+General9-Slot6	Empty	0	0	0
+General9-Slot7	Empty	0	0	0
+General9-Slot8	Empty	0	0	0
+General9-Slot9	Empty	0	0	0
+General9-Slot10	Empty	0	0	0
+General9-Slot11	Empty	0	0	0
+General9-Slot12	Empty	0	0	0
+General9-Slot13	Empty	0	0	0
+General9-Slot14	Empty	0	0	0
+General9-Slot15	Empty	0	0	0
+General9-Slot16	Empty	0	0	0
+General9-Slot17	Empty	0	0	0
+General9-Slot18	Empty	0	0	0
+General9-Slot19	Empty	0	0	0
+General9-Slot20	Empty	0	0	0
+General10	Large Bank Box	976012	1	20
+General10-Slot1	Empty	0	0	0
+General10-Slot2	Empty	0	0	0
+General10-Slot3	Empty	0	0	0
+General10-Slot4	Empty	0	0	0
+General10-Slot5	Empty	0	0	0
+General10-Slot6	Empty	0	0	0
+General10-Slot7	Empty	0	0	0
+General10-Slot8	Empty	0	0	0
+General10-Slot9	Empty	0	0	0
+General10-Slot10	Empty	0	0	0
+General10-Slot11	Empty	0	0	0
+General10-Slot12	Empty	0	0	0
+General10-Slot13	Empty	0	0	0
+General10-Slot14	Empty	0	0	0
+General10-Slot15	Empty	0	0	0
+General10-Slot16	Empty	0	0	0
+General10-Slot17	Empty	0	0	0
+General10-Slot18	Empty	0	0	0
+General10-Slot19	Empty	0	0	0
+General10-Slot20	Empty	0	0	0
 Held	Empty	0	0	0
-Bank1	Empty	0	0	0
-Bank2	Empty	0	0	0
-Bank3	Empty	0	0	0
-Bank4	Empty	0	0	0
-Bank5	Empty	0	0	0
+Bank1	Large Bank Box	976012	1	20
+Bank1-Slot1	Empty	0	0	0
+Bank1-Slot2	Empty	0	0	0
+Bank1-Slot3	Empty	0	0	0
+Bank1-Slot4	Empty	0	0	0
+Bank1-Slot5	Empty	0	0	0
+Bank1-Slot6	Empty	0	0	0
+Bank1-Slot7	Empty	0	0	0
+Bank1-Slot8	Empty	0	0	0
+Bank1-Slot9	Empty	0	0	0
+Bank1-Slot10	Empty	0	0	0
+Bank1-Slot11	Empty	0	0	0
+Bank1-Slot12	Empty	0	0	0
+Bank1-Slot13	Empty	0	0	0
+Bank1-Slot14	Empty	0	0	0
+Bank1-Slot15	Empty	0	0	0
+Bank1-Slot16	Empty	0	0	0
+Bank1-Slot17	Empty	0	0	0
+Bank1-Slot18	Empty	0	0	0
+Bank1-Slot19	Empty	0	0	0
+Bank1-Slot20	Empty	0	0	0
+Bank2	Large Bank Box	976012	1	20
+Bank2-Slot1	Empty	0	0	0
+Bank2-Slot2	Empty	0	0	0
+Bank2-Slot3	Empty	0	0	0
+Bank2-Slot4	Empty	0	0	0
+Bank2-Slot5	Empty	0	0	0
+Bank2-Slot6	Empty	0	0	0
+Bank2-Slot7	Empty	0	0	0
+Bank2-Slot8	Empty	0	0	0
+Bank2-Slot9	Empty	0	0	0
+Bank2-Slot10	Empty	0	0	0
+Bank2-Slot11	Empty	0	0	0
+Bank2-Slot12	Empty	0	0	0
+Bank2-Slot13	Empty	0	0	0
+Bank2-Slot14	Empty	0	0	0
+Bank2-Slot15	Empty	0	0	0
+Bank2-Slot16	Empty	0	0	0
+Bank2-Slot17	Empty	0	0	0
+Bank2-Slot18	Empty	0	0	0
+Bank2-Slot19	Empty	0	0	0
+Bank2-Slot20	Empty	0	0	0
+Bank3	Large Bank Box	976012	1	20
+Bank3-Slot1	Empty	0	0	0
+Bank3-Slot2	Empty	0	0	0
+Bank3-Slot3	Empty	0	0	0
+Bank3-Slot4	Empty	0	0	0
+Bank3-Slot5	Empty	0	0	0
+Bank3-Slot6	Empty	0	0	0
+Bank3-Slot7	Empty	0	0	0
+Bank3-Slot8	Empty	0	0	0
+Bank3-Slot9	Empty	0	0	0
+Bank3-Slot10	Empty	0	0	0
+Bank3-Slot11	Empty	0	0	0
+Bank3-Slot12	Empty	0	0	0
+Bank3-Slot13	Empty	0	0	0
+Bank3-Slot14	Empty	0	0	0
+Bank3-Slot15	Empty	0	0	0
+Bank3-Slot16	Empty	0	0	0
+Bank3-Slot17	Empty	0	0	0
+Bank3-Slot18	Empty	0	0	0
+Bank3-Slot19	Empty	0	0	0
+Bank3-Slot20	Empty	0	0	0
+Bank4	Large Bank Box	976012	1	20
+Bank4-Slot1	Empty	0	0	0
+Bank4-Slot2	Empty	0	0	0
+Bank4-Slot3	Empty	0	0	0
+Bank4-Slot4	Empty	0	0	0
+Bank4-Slot5	Empty	0	0	0
+Bank4-Slot6	Empty	0	0	0
+Bank4-Slot7	Empty	0	0	0
+Bank4-Slot8	Empty	0	0	0
+Bank4-Slot9	Empty	0	0	0
+Bank4-Slot10	Empty	0	0	0
+Bank4-Slot11	Empty	0	0	0
+Bank4-Slot12	Empty	0	0	0
+Bank4-Slot13	Empty	0	0	0
+Bank4-Slot14	Empty	0	0	0
+Bank4-Slot15	Empty	0	0	0
+Bank4-Slot16	Empty	0	0	0
+Bank4-Slot17	Empty	0	0	0
+Bank4-Slot18	Empty	0	0	0
+Bank4-Slot19	Empty	0	0	0
+Bank4-Slot20	Empty	0	0	0
+Bank5	Large Bank Box	976012	1	20
+Bank5-Slot1	Empty	0	0	0
+Bank5-Slot2	Empty	0	0	0
+Bank5-Slot3	Empty	0	0	0
+Bank5-Slot4	Empty	0	0	0
+Bank5-Slot5	Empty	0	0	0
+Bank5-Slot6	Empty	0	0	0
+Bank5-Slot7	Empty	0	0	0
+Bank5-Slot8	Empty	0	0	0
+Bank5-Slot9	Empty	0	0	0
+Bank5-Slot10	Empty	0	0	0
+Bank5-Slot11	Empty	0	0	0
+Bank5-Slot12	Empty	0	0	0
+Bank5-Slot13	Empty	0	0	0
+Bank5-Slot14	Empty	0	0	0
+Bank5-Slot15	Empty	0	0	0
+Bank5-Slot16	Empty	0	0	0
+Bank5-Slot17	Empty	0	0	0
+Bank5-Slot18	Empty	0	0	0
+Bank5-Slot19	Empty	0	0	0
+Bank5-Slot20	Empty	0	0	0
 Bank6	Empty	0	0	0
-Bank7	Empty	0	0	0
-Bank8	Empty	0	0	0
+Bank7	Large Bank Box	976012	1	20
+Bank7-Slot1	Empty	0	0	0
+Bank7-Slot2	Empty	0	0	0
+Bank7-Slot3	Empty	0	0	0
+Bank7-Slot4	Empty	0	0	0
+Bank7-Slot5	Empty	0	0	0
+Bank7-Slot6	Empty	0	0	0
+Bank7-Slot7	Empty	0	0	0
+Bank7-Slot8	Empty	0	0	0
+Bank7-Slot9	Empty	0	0	0
+Bank7-Slot10	Empty	0	0	0
+Bank7-Slot11	Empty	0	0	0
+Bank7-Slot12	Empty	0	0	0
+Bank7-Slot13	Empty	0	0	0
+Bank7-Slot14	Empty	0	0	0
+Bank7-Slot15	Empty	0	0	0
+Bank7-Slot16	Empty	0	0	0
+Bank7-Slot17	Empty	0	0	0
+Bank7-Slot18	Empty	0	0	0
+Bank7-Slot19	Empty	0	0	0
+Bank7-Slot20	Empty	0	0	0
+Bank8	Large Bank Box	976012	1	20
+Bank8-Slot1	Empty	0	0	0
+Bank8-Slot2	Empty	0	0	0
+Bank8-Slot3	Empty	0	0	0
+Bank8-Slot4	Empty	0	0	0
+Bank8-Slot5	Empty	0	0	0
+Bank8-Slot6	Empty	0	0	0
+Bank8-Slot7	Empty	0	0	0
+Bank8-Slot8	Empty	0	0	0
+Bank8-Slot9	Empty	0	0	0
+Bank8-Slot10	Empty	0	0	0
+Bank8-Slot11	Empty	0	0	0
+Bank8-Slot12	Empty	0	0	0
+Bank8-Slot13	Empty	0	0	0
+Bank8-Slot14	Empty	0	0	0
+Bank8-Slot15	Empty	0	0	0
+Bank8-Slot16	Empty	0	0	0
+Bank8-Slot17	Empty	0	0	0
+Bank8-Slot18	Empty	0	0	0
+Bank8-Slot19	Empty	0	0	0
+Bank8-Slot20	Empty	0	0	0
 Bank9	Empty	0	0	0
 Bank10	Empty	0	0	0
 Bank11	Empty	0	0	0
@@ -194,6 +502,9 @@ SharedBank2-Slot16-Slot1	Empty	0	0	0
 SharedBank2-Slot16-Slot2	Empty	0	0	0
 SharedBank2-Slot16-Slot6	Empty	0	0	0
 SharedBank2-Slot17	Empty	0	0	0
-SharedBank2-Slot18	Empty	0	0	0
+SharedBank2-Slot18	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot18-Slot1	Empty	0	0	0
+SharedBank2-Slot18-Slot2	Empty	0	0	0
+SharedBank2-Slot18-Slot6	Empty	0	0	0
 SharedBank2-Slot19	Empty	0	0	0
 SharedBank2-Slot20	Empty	0	0	0

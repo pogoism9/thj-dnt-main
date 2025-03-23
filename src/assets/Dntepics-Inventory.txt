@@ -1088,6 +1088,9 @@ SharedBank2-Slot16-Slot1	Empty	0	0	0
 SharedBank2-Slot16-Slot2	Empty	0	0	0
 SharedBank2-Slot16-Slot6	Empty	0	0	0
 SharedBank2-Slot17	Empty	0	0	0
-SharedBank2-Slot18	Empty	0	0	0
+SharedBank2-Slot18	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot18-Slot1	Empty	0	0	0
+SharedBank2-Slot18-Slot2	Empty	0	0	0
+SharedBank2-Slot18-Slot6	Empty	0	0	0
 SharedBank2-Slot19	Empty	0	0	0
 SharedBank2-Slot20	Empty	0	0	0

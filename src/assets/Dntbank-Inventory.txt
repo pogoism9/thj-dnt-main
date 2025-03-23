@@ -32,26 +32,72 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Large Bank Box	976012	1	20
-General1-Slot1	Empty	0	0	0
+General1-Slot1	Immaculate Vest of the Fire Tyrant	14943	1	6
+General1-Slot1-Slot1	Empty	0	0	0
+General1-Slot1-Slot2	Empty	0	0	0
+General1-Slot1-Slot6	Empty	0	0	0
 General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
+General1-Slot3	Ifir, Dagger of Fire (Enchanted)	1024602	1	6
+General1-Slot3-Slot1	Empty	0	0	0
+General1-Slot3-Slot2	Empty	0	0	0
+General1-Slot3-Slot6	Empty	0	0	0
+General1-Slot4	Mantle of the Rainmaker	13670	1	6
+General1-Slot4-Slot1	Empty	0	0	0
+General1-Slot4-Slot2	Empty	0	0	0
+General1-Slot5	Necklace of Reflected Flames (Enchanted)	1007767	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot6	Leaf-jointed Cloak	16637	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot7	Necklace of Reflected Flames (Enchanted)	1007767	1	6
+General1-Slot7-Slot1	Empty	0	0	0
+General1-Slot7-Slot2	Empty	0	0	0
+General1-Slot8	Sword of Primordial Power (Legendary)	2024585	1	6
+General1-Slot8-Slot1	Empty	0	0	0
+General1-Slot8-Slot2	Empty	0	0	0
+General1-Slot8-Slot6	Empty	0	0	0
+General1-Slot9	Vest of Phoenix Feathers	14747	1	6
+General1-Slot9-Slot1	Empty	0	0	0
+General1-Slot9-Slot2	Empty	0	0	0
+General1-Slot9-Slot6	Empty	0	0	0
 General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Summoned: Globe of Water	13079	100	6
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
+General1-Slot11	Circular Crystalline Formation (Enchanted)	1027106	1	6
+General1-Slot11-Slot1	Empty	0	0	0
+General1-Slot11-Slot2	Empty	0	0	0
+General1-Slot11-Slot6	Empty	0	0	0
+General1-Slot12	Cap of Drowned Souls	9497	1	6
+General1-Slot12-Slot1	Empty	0	0	0
+General1-Slot12-Slot2	Empty	0	0	0
+General1-Slot12-Slot6	Empty	0	0	0
+General1-Slot13	Crashing Wave Earring (Enchanted)	1004324	1	6
+General1-Slot13-Slot1	Empty	0	0	0
+General1-Slot13-Slot2	Empty	0	0	0
+General1-Slot14	Cloak of Flickering Flame	15840	1	6
+General1-Slot14-Slot1	Empty	0	0	0
+General1-Slot14-Slot2	Empty	0	0	0
+General1-Slot15	Dark Hand Wraps	28949	1	6
+General1-Slot15-Slot1	Empty	0	0	0
+General1-Slot15-Slot2	Empty	0	0	0
+General1-Slot15-Slot6	Empty	0	0	0
+General1-Slot16	Crystal Tipped Onyxwood Staff (Legendary)	2024784	1	6
+General1-Slot16-Slot1	Empty	0	0	0
+General1-Slot16-Slot2	Empty	0	0	0
+General1-Slot16-Slot6	Empty	0	0	0
+General1-Slot17	Ent Leaf (Legendary)	2026869	1	6
+General1-Slot17-Slot1	Empty	0	0	0
+General1-Slot17-Slot2	Empty	0	0	0
+General1-Slot17-Slot6	Empty	0	0	0
+General1-Slot18	Honorary Amulet (Enchanted)	1008366	1	6
+General1-Slot18-Slot1	Empty	0	0	0
+General1-Slot18-Slot2	Empty	0	0	0
+General1-Slot19	Exquisite Phoenix Feather Mantle	13672	1	6
+General1-Slot19-Slot1	Empty	0	0	0
+General1-Slot19-Slot2	Empty	0	0	0
+General1-Slot20	Wicked Shank	24645	1	6
+General1-Slot20-Slot1	Empty	0	0	0
+General1-Slot20-Slot2	Empty	0	0	0
+General1-Slot20-Slot6	Empty	0	0	0
 General2	Grandmaster's Carry-All (Legendary)	2017138	1	30
 General2-Slot1	Staff of the Morning Dew (Legendary)	2001156	1	6
 General2-Slot1-Slot1	Empty	0	0	0
@@ -89,7 +135,7 @@ General2-Slot10	Shadow Footpads	28888	1	6
 General2-Slot10-Slot1	Empty	0	0	0
 General2-Slot10-Slot2	Empty	0	0	0
 General2-Slot10-Slot6	Empty	0	0	0
-General2-Slot11	Empty	0	0	0
+General2-Slot11	Tornado Gem	9424	1	6
 General2-Slot12	Umbracite Bracer (Enchanted)	1028886	1	6
 General2-Slot12-Slot1	Empty	0	0	0
 General2-Slot12-Slot2	Empty	0	0	0
@@ -154,7 +200,9 @@ General2-Slot29	Shadowhide Gloves	12079	1	6
 General2-Slot29-Slot1	Empty	0	0	0
 General2-Slot29-Slot2	Empty	0	0	0
 General2-Slot29-Slot6	Empty	0	0	0
-General2-Slot30	Empty	0	0	0
+General2-Slot30	Stormriders Signet (Legendary)	2010232	1	6
+General2-Slot30-Slot1	Empty	0	0	0
+General2-Slot30-Slot2	Empty	0	0	0
 General3	Large Bank Box	976012	1	20
 General3-Slot1	Empty	0	0	0
 General3-Slot2	Empty	0	0	0
@@ -171,11 +219,23 @@ General3-Slot12	Empty	0	0	0
 General3-Slot13	Empty	0	0	0
 General3-Slot14	Empty	0	0	0
 General3-Slot15	Empty	0	0	0
-General3-Slot16	Empty	0	0	0
-General3-Slot17	Empty	0	0	0
-General3-Slot18	Empty	0	0	0
-General3-Slot19	Empty	0	0	0
-General3-Slot20	Empty	0	0	0
+General3-Slot16	Fire Marked Rune	27648	1	6
+General3-Slot16-Slot1	Empty	0	0	0
+General3-Slot16-Slot2	Empty	0	0	0
+General3-Slot16-Slot6	Empty	0	0	0
+General3-Slot17	Great Mask of Flame	12592	1	6
+General3-Slot17-Slot1	Empty	0	0	0
+General3-Slot17-Slot2	Empty	0	0	0
+General3-Slot18	Puresteel Mantle (Legendary)	2013690	1	6
+General3-Slot18-Slot1	Empty	0	0	0
+General3-Slot18-Slot2	Empty	0	0	0
+General3-Slot19	Ring of Flowing Stones	10137	1	6
+General3-Slot19-Slot1	Empty	0	0	0
+General3-Slot19-Slot2	Empty	0	0	0
+General3-Slot20	Stormrider Carapace	27289	1	6
+General3-Slot20-Slot1	Empty	0	0	0
+General3-Slot20-Slot2	Empty	0	0	0
+General3-Slot20-Slot6	Empty	0	0	0
 General4	Large Bank Box	976012	1	20
 General4-Slot1	Empty	0	0	0
 General4-Slot2	Empty	0	0	0
@@ -219,7 +279,7 @@ General5-Slot18	Empty	0	0	0
 General5-Slot19	Empty	0	0	0
 General5-Slot20	Empty	0	0	0
 General6	Large Bank Box	976012	1	20
-General6-Slot1	Ssraeshzian Insignia	19718	1	6
+General6-Slot1	Empty	0	0	0
 General6-Slot2	Ssraeshzian Insignia	19718	1	6
 General6-Slot3	Ssraeshzian Insignia	19718	1	6
 General6-Slot4	Ssraeshzian Insignia	19718	1	6
@@ -306,11 +366,7 @@ General7-Slot14-Slot1	Empty	0	0	0
 General7-Slot14-Slot2	Empty	0	0	0
 General7-Slot14-Slot3	Empty	0	0	0
 General7-Slot14-Slot4	Empty	0	0	0
-General7-Slot15	Taskmaster's Pouch	17118	1	4
-General7-Slot15-Slot1	Empty	0	0	0
-General7-Slot15-Slot2	Empty	0	0	0
-General7-Slot15-Slot3	Empty	0	0	0
-General7-Slot15-Slot4	Empty	0	0	0
+General7-Slot15	Empty	0	0	0
 General7-Slot16	Taskmaster's Pouch	17118	1	4
 General7-Slot16-Slot1	Empty	0	0	0
 General7-Slot16-Slot2	Empty	0	0	0
@@ -331,7 +387,7 @@ General8-Slot7	Zazuzh's Idol	19716	1	6
 General8-Slot8	Zazuzh's Idol	19716	1	6
 General8-Slot9	Zazuzh's Idol	19716	1	6
 General8-Slot10	Zazuzh's Idol	19716	1	6
-General8-Slot11	Zazuzh's Idol	19716	1	6
+General8-Slot11	Empty	0	0	0
 General8-Slot12	Zazuzh's Idol	19716	1	6
 General8-Slot13	Empty	0	0	0
 General8-Slot14	Empty	0	0	0
@@ -340,7 +396,7 @@ General8-Slot16	Empty	0	0	0
 General8-Slot17	Empty	0	0	0
 General8-Slot18	Empty	0	0	0
 General8-Slot19	Empty	0	0	0
-General8-Slot20	Zherozsh's Ring	19717	1	6
+General8-Slot20	Empty	0	0	0
 General9	Large Bank Box	976012	1	20
 General9-Slot1	Empty	0	0	0
 General9-Slot2	Empty	0	0	0
@@ -1801,7 +1857,7 @@ Bank24-Slot14	Empty	0	0	0
 Bank24-Slot15	Empty	0	0	0
 Bank24-Slot16	Empty	0	0	0
 Bank24-Slot17	Empty	0	0	0
-Bank24-Slot18	Summoned: Black Bread	13078	100	6
+Bank24-Slot18	Empty	0	0	0
 Bank24-Slot19	Empty	0	0	0
 Bank24-Slot20	Empty	0	0	0
 SharedBank1	Large Bank Box	976012	1	20
@@ -1891,6 +1947,9 @@ SharedBank2-Slot16-Slot1	Empty	0	0	0
 SharedBank2-Slot16-Slot2	Empty	0	0	0
 SharedBank2-Slot16-Slot6	Empty	0	0	0
 SharedBank2-Slot17	Empty	0	0	0
-SharedBank2-Slot18	Empty	0	0	0
+SharedBank2-Slot18	Grandmaster Tailor's Needle (Legendary)	2009246	1	6
+SharedBank2-Slot18-Slot1	Empty	0	0	0
+SharedBank2-Slot18-Slot2	Empty	0	0	0
+SharedBank2-Slot18-Slot6	Empty	0	0	0
 SharedBank2-Slot19	Empty	0	0	0
 SharedBank2-Slot20	Empty	0	0	0
