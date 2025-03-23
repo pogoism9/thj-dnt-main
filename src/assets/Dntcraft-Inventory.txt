@@ -31,55 +31,55 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
-General1-Slot21	Empty	0	0	0
-General1-Slot22	Empty	0	0	0
-General1-Slot23	Empty	0	0	0
-General1-Slot24	Empty	0	0	0
-General1-Slot25	Empty	0	0	0
-General1-Slot26	Empty	0	0	0
-General1-Slot27	Empty	0	0	0
-General1-Slot28	Empty	0	0	0
-General1-Slot29	Empty	0	0	0
-General1-Slot30	Empty	0	0	0
+General1-Slot1	Ornate Leather Boot Pattern	16353	1	6
+General1-Slot2	Ornate Chain Sleeve Pattern	16292	1	6
+General1-Slot3	Ornate Chain Coif Pattern	16290	1	6
+General1-Slot4	Ornate Breastplate Mold	16346	1	6
+General1-Slot5	Ornate Bracer Mold	16297	1	6
+General1-Slot6	Ornate Bracer Mold	16297	1	6
+General1-Slot7	Crystalline Silk	25306	62	6
+General1-Slot8	Tumpy Tonic	12114	43	6
+General1-Slot9	Liquefied Earth	21705	3	6
+General1-Slot10	Magma Crystals	21752	2	6
+General1-Slot11	Sandstorm Pearl	29909	1	6
+General1-Slot12	Ornate Silk Pant Pattern	16359	1	6
+General1-Slot13	Ornate Leather Glove Pattern	16351	1	6
+General1-Slot14	Ornate Breastplate Mold	16346	1	6
+General1-Slot15	Ornate Gauntlet Mold	16345	1	6
+General1-Slot16	Ornate Silk Glove Pattern	16358	1	6
+General1-Slot17	Lightning Gem	9422	1	6
+General1-Slot18	Tornado Gem	9424	1	6
+General1-Slot19	Tornado Gem	9424	1	6
+General1-Slot20	Blizzard Gem	9423	1	6
+General1-Slot21	Blizzard Gem	9423	1	6
+General1-Slot22	Esoteric Medallion	28765	1	6
+General1-Slot23	Esoteric Medallion	28783	1	6
+General1-Slot24	Esoteric Medallion	28783	1	6
+General1-Slot25	Esoteric Medallion	28780	1	6
+General1-Slot26	Esoteric Medallion	28780	1	6
+General1-Slot27	Bundle of Super Conductive Wires	9426	1	6
+General1-Slot28	Copper Node	9295	1	6
+General1-Slot29	Intact Power Cell	9434	1	6
+General1-Slot30	Intact Power Cell	9434	1	6
 General2	Adventurer's Pack	17423	1	12
-General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
-General2-Slot3	Empty	0	0	0
-General2-Slot4	Empty	0	0	0
-General2-Slot5	Empty	0	0	0
-General2-Slot6	Empty	0	0	0
-General2-Slot7	Empty	0	0	0
-General2-Slot8	Empty	0	0	0
-General2-Slot9	Empty	0	0	0
-General2-Slot10	Empty	0	0	0
-General2-Slot11	Empty	0	0	0
-General2-Slot12	Empty	0	0	0
-General3	Brick of Ethereal Energy	16282	1	6
+General2-Slot1	Intact Power Cell	9434	1	6
+General2-Slot2	Storm Giant Head	28749	1	6
+General2-Slot3	Copper Node	9295	1	6
+General2-Slot4	Intact Power Cell	9434	1	6
+General2-Slot5	Storm Giant Head	28749	1	6
+General2-Slot6	Bundle of Super Conductive Wires	9426	1	6
+General2-Slot7	Bundle of Super Conductive Wires	9426	1	6
+General2-Slot8	Copper Node	9295	1	6
+General2-Slot9	Intact Power Cell	9434	1	6
+General2-Slot10	Intact Power Cell	9434	1	6
+General2-Slot11	Copper Node	9295	1	6
+General2-Slot12	Bundle of Super Conductive Wires	9426	1	6
+General3	Brick of Ethereal Energy	16282	26	6
 General4	Raw Diamond	15981	3	6
-General5	Strand of Ether	16285	1	6
-General6	Empty	0	0	0
-General7	Empty	0	0	0
-General8	Empty	0	0	0
+General5	Strand of Ether	16285	26	6
+General6	Ornate Vambrace Mold	16343	1	6
+General7	Ornate Leather Wristband Pattern	16350	1	6
+General8	Ornate Leather Boot Pattern	16353	1	6
 General9	Bread Cakes	9991	5	6
 General10	Skin of Milk	9990	5	6
 Held	Empty	0	0	0
