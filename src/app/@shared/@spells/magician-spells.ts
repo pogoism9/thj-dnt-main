@@ -737,6 +737,8 @@ export const MagicianSpells = [
     15108,
     19411,
     15323,
+    21641,
+    21645,
     26618, // Ancient: Burnout Blaze
     26617, // Ancient: Shock of Sun
     19351, // Bristlebane`s Bundle
