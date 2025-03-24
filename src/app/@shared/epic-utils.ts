@@ -26,6 +26,11 @@ export const bardEpicItemIds = [
     20525, // Petrified Werewolf Skull
     20526, // Undead Dragongut Strings
 
+    // Epic 1.5
+    12782, // Earth Dragon Crystal
+    12487, // Fire Dragon Crystal
+    12783, // Wind Dragon Crystal
+
 ];
 
 export const beastlordEpicItemIds: Array<number> = [
@@ -37,6 +42,7 @@ export const berserkerEpicItemIds = [
     60206, // Decaying Liver
     60207, // Gnashing Kobold Paw
     60208, // Scent Gland
+    60200, // Treanik's Tarnished Axe
 ];
 
 export const clericEpicItemIds = [
@@ -75,24 +81,21 @@ export const magicianEpicItemIds = [
     2463, // Pegasus Feather Cloak
     28039, // Power of Water
     28037, // Power of Wind
+    28036, // Power of Fire
     28041, // Rain of Karana
     11567, // Staff of Elemental Mastery: Earth
     11569, // Staff of Elemental Mastery: Water
     11566, // Staff of Elemental Mastery: Fire
-
-    
     28007, // Torch of the Elements
-    
     28000, // Torn Page of Magi`kot pg. 1
     28001, // Torn Page of Magi`kot pg. 1
     28002, // Torn Page of Magi`kot pg. 1
-    
     28027, // Torn Page of Mastery Fire
     28028, // Torn Page of Mastery Wind
     28029, // Torn Page of Mastery Earth
     28030, // Torn Page of Mastery Water
-    
     20764, // Crown of Elemental Mastery
+    10614, // Spoon
     16545, // Shovel
 ];
 
@@ -113,6 +116,7 @@ export const paladinEpicItemIds = [
     10099, // Fiery Defender
     29001, // Tainted Darksteel Breastplate
     19071, // Torn, Burnt Book
+    12197, // Glowing Sword Hilt
 ];
 
 export const rangerEpicItemIds = [
@@ -163,6 +167,7 @@ export const wizardEpicItemIds = [
     14337, // Blue Crystal Staff
     14338, // Gnarled Staff
     14349, // Green Oil
+    14319, // Golem Sprocket
 
 ];
 
