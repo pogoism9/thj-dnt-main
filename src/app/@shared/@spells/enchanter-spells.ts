@@ -887,6 +887,7 @@ export const EnchanterSpells = [
     26944,
     30406,
     15084,
+    21648,
     26620, // Ancient: Chaotic Visions
     26619, // Ancient: Eternal Rapture
     19388, // Largarn`s Lamentation
