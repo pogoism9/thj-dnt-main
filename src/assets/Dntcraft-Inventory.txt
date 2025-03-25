@@ -31,217 +31,225 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Ornate Silk Robe Pattern	16355	1	6
-General1-Slot2	Ornate Leather Wristband Pattern	16350	1	6
-General1-Slot3	Ornate Leather Boot Pattern	16353	1	6
-General1-Slot4	Ornate Silk Robe Pattern	16355	1	6
-General1-Slot5	Elemental Leather Wrist Pattern	16379	1	6
-General1-Slot6	Metallic Substance	21764	1	6
-General1-Slot7	Ornate Breastplate Mold	16346	1	6
-General1-Slot8	Ornate Chain Coif Pattern	16290	1	6
-General1-Slot9	Ornate Leather Helm Pattern	16347	1	6
-General1-Slot10	Ornate Leather Boot Pattern	16353	1	6
-General1-Slot11	Ornate Leather Wristband Pattern	16350	1	6
-General1-Slot12	Ornate Bracer Mold	16297	1	6
-General1-Slot13	Ornate Bracer Mold	16297	1	6
-General1-Slot14	Obsidianwood Bow Staff (Enchanted)	1030192	1	6
-General1-Slot15	Ornate Helm Mold	16299	1	6
-General1-Slot16	Ornate Leather Tunic Pattern	16348	1	6
-General1-Slot17	Elemental Chain Glove Pattern	16366	1	6
-General1-Slot18	Ornate Silk Turban Pattern	16354	1	6
-General1-Slot19	Elemental Silk Glove Pattern	16387	1	6
-General1-Slot20	Elemental Silk Glove Pattern	16387	1	6
-General1-Slot21	Elemental Silk Sleeve Pattern	16385	1	6
-General1-Slot22	Elemental Silk Boot Pattern	16389	1	6
-General1-Slot23	Ornate Leather Tunic Pattern	16348	1	6
-General1-Slot24	Ornate Leather Wristband Pattern	16350	1	6
-General1-Slot25	Ornate Silk Robe Pattern	16355	1	6
-General1-Slot26	Ornate Silk Robe Pattern	16355	1	6
-General1-Slot27	Strand of Ether	16285	79	6
-General1-Slot28	Ethereal Metal Rings	16284	32	6
-General1-Slot29	Ethereal Silk Swatch	16286	60	6
-General1-Slot30	Ethereal Sheet of Metal	16283	13	6
+General1-Slot1	Empty	0	0	0
+General1-Slot2	Empty	0	0	0
+General1-Slot3	Empty	0	0	0
+General1-Slot4	Empty	0	0	0
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
+General1-Slot9	Empty	0	0	0
+General1-Slot10	Empty	0	0	0
+General1-Slot11	Empty	0	0	0
+General1-Slot12	Empty	0	0	0
+General1-Slot13	Empty	0	0	0
+General1-Slot14	Empty	0	0	0
+General1-Slot15	Empty	0	0	0
+General1-Slot16	Empty	0	0	0
+General1-Slot17	Empty	0	0	0
+General1-Slot18	Empty	0	0	0
+General1-Slot19	Empty	0	0	0
+General1-Slot20	Empty	0	0	0
+General1-Slot21	Empty	0	0	0
+General1-Slot22	Empty	0	0	0
+General1-Slot23	Empty	0	0	0
+General1-Slot24	Raw Diamond	15981	3	6
+General1-Slot25	Strand of Ether	16285	95	6
+General1-Slot26	Brick of Ethereal Energy	16282	100	6
+General1-Slot27	Strand of Ether	16285	100	6
+General1-Slot28	Ethereal Metal Rings	16284	49	6
+General1-Slot29	Ethereal Silk Swatch	16286	86	6
+General1-Slot30	Ethereal Sheet of Metal	16283	87	6
 General2	Large Bank Box	976012	1	20
-General2-Slot1	Elemental Leather Boot Pattern	16382	1	6
-General2-Slot2	Ornate Vambrace Mold	16343	1	6
-General2-Slot3	Elemental Chain Sleeve Pattern	16364	1	6
-General2-Slot4	Elemental Chain Bracelet Pattern	16365	1	6
-General2-Slot5	Ornate Bracer Mold	16297	1	6
-General2-Slot6	Elemental Chain Pant Pattern	16367	1	6
-General2-Slot7	Ornate Bracer Mold	16297	1	6
-General2-Slot8	Ornate Chain Coif Pattern	16290	1	6
-General2-Slot9	Ornate Chain Sleeve Pattern	16292	1	6
-General2-Slot10	Ornate Leather Boot Pattern	16353	1	6
-General2-Slot11	Ornate Silk Robe Pattern	16355	1	6
-General2-Slot12	Soapstone	29514	1	6
-General2-Slot13	Ornate Silk Pant Pattern	16359	1	6
-General2-Slot14	Ornate Leather Glove Pattern	16351	1	6
-General2-Slot15	Ornate Silk Glove Pattern	16358	1	6
-General2-Slot16	Ornate Gauntlet Mold	16345	1	6
-General2-Slot17	Elemental Chain Bracelet Pattern	16365	1	6
-General2-Slot18	Elemental Leather Wrist Pattern	16379	1	6
-General2-Slot19	Ornate Chain Tunic Pattern	16291	1	6
-General2-Slot20	Elemental Leather Wrist Pattern	16379	1	6
+General2-Slot1	Soapstone	29514	1	6
+General2-Slot2	Magma Crystals	21752	3	6
+General2-Slot3	Crystalline Silk	25306	62	6
+General2-Slot4	Air Arachnid Silk	29983	29	6
+General2-Slot5	Flawless Silk	34222	2	6
+General2-Slot6	Silken Strand	26720	1	6
+General2-Slot7	Empty	0	0	0
+General2-Slot8	Fire Arachnid Silk	29981	59	6
+General2-Slot9	Sunshard Ore	33792	10	6
+General2-Slot10	Brick of Molten Ore	29534	82	6
+General2-Slot11	Brick of Immaculate Steel	29536	10	6
+General2-Slot12	Brick of Molten Ore	29534	100	6
+General2-Slot13	Empty	0	0	0
+General2-Slot14	Empty	0	0	0
+General2-Slot15	Empty	0	0	0
+General2-Slot16	Empty	0	0	0
+General2-Slot17	Empty	0	0	0
+General2-Slot18	Empty	0	0	0
+General2-Slot19	Tumpy Tonic	12114	43	6
+General2-Slot20	Ornate Breastplate Mold	16346	1	6
 General3	Large Bank Box	976012	1	20
-General3-Slot1	Crystalline Silk	25306	62	6
-General3-Slot2	Air Arachnid Silk	29983	5	6
-General3-Slot3	Liquefied Earth	21705	19	6
-General3-Slot4	Tumpy Tonic	12114	43	6
-General3-Slot5	Magma Crystals	21752	3	6
-General3-Slot6	Alabaster Beak	26719	1	6
-General3-Slot7	Hero Parts	29763	54	6
-General3-Slot8	Ornate Silk Boot Pattern	16360	1	6
-General3-Slot9	Ornate Gauntlet Mold	16345	1	6
-General3-Slot10	Blizzard Gem	9423	1	6
-General3-Slot11	Ornate Chain Tunic Pattern	16291	1	6
-General3-Slot12	Ornate Chain Glove Pattern	16294	1	6
-General3-Slot13	Ornate Bracer Mold	16297	1	6
-General3-Slot14	Ornate Breastplate Mold	16346	1	6
-General3-Slot15	Ornate Breastplate Mold	16346	1	6
-General3-Slot16	Ornate Chain Tunic Pattern	16291	1	6
-General3-Slot17	Ornate Silk Robe Pattern	16355	1	6
-General3-Slot18	Ornate Leather Glove Pattern	16351	1	6
-General3-Slot19	Ornate Silk Robe Pattern	16355	1	6
-General3-Slot20	Ornate Silk Robe Pattern	16355	1	6
+General3-Slot1	Featherwood Bow Staff	30194	2	6
+General3-Slot2	Obsidianwood Bow Staff (Enchanted)	1030192	4	6
+General3-Slot3	Obsidianwood Bow Staff	30192	20	6
+General3-Slot4	Featherwood Bow Staff (Enchanted)	1030194	4	6
+General3-Slot5	Obsidianwood Bow Staff (Legendary)	2030192	1	6
+General3-Slot6	Empty	0	0	0
+General3-Slot7	Empty	0	0	0
+General3-Slot8	Metallic Substance	21764	1	6
+General3-Slot9	Tainted Planar Essence	15970	50	6
+General3-Slot10	Empty	0	0	0
+General3-Slot11	Empty	0	0	0
+General3-Slot12	Fiend Gut	29993	8	6
+General3-Slot13	Empty	0	0	0
+General3-Slot14	Vegerog Vine	30074	10	6
+General3-Slot15	Empty	0	0	0
+General3-Slot16	Empty	0	0	0
+General3-Slot17	Empty	0	0	0
+General3-Slot18	Ball of Elemental Clay	21720	7	6
+General3-Slot19	Featherwood Sap	29497	8	6
+General3-Slot20	Obsidianwood Sap	29495	28	6
 General4	Large Bank Box	976012	1	20
-General4-Slot1	Ornate Boot Mold	16298	1	6
-General4-Slot2	Intact Power Cell	9434	1	6
-General4-Slot3	Intact Power Cell	9434	1	6
-General4-Slot4	Intact Power Cell	9434	1	6
-General4-Slot5	Intact Power Cell	9434	1	6
-General4-Slot6	Intact Power Cell	9434	1	6
-General4-Slot7	Brick of Molten Ore	29534	88	6
-General4-Slot8	Bundle of Super Conductive Wires	9426	1	6
-General4-Slot9	Bundle of Super Conductive Wires	9426	1	6
-General4-Slot10	Bundle of Super Conductive Wires	9426	1	6
-General4-Slot11	Bundle of Super Conductive Wires	9426	1	6
-General4-Slot12	Bundle of Super Conductive Wires	9426	1	6
-General4-Slot13	Ornate Silk Robe Pattern	16355	1	6
-General4-Slot14	Ornate Silk Robe Pattern	16355	1	6
-General4-Slot15	Ornate Chain Coif Pattern	16290	1	6
-General4-Slot16	Copper Node	9295	1	6
-General4-Slot17	Copper Node	9295	1	6
-General4-Slot18	Copper Node	9295	1	6
-General4-Slot19	Copper Node	9295	1	6
-General4-Slot20	Copper Node	9295	1	6
+General4-Slot1	Fire Mephit Blood	29521	5	6
+General4-Slot2	Water Mephit Blood	29522	1	6
+General4-Slot3	Earth Mephit Blood	29523	2	6
+General4-Slot4	Air Mephit Blood	29524	3	6
+General4-Slot5	Empty	0	0	0
+General4-Slot6	Hero Parts	29763	54	6
+General4-Slot7	Stormwatchers Stone	29919	1	6
+General4-Slot8	Liquefied Earth	21705	30	6
+General4-Slot9	Alabaster Beak	26719	2	6
+General4-Slot10	Empty	0	0	0
+General4-Slot11	Empty	0	0	0
+General4-Slot12	Brick of Valorium	29349	4	6
+General4-Slot13	Solidified Magma	21763	10	6
+General4-Slot14	Fiery Granite	21750	22	6
+General4-Slot15	Uncut Alexandrite	37847	1	6
+General4-Slot16	Uncut Black Sapphire	37846	1	6
+General4-Slot17	Uncut Demantoid	37851	1	6
+General4-Slot18	Uncut Rubellite	37852	1	6
+General4-Slot19	Brick of Electrified Copper	29539	22	6
+General4-Slot20	Sandstorm Pearl	29909	2	6
 General5	Large Bank Box	976012	1	20
-General5-Slot1	Elemental Chain Boot Pattern	16368	1	6
-General5-Slot2	Elemental Chain Glove Pattern	16366	1	6
-General5-Slot3	Ornate Breastplate Mold	16346	1	6
-General5-Slot4	Elemental Chain Glove Pattern	16366	1	6
-General5-Slot5	Elemental Leather Helm Pattern	16376	1	6
-General5-Slot6	Elemental Leather Pant Pattern	16381	1	6
-General5-Slot7	Elemental Leather Wrist Pattern	16379	1	6
-General5-Slot8	Elemental Leather Wrist Pattern	16379	1	6
-General5-Slot9	Elemental Silk Bracelet Pattern	16386	1	6
-General5-Slot10	Elemental Silk Bracelet Pattern	16386	1	6
-General5-Slot11	Elemental Silk Glove Pattern	16387	1	6
-General5-Slot12	Elemental Silk Glove Pattern	16387	1	6
-General5-Slot13	Crystalline Shard	21726	1	6
-General5-Slot14	Crystalline Shard	21726	1	6
-General5-Slot15	Ornate Breastplate Mold	16346	1	6
-General5-Slot16	Ornate Chain Tunic Pattern	16291	1	6
-General5-Slot17	Ornate Leather Tunic Pattern	16348	1	6
-General5-Slot18	Ornate Chain Sleeve Pattern	16292	1	6
-General5-Slot19	Ornate Leather Sleeve Pattern	16349	1	6
-General5-Slot20	Ornate Silk Turban Pattern	16354	1	6
+General5-Slot1	Empty	0	0	0
+General5-Slot2	Empty	0	0	0
+General5-Slot3	Empty	0	0	0
+General5-Slot4	Empty	0	0	0
+General5-Slot5	Empty	0	0	0
+General5-Slot6	Empty	0	0	0
+General5-Slot7	Empty	0	0	0
+General5-Slot8	Empty	0	0	0
+General5-Slot9	Empty	0	0	0
+General5-Slot10	Empty	0	0	0
+General5-Slot11	Empty	0	0	0
+General5-Slot12	Empty	0	0	0
+General5-Slot13	Empty	0	0	0
+General5-Slot14	Empty	0	0	0
+General5-Slot15	Empty	0	0	0
+General5-Slot16	Empty	0	0	0
+General5-Slot17	Empty	0	0	0
+General5-Slot18	Empty	0	0	0
+General5-Slot19	Empty	0	0	0
+General5-Slot20	Empty	0	0	0
 General6	Large Bank Box	976012	1	20
-General6-Slot1	Ornate Silk Sleeve Pattern	16356	1	6
-General6-Slot2	Ornate Silk Boot Pattern	16360	1	6
-General6-Slot3	Brick of Electrified Copper	29539	8	6
-General6-Slot4	Sandstorm Gem	9421	1	6
-General6-Slot5	Uncut Rubellite	37852	1	6
-General6-Slot6	Uncut Demantoid	37851	1	6
-General6-Slot7	Tornado Gem	9424	1	6
-General6-Slot8	Tornado Gem	9424	1	6
-General6-Slot9	Uncut Black Sapphire	37846	1	6
-General6-Slot10	Uncut Alexandrite	37847	1	6
-General6-Slot11	Sunshard Ore	33792	10	6
-General6-Slot12	Strand of Ether	16285	100	6
-General6-Slot13	Blizzard Gem	9423	1	6
-General6-Slot14	Stormwatchers Stone	29919	1	6
-General6-Slot15	Sandstorm Pearl	29909	2	6
-General6-Slot16	Ornate Silk Pant Pattern	16359	1	6
-General6-Slot17	Brick of Ethereal Energy	16282	100	6
-General6-Slot18	Elemental Chain Bracelet Pattern	16365	1	6
-General6-Slot19	Fire Arachnid Silk	29981	4	6
-General6-Slot20	Esoteric Medallion	28765	1	6
+General6-Slot1	Empty	0	0	0
+General6-Slot2	Empty	0	0	0
+General6-Slot3	Empty	0	0	0
+General6-Slot4	Empty	0	0	0
+General6-Slot5	Empty	0	0	0
+General6-Slot6	Empty	0	0	0
+General6-Slot7	Empty	0	0	0
+General6-Slot8	Empty	0	0	0
+General6-Slot9	Empty	0	0	0
+General6-Slot10	Empty	0	0	0
+General6-Slot11	Empty	0	0	0
+General6-Slot12	Empty	0	0	0
+General6-Slot13	Empty	0	0	0
+General6-Slot14	Empty	0	0	0
+General6-Slot15	Empty	0	0	0
+General6-Slot16	Empty	0	0	0
+General6-Slot17	Empty	0	0	0
+General6-Slot18	Empty	0	0	0
+General6-Slot19	Empty	0	0	0
+General6-Slot20	Empty	0	0	0
 General7	Large Bank Box	976012	1	20
-General7-Slot1	Ivory Stormrider Canine	26732	1	6
-General7-Slot2	Ivory Stormrider Canine	26732	1	6
-General7-Slot3	Ivory Stormrider Canine	26732	1	6
-General7-Slot4	Ivory Stormrider Canine	26732	1	6
-General7-Slot5	Ivory Stormrider Canine	26732	1	6
-General7-Slot6	Ivory Stormrider Canine	26732	1	6
-General7-Slot7	Ivory Stormrider Canine	26732	1	6
-General7-Slot8	Fire Mephit Blood	29521	5	6
-General7-Slot9	Esoteric Medallion	28783	1	6
-General7-Slot10	Ornate Bracer Mold	16297	1	6
-General7-Slot11	Sandstorm Gem	9421	1	6
-General7-Slot12	Obsidianwood Sap	29495	4	6
-General7-Slot13	Esoteric Medallion	28783	1	6
-General7-Slot14	Solidified Magma	21763	4	6
-General7-Slot15	Sandstorm Gem	9421	1	6
-General7-Slot16	Storm Giant Head	28782	1	6
-General7-Slot17	Storm Giant Head	28781	1	6
-General7-Slot18	Storm Giant Head	28782	1	6
-General7-Slot19	Storm Giant Head	28782	1	6
-General7-Slot20	Storm Giant Head	28782	1	6
+General7-Slot1	Empty	0	0	0
+General7-Slot2	Empty	0	0	0
+General7-Slot3	Empty	0	0	0
+General7-Slot4	Empty	0	0	0
+General7-Slot5	Empty	0	0	0
+General7-Slot6	Empty	0	0	0
+General7-Slot7	Empty	0	0	0
+General7-Slot8	Empty	0	0	0
+General7-Slot9	Empty	0	0	0
+General7-Slot10	Empty	0	0	0
+General7-Slot11	Empty	0	0	0
+General7-Slot12	Empty	0	0	0
+General7-Slot13	Empty	0	0	0
+General7-Slot14	Empty	0	0	0
+General7-Slot15	Empty	0	0	0
+General7-Slot16	Empty	0	0	0
+General7-Slot17	Empty	0	0	0
+General7-Slot18	Empty	0	0	0
+General7-Slot19	Empty	0	0	0
+General7-Slot20	Empty	0	0	0
 General8	Large Bank Box	976012	1	20
-General8-Slot1	Storm Giant Head	28782	1	6
-General8-Slot2	Storm Giant Head	28782	1	6
-General8-Slot3	Storm Giant Head	28782	1	6
-General8-Slot4	Sandstorm Gem	9421	1	6
-General8-Slot5	Storm Giant Head	28749	1	6
-General8-Slot6	Tornado Sphere	9432	1	6
-General8-Slot7	Storm Satuur Sash	28764	1	6
-General8-Slot8	Storm Satuur Sash	28764	1	6
-General8-Slot9	Storm Satuur Sash	28764	1	6
-General8-Slot10	Storm Satuur Sash	28764	1	6
-General8-Slot11	Storm Satuur Sash	28764	1	6
-General8-Slot12	Storm Satuur Sash	28764	1	6
-General8-Slot13	Storm Satuur Sash	28764	1	6
-General8-Slot14	Storm Satuur Sash	28764	1	6
-General8-Slot15	Storm Satuur Sash	28764	1	6
-General8-Slot16	Storm Satuur Sash	28764	1	6
-General8-Slot17	Storm Taarid Bone	28751	1	6
-General8-Slot18	Esoteric Medallion	28765	1	6
-General8-Slot19	Sandstorm Gem	9421	1	6
-General8-Slot20	Storm Volaas Beard	28750	1	6
-General9	Adventurer's Pack	17423	1	12
-General9-Slot1	Storm Volaas Beard	28750	1	6
-General9-Slot2	Storm Volaas Beard	28750	1	6
-General9-Slot3	Storm Giant Head	28749	1	6
-General9-Slot4	Elemental Silk Sleeve Pattern	16385	1	6
-General9-Slot5	Elemental Silk Pant Pattern	16388	1	6
-General9-Slot6	Elemental Silk Glove Pattern	16387	1	6
-General9-Slot7	Elemental Leather Boot Pattern	16382	1	6
-General9-Slot8	Elemental Chain Sleeve Pattern	16364	1	6
-General9-Slot9	Elemental Chain Glove Pattern	16366	1	6
-General9-Slot10	Elemental Chain Glove Pattern	16366	1	6
-General9-Slot11	Elemental Chain Glove Pattern	16366	1	6
-General9-Slot12	Blizzard Gem	9423	1	6
+General8-Slot1	Empty	0	0	0
+General8-Slot2	Empty	0	0	0
+General8-Slot3	Empty	0	0	0
+General8-Slot4	Empty	0	0	0
+General8-Slot5	Empty	0	0	0
+General8-Slot6	Empty	0	0	0
+General8-Slot7	Empty	0	0	0
+General8-Slot8	Empty	0	0	0
+General8-Slot9	Empty	0	0	0
+General8-Slot10	Empty	0	0	0
+General8-Slot11	Empty	0	0	0
+General8-Slot12	Empty	0	0	0
+General8-Slot13	Empty	0	0	0
+General8-Slot14	Empty	0	0	0
+General8-Slot15	Empty	0	0	0
+General8-Slot16	Empty	0	0	0
+General8-Slot17	Empty	0	0	0
+General8-Slot18	Empty	0	0	0
+General8-Slot19	Empty	0	0	0
+General8-Slot20	Empty	0	0	0
+General9	Large Bank Box	976012	1	20
+General9-Slot1	Empty	0	0	0
+General9-Slot2	Empty	0	0	0
+General9-Slot3	Empty	0	0	0
+General9-Slot4	Empty	0	0	0
+General9-Slot5	Empty	0	0	0
+General9-Slot6	Empty	0	0	0
+General9-Slot7	Empty	0	0	0
+General9-Slot8	Empty	0	0	0
+General9-Slot9	Empty	0	0	0
+General9-Slot10	Empty	0	0	0
+General9-Slot11	Empty	0	0	0
+General9-Slot12	Empty	0	0	0
+General9-Slot13	Empty	0	0	0
+General9-Slot14	Storm Giant Head	28749	1	6
+General9-Slot15	Empty	0	0	0
+General9-Slot16	Storm Taarid Bone	28751	1	6
+General9-Slot17	Empty	0	0	0
+General9-Slot18	Storm Satuur Sash	28764	1	6
+General9-Slot19	Empty	0	0	0
+General9-Slot20	Storm Volaas Beard	28750	1	6
 General10	Large Bank Box	976012	1	20
-General10-Slot1	Storm Volaas Beard	28750	1	6
-General10-Slot2	Storm Volaas Beard	28750	1	6
-General10-Slot3	Storm Taarid Bone	28751	1	6
-General10-Slot4	Storm Taarid Bone	28751	1	6
-General10-Slot5	Storm Taarid Bone	28751	1	6
-General10-Slot6	Storm Taarid Bone	28751	1	6
-General10-Slot7	Storm Giant Head	28749	1	6
-General10-Slot8	Lightning Gem	9422	1	6
-General10-Slot9	Ornate Breastplate Mold	16346	1	6
-General10-Slot10	Sandstorm Gem	9421	1	6
-General10-Slot11	Raw Diamond	15981	3	6
-General10-Slot12	Storm Satuur Sash	28764	1	6
+General10-Slot1	Lightning Gem	9422	1	6
+General10-Slot2	Tornado Gem	9424	1	6
+General10-Slot3	Blizzard Gem	9423	1	6
+General10-Slot4	Sandstorm Gem	9421	1	6
+General10-Slot5	Lightning Gem	9422	1	6
+General10-Slot6	Tornado Gem	9424	1	6
+General10-Slot7	Blizzard Gem	9423	1	6
+General10-Slot8	Sandstorm Gem	9421	1	6
+General10-Slot9	Empty	0	0	0
+General10-Slot10	Empty	0	0	0
+General10-Slot11	Empty	0	0	0
+General10-Slot12	Empty	0	0	0
 General10-Slot13	Empty	0	0	0
-General10-Slot14	Storm Volaas Beard	28750	1	6
+General10-Slot14	Empty	0	0	0
 General10-Slot15	Empty	0	0	0
-General10-Slot16	Storm Giant Head	28749	1	6
-General10-Slot17	Empty	0	0	0
-General10-Slot18	Storm Taarid Bone	28751	1	6
-General10-Slot19	Empty	0	0	0
-General10-Slot20	Storm Volaas Beard	28750	1	6
+General10-Slot16	Empty	0	0	0
+General10-Slot17	Lightning Sphere	9430	1	6
+General10-Slot18	Lightning Sphere	9430	1	6
+General10-Slot19	Tornado Sphere	9432	1	6
+General10-Slot20	Sandstorm Sphere	9429	1	6
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
 Bank1-Slot1	Empty	0	0	0
@@ -327,28 +335,28 @@ Bank4-Slot17	Empty	0	0	0
 Bank4-Slot18	Empty	0	0	0
 Bank4-Slot19	Empty	0	0	0
 Bank4-Slot20	Empty	0	0	0
-Bank5	Large Bank Box	976012	1	20
-Bank5-Slot1	Empty	0	0	0
-Bank5-Slot2	Empty	0	0	0
-Bank5-Slot3	Empty	0	0	0
-Bank5-Slot4	Empty	0	0	0
-Bank5-Slot5	Empty	0	0	0
-Bank5-Slot6	Empty	0	0	0
-Bank5-Slot7	Empty	0	0	0
-Bank5-Slot8	Empty	0	0	0
-Bank5-Slot9	Empty	0	0	0
-Bank5-Slot10	Empty	0	0	0
-Bank5-Slot11	Empty	0	0	0
-Bank5-Slot12	Empty	0	0	0
-Bank5-Slot13	Empty	0	0	0
-Bank5-Slot14	Empty	0	0	0
-Bank5-Slot15	Empty	0	0	0
-Bank5-Slot16	Empty	0	0	0
-Bank5-Slot17	Empty	0	0	0
-Bank5-Slot18	Empty	0	0	0
-Bank5-Slot19	Empty	0	0	0
-Bank5-Slot20	Empty	0	0	0
-Bank6	Empty	0	0	0
+Bank5	Empty	0	0	0
+Bank6	Large Bank Box	976012	1	20
+Bank6-Slot1	Empty	0	0	0
+Bank6-Slot2	Empty	0	0	0
+Bank6-Slot3	Empty	0	0	0
+Bank6-Slot4	Empty	0	0	0
+Bank6-Slot5	Empty	0	0	0
+Bank6-Slot6	Empty	0	0	0
+Bank6-Slot7	Empty	0	0	0
+Bank6-Slot8	Empty	0	0	0
+Bank6-Slot9	Empty	0	0	0
+Bank6-Slot10	Empty	0	0	0
+Bank6-Slot11	Empty	0	0	0
+Bank6-Slot12	Empty	0	0	0
+Bank6-Slot13	Empty	0	0	0
+Bank6-Slot14	Empty	0	0	0
+Bank6-Slot15	Empty	0	0	0
+Bank6-Slot16	Empty	0	0	0
+Bank6-Slot17	Empty	0	0	0
+Bank6-Slot18	Empty	0	0	0
+Bank6-Slot19	Empty	0	0	0
+Bank6-Slot20	Empty	0	0	0
 Bank7	Large Bank Box	976012	1	20
 Bank7-Slot1	Empty	0	0	0
 Bank7-Slot2	Empty	0	0	0
@@ -393,20 +401,180 @@ Bank8-Slot19	Empty	0	0	0
 Bank8-Slot20	Empty	0	0	0
 Bank9	Empty	0	0	0
 Bank10	Empty	0	0	0
-Bank11	Empty	0	0	0
+Bank11	Ornate Leather Glove Pattern	16351	1	6
 Bank12	Empty	0	0	0
 Bank13	Empty	0	0	0
 Bank14	Empty	0	0	0
 Bank15	Empty	0	0	0
 Bank16	Empty	0	0	0
-Bank17	Empty	0	0	0
-Bank18	Empty	0	0	0
-Bank19	Empty	0	0	0
-Bank20	Empty	0	0	0
-Bank21	Empty	0	0	0
-Bank22	Empty	0	0	0
-Bank23	Empty	0	0	0
-Bank24	Empty	0	0	0
+Bank17	Large Bank Box	976012	1	20
+Bank17-Slot1	Ornate Silk Robe Pattern	16355	1	6
+Bank17-Slot2	Ornate Silk Robe Pattern	16355	1	6
+Bank17-Slot3	Elemental Chain Glove Pattern	16366	1	6
+Bank17-Slot4	Elemental Chain Boot Pattern	16368	1	6
+Bank17-Slot5	Elemental Chain Glove Pattern	16366	1	6
+Bank17-Slot6	Elemental Leather Helm Pattern	16376	1	6
+Bank17-Slot7	Elemental Leather Wrist Pattern	16379	1	6
+Bank17-Slot8	Elemental Leather Pant Pattern	16381	1	6
+Bank17-Slot9	Elemental Leather Wrist Pattern	16379	1	6
+Bank17-Slot10	Elemental Silk Bracelet Pattern	16386	1	6
+Bank17-Slot11	Elemental Silk Glove Pattern	16387	1	6
+Bank17-Slot12	Elemental Silk Bracelet Pattern	16386	1	6
+Bank17-Slot13	Ornate Silk Pant Pattern	16359	1	6
+Bank17-Slot14	Elemental Silk Glove Pattern	16387	1	6
+Bank17-Slot15	Elemental Leather Boot Pattern	16382	1	6
+Bank17-Slot16	Elemental Chain Bracelet Pattern	16365	1	6
+Bank17-Slot17	Ornate Leather Tunic Pattern	16348	1	6
+Bank17-Slot18	Ornate Chain Tunic Pattern	16291	1	6
+Bank17-Slot19	Elemental Leather Helm Pattern	16376	1	6
+Bank17-Slot20	Elemental Silk Glove Pattern	16387	1	6
+Bank18	Large Bank Box	976012	1	20
+Bank18-Slot1	Elemental Silk Sleeve Pattern	16385	1	6
+Bank18-Slot2	Elemental Silk Pant Pattern	16388	1	6
+Bank18-Slot3	Elemental Silk Glove Pattern	16387	1	6
+Bank18-Slot4	Elemental Chain Sleeve Pattern	16364	1	6
+Bank18-Slot5	Elemental Leather Boot Pattern	16382	1	6
+Bank18-Slot6	Elemental Chain Glove Pattern	16366	1	6
+Bank18-Slot7	Elemental Chain Glove Pattern	16366	1	6
+Bank18-Slot8	Elemental Chain Glove Pattern	16366	1	6
+Bank18-Slot9	Ornate Leather Tunic Pattern	16348	1	6
+Bank18-Slot10	Ornate Silk Robe Pattern	16355	1	6
+Bank18-Slot11	Ornate Silk Robe Pattern	16355	1	6
+Bank18-Slot12	Ornate Silk Robe Pattern	16355	1	6
+Bank18-Slot13	Elemental Leather Wrist Pattern	16379	1	6
+Bank18-Slot14	Empty	0	0	0
+Bank18-Slot15	Elemental Chain Glove Pattern	16366	1	6
+Bank18-Slot16	Ornate Leather Tunic Pattern	16348	1	6
+Bank18-Slot17	Elemental Silk Glove Pattern	16387	1	6
+Bank18-Slot18	Elemental Silk Glove Pattern	16387	1	6
+Bank18-Slot19	Elemental Silk Sleeve Pattern	16385	1	6
+Bank18-Slot20	Elemental Silk Boot Pattern	16389	1	6
+Bank19	Large Bank Box	976012	1	20
+Bank19-Slot1	Crystalline Shard	21726	1	6
+Bank19-Slot2	Crystalline Shard	21726	1	6
+Bank19-Slot3	Ivory Stormrider Canine	26732	1	6
+Bank19-Slot4	Empty	0	0	0
+Bank19-Slot5	Ivory Stormrider Canine	26732	1	6
+Bank19-Slot6	Ivory Stormrider Canine	26732	1	6
+Bank19-Slot7	Ivory Stormrider Canine	26732	1	6
+Bank19-Slot8	Empty	0	0	0
+Bank19-Slot9	Empty	0	0	0
+Bank19-Slot10	Empty	0	0	0
+Bank19-Slot11	Empty	0	0	0
+Bank19-Slot12	Empty	0	0	0
+Bank19-Slot13	Empty	0	0	0
+Bank19-Slot14	Empty	0	0	0
+Bank19-Slot15	Empty	0	0	0
+Bank19-Slot16	Empty	0	0	0
+Bank19-Slot17	Empty	0	0	0
+Bank19-Slot18	Empty	0	0	0
+Bank19-Slot19	Empty	0	0	0
+Bank19-Slot20	Empty	0	0	0
+Bank20	Large Bank Box	976012	1	20
+Bank20-Slot1	Empty	0	0	0
+Bank20-Slot2	Empty	0	0	0
+Bank20-Slot3	Empty	0	0	0
+Bank20-Slot4	Empty	0	0	0
+Bank20-Slot5	Empty	0	0	0
+Bank20-Slot6	Empty	0	0	0
+Bank20-Slot7	Empty	0	0	0
+Bank20-Slot8	Empty	0	0	0
+Bank20-Slot9	Empty	0	0	0
+Bank20-Slot10	Empty	0	0	0
+Bank20-Slot11	Empty	0	0	0
+Bank20-Slot12	Empty	0	0	0
+Bank20-Slot13	Empty	0	0	0
+Bank20-Slot14	Empty	0	0	0
+Bank20-Slot15	Empty	0	0	0
+Bank20-Slot16	Empty	0	0	0
+Bank20-Slot17	Empty	0	0	0
+Bank20-Slot18	Empty	0	0	0
+Bank20-Slot19	Empty	0	0	0
+Bank20-Slot20	Empty	0	0	0
+Bank21	Large Bank Box	976012	1	20
+Bank21-Slot1	Ornate Silk Robe Pattern	16355	1	6
+Bank21-Slot2	Ornate Silk Glove Pattern	16358	1	6
+Bank21-Slot3	Elemental Chain Sleeve Pattern	16364	1	6
+Bank21-Slot4	Elemental Chain Bracelet Pattern	16365	1	6
+Bank21-Slot5	Ornate Silk Pant Pattern	16359	1	6
+Bank21-Slot6	Elemental Chain Pant Pattern	16367	1	6
+Bank21-Slot7	Ornate Gauntlet Mold	16345	1	6
+Bank21-Slot8	Elemental Chain Bracelet Pattern	16365	1	6
+Bank21-Slot9	Elemental Leather Wrist Pattern	16379	1	6
+Bank21-Slot10	Ornate Chain Tunic Pattern	16291	1	6
+Bank21-Slot11	Elemental Leather Wrist Pattern	16379	1	6
+Bank21-Slot12	Ornate Gauntlet Mold	16345	1	6
+Bank21-Slot13	Ornate Chain Glove Pattern	16294	1	6
+Bank21-Slot14	Ornate Chain Tunic Pattern	16291	1	6
+Bank21-Slot15	Ornate Silk Robe Pattern	16355	1	6
+Bank21-Slot16	Ornate Silk Robe Pattern	16355	1	6
+Bank21-Slot17	Ornate Silk Robe Pattern	16355	1	6
+Bank21-Slot18	Ornate Chain Tunic Pattern	16291	1	6
+Bank21-Slot19	Empty	0	0	0
+Bank21-Slot20	Empty	0	0	0
+Bank22	Large Bank Box	976012	1	20
+Bank22-Slot1	Ornate Silk Robe Pattern	16355	1	6
+Bank22-Slot2	Ornate Gauntlet Mold	16345	1	6
+Bank22-Slot3	Empty	0	0	0
+Bank22-Slot4	Elemental Chain Coif Pattern	16362	1	6
+Bank22-Slot5	Empty	0	0	0
+Bank22-Slot6	Empty	0	0	0
+Bank22-Slot7	Empty	0	0	0
+Bank22-Slot8	Empty	0	0	0
+Bank22-Slot9	Empty	0	0	0
+Bank22-Slot10	Empty	0	0	0
+Bank22-Slot11	Empty	0	0	0
+Bank22-Slot12	Empty	0	0	0
+Bank22-Slot13	Empty	0	0	0
+Bank22-Slot14	Empty	0	0	0
+Bank22-Slot15	Empty	0	0	0
+Bank22-Slot16	Empty	0	0	0
+Bank22-Slot17	Ornate Breastplate Mold	16346	1	6
+Bank22-Slot18	Ornate Breastplate Mold	16346	1	6
+Bank22-Slot19	Ornate Breastplate Mold	16346	1	6
+Bank22-Slot20	Ornate Breastplate Mold	16346	1	6
+Bank23	Large Bank Box	976012	1	20
+Bank23-Slot1	Empty	0	0	0
+Bank23-Slot2	Empty	0	0	0
+Bank23-Slot3	Empty	0	0	0
+Bank23-Slot4	Empty	0	0	0
+Bank23-Slot5	Empty	0	0	0
+Bank23-Slot6	Empty	0	0	0
+Bank23-Slot7	Empty	0	0	0
+Bank23-Slot8	Empty	0	0	0
+Bank23-Slot9	Empty	0	0	0
+Bank23-Slot10	Empty	0	0	0
+Bank23-Slot11	Empty	0	0	0
+Bank23-Slot12	Empty	0	0	0
+Bank23-Slot13	Empty	0	0	0
+Bank23-Slot14	Empty	0	0	0
+Bank23-Slot15	Empty	0	0	0
+Bank23-Slot16	Empty	0	0	0
+Bank23-Slot17	Empty	0	0	0
+Bank23-Slot18	Empty	0	0	0
+Bank23-Slot19	Empty	0	0	0
+Bank23-Slot20	Empty	0	0	0
+Bank24	Large Bank Box	976012	1	20
+Bank24-Slot1	Empty	0	0	0
+Bank24-Slot2	Intact Power Cell	9434	1	6
+Bank24-Slot3	Intact Power Cell	9434	1	6
+Bank24-Slot4	Intact Power Cell	9434	1	6
+Bank24-Slot5	Intact Power Cell	9434	1	6
+Bank24-Slot6	Intact Power Cell	9434	1	6
+Bank24-Slot7	Empty	0	0	0
+Bank24-Slot8	Bundle of Super Conductive Wires	9426	1	6
+Bank24-Slot9	Bundle of Super Conductive Wires	9426	1	6
+Bank24-Slot10	Bundle of Super Conductive Wires	9426	1	6
+Bank24-Slot11	Bundle of Super Conductive Wires	9426	1	6
+Bank24-Slot12	Bundle of Super Conductive Wires	9426	1	6
+Bank24-Slot13	Empty	0	0	0
+Bank24-Slot14	Empty	0	0	0
+Bank24-Slot15	Empty	0	0	0
+Bank24-Slot16	Copper Node	9295	1	6
+Bank24-Slot17	Copper Node	9295	1	6
+Bank24-Slot18	Copper Node	9295	1	6
+Bank24-Slot19	Copper Node	9295	1	6
+Bank24-Slot20	Copper Node	9295	1	6
 SharedBank1	Large Bank Box	976012	1	20
 SharedBank1-Slot1	Glowing Drake Orb	31260	1	6
 SharedBank1-Slot2	Glowing Drake Orb	31260	1	6
