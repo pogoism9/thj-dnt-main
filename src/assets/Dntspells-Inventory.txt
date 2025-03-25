@@ -47,7 +47,7 @@ General1-Slot13	Spell: Call of the Arch Mage	16342	2	6
 General1-Slot14	Spell: Destroy Summoned	21659	1	6
 General1-Slot15	Spell: Destroy Undead	28559	1	6
 General1-Slot16	Spell: Elemental Silence	16341	2	6
-General1-Slot17	Spell: Fist of Ixiblat	21643	1	6
+General1-Slot17	Spell: Fist of Ixiblat	21643	2	6
 General1-Slot18	Spell: Girdle of Magi'Kot	21645	2	6
 General1-Slot19	Spell: Greater Vocaration: Water	19372	1	6
 General1-Slot20	Spell: Illusion Froglok	21648	1	6
@@ -73,12 +73,12 @@ General2-Slot8	Spell: Flight of Eagles	21656	2	6
 General2-Slot9	Spell: Healing of Sorsha	28545	3	6
 General2-Slot10	Spell: Immolation of Ro	28527	2	6
 General2-Slot11	Spell: Nature's Might	28529	2	6
-General2-Slot12	Spell: Petrifying Earth	26946	1	6
+General2-Slot12	Spell: Blood of Saryrn	26916	1	6
 General2-Slot13	Spell: Replenishment	28523	1	6
 General2-Slot14	Spell: Rune of Death	28418	1	6
 General2-Slot15	Spell: Scorpion Venom	21629	2	6
 General2-Slot16	Spell: Shield of Bracken	28538	1	6
-General2-Slot17	Spell: Spear of Torment	28489	1	6
+General2-Slot17	Spell: Focus of the Seventh	26917	1	6
 General2-Slot18	Spell: Spirit of Arag	28548	7	6
 General2-Slot19	Spell: Storm's Fury	28524	3	6
 General2-Slot20	Spell: Summon Platinum Choker	29357	2	6
@@ -108,11 +108,11 @@ General4-Slot1	Spell: Spiritual Dominion	28551	2	6
 General4-Slot2	Spell: Summon Sapphire Bracelet	29359	1	6
 General4-Slot3	Spell: Sun Vortex	28436	3	6
 General4-Slot4	Spell: Word of Terris	28427	6	6
-General4-Slot5	Empty	0	0	0
-General4-Slot6	Empty	0	0	0
-General4-Slot7	Empty	0	0	0
-General4-Slot8	Empty	0	0	0
-General4-Slot9	Empty	0	0	0
+General4-Slot5	Spell: Shield of the Arcane	28413	1	6
+General4-Slot6	Spell: Sun Storm	28430	1	6
+General4-Slot7	Spell: Spear of Torment	28489	1	6
+General4-Slot8	Spell: Talisman of the Diaku	26912	1	6
+General4-Slot9	Spell: Velium Strike	26910	1	6
 General4-Slot10	Empty	0	0	0
 General4-Slot11	Empty	0	0	0
 General4-Slot12	Empty	0	0	0
@@ -250,7 +250,7 @@ Bank1-Slot3	Spell: Agility of the Wrulan	28488	1	6
 Bank1-Slot4	Spell: Ancestral Guard	28491	1	6
 Bank1-Slot5	Spell: Aura of Darkness	26924	1	6
 Bank1-Slot6	Spell: Breath of Ultor	26914	2	6
-Bank1-Slot7	Spell: Cloud of Grummus	28490	1	6
+Bank1-Slot7	Empty	0	0	0
 Bank1-Slot8	Spell: Deny Undead	26937	6	6
 Bank1-Slot9	Spell: Endurance of the Boar	28492	3	6
 Bank1-Slot10	Spell: Greater Immobilize	26945	5	6
@@ -259,23 +259,23 @@ Bank1-Slot12	Spell: Neurotoxin	21640	1	6
 Bank1-Slot13	Spell: Petrifying Earth	26946	5	6
 Bank1-Slot14	Spell: Replenishment	28523	2	6
 Bank1-Slot15	Spell: Shroud of Chaos	21651	1	6
-Bank1-Slot16	Spell: Spear of Torment	28489	2	6
+Bank1-Slot16	Spell: Spear of Torment	28489	1	6
 Bank1-Slot17	Spell: Spiritual Vigor	28547	2	6
 Bank1-Slot18	Spell: Strength of Tunare	21627	3	6
 Bank1-Slot19	Spell: Summon Platinum Choker	29357	1	6
 Bank1-Slot20	Spell: Talisman of the Tribunal	28494	1	6
 Bank2	Large Bank Box	976012	1	20
-Bank2-Slot1	Spell: Tnarg's Mending	21660	2	6
+Bank2-Slot1	Spell: Tnarg's Mending	21660	1	6
 Bank2-Slot2	Spell: Touch of Nife	21631	2	6
-Bank2-Slot3	Spell: Touch of Volatis	26921	2	6
+Bank2-Slot3	Spell: Touch of Volatis	26921	1	6
 Bank2-Slot4	Spell: Arag's Celerity	28549	3	6
 Bank2-Slot5	Spell: Black Steel	28432	1	6
-Bank2-Slot6	Spell: Blood of Saryrn	26916	2	6
+Bank2-Slot6	Spell: Blood of Saryrn	26916	1	6
 Bank2-Slot7	Spell: Elemental Barrier	28440	1	6
 Bank2-Slot8	Spell: Embracing Darkness	28421	2	6
 Bank2-Slot9	Spell: Ferine Avatar	26919	1	6
 Bank2-Slot10	Spell: Flameshield of Ro	32411	1	6
-Bank2-Slot11	Spell: Focus of the Seventh	26917	1	6
+Bank2-Slot11	Empty	0	0	0
 Bank2-Slot12	Spell: Quiescence	26918	1	6
 Bank2-Slot13	Spell: Saryrn's Companion	28422	2	6
 Bank2-Slot14	Spell: Spirit of Arag	28548	1	6
@@ -283,10 +283,10 @@ Bank2-Slot15	Spell: Spirit of Rellic	28550	1	6
 Bank2-Slot16	Spell: Summon Jewelry Bag	29362	1	6
 Bank2-Slot17	Spell: Summon Sapphire Bracelet	29359	1	6
 Bank2-Slot18	Spell: Summon Steel Bracelet	59568	1	6
-Bank2-Slot19	Spell: Talisman of the Diaku	26912	1	6
+Bank2-Slot19	Empty	0	0	0
 Bank2-Slot20	Spell: Tiny Terror	26913	2	6
 Bank3	Large Bank Box	976012	1	20
-Bank3-Slot1	Spell: Velium Strike	26910	1	6
+Bank3-Slot1	Empty	0	0	0
 Bank3-Slot2	Empty	0	0	0
 Bank3-Slot3	Empty	0	0	0
 Bank3-Slot4	Empty	0	0	0
@@ -454,7 +454,7 @@ Bank10-Slot18	Empty	0	0	0
 Bank10-Slot19	Empty	0	0	0
 Bank10-Slot20	Empty	0	0	0
 Bank11	Large Bank Box	976012	1	20
-Bank11-Slot1	Ancient: Shock of Sun	26617	19	6
+Bank11-Slot1	Ancient: Shock of Sun	26617	18	6
 Bank11-Slot2	Ancient: Burnout Blaze	26618	26	6
 Bank11-Slot3	Spell: Call of the Hero	19360	2	6
 Bank11-Slot4	Spell: Greater Vocaration: Water	19372	5	6
@@ -578,7 +578,7 @@ Bank16-Slot16	Empty	0	0	0
 Bank16-Slot17	Empty	0	0	0
 Bank16-Slot18	Empty	0	0	0
 Bank16-Slot19	Empty	0	0	0
-Bank16-Slot20	Empty	0	0	0
+Bank16-Slot20	Summoned: Black Bread	13078	100	6
 Bank17	Large Bank Box	976012	1	20
 Bank17-Slot1	Ancient: Feral Avatar	26611	22	6
 Bank17-Slot2	Ancient: Scourge of Nife	26612	24	6
