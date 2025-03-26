@@ -31,33 +31,33 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Spell: Blade of Walnan	21642	2	6
+General1-Slot1	Spell: Blade of Walnan	21642	4	6
 General1-Slot2	Song: Melody of Mischief	28475	1	6
 General1-Slot3	Song: Saryrn's Scream of Pain	28476	1	6
 General1-Slot4	Song: Warsong of Zek	28484	1	6
 General1-Slot5	Spell: Armor of the Zealot	28565	2	6
 General1-Slot6	Spell: Aspect of the Reptile	17728	2	6
-General1-Slot7	Spell: Aura of Hate	26927	2	6
+General1-Slot7	Spell: Aura of Hate	26927	3	6
 General1-Slot8	Spell: Aura of Pain	26922	1	6
 General1-Slot9	Spell: Belt of Magi'Kot	21641	1	6
 General1-Slot10	Spell: Blade of the Kedge	21644	1	6
 General1-Slot11	Spell: Blood of Hate	21633	1	6
 General1-Slot12	Spell: Burning Sand	59639	1	6
-General1-Slot13	Spell: Call of the Arch Mage	16342	2	6
+General1-Slot13	Spell: Call of the Arch Mage	16342	3	6
 General1-Slot14	Spell: Destroy Summoned	21659	1	6
-General1-Slot15	Spell: Destroy Undead	28559	1	6
-General1-Slot16	Spell: Elemental Silence	16341	2	6
+General1-Slot15	Spell: Destroy Undead	28559	5	6
+General1-Slot16	Spell: Elemental Silence	16341	1	6
 General1-Slot17	Spell: Fist of Ixiblat	21643	2	6
 General1-Slot18	Spell: Girdle of Magi'Kot	21645	2	6
 General1-Slot19	Spell: Greater Vocaration: Water	19372	1	6
 General1-Slot20	Spell: Illusion Froglok	21648	1	6
 General1-Slot21	Spell: Infusion of Spirit	28544	5	6
-General1-Slot22	Spell: Malicious Decay	28496	1	6
+General1-Slot22	Spell: Malicious Decay	28496	2	6
 General1-Slot23	Spell: Neurotoxin	21640	7	6
 General1-Slot24	Spell: Night's Dark Terror	21666	1	6
 General1-Slot25	Spell: Planar Renewal	21668	1	6
 General1-Slot26	Spell: Resistant Armor	28437	1	6
-General1-Slot27	Spell: Shield of Maelin	28415	3	6
+General1-Slot27	Spell: Shield of Maelin	28415	6	6
 General1-Slot28	Spell: Sound of Might	28573	1	6
 General1-Slot29	Spell: Spiritual Vigor	28547	8	6
 General1-Slot30	Spell: Talisman of Return	21646	1	6
@@ -67,7 +67,7 @@ General2-Slot2	Spell: Word of Redemption	19229	1	6
 General2-Slot3	Spell: Yaulp VI	21689	1	6
 General2-Slot4	Spell: Burnout V	21669	1	6
 General2-Slot5	Spell: Catastrophe	28564	1	6
-General2-Slot6	Spell: Elemental Barrier	28440	1	6
+General2-Slot6	Spell: Elemental Barrier	28440	2	6
 General2-Slot7	Spell: Flameshield of Ro	32411	2	6
 General2-Slot8	Spell: Flight of Eagles	21656	2	6
 General2-Slot9	Spell: Healing of Sorsha	28545	3	6
@@ -84,39 +84,39 @@ General2-Slot19	Spell: Storm's Fury	28524	3	6
 General2-Slot20	Spell: Summon Platinum Choker	29357	2	6
 General3	Large Bank Box	976012	1	20
 General3-Slot1	Spell: Summon Runed Mantle	29358	2	6
-General3-Slot2	Spell: Summon Spiked Ring	29360	2	6
+General3-Slot2	Spell: Summon Spiked Ring	29360	3	6
 General3-Slot3	Spell: Touch of Mujaki	21638	2	6
 General3-Slot4	Spell: Winter's Storm	28526	2	6
-General3-Slot5	Spell: Arag's Celerity	28549	1	6
-General3-Slot6	Spell: Blood of Thule	28416	4	6
-General3-Slot7	Spell: Child of Bertoxxulous	28425	7	6
-General3-Slot8	Spell: Embracing Darkness	28421	3	6
+General3-Slot5	Spell: Arag's Celerity	28549	3	6
+General3-Slot6	Spell: Blood of Thule	28416	7	6
+General3-Slot7	Spell: Child of Bertoxxulous	28425	14	6
+General3-Slot8	Spell: Embracing Darkness	28421	4	6
 General3-Slot9	Spell: Endurance of the Boar	28492	1	6
 General3-Slot10	Spell: Ferocity	28554	6	6
 General3-Slot11	Spell: Focus of Soul	21661	1	6
 General3-Slot12	Spell: Frost Spear	21630	1	6
 General3-Slot13	Spell: Maelstrom of Thunder	28434	1	6
-General3-Slot14	Spell: Malosinia	28497	1	6
-General3-Slot15	Spell: Rathe's Son	28435	3	6
-General3-Slot16	Spell: Saryrn's Companion	28422	1	6
-General3-Slot17	Spell: Seduction of Saryrn	28423	1	6
+General3-Slot14	Spell: Malosinia	28497	5	6
+General3-Slot15	Spell: Rathe's Son	28435	5	6
+General3-Slot16	Spell: Saryrn's Companion	28422	2	6
+General3-Slot17	Spell: Death's Silence	28420	2	6
 General3-Slot18	Spell: Sha's Revenge	28553	3	6
 General3-Slot19	Spell: Spirit of Rellic	28550	1	6
-General3-Slot20	Spell: Spirit of Sorsha	28552	1	6
+General3-Slot20	Spell: Spirit of Sorsha	28552	2	6
 General4	Large Bank Box	976012	1	20
-General4-Slot1	Spell: Spiritual Dominion	28551	2	6
+General4-Slot1	Spell: Spiritual Dominion	28551	4	6
 General4-Slot2	Spell: Summon Sapphire Bracelet	29359	1	6
-General4-Slot3	Spell: Sun Vortex	28436	3	6
-General4-Slot4	Spell: Word of Terris	28427	6	6
+General4-Slot3	Spell: Sun Vortex	28436	7	6
+General4-Slot4	Spell: Word of Terris	28427	7	6
 General4-Slot5	Spell: Shield of the Arcane	28413	1	6
 General4-Slot6	Spell: Sun Storm	28430	1	6
 General4-Slot7	Spell: Spear of Torment	28489	1	6
-General4-Slot8	Spell: Talisman of the Diaku	26912	1	6
-General4-Slot9	Spell: Velium Strike	26910	1	6
-General4-Slot10	Empty	0	0	0
-General4-Slot11	Empty	0	0	0
-General4-Slot12	Empty	0	0	0
-General4-Slot13	Empty	0	0	0
+General4-Slot8	Spell: Talisman of the Diaku	26912	2	6
+General4-Slot9	Spell: Velium Strike	26910	3	6
+General4-Slot10	Spell: Protection of Calliav	59652	1	6
+General4-Slot11	Spell: Force Shield	28414	1	6
+General4-Slot12	Spell: Greater Immobilize	26945	2	6
+General4-Slot13	Spell: Touch of Death	28424	5	6
 General4-Slot14	Empty	0	0	0
 General4-Slot15	Empty	0	0	0
 General4-Slot16	Empty	0	0	0
@@ -125,16 +125,16 @@ General4-Slot18	Empty	0	0	0
 General4-Slot19	Empty	0	0	0
 General4-Slot20	Empty	0	0	0
 General5	Large Bank Box	976012	1	20
-General5-Slot1	Empty	0	0	0
-General5-Slot2	Empty	0	0	0
-General5-Slot3	Empty	0	0	0
-General5-Slot4	Empty	0	0	0
-General5-Slot5	Empty	0	0	0
-General5-Slot6	Empty	0	0	0
-General5-Slot7	Empty	0	0	0
-General5-Slot8	Empty	0	0	0
-General5-Slot9	Empty	0	0	0
-General5-Slot10	Empty	0	0	0
+General5-Slot1	Spell: Blessing of Replenishment	28531	4	6
+General5-Slot2	Spell: Breath of Ultor	26914	1	6
+General5-Slot3	Spell: Cloak of Luclin	21635	1	6
+General5-Slot4	Spell: Cloud of Grummus	28490	1	6
+General5-Slot5	Spell: Malos	26915	1	6
+General5-Slot6	Spell: Strength of the Diaku	28498	1	6
+General5-Slot7	Spell: Talisman of Celerity	26911	1	6
+General5-Slot8	Spell: Tears of Saryrn	28495	3	6
+General5-Slot9	Spell: Tiny Terror	26913	2	6
+General5-Slot10	Spell: Touch of Innoruuk	26928	1	6
 General5-Slot11	Empty	0	0	0
 General5-Slot12	Empty	0	0	0
 General5-Slot13	Empty	0	0	0
@@ -204,7 +204,7 @@ General8-Slot13	Empty	0	0	0
 General8-Slot14	Empty	0	0	0
 General8-Slot15	Empty	0	0	0
 General8-Slot16	Empty	0	0	0
-General8-Slot17	Empty	0	0	0
+General8-Slot17	Spell: Seduction of Saryrn	28423	2	6
 General8-Slot18	Empty	0	0	0
 General8-Slot19	Empty	0	0	0
 General8-Slot20	Empty	0	0	0
@@ -244,8 +244,8 @@ General10-Slot11	Empty	0	0	0
 General10-Slot12	Empty	0	0	0
 Held	Empty	0	0	0
 Bank1	Large Bank Box	976012	1	20
-Bank1-Slot1	Ancient: High Priest's Bulwark	26608	15	6
-Bank1-Slot2	Ancient: Gift of Aegolism	26621	6	6
+Bank1-Slot1	Ancient: High Priest's Bulwark	26608	16	6
+Bank1-Slot2	Ancient: Gift of Aegolism	26621	7	6
 Bank1-Slot3	Spell: Agility of the Wrulan	28488	1	6
 Bank1-Slot4	Spell: Ancestral Guard	28491	1	6
 Bank1-Slot5	Spell: Aura of Darkness	26924	1	6
@@ -269,18 +269,18 @@ Bank2-Slot1	Spell: Tnarg's Mending	21660	1	6
 Bank2-Slot2	Spell: Touch of Nife	21631	2	6
 Bank2-Slot3	Spell: Touch of Volatis	26921	1	6
 Bank2-Slot4	Spell: Arag's Celerity	28549	3	6
-Bank2-Slot5	Spell: Black Steel	28432	1	6
+Bank2-Slot5	Empty	0	0	0
 Bank2-Slot6	Spell: Blood of Saryrn	26916	1	6
 Bank2-Slot7	Spell: Elemental Barrier	28440	1	6
 Bank2-Slot8	Spell: Embracing Darkness	28421	2	6
 Bank2-Slot9	Spell: Ferine Avatar	26919	1	6
-Bank2-Slot10	Spell: Flameshield of Ro	32411	1	6
+Bank2-Slot10	Empty	0	0	0
 Bank2-Slot11	Empty	0	0	0
 Bank2-Slot12	Spell: Quiescence	26918	1	6
 Bank2-Slot13	Spell: Saryrn's Companion	28422	2	6
 Bank2-Slot14	Spell: Spirit of Arag	28548	1	6
 Bank2-Slot15	Spell: Spirit of Rellic	28550	1	6
-Bank2-Slot16	Spell: Summon Jewelry Bag	29362	1	6
+Bank2-Slot16	Empty	0	0	0
 Bank2-Slot17	Spell: Summon Sapphire Bracelet	29359	1	6
 Bank2-Slot18	Spell: Summon Steel Bracelet	59568	1	6
 Bank2-Slot19	Empty	0	0	0
@@ -370,8 +370,8 @@ Bank6-Slot18	Empty	0	0	0
 Bank6-Slot19	Empty	0	0	0
 Bank6-Slot20	Empty	0	0	0
 Bank7	Large Bank Box	976012	1	20
-Bank7-Slot1	Ancient: Legacy of Blades	26609	22	6
-Bank7-Slot2	Ancient: Starfire of Ro	26610	14	6
+Bank7-Slot1	Ancient: Legacy of Blades	26609	23	6
+Bank7-Slot2	Ancient: Starfire of Ro	26610	15	6
 Bank7-Slot3	Empty	0	0	0
 Bank7-Slot4	Empty	0	0	0
 Bank7-Slot5	Empty	0	0	0
@@ -497,7 +497,7 @@ Bank12-Slot19	Empty	0	0	0
 Bank12-Slot20	Empty	0	0	0
 Bank13	Large Bank Box	976012	1	20
 Bank13-Slot1	Ancient: Lifebane	26614	20	6
-Bank13-Slot2	Ancient: Master of Death	26613	15	6
+Bank13-Slot2	Ancient: Master of Death	26613	18	6
 Bank13-Slot3	Spell: Emissary of Thule	19311	1	6
 Bank13-Slot4	Empty	0	0	0
 Bank13-Slot5	Empty	0	0	0
@@ -578,9 +578,9 @@ Bank16-Slot16	Empty	0	0	0
 Bank16-Slot17	Empty	0	0	0
 Bank16-Slot18	Empty	0	0	0
 Bank16-Slot19	Empty	0	0	0
-Bank16-Slot20	Summoned: Black Bread	13078	100	6
+Bank16-Slot20	Empty	0	0	0
 Bank17	Large Bank Box	976012	1	20
-Bank17-Slot1	Ancient: Feral Avatar	26611	22	6
+Bank17-Slot1	Ancient: Feral Avatar	26611	24	6
 Bank17-Slot2	Ancient: Scourge of Nife	26612	24	6
 Bank17-Slot3	Empty	0	0	0
 Bank17-Slot4	Spell: Tigir`s Insects	19285	1	6

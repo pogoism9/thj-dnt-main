@@ -40,13 +40,13 @@ General1-Slot6	Ornate Leather Tunic Pattern	16348	1	6
 General1-Slot7	Ornate Silk Robe Pattern	16355	1	6
 General1-Slot8	Ornate Leather Tunic Pattern	16348	1	6
 General1-Slot9	Ornate Silk Robe Pattern	16355	1	6
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
+General1-Slot10	Elemental Greaves Mold	16373	1	6
+General1-Slot11	Elemental Leather Pant Pattern	16381	1	6
+General1-Slot12	Elemental Leather Pant Pattern	16381	1	6
 General1-Slot13	Empty	0	0	0
 General1-Slot14	Empty	0	0	0
 General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
+General1-Slot16	Fish Eggs	16498	4	6
 General1-Slot17	Empty	0	0	0
 General1-Slot18	Empty	0	0	0
 General1-Slot19	Empty	0	0	0
@@ -56,7 +56,7 @@ General1-Slot22	Ornate Breastplate Mold	16346	1	6
 General1-Slot23	Strand of Ether	16285	3	6
 General1-Slot24	Empty	0	0	0
 General1-Slot25	Strand of Ether	16285	100	6
-General1-Slot26	Brick of Ethereal Energy	16282	21	6
+General1-Slot26	Brick of Ethereal Energy	16282	32	6
 General1-Slot27	Empty	0	0	0
 General1-Slot28	Ethereal Metal Rings	16284	40	6
 General1-Slot29	Ethereal Silk Swatch	16286	75	6
@@ -65,25 +65,25 @@ General2	Large Bank Box	976012	1	20
 General2-Slot1	Immaculate Silk	48892	1	6
 General2-Slot2	Superb Silk	34221	1	6
 General2-Slot3	Crystalline Silk	25306	62	6
-General2-Slot4	Air Arachnid Silk	29983	29	6
+General2-Slot4	Air Arachnid Silk	29983	100	6
 General2-Slot5	Flawless Silk	34222	2	6
 General2-Slot6	Silken Strand	26720	1	6
 General2-Slot7	Burnt Silk	21757	1	6
-General2-Slot8	Fire Arachnid Silk	29981	65	6
+General2-Slot8	Fire Arachnid Silk	29981	68	6
 General2-Slot9	Soapstone	29514	1	6
-General2-Slot10	Empty	0	0	0
-General2-Slot11	Brick of Molten Ore	29534	85	6
+General2-Slot10	Air Arachnid Silk	29983	17	6
+General2-Slot11	Brick of Molten Ore	29534	100	6
 General2-Slot12	Brick of Molten Ore	29534	100	6
-General2-Slot13	Brick of Immaculate Steel	29536	10	6
-General2-Slot14	Molten Nightmare Hoof	21766	2	6
+General2-Slot13	Brick of Molten Ore	29534	5	6
+General2-Slot14	Brick of Immaculate Steel	29536	10	6
 General2-Slot15	Sunshard Ore	33792	12	6
-General2-Slot16	Empty	0	0	0
+General2-Slot16	Chunk of Wind Metal	29537	11	6
 General2-Slot17	Empty	0	0	0
-General2-Slot18	Empty	0	0	0
+General2-Slot18	Molten Nightmare Hoof	21766	2	6
 General2-Slot19	Empty	0	0	0
 General2-Slot20	Empty	0	0	0
 General3	Large Bank Box	976012	1	20
-General3-Slot1	Featherwood Bow Staff	30194	2	6
+General3-Slot1	Featherwood Bow Staff	30194	3	6
 General3-Slot2	Obsidianwood Bow Staff (Enchanted)	1030192	4	6
 General3-Slot3	Obsidianwood Bow Staff	30192	20	6
 General3-Slot4	Featherwood Bow Staff (Enchanted)	1030194	4	6
@@ -102,7 +102,7 @@ General3-Slot16	Mephit Meat	29744	2	6
 General3-Slot17	Drop of Pure Rain	29904	1	6
 General3-Slot18	Ball of Elemental Clay	21720	7	6
 General3-Slot19	Featherwood Sap	29497	8	6
-General3-Slot20	Obsidianwood Sap	29495	28	6
+General3-Slot20	Obsidianwood Sap	29495	32	6
 General4	Large Bank Box	976012	1	20
 General4-Slot1	Fire Mephit Blood	29521	5	6
 General4-Slot2	Water Mephit Blood	29522	1	6
@@ -116,7 +116,7 @@ General4-Slot9	Alabaster Beak	26719	2	6
 General4-Slot10	Tumpy Tonic	12114	43	6
 General4-Slot11	Fungus Clump	24088	2	6
 General4-Slot12	Brick of Valorium	29349	6	6
-General4-Slot13	Solidified Magma	21763	11	6
+General4-Slot13	Solidified Magma	21763	14	6
 General4-Slot14	Fiery Granite	21750	23	6
 General4-Slot15	Empty	0	0	0
 General4-Slot16	Soluble Loam	34884	1	6
