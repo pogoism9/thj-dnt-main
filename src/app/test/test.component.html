@@ -1,0 +1,15 @@
+<form (ngSubmit)="addItem()">
+    <label for="file">Upload File:</label>
+    <input id="file" type="file" (change)="onFilesSelected($event)" multiple />
+</form>
+
+<ul>
+    <li *ngFor="let item of (item$ | async)">
+        <span *ngIf="item.name">
+            {{ item.name }}: {{ item.description }}
+        </span>
+        <span *ngIf="item.data">
+            <pre>{{ item.data }}</pre>
+        </span>
+    </li>
+</ul>
