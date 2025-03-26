@@ -126,7 +126,9 @@ General1-Slot30-Slot4	Empty	0	0	0
 General1-Slot30-Slot6	Empty	0	0	0
 General2	Large Bank Box	976012	1	20
 General2-Slot1	Empty	0	0	0
-General2-Slot2	Empty	0	0	0
+General2-Slot2	Prismatic Belt of the Queztocatal (Enchanted)	1016153	1	6
+General2-Slot2-Slot1	Empty	0	0	0
+General2-Slot2-Slot2	Empty	0	0	0
 General2-Slot3	Time's Antithesis (Enchanted)	1024699	1	6
 General2-Slot3-Slot1	Empty	0	0	0
 General2-Slot3-Slot2	Empty	0	0	0
@@ -150,9 +152,7 @@ General2-Slot11	Empty	0	0	0
 General2-Slot12	Empty	0	0	0
 General2-Slot13	Empty	0	0	0
 General2-Slot14	Empty	0	0	0
-General2-Slot15	Prismatic Belt of the Queztocatal (Enchanted)	1016153	1	6
-General2-Slot15-Slot1	Empty	0	0	0
-General2-Slot15-Slot2	Empty	0	0	0
+General2-Slot15	Empty	0	0	0
 General2-Slot16	Empty	0	0	0
 General2-Slot17	Empty	0	0	0
 General2-Slot18	Empty	0	0	0
@@ -486,10 +486,7 @@ Bank3-Slot19	Crown of Rile	10913	1	6
 Bank3-Slot19-Slot1	Empty	0	0	0
 Bank3-Slot19-Slot2	Empty	0	0	0
 Bank3-Slot19-Slot6	Empty	0	0	0
-Bank3-Slot20	Crown of Rile (Legendary)	2010913	1	6
-Bank3-Slot20-Slot1	Empty	0	0	0
-Bank3-Slot20-Slot2	Empty	0	0	0
-Bank3-Slot20-Slot6	Empty	0	0	0
+Bank3-Slot20	Empty	0	0	0
 Bank4	Large Bank Box	976012	1	20
 Bank4-Slot1	Brother Xave's Headband	31223	1	6
 Bank4-Slot1-Slot1	Empty	0	0	0
@@ -682,9 +679,7 @@ Bank7-Slot7-Slot2	Empty	0	0	0
 Bank7-Slot8	Amulet of the Dreadgazer	31318	1	6
 Bank7-Slot8-Slot1	Empty	0	0	0
 Bank7-Slot8-Slot2	Empty	0	0	0
-Bank7-Slot9	Twilight Shroud	28920	1	6
-Bank7-Slot9-Slot1	Empty	0	0	0
-Bank7-Slot9-Slot2	Empty	0	0	0
+Bank7-Slot9	Empty	0	0	0
 Bank7-Slot10	Fire Marked Rune	27648	1	6
 Bank7-Slot10-Slot1	Empty	0	0	0
 Bank7-Slot10-Slot2	Empty	0	0	0
@@ -1195,10 +1190,7 @@ Bank15-Slot15	Boots of the Warmaster	19082	1	6
 Bank15-Slot15-Slot1	Empty	0	0	0
 Bank15-Slot15-Slot2	Empty	0	0	0
 Bank15-Slot15-Slot6	Empty	0	0	0
-Bank15-Slot16	White Dragonscale Boots (Legendary)	2029645	1	6
-Bank15-Slot16-Slot1	Empty	0	0	0
-Bank15-Slot16-Slot2	Empty	0	0	0
-Bank15-Slot16-Slot6	Empty	0	0	0
+Bank15-Slot16	Empty	0	0	0
 Bank15-Slot17	Maclaer's Boots of Silence	31238	1	6
 Bank15-Slot17-Slot1	Empty	0	0	0
 Bank15-Slot17-Slot2	Empty	0	0	0

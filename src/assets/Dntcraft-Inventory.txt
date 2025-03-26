@@ -40,27 +40,27 @@ General1-Slot6	Ornate Leather Tunic Pattern	16348	1	6
 General1-Slot7	Ornate Silk Robe Pattern	16355	1	6
 General1-Slot8	Ornate Leather Tunic Pattern	16348	1	6
 General1-Slot9	Ornate Silk Robe Pattern	16355	1	6
-General1-Slot10	Elemental Greaves Mold	16373	1	6
+General1-Slot10	Ornate Chain Tunic Pattern	16291	1	6
 General1-Slot11	Elemental Leather Pant Pattern	16381	1	6
 General1-Slot12	Elemental Leather Pant Pattern	16381	1	6
-General1-Slot13	Empty	0	0	0
-General1-Slot14	Ornate Greaves Mold	16344	1	6
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Ornate Silk Pant Pattern	16359	1	6
-General1-Slot17	Ornate Chain Glove Pattern	16294	1	6
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Ornate Chain Pant Pattern	16295	1	6
-General1-Slot20	Ornate Chain Tunic Pattern	16291	1	6
+General1-Slot13	Ornate Chain Glove Pattern	16294	1	6
+General1-Slot14	Ornate Silk Pant Pattern	16359	1	6
+General1-Slot15	Ornate Chain Pant Pattern	16295	1	6
+General1-Slot16	Ornate Greaves Mold	16344	1	6
+General1-Slot17	Brick of Ethereal Energy	16282	100	6
+General1-Slot18	Strand of Ether	16285	100	6
+General1-Slot19	Brick of Ethereal Energy	16282	31	6
+General1-Slot20	Strand of Ether	16285	42	6
 General1-Slot21	Empty	0	0	0
-General1-Slot22	Ethereal Silk Swatch	16286	1	6
-General1-Slot23	Strand of Ether	16285	3	6
-General1-Slot24	Ethereal Sheet of Metal	16283	2	6
-General1-Slot25	Strand of Ether	16285	100	6
-General1-Slot26	Brick of Ethereal Energy	16282	67	6
-General1-Slot27	Cured Ethereal Energy	16287	35	6
+General1-Slot22	Empty	0	0	0
+General1-Slot23	Empty	0	0	0
+General1-Slot24	Empty	0	0	0
+General1-Slot25	Empty	0	0	0
+General1-Slot26	Empty	0	0	0
+General1-Slot27	Cured Ethereal Energy	16287	30	6
 General1-Slot28	Ethereal Metal Rings	16284	70	6
-General1-Slot29	Ethereal Silk Swatch	16286	94	6
-General1-Slot30	Ethereal Sheet of Metal	16283	100	6
+General1-Slot29	Ethereal Silk Swatch	16286	95	6
+General1-Slot30	Ethereal Sheet of Metal	16283	99	6
 General2	Large Bank Box	976012	1	20
 General2-Slot1	Immaculate Silk	48892	1	6
 General2-Slot2	Superb Silk	34221	1	6
@@ -74,7 +74,7 @@ General2-Slot9	Soapstone	29514	1	6
 General2-Slot10	Air Arachnid Silk	29983	17	6
 General2-Slot11	Brick of Molten Ore	29534	100	6
 General2-Slot12	Brick of Molten Ore	29534	100	6
-General2-Slot13	Brick of Molten Ore	29534	5	6
+General2-Slot13	Brick of Molten Ore	29534	37	6
 General2-Slot14	Brick of Immaculate Steel	29536	10	6
 General2-Slot15	Sunshard Ore	33792	13	6
 General2-Slot16	Chunk of Wind Metal	29537	11	6
@@ -93,8 +93,8 @@ General3-Slot7	Magma Crystals	21752	4	6
 General3-Slot8	Metallic Substance	21764	2	6
 General3-Slot9	Tainted Planar Essence	15970	52	6
 General3-Slot10	Eternally Burning Embers	21767	1	6
-General3-Slot11	Deepwater Ink	24086	1	6
-General3-Slot12	Fiend Gut	29993	8	6
+General3-Slot11	Empty	0	0	0
+General3-Slot12	Empty	0	0	0
 General3-Slot13	Empty	0	0	0
 General3-Slot14	Vegerog Vine	30074	10	6
 General3-Slot15	Hero Parts	29763	54	6
@@ -118,9 +118,9 @@ General4-Slot11	Fungus Clump	24088	2	6
 General4-Slot12	Brick of Valorium	29349	6	6
 General4-Slot13	Solidified Magma	21763	14	6
 General4-Slot14	Fiery Granite	21750	23	6
-General4-Slot15	Empty	0	0	0
+General4-Slot15	Deepwater Ink	24086	1	6
 General4-Slot16	Soluble Loam	34884	1	6
-General4-Slot17	Empty	0	0	0
+General4-Slot17	Fiend Gut	29993	8	6
 General4-Slot18	Lucidem	35084	2	6
 General4-Slot19	Brick of Electrified Copper	29539	22	6
 General4-Slot20	Sandstorm Pearl	29909	3	6
@@ -230,14 +230,14 @@ General9-Slot18	Storm Satuur Sash	28764	1	6
 General9-Slot19	Empty	0	0	0
 General9-Slot20	Storm Volaas Beard	28750	1	6
 General10	Large Bank Box	976012	1	20
-General10-Slot1	Lightning Gem	9422	1	6
-General10-Slot2	Tornado Gem	9424	1	6
-General10-Slot3	Blizzard Gem	9423	1	6
-General10-Slot4	Sandstorm Gem	9421	1	6
-General10-Slot5	Lightning Gem	9422	1	6
-General10-Slot6	Tornado Gem	9424	1	6
-General10-Slot7	Blizzard Gem	9423	1	6
-General10-Slot8	Sandstorm Gem	9421	1	6
+General10-Slot1	Empty	0	0	0
+General10-Slot2	Empty	0	0	0
+General10-Slot3	Empty	0	0	0
+General10-Slot4	Empty	0	0	0
+General10-Slot5	Empty	0	0	0
+General10-Slot6	Empty	0	0	0
+General10-Slot7	Empty	0	0	0
+General10-Slot8	Empty	0	0	0
 General10-Slot9	Empty	0	0	0
 General10-Slot10	Empty	0	0	0
 General10-Slot11	Empty	0	0	0
