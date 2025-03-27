@@ -1,6 +1,6 @@
 <mat-card class="spaced-card" appearance="outlined">
     <mat-card-content class="center-text bold-text">
-        <mat-card-title>Last Updated: {{ lastModifiedDisplay }}</mat-card-title>
+        <mat-card-title *ngIf="lastModified">Last Updated: {{ lastModifiedDisplay }}</mat-card-title>
     </mat-card-content>
 </mat-card>
 
