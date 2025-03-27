@@ -31,36 +31,36 @@ Waist	Empty	0	0	0
 	Empty	0	0	0
 Ammo	Empty	0	0	0
 General1	Grandmaster's Carry-All (Legendary)	2017138	1	30
-General1-Slot1	Empty	0	0	0
-General1-Slot2	Empty	0	0	0
-General1-Slot3	Empty	0	0	0
-General1-Slot4	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
-General1-Slot7	Empty	0	0	0
-General1-Slot8	Empty	0	0	0
-General1-Slot9	Empty	0	0	0
-General1-Slot10	Empty	0	0	0
-General1-Slot11	Empty	0	0	0
-General1-Slot12	Empty	0	0	0
-General1-Slot13	Empty	0	0	0
-General1-Slot14	Empty	0	0	0
-General1-Slot15	Empty	0	0	0
-General1-Slot16	Empty	0	0	0
-General1-Slot17	Empty	0	0	0
-General1-Slot18	Empty	0	0	0
-General1-Slot19	Empty	0	0	0
-General1-Slot20	Empty	0	0	0
-General1-Slot21	Empty	0	0	0
-General1-Slot22	Empty	0	0	0
-General1-Slot23	Empty	0	0	0
-General1-Slot24	Empty	0	0	0
-General1-Slot25	Empty	0	0	0
-General1-Slot26	Empty	0	0	0
-General1-Slot27	Cured Ethereal Energy	16287	30	6
-General1-Slot28	Ethereal Metal Rings	16284	56	6
+General1-Slot1	Bundle of Super Conductive Wires	9426	1	6
+General1-Slot2	Bundle of Super Conductive Wires	9426	1	6
+General1-Slot3	Bundle of Super Conductive Wires	9426	1	6
+General1-Slot4	Cockroach	12574	1	6
+General1-Slot5	Copper Node	9295	1	6
+General1-Slot6	Elemental Bracer Mold	16369	1	6
+General1-Slot7	Elemental Chain Bracelet Pattern	16365	1	6
+General1-Slot8	Elemental Chain Bracelet Pattern	16365	1	6
+General1-Slot9	Elemental Chain Glove Pattern	16366	1	6
+General1-Slot10	Elemental Gauntlet Mold	16374	1	6
+General1-Slot11	Elemental Leather Pant Pattern	16381	1	6
+General1-Slot12	Elemental Leather Wrist Pattern	16379	1	6
+General1-Slot13	Elemental Leather Wrist Pattern	16379	1	6
+General1-Slot14	Elemental Leather Pant Pattern	16381	1	6
+General1-Slot15	Elemental Silk Boot Pattern	16389	1	6
+General1-Slot16	Elemental Silk Bracelet Pattern	16386	1	6
+General1-Slot17	Elemental Silk Bracelet Pattern	16386	1	6
+General1-Slot18	Elemental Silk Glove Pattern	16387	1	6
+General1-Slot19	Elemental Silk Glove Pattern	16387	1	6
+General1-Slot20	Fruit	13046	100	6
+General1-Slot21	Fishing Grubs	13106	100	6
+General1-Slot22	Ornate Leather Boot Pattern	16353	1	6
+General1-Slot23	Ornate Gauntlet Mold	16345	1	6
+General1-Slot24	Ornate Silk Pant Pattern	16359	1	6
+General1-Slot25	Ornate Vambrace Mold	16343	1	6
+General1-Slot26	Elemental Silk Boot Pattern	16389	1	6
+General1-Slot27	Cured Ethereal Energy	16287	31	6
+General1-Slot28	Ethereal Metal Rings	16284	53	6
 General1-Slot29	Ethereal Silk Swatch	16286	95	6
-General1-Slot30	Ethereal Sheet of Metal	16283	82	6
+General1-Slot30	Ethereal Sheet of Metal	16283	73	6
 General2	Large Bank Box	976012	1	20
 General2-Slot1	Immaculate Silk	48892	1	6
 General2-Slot2	Superb Silk	34221	1	6
@@ -78,7 +78,7 @@ General2-Slot13	Brick of Molten Ore	29534	85	6
 General2-Slot14	Brick of Immaculate Steel	29536	10	6
 General2-Slot15	Sunshard Ore	33792	13	6
 General2-Slot16	Chunk of Wind Metal	29537	11	6
-General2-Slot17	Empty	0	0	0
+General2-Slot17	Raw Diamond	15981	1	6
 General2-Slot18	Molten Nightmare Hoof	21766	2	6
 General2-Slot19	Fire Mephit Skin	31447	2	6
 General2-Slot20	Fish Eggs	16498	4	6
@@ -93,9 +93,9 @@ General3-Slot7	Magma Crystals	21752	4	6
 General3-Slot8	Metallic Substance	21764	2	6
 General3-Slot9	Tainted Planar Essence	15970	52	6
 General3-Slot10	Eternally Burning Embers	21767	1	6
-General3-Slot11	Empty	0	0	0
-General3-Slot12	Empty	0	0	0
-General3-Slot13	Empty	0	0	0
+General3-Slot11	Roots	13047	100	6
+General3-Slot12	Vegetables	13419	100	6
+General3-Slot13	Rabbit Meat	13048	100	6
 General3-Slot14	Vegerog Vine	30074	10	6
 General3-Slot15	Hero Parts	29763	54	6
 General3-Slot16	Mephit Meat	29744	2	6
@@ -116,8 +116,8 @@ General4-Slot9	Alabaster Beak	26719	2	6
 General4-Slot10	Tumpy Tonic	12114	43	6
 General4-Slot11	Fungus Clump	24088	2	6
 General4-Slot12	Brick of Valorium	29349	6	6
-General4-Slot13	Solidified Magma	21763	14	6
-General4-Slot14	Fiery Granite	21750	32	6
+General4-Slot13	Solidified Magma	21763	29	6
+General4-Slot14	Fiery Granite	21750	60	6
 General4-Slot15	Deepwater Ink	24086	1	6
 General4-Slot16	Soluble Loam	34884	1	6
 General4-Slot17	Fiend Gut	29993	8	6
@@ -125,20 +125,20 @@ General4-Slot18	Lucidem	35084	2	6
 General4-Slot19	Brick of Electrified Copper	29539	22	6
 General4-Slot20	Sandstorm Pearl	29909	3	6
 General5	Large Bank Box	976012	1	20
-General5-Slot1	Empty	0	0	0
-General5-Slot2	Empty	0	0	0
-General5-Slot3	Empty	0	0	0
-General5-Slot4	Empty	0	0	0
-General5-Slot5	Empty	0	0	0
-General5-Slot6	Empty	0	0	0
-General5-Slot7	Empty	0	0	0
-General5-Slot8	Empty	0	0	0
-General5-Slot9	Empty	0	0	0
-General5-Slot10	Empty	0	0	0
-General5-Slot11	Empty	0	0	0
-General5-Slot12	Empty	0	0	0
-General5-Slot13	Empty	0	0	0
-General5-Slot14	Empty	0	0	0
+General5-Slot1	Elemental Leather Glove Pattern	16380	1	6
+General5-Slot2	Elemental Leather Boot Pattern	16382	1	6
+General5-Slot3	Elemental Chain Boot Pattern	16368	1	6
+General5-Slot4	Elemental Helm Mold	16371	1	6
+General5-Slot5	Elemental Chain Sleeve Pattern	16364	1	6
+General5-Slot6	Elemental Leather Pant Pattern	16381	1	6
+General5-Slot7	Elemental Chain Bracelet Pattern	16365	1	6
+General5-Slot8	Elemental Helm Mold	16371	1	6
+General5-Slot9	Elemental Chain Boot Pattern	16368	1	6
+General5-Slot10	Elemental Chain Bracelet Pattern	16365	1	6
+General5-Slot11	Strand of Ether	16285	13	6
+General5-Slot12	Elemental Chain Glove Pattern	16366	1	6
+General5-Slot13	Elemental Chain Sleeve Pattern	16364	1	6
+General5-Slot14	Elemental Leather Pant Pattern	16381	1	6
 General5-Slot15	Uncut Morganite	37849	1	6
 General5-Slot16	Uncut Goshenite	37848	1	6
 General5-Slot17	Uncut Demantoid	37851	1	6
@@ -146,24 +146,24 @@ General5-Slot18	Uncut Black Sapphire	37846	1	6
 General5-Slot19	Uncut Rubellite	37852	1	6
 General5-Slot20	Uncut Alexandrite	37847	1	6
 General6	Large Bank Box	976012	1	20
-General6-Slot1	Empty	0	0	0
-General6-Slot2	Empty	0	0	0
-General6-Slot3	Empty	0	0	0
-General6-Slot4	Empty	0	0	0
-General6-Slot5	Empty	0	0	0
-General6-Slot6	Empty	0	0	0
-General6-Slot7	Empty	0	0	0
-General6-Slot8	Empty	0	0	0
-General6-Slot9	Empty	0	0	0
-General6-Slot10	Empty	0	0	0
-General6-Slot11	Empty	0	0	0
-General6-Slot12	Empty	0	0	0
-General6-Slot13	Empty	0	0	0
-General6-Slot14	Empty	0	0	0
-General6-Slot15	Empty	0	0	0
-General6-Slot16	Empty	0	0	0
-General6-Slot17	Empty	0	0	0
-General6-Slot18	Empty	0	0	0
+General6-Slot1	Timeless Leather Tunic Pattern	16377	1	6
+General6-Slot2	Elemental Silk Sleeve Pattern	16385	1	6
+General6-Slot3	Elemental Leather Pant Pattern	16381	1	6
+General6-Slot4	Brick of Ethereal Energy	16282	76	6
+General6-Slot5	Berries	13045	100	6
+General6-Slot6	Mushroom	14905	100	6
+General6-Slot7	Nodding Blue Lily	24094	100	6
+General6-Slot8	Nodding Blue Lily	24094	100	6
+General6-Slot9	Nodding Blue Lily	24094	100	6
+General6-Slot10	Elemental Leather Sleeve Pattern	16378	1	6
+General6-Slot11	Elemental Silk Sleeve Pattern	16385	1	6
+General6-Slot12	Ornate Silk Robe Pattern	16355	1	6
+General6-Slot13	Ornate Leather Tunic Pattern	16348	1	6
+General6-Slot14	Ornate Leather Glove Pattern	16351	1	6
+General6-Slot15	Ornate Greaves Mold	16344	1	6
+General6-Slot16	Ornate Greaves Mold	16344	1	6
+General6-Slot17	Ornate Chain Pant Pattern	16295	1	6
+General6-Slot18	Ornate Chain Tunic Pattern	16291	1	6
 General6-Slot19	Empty	0	0	0
 General6-Slot20	Empty	0	0	0
 General7	Large Bank Box	976012	1	20
@@ -532,7 +532,7 @@ Bank22-Slot16	Elemental Silk Boot Pattern	16389	1	6
 Bank22-Slot17	Ornate Silk Pant Pattern	16359	1	6
 Bank22-Slot18	Elemental Leather Pant Pattern	16381	1	6
 Bank22-Slot19	Ornate Breastplate Mold	16346	1	6
-Bank22-Slot20	Ornate Breastplate Mold	16346	1	6
+Bank22-Slot20	Empty	0	0	0
 Bank23	Large Bank Box	976012	1	20
 Bank23-Slot1	Ornate Chain Pant Pattern	16295	1	6
 Bank23-Slot2	Elemental Chain Glove Pattern	16366	1	6
