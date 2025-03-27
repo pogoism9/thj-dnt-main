@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
 import { BankComponent } from './bank/bank.component';
-import { TestComponent } from './test/test.component';
+import { UploadComponent } from './upload/upload.component';
 
 export const routes: Routes = [
     { path: 'bank', component: BankComponent },
-    { path: 'test', component: TestComponent },
+    { path: 'upload', component: UploadComponent },
 ];

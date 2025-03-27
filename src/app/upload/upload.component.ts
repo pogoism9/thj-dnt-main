@@ -1,4 +1,4 @@
-import { AsyncPipe, CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { collection, collectionData, doc, Firestore, setDoc, updateDoc } from '@angular/fire/firestore';
 import { FormsModule } from '@angular/forms';
@@ -12,15 +12,16 @@ interface Item {
 interface BankData {
     name: string;
     data: any;
+    date: string;
 }
 
 @Component({
-    selector: 'app-test',
-    templateUrl: './test.component.html',
-    styleUrls: ['./test.component.scss'],
-    imports: [AsyncPipe, CommonModule, FormsModule],
+    selector: 'app-upload',
+    templateUrl: './upload.component.html',
+    styleUrls: ['./upload.component.scss'],
+    imports: [CommonModule, FormsModule],
 })
-export class TestComponent {
+export class UploadComponent {
     firestore = inject(Firestore);
     item$: Observable<any[]>;
     public newItem: Item = {
@@ -32,12 +33,6 @@ export class TestComponent {
         this.item$ = collectionData(itemCollection);
     }
 
-    public async addItem() {
-        await setDoc(doc(this.firestore, 'items', 'item2'), this.newItem);
-        // const item = doc(this.firestore, 'items', 'item1');
-
-        // await updateDoc(item, { ...this.newItem });
-    }
     public async onFilesSelected($event: Event) {
         const input = $event.target as HTMLInputElement;
         if (input?.files?.length) {
@@ -58,11 +53,11 @@ export class TestComponent {
                     const bankData: BankData = {
                         name: file.name,
                         data: reader.result,
-                    }
+                        date: new Date().toISOString(),
+                    };
                     await setDoc(doc(this.firestore, 'items', file.name), bankData);
                 };
                 reader.readAsText(file);    
-                console.log('File Contents:', reader.result);        
             }
         }
     }
