@@ -50,8 +50,14 @@ General1-Slot3-Slot6	Empty	0	0	0
 General1-Slot4	Valiant Belt of Fallen Heroes	15873	1	6
 General1-Slot4-Slot1	Empty	0	0	0
 General1-Slot4-Slot2	Empty	0	0	0
-General1-Slot5	Empty	0	0	0
-General1-Slot6	Empty	0	0	0
+General1-Slot5	Bracer of Precision	28667	1	6
+General1-Slot5-Slot1	Empty	0	0	0
+General1-Slot5-Slot2	Empty	0	0	0
+General1-Slot5-Slot6	Empty	0	0	0
+General1-Slot6	Circlet of Flowing Time	68195	1	6
+General1-Slot6-Slot1	Empty	0	0	0
+General1-Slot6-Slot2	Empty	0	0	0
+General1-Slot6-Slot6	Empty	0	0	0
 General1-Slot7	Amulet of the Rain	29198	1	6
 General1-Slot7-Slot1	Empty	0	0	0
 General1-Slot7-Slot2	Empty	0	0	0
@@ -111,18 +117,37 @@ General1-Slot22-Slot6	Empty	0	0	0
 General1-Slot23	Stormriders Signet (Legendary)	2010232	1	6
 General1-Slot23-Slot1	Empty	0	0	0
 General1-Slot23-Slot2	Empty	0	0	0
-General1-Slot24	Empty	0	0	0
-General1-Slot25	Empty	0	0	0
-General1-Slot26	Empty	0	0	0
-General1-Slot27	Empty	0	0	0
+General1-Slot24	Cudgel of Wrecking	22883	1	6
+General1-Slot24-Slot1	Empty	0	0	0
+General1-Slot24-Slot2	Empty	0	0	0
+General1-Slot24-Slot6	Empty	0	0	0
+General1-Slot25	Earring of Temporal Solstice	5594	1	6
+General1-Slot25-Slot1	Empty	0	0	0
+General1-Slot25-Slot2	Empty	0	0	0
+General1-Slot26	Globe of Mystical Protection	26799	1	6
+General1-Slot26-Slot1	Empty	0	0	0
+General1-Slot26-Slot2	Empty	0	0	0
+General1-Slot26-Slot6	Empty	0	0	0
+General1-Slot27	Mask of Conceptual Energy	9444	1	6
+General1-Slot27-Slot1	Empty	0	0	0
+General1-Slot27-Slot2	Empty	0	0	0
 General1-Slot28	Tactician's Shield	28656	1	6
 General1-Slot28-Slot1	Empty	0	0	0
 General1-Slot28-Slot2	Empty	0	0	0
 General1-Slot28-Slot6	Empty	0	0	0
-General1-Slot29	Empty	0	0	0
-General1-Slot30	Empty	0	0	0
+General1-Slot29	Ossein of Limitless Time (Enchanted)	1068217	1	6
+General1-Slot29-Slot1	Empty	0	0	0
+General1-Slot29-Slot2	Empty	0	0	0
+General1-Slot29-Slot6	Empty	0	0	0
+General1-Slot30	Serrated Dart of Energy	20625	1	6
+General1-Slot30-Slot1	Empty	0	0	0
+General1-Slot30-Slot2	Empty	0	0	0
+General1-Slot30-Slot6	Empty	0	0	0
 General2	Large Bank Box	976012	1	20
-General2-Slot1	Empty	0	0	0
+General2-Slot1	Shinai of the Ancients (Enchanted)	1026740	1	6
+General2-Slot1-Slot1	Empty	0	0	0
+General2-Slot1-Slot2	Empty	0	0	0
+General2-Slot1-Slot6	Empty	0	0	0
 General2-Slot2	Prismatic Belt of the Queztocatal (Enchanted)	1016153	1	6
 General2-Slot2-Slot1	Empty	0	0	0
 General2-Slot2-Slot2	Empty	0	0	0
@@ -138,14 +163,26 @@ General2-Slot5	Serpent of Vindication	22959	1	6
 General2-Slot5-Slot1	Empty	0	0	0
 General2-Slot5-Slot2	Empty	0	0	0
 General2-Slot5-Slot6	Empty	0	0	0
-General2-Slot6	Empty	0	0	0
+General2-Slot6	Shroud of Survival	13674	1	6
+General2-Slot6-Slot1	Empty	0	0	0
+General2-Slot6-Slot2	Empty	0	0	0
 General2-Slot7	Runewarded Belt (Enchanted)	1028663	1	6
 General2-Slot7-Slot1	Empty	0	0	0
 General2-Slot7-Slot2	Empty	0	0	0
-General2-Slot8	Empty	0	0	0
-General2-Slot9	Empty	0	0	0
+General2-Slot8	Talisman of Tainted Energy	8774	1	6
+General2-Slot8-Slot1	Empty	0	0	0
+General2-Slot8-Slot2	Empty	0	0	0
+General2-Slot9	Timeless Coral Greatsword (Enchanted)	1068199	1	6
+General2-Slot9-Slot1	Empty	0	0	0
+General2-Slot9-Slot2	Empty	0	0	0
+General2-Slot9-Slot3	Empty	0	0	0
+General2-Slot9-Slot4	Empty	0	0	0
+General2-Slot9-Slot6	Empty	0	0	0
 General2-Slot10	Empty	0	0	0
-General2-Slot11	Empty	0	0	0
+General2-Slot11	Wristband of Echoed Thoughts	28666	1	6
+General2-Slot11-Slot1	Empty	0	0	0
+General2-Slot11-Slot2	Empty	0	0	0
+General2-Slot11-Slot6	Empty	0	0	0
 General2-Slot12	Empty	0	0	0
 General2-Slot13	Empty	0	0	0
 General2-Slot14	Empty	0	0	0
