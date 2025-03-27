@@ -58,9 +58,9 @@ General1-Slot24	Ornate Silk Pant Pattern	16359	1	6
 General1-Slot25	Ornate Vambrace Mold	16343	1	6
 General1-Slot26	Elemental Silk Boot Pattern	16389	1	6
 General1-Slot27	Cured Ethereal Energy	16287	31	6
-General1-Slot28	Ethereal Metal Rings	16284	56	6
+General1-Slot28	Ethereal Metal Rings	16284	53	6
 General1-Slot29	Ethereal Silk Swatch	16286	95	6
-General1-Slot30	Ethereal Sheet of Metal	16283	82	6
+General1-Slot30	Ethereal Sheet of Metal	16283	73	6
 General2	Large Bank Box	976012	1	20
 General2-Slot1	Immaculate Silk	48892	1	6
 General2-Slot2	Superb Silk	34221	1	6
@@ -149,21 +149,21 @@ General6	Large Bank Box	976012	1	20
 General6-Slot1	Timeless Leather Tunic Pattern	16377	1	6
 General6-Slot2	Elemental Silk Sleeve Pattern	16385	1	6
 General6-Slot3	Elemental Leather Pant Pattern	16381	1	6
-General6-Slot4	Brick of Ethereal Energy	16282	4	6
+General6-Slot4	Brick of Ethereal Energy	16282	76	6
 General6-Slot5	Berries	13045	100	6
 General6-Slot6	Mushroom	14905	100	6
 General6-Slot7	Nodding Blue Lily	24094	100	6
 General6-Slot8	Nodding Blue Lily	24094	100	6
 General6-Slot9	Nodding Blue Lily	24094	100	6
-General6-Slot10	Empty	0	0	0
-General6-Slot11	Empty	0	0	0
-General6-Slot12	Empty	0	0	0
-General6-Slot13	Empty	0	0	0
-General6-Slot14	Empty	0	0	0
-General6-Slot15	Empty	0	0	0
-General6-Slot16	Empty	0	0	0
-General6-Slot17	Empty	0	0	0
-General6-Slot18	Empty	0	0	0
+General6-Slot10	Elemental Leather Sleeve Pattern	16378	1	6
+General6-Slot11	Elemental Silk Sleeve Pattern	16385	1	6
+General6-Slot12	Ornate Silk Robe Pattern	16355	1	6
+General6-Slot13	Ornate Leather Tunic Pattern	16348	1	6
+General6-Slot14	Ornate Leather Glove Pattern	16351	1	6
+General6-Slot15	Ornate Greaves Mold	16344	1	6
+General6-Slot16	Ornate Greaves Mold	16344	1	6
+General6-Slot17	Ornate Chain Pant Pattern	16295	1	6
+General6-Slot18	Ornate Chain Tunic Pattern	16291	1	6
 General6-Slot19	Empty	0	0	0
 General6-Slot20	Empty	0	0	0
 General7	Large Bank Box	976012	1	20
@@ -532,7 +532,7 @@ Bank22-Slot16	Elemental Silk Boot Pattern	16389	1	6
 Bank22-Slot17	Ornate Silk Pant Pattern	16359	1	6
 Bank22-Slot18	Elemental Leather Pant Pattern	16381	1	6
 Bank22-Slot19	Ornate Breastplate Mold	16346	1	6
-Bank22-Slot20	Ornate Breastplate Mold	16346	1	6
+Bank22-Slot20	Empty	0	0	0
 Bank23	Large Bank Box	976012	1	20
 Bank23-Slot1	Ornate Chain Pant Pattern	16295	1	6
 Bank23-Slot2	Elemental Chain Glove Pattern	16366	1	6

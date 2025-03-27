@@ -38,10 +38,10 @@ General1-Slot4	Song: Warsong of Zek	28484	1	6
 General1-Slot5	Spell: Armor of the Zealot	28565	2	6
 General1-Slot6	Spell: Aspect of the Reptile	17728	2	6
 General1-Slot7	Spell: Aura of Hate	26927	3	6
-General1-Slot8	Spell: Aura of Pain	26922	2	6
+General1-Slot8	Spell: Aura of Pain	26922	1	6
 General1-Slot9	Spell: Belt of Magi'Kot	21641	1	6
 General1-Slot10	Spell: Blade of the Kedge	21644	1	6
-General1-Slot11	Spell: Blood of Hate	21633	1	6
+General1-Slot11	Empty	0	0	0
 General1-Slot12	Spell: Burning Sand	59639	1	6
 General1-Slot13	Spell: Call of the Arch Mage	16342	3	6
 General1-Slot14	Spell: Destroy Summoned	21659	1	6
@@ -58,7 +58,7 @@ General1-Slot24	Spell: Night's Dark Terror	21666	1	6
 General1-Slot25	Spell: Planar Renewal	21668	1	6
 General1-Slot26	Spell: Resistant Armor	28437	1	6
 General1-Slot27	Spell: Shield of Maelin	28415	7	6
-General1-Slot28	Spell: Sound of Might	28573	1	6
+General1-Slot28	Empty	0	0	0
 General1-Slot29	Spell: Spiritual Vigor	28547	8	6
 General1-Slot30	Spell: Talisman of Return	21646	1	6
 General2	Large Bank Box	976012	1	20
@@ -151,7 +151,7 @@ General6-Slot2	Song: Tuyen's Chant of Venom	28480	1	6
 General6-Slot3	Song: Tuyen's Chant of the Plague	28473	1	6
 General6-Slot4	Spell: Agnarr's Thunder	28446	2	6
 General6-Slot5	Spell: Pact of Hate	21632	1	6
-General6-Slot6	Spell: Shroud of Chaos	21651	1	6
+General6-Slot6	Empty	0	0	0
 General6-Slot7	Spell: Tears of Arlyxir	26940	2	6
 General6-Slot8	Empty	0	0	0
 General6-Slot9	Empty	0	0	0
