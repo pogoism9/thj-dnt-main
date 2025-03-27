@@ -1,9 +1,8 @@
 <mat-card class="spaced-card" appearance="outlined">
     <mat-card-content class="center-text bold-text">
-        <mat-card-title>Last Updated: {{ lastModified | date: 'medium' }}</mat-card-title>
+        <mat-card-title>Last Updated: {{ lastModifiedDisplay }}</mat-card-title>
     </mat-card-content>
 </mat-card>
-
 
 <mat-tab-group animationDuration="0ms">
     <mat-tab *ngFor="let tab of bankData | keyvalue">

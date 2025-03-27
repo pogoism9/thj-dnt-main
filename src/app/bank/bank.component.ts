@@ -22,11 +22,13 @@ import { collection, collectionData, Firestore } from '@angular/fire/firestore';
 export class BankComponent {
     private firestore = inject(Firestore);
     private item$: Observable<any[]>;
+    private _date: Date = new Date();
+    private _interval: any;
     public bankData: Map<BankCategory, BankEntry[]> = new Map<BankCategory, BankEntry[]>();
     public lastModified: Date | null = null;
-    public currentDateTime: Date = new Date();
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
+    public lastModifiedDisplay: string = '';
 
     public getClasses(category: BankCategory): PlayerClass[] {
         let base = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
@@ -38,13 +40,39 @@ export class BankComponent {
     constructor(private _http: HttpClient) {
         const itemCollection = collection(this.firestore, 'items');
         this.item$ = collectionData(itemCollection);
+        this._interval = setInterval(() => {
+            this._date = new Date();
+            const diffInMilliseconds = this._date.getTime() - this.lastModified!.getTime();
+            const diffInMinutes = Math.floor(diffInMilliseconds / (1000 * 60));
+            const diffInHours = Math.floor(diffInMilliseconds / (1000 * 60 * 60));
+            const diffInDays = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
+            const parts: string[] = [];
+            if (diffInDays > 0) {
+                parts.push(`${diffInDays} days`);
+            }
+            if (diffInHours % 24 > 0) {
+                parts.push(`${diffInHours % 24} hours`);
+            }
+            if (diffInMinutes % 60 > 0) {
+                parts.push(`${diffInMinutes % 60} minutes`);
+            }
+            this.lastModifiedDisplay = `${parts.join(', ')} ago`;
+        }, 1000);
     }
 
+    ngOnDestroy(): void {
+        clearInterval(this._interval);
+    }
     ngOnInit(): void {
         this.item$.subscribe((rawData) => {
             rawData.forEach((itemPayload) => {
                 const name = itemPayload.name;
                 const data = itemPayload.data;
+                const rawDate = itemPayload.date;
+                const date = rawDate ? new Date(rawDate) : null;
+                if (date && (!this.lastModified || this.lastModified < date)) {
+                    this.lastModified = date;
+                }
                 // Remove the first 3 characters (dnt)
                 // Split on -, get the first index ('bank' vs 'craft')
                 const category = name.substring(3).split('-')[0];
