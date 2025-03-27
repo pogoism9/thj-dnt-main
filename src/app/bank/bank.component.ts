@@ -1,5 +1,5 @@
 import { HttpClient, HttpResponse } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { outputFileToJson } from '../@shared/utils';
 import { BankEntry } from '../@shared/@models/bank-entry.type';
 import { CommonModule } from '@angular/common';
@@ -11,6 +11,8 @@ import { PlayerClass } from '../@shared/@enums/player-class.enum';
 import { itemIdToPlayerClassMap } from '../@shared/epic-utils';
 import { spellIdToPlayerClassMap } from '../@shared/spell-utils';
 import { BankCategory } from '../@shared/@enums/bank-category.enum';
+import { Observable } from 'rxjs';
+import { collection, collectionData, Firestore } from '@angular/fire/firestore';
 @Component({
     selector: 'ariza-bank',
     imports: [CommonModule, MatListModule, MatTabsModule, MatCardModule],
@@ -18,12 +20,13 @@ import { BankCategory } from '../@shared/@enums/bank-category.enum';
     styleUrl: './bank.component.scss',
 })
 export class BankComponent {
+    private firestore = inject(Firestore);
+    private item$: Observable<any[]>;
     public bankData: Map<BankCategory, BankEntry[]> = new Map<BankCategory, BankEntry[]>();
     public lastModified: Date | null = null;
     public currentDateTime: Date = new Date();
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
-
 
     public getClasses(category: BankCategory): PlayerClass[] {
         let base = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
@@ -32,44 +35,26 @@ export class BankComponent {
         }
         return base;
     }
-    constructor(private _http: HttpClient) {}
+    constructor(private _http: HttpClient) {
+        const itemCollection = collection(this.firestore, 'items');
+        this.item$ = collectionData(itemCollection);
+    }
 
     ngOnInit(): void {
-        const targetFiles = [
-            'Dntbank-Inventory.txt',
-            'Dntcraft-Inventory.txt',
-            'Dntdoze-Inventory.txt',
-            'Dntepics-Inventory.txt',
-            'Dntspells-Inventory.txt',
-        ];
-
-        targetFiles.forEach((file) => {
-            this._http
-                .get(`assets/${file}`, {
-                    responseType: 'text',
-                    observe: 'response',
-                })
-                .subscribe((response: HttpResponse<string>) => {
-                    const data = response.body;
-                    const fileLastModified = response.headers.get('Last-Modified');
-
-                    if (data) {
-                        const category = file.substring(3).split('-')[0]; // Remove the first 3 characters
-                        let processedData: BankEntry[] = outputFileToJson(data);
-                        processedData = processedData.sort((a, b) => a.name.localeCompare(b.name));
-                        const categoryEnum = Object.values(BankCategory).find(
-                            (value) => value.toLowerCase() === category.toLowerCase()
-                        ) as BankCategory;
-                        this._processData(processedData, categoryEnum);
-                        this.bankData.set(categoryEnum, processedData);
-                    }
-
-                    if (fileLastModified) {
-                        if (this.lastModified === null || this.lastModified < new Date(fileLastModified)) {
-                            this.lastModified = new Date(fileLastModified);
-                        }
-                    }
-                });
+        this.item$.subscribe((rawData) => {
+            rawData.forEach((itemPayload) => {
+                const name = itemPayload.name;
+                const data = itemPayload.data;
+                // Remove the first 3 characters (dnt)
+                // Split on -, get the first index ('bank' vs 'craft')
+                const category = name.substring(3).split('-')[0];
+                let processedData: BankEntry[] = outputFileToJson(data).sort((a, b) => a.name.localeCompare(b.name));
+                const categoryEnum = Object.values(BankCategory).find(
+                    (value) => value.toLowerCase() === category.toLowerCase()
+                ) as BankCategory;
+                this._processData(processedData, categoryEnum);
+                this.bankData.set(categoryEnum, processedData);
+            });
         });
     }
 

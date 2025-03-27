@@ -10,6 +10,7 @@ interface Item {
 }
 
 interface BankData {
+    name: string;
     data: any;
 }
 
@@ -55,6 +56,7 @@ export class TestComponent {
                     // const split = str.split('\n');
                     // console.log('split: ',split);
                     const bankData: BankData = {
+                        name: file.name,
                         data: reader.result,
                     }
                     await setDoc(doc(this.firestore, 'items', file.name), bankData);
