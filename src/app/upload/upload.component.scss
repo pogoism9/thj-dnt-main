@@ -1,0 +1,11 @@
+.drag-drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s;
+}
