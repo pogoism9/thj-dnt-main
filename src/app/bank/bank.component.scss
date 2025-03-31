@@ -20,3 +20,12 @@
     width: 450px;
     margin: 16px;
 }
+
+.spaced-input {
+    margin: 16px 0;
+}
+
+.bank-content {
+    max-height: calc(100vh - 200px); /* Adjust based on your sticky header height */
+    overflow-y: auto;
+}

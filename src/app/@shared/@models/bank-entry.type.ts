@@ -1,4 +1,4 @@
-import { PlayerClass } from "../@enums/player-class.enum";
+import { ItemSlot } from "../@enums/item-slot.enum";
 
 export type BankEntry = {
     location: string;
@@ -7,4 +7,6 @@ export type BankEntry = {
     count: number;
     slots: number;
     baseId: number;
+    // This can be multiple slots, so we are using a bitmask to represent it
+    itemSlot: number;
 }
