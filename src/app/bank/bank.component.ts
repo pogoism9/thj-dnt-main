@@ -255,25 +255,4 @@ export class BankComponent {
             this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
         }
     }
-
-    public getCategoryItemsByClass(playerClass: PlayerClass, category: BankCategory = BankCategory.Epics): Array<BankEntry> {
-        // console.log('getCategoryItemsByClass', playerClass, category);
-        return this._classCategoryDataToBankEntryMap.get(category)?.get(playerClass) || [];
-    }
-
-    public getItemsBySlot = (itemSlot: ItemSlot): Array<BankEntry> => {
-        console.log('getItemsBySlot', itemSlot);
-        // return this._classCategoryDataToBankEntryMap.get(BankCategory.Items)?.get(itemSlot) || [];
-        let filtered: BankEntry[] = [];
-        if (this._bankData$.value.has(BankCategory.Items)) {
-            const items = this._bankData$.value.get(BankCategory.Items)!;
-            filtered = items.filter((item) => item.itemSlot & itemSlot);
-        }
-        return filtered;
-    };
-
-    public getItemSlotEnumName = (itemSlot: ItemSlot): string => {
-        const key = ItemSlot[itemSlot];
-        return key ? key : 'Unknown';
-    };
 }
