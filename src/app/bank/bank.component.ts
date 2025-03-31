@@ -1,72 +1,167 @@
-import { HttpClient, HttpResponse } from '@angular/common/http';
-import { Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { outputFileToJson } from '../@shared/utils';
 import { BankEntry } from '../@shared/@models/bank-entry.type';
 import { CommonModule } from '@angular/common';
 import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
-// import { processEpicData } from '../@shared/epic-utils';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { PlayerClass } from '../@shared/@enums/player-class.enum';
 import { itemIdToPlayerClassMap } from '../@shared/epic-utils';
 import { spellIdToPlayerClassMap } from '../@shared/spell-utils';
-import { BankCategory } from '../@shared/@enums/bank-category.enum';
-import { Observable } from 'rxjs';
+import { BankCategory, getCategory } from '../@shared/@enums/bank-category.enum';
+import { BehaviorSubject, interval, Observable, Subscription } from 'rxjs';
 import { collection, collectionData, Firestore } from '@angular/fire/firestore';
+import { ItemSlot } from '../@shared/@enums/item-slot.enum';
+import { getDisplayDeltaFromDate } from '../@shared/utils/date-utils';
+import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 @Component({
     selector: 'ariza-bank',
-    imports: [CommonModule, MatListModule, MatTabsModule, MatCardModule],
+    imports: [
+        CommonModule,
+        MatListModule,
+        MatTabsModule,
+        MatCardModule,
+        FormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        ReactiveFormsModule,
+    ],
     templateUrl: './bank.component.html',
     styleUrl: './bank.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BankComponent {
+    private _searchText$ = new BehaviorSubject<string>('');
+    private searchSubscription: Subscription | undefined;
+    onSearchChange($event: Event) {
+        const input = $event.target as HTMLInputElement;
+        const value = input.value;
+        console.log('onSearchChange', value);
+        this._searchText$.next(value);
+        // throw new Error('Method not implemented.');
+    }
+
     private firestore = inject(Firestore);
     private item$: Observable<any[]>;
-    private _date: Date = new Date();
-    private _interval: any;
-    public bankData: Map<BankCategory, BankEntry[]> = new Map<BankCategory, BankEntry[]>();
-    public lastModified: Date | null = null;
+
+    //#region Bank Data
+    private _bankData$: BehaviorSubject<Map<BankCategory, BankEntry[]>> = new BehaviorSubject<Map<BankCategory, BankEntry[]>>(
+        new Map<BankCategory, BankEntry[]>()
+    );
+    public bankData$: Observable<Map<BankCategory, BankEntry[]>> = this._bankData$.asObservable();
+    //#endregion
+
+    //#region lastModified
+    private lastModifiedSubscription: Subscription;
+
+    // Tracks the last modified date of the uploaded files
+    private lastModified: Date | null = null;
+    private readonly _lastModifiedDisplay$: BehaviorSubject<string> = new BehaviorSubject<string>('');
+    public lastModifiedDisplay$: Observable<string> = this._lastModifiedDisplay$.asObservable();
+    //#endregion
+
+    /**
+     * Enums for reference in the template
+     */
+    //#region Enums
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
-    public lastModifiedDisplay: string = '';
+    public ItemSlot = ItemSlot;
+    //#endregion
+
+    public itemSlots: ItemSlot[] = (Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
+        ItemSlot[a].localeCompare(ItemSlot[b])
+    );
+
+    public _classesMap$: BehaviorSubject<Map<BankCategory, PlayerClass[]>> = new BehaviorSubject<Map<BankCategory, PlayerClass[]>>(
+        new Map<BankCategory, PlayerClass[]>()
+    );
+    public classesMap$: Observable<Map<BankCategory, PlayerClass[]>> = this._classesMap$.asObservable();
+
+    private _playerClasses: PlayerClass[] = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
 
     public getClasses(category: BankCategory): PlayerClass[] {
-        let base = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
+        console.log('getClasses', category);
+        let playerClasses = this._playerClasses;
         if (category !== BankCategory.Epics) {
-            base = base.filter((playerClass) => !['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass)) as PlayerClass[];
+            playerClasses = playerClasses.filter(
+                (playerClass) => !['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass)
+            ) as PlayerClass[];
         }
-        return base;
-    }
-    constructor(private _http: HttpClient) {
-        const itemCollection = collection(this.firestore, 'items');
-        this.item$ = collectionData(itemCollection);
-        this._interval = setInterval(() => {
-            this._date = new Date();
-            if (this.lastModified) {
-                const diffInMilliseconds = this._date.getTime() - this.lastModified!.getTime();
-                const diffInMinutes = Math.floor(diffInMilliseconds / (1000 * 60));
-                const diffInHours = Math.floor(diffInMilliseconds / (1000 * 60 * 60));
-                const diffInDays = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
-                const parts: string[] = [];
-                if (diffInDays > 0) {
-                    parts.push(`${diffInDays} days`);
-                }
-                if (diffInHours % 24 > 0) {
-                    parts.push(`${diffInHours % 24} hours`);
-                }
-                if (diffInMinutes % 60 > 0) {
-                    parts.push(`${diffInMinutes % 60} minutes`);
-                }
-                this.lastModifiedDisplay = `${parts.join(', ')} ago`;
-            }
-        }, 1000);
+
+        return playerClasses;
     }
 
-    ngOnDestroy(): void {
-        clearInterval(this._interval);
+    private _itemSlotBankEntryMap$ = new BehaviorSubject<Map<ItemSlot, BankEntry[]>>(new Map<ItemSlot, BankEntry[]>());
+    public itemSlotBankEntryMap$ = this._itemSlotBankEntryMap$.asObservable();
+
+    constructor() {
+        const itemCollection = collection(this.firestore, 'items');
+        this.item$ = collectionData(itemCollection);
+
+        this.lastModifiedSubscription = interval(1000).subscribe(() => {
+            if (this.lastModified) {
+                const displayDeltaFromDate = getDisplayDeltaFromDate(this.lastModified);
+                this._lastModifiedDisplay$.next(displayDeltaFromDate);
+            }
+        });
     }
+
+    private resetValues = () => {
+        this.itemSlots = (Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
+            ItemSlot[a].localeCompare(ItemSlot[b])
+        );
+        // this._classCategoryDataToBankEntryMap$.next(new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>());
+        this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
+    }
+    ngOnDestroy(): void {
+        if (this.lastModifiedSubscription) {
+            this.lastModifiedSubscription.unsubscribe();
+        }
+    }
+
     ngOnInit(): void {
+        console.log('BankComponent initialized');
+
+        // Initialize our classMap
+        this._classesMap$.next(
+            new Map<BankCategory, PlayerClass[]>([
+                [BankCategory.Epics, this.getClasses(BankCategory.Epics)],
+                [BankCategory.Items, this.getClasses(BankCategory.Items)],
+                [BankCategory.Spells, this.getClasses(BankCategory.Spells)],
+            ])
+        );
+
+        // Initialize our bankData$
+        this.initializeBankData();
+
+        this.searchSubscription = this._searchText$
+            .pipe(
+                debounceTime(500),
+                distinctUntilChanged(),
+                switchMap((searchTerm) => {
+                    console.log('searchTerm', searchTerm);
+                    this.resetValues();
+                    this.initializeBankData(searchTerm);
+                    return this.bankData$;
+                })
+            )
+            .subscribe(() => {});
+    }
+    filterItems(searchTerm: any): any {
+        console.log('filterItems', searchTerm);
+        throw new Error('Method not implemented.');
+    }
+
+    public initializeBankData(filter: string | null = null): void {
+        // Initialize our bankData$
+        // this._bankData$.next(new Map<BankCategory, BankEntry[]>());
         this.item$.subscribe((rawData) => {
+            const bankData = new Map<BankCategory, BankEntry[]>();
+
             rawData.forEach((itemPayload) => {
                 const name = itemPayload.name;
                 const data = itemPayload.data;
@@ -78,54 +173,107 @@ export class BankComponent {
                 // Remove the first 3 characters (dnt)
                 // Split on -, get the first index ('bank' vs 'craft')
                 const category = name.substring(3).split('-')[0];
-                let processedData: BankEntry[] = outputFileToJson(data).sort((a, b) => a.name.localeCompare(b.name));
-                const categoryEnum = Object.values(BankCategory).find(
-                    (value) => value.toLowerCase() === category.toLowerCase()
-                ) as BankCategory;
+                const processedData: BankEntry[] = outputFileToJson(data, filter).sort((a, b) => a.name.localeCompare(b.name));
+                const categoryEnum = getCategory(category);
                 this._processData(processedData, categoryEnum);
-                this.bankData.set(categoryEnum, processedData);
+                bankData.set(categoryEnum, processedData);
             });
+            this._bankData$.next(bankData);
         });
     }
 
-    private _classCategoryDataToBankEntryMap: Map<string, Map<PlayerClass, Array<BankEntry>>> = new Map<
-        string,
-        Map<PlayerClass, Array<BankEntry>>
+    private _classCategoryDataToBankEntryMap$: BehaviorSubject<Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>> =
+        new BehaviorSubject<Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>>(
+            new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>()
+        );
+
+    public classCategoryDataToBankEntryMap$ = this._classCategoryDataToBankEntryMap$.asObservable();
+
+    // TODO: Remove this and use Observables instead
+    private _classCategoryDataToBankEntryMap: Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>> = new Map<
+        BankCategory,
+        Map<PlayerClass | ItemSlot, Array<BankEntry>>
     >();
-    private _get_classCategoryDataToBankEntryMap(category: string): Map<PlayerClass, Array<BankEntry>> {
-        if (this._classCategoryDataToBankEntryMap.get(category) === undefined) {
+    private _get_classCategoryDataToBankEntryMap(category: BankCategory): Map<PlayerClass | ItemSlot, Array<BankEntry>> {
+        if (!this._classCategoryDataToBankEntryMap.has(category)) {
             this._classCategoryDataToBankEntryMap.set(category, new Map<PlayerClass, Array<BankEntry>>());
         }
         return this._classCategoryDataToBankEntryMap.get(category)!;
     }
-    private _processData(processedData: BankEntry[], category: BankCategory = BankCategory.Epics) {
-        const classDataToBankEntryMap = this._get_classCategoryDataToBankEntryMap(category);
-        const classMappedData = category === BankCategory.Epics ? itemIdToPlayerClassMap() : spellIdToPlayerClassMap();
-        processedData.forEach((bankEntry) => {
-            const playerClasses = classMappedData.get(bankEntry.id) || classMappedData.get(bankEntry.baseId) || [PlayerClass.Unknown];
-            playerClasses.forEach((playerClass) => {
-                if (classDataToBankEntryMap.has(playerClass)) {
-                    const existingEntries = classDataToBankEntryMap.get(playerClass);
-                    if (existingEntries) {
+
+    private _processData(processedData: BankEntry[], category: BankCategory = BankCategory.Epics): void {
+        // Special post processing for Epics and Spells
+        if ([BankCategory.Epics, BankCategory.Spells].includes(category)) {
+            // classDataToBankEntryMap
+            const map: Map<PlayerClass | ItemSlot, Array<BankEntry>> = this._get_classCategoryDataToBankEntryMap(category);
+
+            const classMappedData = category === BankCategory.Epics ? itemIdToPlayerClassMap() : spellIdToPlayerClassMap();
+            processedData.forEach((bankEntry) => {
+                const playerClasses = classMappedData.get(bankEntry.id) || classMappedData.get(bankEntry.baseId) || [PlayerClass.Unknown];
+                playerClasses.forEach((playerClass) => {
+                    if (map.has(playerClass)) {
+                        const existingEntries = map.get(playerClass)!;
                         const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
                         if (existingEntry) {
                             existingEntry.count += bankEntry.count;
                         } else {
                             existingEntries.push(bankEntry);
                         }
+                    } else {
+                        map.set(playerClass, [bankEntry]);
+                    }
+                });
+            });
+
+            this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
+        } else if (category === BankCategory.Items) {
+            const _itemSlots = Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[];
+
+            const itemSlotBankEntryMap: Map<ItemSlot, BankEntry[]> = new Map<ItemSlot, BankEntry[]>(
+                _itemSlots.map((slot) => [slot, processedData.filter((item) => (item.itemSlot & slot) !== 0)])
+            );
+
+            this.itemSlots = this.itemSlots.filter((slot) => itemSlotBankEntryMap.get(slot)?.length);
+
+            this._itemSlotBankEntryMap$.next(itemSlotBankEntryMap);
+
+            const map: Map<PlayerClass | ItemSlot, Array<BankEntry>> = this._get_classCategoryDataToBankEntryMap(category);
+            processedData.forEach((bankEntry) => {
+                const itemSlot = bankEntry.itemSlot;
+                if (map.has(itemSlot)) {
+                    const existingEntries: BankEntry[] = map.get(itemSlot)!;
+                    const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
+                    if (existingEntry) {
+                        existingEntry.count += bankEntry.count;
+                    } else {
+                        existingEntries.push(bankEntry);
                     }
                 } else {
-                    classDataToBankEntryMap.set(playerClass, [bankEntry]);
+                    map.set(itemSlot, [bankEntry]);
                 }
             });
-        });
-    }
-
-    public getDataByClass(playerClass: PlayerClass, category: BankCategory = BankCategory.Epics): Array<BankEntry> {
-        return this._classCategoryDataToBankEntryMap.get(category)?.get(playerClass) || [];
+            this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
+        }
     }
 
     public getCategoryItemsByClass(playerClass: PlayerClass, category: BankCategory = BankCategory.Epics): Array<BankEntry> {
-        return this.getDataByClass(playerClass, category);
+        // console.log('getCategoryItemsByClass', playerClass, category);
+        return this._classCategoryDataToBankEntryMap.get(category)?.get(playerClass) || [];
     }
+
+    public getItemsBySlot = (itemSlot: ItemSlot): Array<BankEntry> => {
+        console.log('getItemsBySlot', itemSlot);
+        // return this._classCategoryDataToBankEntryMap.get(BankCategory.Items)?.get(itemSlot) || [];
+        let filtered: BankEntry[] = [];
+        if (this._bankData$.value.has(BankCategory.Items)) {
+            const items = this._bankData$.value.get(BankCategory.Items)!;
+            filtered = items.filter((item) => item.itemSlot & itemSlot);
+        }
+        return filtered;
+    };
+
+    public getItemSlotEnumName = (itemSlot: ItemSlot): string => {
+        const key = ItemSlot[itemSlot];
+        return key ? key : 'Unknown';
+    };
 }

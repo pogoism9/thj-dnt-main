@@ -1,7 +1,9 @@
+import { ItemIdToSlotMap } from './@data/item-id-to-slot.data';
 import { getBaseItemId } from './@enums/item-quality.enum';
+import { ItemSlot } from './@enums/item-slot.enum';
 import { BankEntry } from './@models/bank-entry.type';
 
-export function outputFileToJson(rawData: string): BankEntry[] {
+export function outputFileToJson(rawData: string, filterByName: string | null): BankEntry[] {
     // Split the raw data by new lines
     const lines = rawData.split('\n');
 
@@ -33,6 +35,9 @@ export function outputFileToJson(rawData: string): BankEntry[] {
         // Ensure the line has the expected number of columns
         if (columns.length === 5) {
             const [location, name, id, count, slots] = columns;
+            if (filterByName && !name.toLowerCase().includes(filterByName.toLowerCase())) 
+                continue;
+
             if (
                 +id === 0 ||
                 blacklistedItemIds.includes(+id) ||
@@ -48,13 +53,17 @@ export function outputFileToJson(rawData: string): BankEntry[] {
                     continue;
                 }
             } else {
+                const baseId = getBaseItemId(+id);
+                const itemSlot = ItemIdToSlotMap.has('' + baseId) ? ItemIdToSlotMap.get('' + baseId) ?? 0 : 0;
+
                 const bankEntry: BankEntry = {
                     location,
                     name,
                     id: +id,
                     count: +count,
                     slots: +slots,
-                    baseId: getBaseItemId(+id),
+                    baseId: baseId,
+                    itemSlot: itemSlot,
                 };
                 result.push(bankEntry);
             }
