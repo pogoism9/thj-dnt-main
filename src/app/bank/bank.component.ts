@@ -17,6 +17,7 @@ import { ItemSlot } from '../@shared/@enums/item-slot.enum';
 import { getDisplayDeltaFromDate } from '../@shared/utils/date-utils';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
+import { ActivatedRoute } from '@angular/router';
 @Component({
     selector: 'ariza-bank',
     imports: [
@@ -116,14 +117,33 @@ export class BankComponent {
         );
         // this._classCategoryDataToBankEntryMap$.next(new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>());
         this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
-    }
+    };
     ngOnDestroy(): void {
         if (this.lastModifiedSubscription) {
             this.lastModifiedSubscription.unsubscribe();
         }
+        if (this.searchSubscription) {
+            this.searchSubscription.unsubscribe();
+        }
     }
 
+    private route = inject(ActivatedRoute);
+    private _aprilFools = new BehaviorSubject<boolean>(false);
+    public aprilFools$ = this._aprilFools.asObservable();
     ngOnInit(): void {
+        const aprilFools = !this.route.snapshot.queryParams['april'];
+        this._aprilFools.next(aprilFools);
+
+        // this.route.queryParams.subscribe((params) => {
+        //     console.log('Query Params:', params);
+        //     const search = params['search'];
+        //     if (search) {
+        //         this._searchText$.next(search);
+        //     }
+        // });
+
+        // Existing initialization code
+
         console.log('BankComponent initialized');
 
         // Initialize our classMap

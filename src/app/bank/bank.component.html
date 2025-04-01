@@ -1,67 +1,60 @@
-<mat-card class="spaced-card" appearance="outlined">
-    <mat-card-content class="center-text bold-text">
-        <mat-card-title>Last Updated: {{ lastModifiedDisplay$ | async }}</mat-card-title>
-        <mat-form-field appearance="fill" class="spaced-input">
-            <mat-label>Search</mat-label>
-            <input matInput placeholder="Enter search term" (input)="onSearchChange($event)" />
-        </mat-form-field>
-    </mat-card-content>
-</mat-card>
+<div [ngClass]="{ 'upside-down': (aprilFools$ | async) }">
+    <mat-card class="spaced-card" appearance="outlined">
+        <mat-card-content class="center-text bold-text">
+            <mat-card-title>Last Updated: {{ lastModifiedDisplay$ | async }}</mat-card-title>
+            <mat-form-field appearance="fill" class="spaced-input">
+                <mat-label>Search</mat-label>
+                <input matInput placeholder="Enter search term" (input)="onSearchChange($event)" />
+            </mat-form-field>
+        </mat-card-content>
+    </mat-card>
 
-<mat-tab-group animationDuration="0ms">
-    <mat-tab *ngFor="let tab of bankData$ | async | keyvalue">
-        <ng-template mat-tab-label>
-            {{ tab.key | titlecase }}
-        </ng-template>
-        <div class="bank-content">
-            <div class="card-container" *ngIf="tab.key === BankCategory.Epics || tab.key === BankCategory.Spells; else elseIfItem">
-                <mat-card 
-                    *ngFor="let class of (classesMap$ | async)?.get(tab.key);" 
-                    class="spaced-card" 
-                    appearance="outlined"
-                >
-                    <mat-card-content class="center-text bold-text">
-                        <mat-card-title>{{ class }}</mat-card-title>
-                        <mat-list>
-                            <mat-list-item *ngFor="let item of (classCategoryDataToBankEntryMap$ | async)?.get(tab.key)?.get(class)">
-                                <h3 matLine>
-                                    <a href="https://www.thjdi.cc/item/{{item.id}}">{{ item.name }}</a> ({{ item.count }})
-                                </h3>
-                            </mat-list-item>
-                        </mat-list>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-            <ng-template #elseIfItem>
-                <div *ngIf="tab.key === BankCategory.Items; else others">
-                    <mat-card 
-                    *ngFor="let itemSlot of itemSlots" 
-                    class="spaced-card" 
-                    appearance="outlined"
-                >
-
-                    <mat-card-content class="center-text bold-text">
-                        <mat-card-title>{{ ItemSlot[itemSlot] }}</mat-card-title>
-                        <mat-list>
-                            <mat-list-item *ngFor="let item of (itemSlotBankEntryMap$ | async)?.get(itemSlot)">
-                                <h3 matLine>
-                                    <a href="https://www.thjdi.cc/item/{{item.id}}">{{ item.name }}</a> ({{ item.count }})
-                                </h3>
-                            </mat-list-item>
-                        </mat-list>
-                    </mat-card-content>
-                </mat-card>
+    <mat-tab-group animationDuration="0ms">
+        <mat-tab *ngFor="let tab of bankData$ | async | keyvalue">
+            <ng-template mat-tab-label>
+                {{ tab.key | titlecase }}
+            </ng-template>
+            <div class="bank-content">
+                <div class="card-container" *ngIf="tab.key === BankCategory.Epics || tab.key === BankCategory.Spells; else elseIfItem">
+                    <mat-card *ngFor="let class of (classesMap$ | async)?.get(tab.key)" class="spaced-card" appearance="outlined">
+                        <mat-card-content class="center-text bold-text">
+                            <mat-card-title>{{ class }}</mat-card-title>
+                            <mat-list>
+                                <mat-list-item *ngFor="let item of (classCategoryDataToBankEntryMap$ | async)?.get(tab.key)?.get(class)">
+                                    <h3 matLine>
+                                        <a href="https://www.thjdi.cc/item/{{ item.id }}">{{ item.name }}</a> ({{ item.count }})
+                                    </h3>
+                                </mat-list-item>
+                            </mat-list>
+                        </mat-card-content>
+                    </mat-card>
                 </div>
-            </ng-template>
-            <ng-template #others>
-                <mat-list>
-                    <mat-list-item *ngFor="let item of tab.value">
-                        <h3 matLine>
-                            <a href="https://www.thjdi.cc/item/{{item.id}}">{{ item.name }}</a> ({{ item.count }})
-                        </h3>
-                    </mat-list-item>
-                </mat-list>
-            </ng-template>
-        </div>
-    </mat-tab>
-</mat-tab-group>
+                <ng-template #elseIfItem>
+                    <div *ngIf="tab.key === BankCategory.Items; else others">
+                        <mat-card *ngFor="let itemSlot of itemSlots" class="spaced-card" appearance="outlined">
+                            <mat-card-content class="center-text bold-text">
+                                <mat-card-title>{{ ItemSlot[itemSlot] }}</mat-card-title>
+                                <mat-list>
+                                    <mat-list-item *ngFor="let item of (itemSlotBankEntryMap$ | async)?.get(itemSlot)">
+                                        <h3 matLine>
+                                            <a href="https://www.thjdi.cc/item/{{ item.id }}">{{ item.name }}</a> ({{ item.count }})
+                                        </h3>
+                                    </mat-list-item>
+                                </mat-list>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                </ng-template>
+                <ng-template #others>
+                    <mat-list>
+                        <mat-list-item *ngFor="let item of tab.value">
+                            <h3 matLine>
+                                <a href="https://www.thjdi.cc/item/{{ item.id }}">{{ item.name }}</a> ({{ item.count }})
+                            </h3>
+                        </mat-list-item>
+                    </mat-list>
+                </ng-template>
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+</div>
