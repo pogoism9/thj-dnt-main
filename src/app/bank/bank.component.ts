@@ -40,7 +40,6 @@ export class BankComponent {
     onSearchChange($event: Event) {
         const input = $event.target as HTMLInputElement;
         const value = input.value;
-        console.log('onSearchChange', value);
         this._searchText$.next(value);
         // throw new Error('Method not implemented.');
     }
@@ -73,9 +72,9 @@ export class BankComponent {
     public ItemSlot = ItemSlot;
     //#endregion
 
-    public itemSlots: ItemSlot[] = (Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
-        ItemSlot[a].localeCompare(ItemSlot[b])
-    );
+    public Object = Object;
+    private _itemSlots$: BehaviorSubject<ItemSlot[]> = new BehaviorSubject<ItemSlot[]>([]);
+    public itemSlots$: Observable<ItemSlot[]> = this._itemSlots$.asObservable();
 
     public _classesMap$: BehaviorSubject<Map<BankCategory, PlayerClass[]>> = new BehaviorSubject<Map<BankCategory, PlayerClass[]>>(
         new Map<BankCategory, PlayerClass[]>()
@@ -85,7 +84,6 @@ export class BankComponent {
     private _playerClasses: PlayerClass[] = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
 
     public getClasses(category: BankCategory): PlayerClass[] {
-        console.log('getClasses', category);
         let playerClasses = this._playerClasses;
         if (category !== BankCategory.Epics) {
             playerClasses = playerClasses.filter(
@@ -112,9 +110,8 @@ export class BankComponent {
     }
 
     private resetValues = () => {
-        this.itemSlots = (Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
-            ItemSlot[a].localeCompare(ItemSlot[b])
-        );
+        this._itemSlots$.next((Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
+            ItemSlot[a].localeCompare(ItemSlot[b])));
         // this._classCategoryDataToBankEntryMap$.next(new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>());
         this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
     };
@@ -131,18 +128,9 @@ export class BankComponent {
     private _aprilFools = new BehaviorSubject<boolean>(false);
     public aprilFools$ = this._aprilFools.asObservable();
     ngOnInit(): void {
+        // Existing initialization code
         const aprilFools = !this.route.snapshot.queryParams['april'];
         this._aprilFools.next(aprilFools);
-
-        // this.route.queryParams.subscribe((params) => {
-        //     console.log('Query Params:', params);
-        //     const search = params['search'];
-        //     if (search) {
-        //         this._searchText$.next(search);
-        //     }
-        // });
-
-        // Existing initialization code
 
         console.log('BankComponent initialized');
 
@@ -163,17 +151,12 @@ export class BankComponent {
                 debounceTime(500),
                 distinctUntilChanged(),
                 switchMap((searchTerm) => {
-                    console.log('searchTerm', searchTerm);
                     this.resetValues();
                     this.initializeBankData(searchTerm);
                     return this.bankData$;
                 })
             )
             .subscribe(() => {});
-    }
-    filterItems(searchTerm: any): any {
-        console.log('filterItems', searchTerm);
-        throw new Error('Method not implemented.');
     }
 
     public initializeBankData(filter: string | null = null): void {
@@ -250,10 +233,10 @@ export class BankComponent {
             const _itemSlots = Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[];
 
             const itemSlotBankEntryMap: Map<ItemSlot, BankEntry[]> = new Map<ItemSlot, BankEntry[]>(
-                _itemSlots.map((slot) => [slot, processedData.filter((item) => (item.itemSlot & slot) !== 0)])
+                _itemSlots.map((slot) => [slot, processedData.filter((item) => (slot === 0 && item.itemSlot === 0) || (item.itemSlot & slot) !== 0)])
             );
 
-            this.itemSlots = this.itemSlots.filter((slot) => itemSlotBankEntryMap.get(slot)?.length);
+            this._itemSlots$.next(this._itemSlots$.value.filter((slot) => itemSlotBankEntryMap.get(slot)?.length));
 
             this._itemSlotBankEntryMap$.next(itemSlotBankEntryMap);
 

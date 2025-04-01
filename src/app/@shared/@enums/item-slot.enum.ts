@@ -17,4 +17,6 @@ export enum ItemSlot {
     Range =     0x4000,
     Ammo =      0x8000,
     Charm =     0x10000,
+    Finger =    0x20000,
+    Ear =       0x40000,
 }

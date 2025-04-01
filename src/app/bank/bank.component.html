@@ -29,9 +29,10 @@
                         </mat-card-content>
                     </mat-card>
                 </div>
+                
                 <ng-template #elseIfItem>
-                    <div *ngIf="tab.key === BankCategory.Items; else others">
-                        <mat-card *ngFor="let itemSlot of itemSlots" class="spaced-card" appearance="outlined">
+                    <div class="card-container" *ngIf="tab.key === BankCategory.Items; else others">
+                        <mat-card *ngFor="let itemSlot of itemSlots$ | async" class="spaced-card" appearance="outlined">
                             <mat-card-content class="center-text bold-text">
                                 <mat-card-title>{{ ItemSlot[itemSlot] }}</mat-card-title>
                                 <mat-list>
