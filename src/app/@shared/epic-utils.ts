@@ -9,7 +9,6 @@ export const bardEpicItemIds = [
     20525, // Petrified Werewolf Skull
     11622, // Red Dragon Scales
     20528, // Red Wyrm Gut
-    6478, // Undead Dragon Sinew
     11602, // White Dragon Scales
     20530, // Alluring Horn
     5520, // Amygdalan Tendril
