@@ -124,14 +124,8 @@ export class BankComponent {
         }
     }
 
-    private route = inject(ActivatedRoute);
-    private _aprilFools = new BehaviorSubject<boolean>(false);
-    public aprilFools$ = this._aprilFools.asObservable();
     ngOnInit(): void {
         // Existing initialization code
-        const aprilFools = !this.route.snapshot.queryParams['april'];
-        this._aprilFools.next(aprilFools);
-
         console.log('BankComponent initialized');
 
         // Initialize our classMap
