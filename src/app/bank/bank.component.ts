@@ -157,6 +157,7 @@ export class BankComponent {
         // Initialize our bankData$
         // this._bankData$.next(new Map<BankCategory, BankEntry[]>());
         this.item$.subscribe((rawData) => {
+            this._classCategoryDataToBankEntryMap.clear();
             const bankData = new Map<BankCategory, BankEntry[]>();
 
             rawData.forEach((itemPayload) => {
