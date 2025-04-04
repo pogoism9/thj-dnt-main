@@ -14,7 +14,7 @@ export const getDisplayDeltaFromDate = (date: Date): string => {
     if (diffInMinutes % 60 > 0) {
         parts.push(`${diffInMinutes % 60} minutes`);
     }
-    if (diffInSeconds % 60 > 0) {
+    if (!(diffInMinutes % 60 > 0) && diffInSeconds % 60 > 0) {
         parts.push(`${diffInSeconds % 60} seconds`);
     }
     return `${parts.join(', ')} ago`;
