@@ -3,7 +3,7 @@ import { getBaseItemId } from './@enums/item-quality.enum';
 import { ItemSlot } from './@enums/item-slot.enum';
 import { BankEntry } from './@models/bank-entry.type';
 
-export function outputFileToJson(rawData: string, filterByName: string | null): BankEntry[] {
+export function outputFileToJson(rawData: string, filterByName: string | null, skipSharedSlots: boolean = true): BankEntry[] {
     // Split the raw data by new lines
     const lines = rawData.split('\n');
 
@@ -35,16 +35,20 @@ export function outputFileToJson(rawData: string, filterByName: string | null): 
         // Ensure the line has the expected number of columns
         if (columns.length === 5) {
             const [location, name, id, count, slots] = columns;
+            const isSharedBank = location.startsWith('SharedBank');
             if (filterByName && !name.toLowerCase().includes(filterByName.toLowerCase())) 
                 continue;
 
             if (
                 +id === 0 ||
                 blacklistedItemIds.includes(+id) ||
-                blacklistedItemLocations.includes(location) ||
-                location.startsWith('SharedBank')
+                blacklistedItemLocations.includes(location)
             )
                 continue;
+
+            if (isSharedBank && skipSharedSlots) {
+                continue;
+            }
 
             if (result.some((entry) => entry.id === +id)) {
                 const existingEntry = result.find((entry) => entry.id === +id);

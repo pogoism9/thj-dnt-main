@@ -156,6 +156,7 @@ export class BankComponent {
     public initializeBankData(filter: string | null = null): void {
         // Initialize our bankData$
         // this._bankData$.next(new Map<BankCategory, BankEntry[]>());
+        let hasProcessedSharedBank = false;
         this.item$.subscribe((rawData) => {
             this._classCategoryDataToBankEntryMap.clear();
             const bankData = new Map<BankCategory, BankEntry[]>();
@@ -171,7 +172,8 @@ export class BankComponent {
                 // Remove the first 3 characters (dnt)
                 // Split on -, get the first index ('bank' vs 'craft')
                 const category = name.substring(3).split('-')[0];
-                const processedData: BankEntry[] = outputFileToJson(data, filter).sort((a, b) => a.name.localeCompare(b.name));
+                const processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank).sort((a, b) => a.name.localeCompare(b.name));
+                hasProcessedSharedBank = true;
                 const categoryEnum = getCategory(category);
                 this._processData(processedData, categoryEnum);
                 bankData.set(categoryEnum, processedData);
