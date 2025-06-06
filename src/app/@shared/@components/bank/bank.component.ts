@@ -4,14 +4,27 @@ import { CommonModule } from '@angular/common';
 import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatCheckboxChange } from '@angular/material/checkbox';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { BehaviorSubject, interval, Observable, Subscription } from 'rxjs';
+import { MatButtonModule } from '@angular/material/button';
+import { BehaviorSubject, interval, Observable, Subscription, combineLatest } from 'rxjs';
 import { Firestore } from '@angular/fire/firestore';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, switchMap, map } from 'rxjs/operators';
 import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson } from '@utils/index';
-import { BankCategory, getCategory, ItemSlot, PlayerClass } from '@enums/index';
+import { BankCategory, getCategory, ItemSlot, PlayerClass, AugSource } from '@enums/index';
+import { ItemIdsByClass } from '@interfaces/itemIds-by-class.interface';
+import itemIdsByClassJson from '../../../../assets/item-ids-by-class.json';
+
+const itemIdsByClass: ItemIdsByClass = itemIdsByClassJson;
+
+interface FilterStates {
+    hideNormal: boolean;
+    hideEnchanted: boolean;
+    hideLegendary: boolean;
+}
 
 @Component({
     selector: 'ariza-bank',
@@ -24,6 +37,8 @@ import { BankCategory, getCategory, ItemSlot, PlayerClass } from '@enums/index';
         MatFormFieldModule,
         MatInputModule,
         ReactiveFormsModule,
+        MatButtonModule,
+        MatCheckboxModule
     ],
     templateUrl: './bank.component.html',
     styleUrl: './bank.component.scss',
@@ -33,14 +48,121 @@ export class BankComponent {
     
     private _searchText$ = new BehaviorSubject<string>('');
     private searchSubscription: Subscription | undefined;
+    
+    // Filter states for checkboxes
+    private _filterStates$ = new BehaviorSubject<FilterStates>({
+        hideNormal: false,
+        hideEnchanted: false,
+        hideLegendary: false,
+    });
+    public filterStates$ = this._filterStates$.asObservable();
+
+    // Available filter options for the template
+    public availableFilters = [
+        { key: 'hideNormal' as keyof FilterStates, label: 'Hide Normal' },
+        { key: 'hideEnchanted' as keyof FilterStates, label: 'Hide Enchanted' },
+        { key: 'hideLegendary' as keyof FilterStates, label: 'Hide Legendary' }
+    ];
+
     onSearchChange($event: Event) {
         const input = $event.target as HTMLInputElement;
         const value = input.value;
         this._searchText$.next(value);
     }
 
+    // Methods for filter buttons
+    isFilterSelected(filterKey: keyof FilterStates): boolean {
+        return this._filterStates$.value[filterKey];
+    }
+
+    toggleFilter(filterKey: keyof FilterStates): void {
+        const currentFilters = this._filterStates$.value;
+        const updatedFilters = {
+            ...currentFilters,
+            [filterKey]: !currentFilters[filterKey]
+        };
+        this._filterStates$.next(updatedFilters);
+    }
+
+    onFilterChange(filterType: keyof FilterStates, event: MatCheckboxChange): void {
+        const currentFilters = this._filterStates$.value;
+        const updatedFilters = {
+            ...currentFilters,
+            [filterType]: event.checked
+        };
+        this._filterStates$.next(updatedFilters);
+    }
+
     private firestore = inject(Firestore);
     @Input() items: Observable<any[]> = new Observable<any[]>();
+
+//#region Class Filter
+    private _selectedClasses$ = new BehaviorSubject<Set<string>>(new Set(['All']));
+    public selectedClasses$ = this._selectedClasses$.asObservable();
+    
+    public availableClasses: string[] = [
+        ...Object.values(PlayerClass),
+        'All'
+    ].filter(ac => ac !== 'Unknown');
+    
+    public toggleClass(className: string): void {
+        const currentSelection = new Set(this._selectedClasses$.value);
+        
+        if (className === 'All') {
+            // If All is clicked, select only All
+            currentSelection.clear();
+            currentSelection.add('All');
+        } else {
+            // Remove 'All' if it's selected
+            currentSelection.delete('All');
+            
+            // Toggle the specific class
+            if (currentSelection.has(className)) {
+                currentSelection.delete(className);
+            } else {
+                currentSelection.add(className);
+            }
+            
+            // If no classes are selected, default to 'All'
+            if (currentSelection.size === 0) {
+                currentSelection.add('All');
+            }
+        }
+        
+        this._selectedClasses$.next(currentSelection);
+        
+        // Re-initialize bank data with current search term and class filter
+        const currentSearchTerm = this._searchText$.value;
+        this.resetValues();
+        this.initializeBankData(currentSearchTerm);
+    }
+    
+    public isClassSelected(className: string): boolean {
+        return this._selectedClasses$.value.has(className);
+    }
+    
+    private shouldIncludeItem(itemId: number): boolean {
+        const selectedClasses = this._selectedClasses$.value;
+        
+        // If 'All' is selected, include all items
+        if (selectedClasses.has('All')) {
+            return true;
+        }
+        if (itemIdsByClass['All'].includes(itemId)) {
+            return true;
+        }
+        
+        // Check if the item belongs to any of the selected classes
+        for (const className of selectedClasses) {
+            const classKey = className as keyof ItemIdsByClass;
+            if (itemIdsByClass[classKey] && itemIdsByClass[classKey].includes(itemId)) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
+    //#endregion
 
     //#region Bank Data
     private _bankData$: BehaviorSubject<Map<BankCategory, BankEntry[]>> = new BehaviorSubject<Map<BankCategory, BankEntry[]>>(
@@ -65,6 +187,7 @@ export class BankComponent {
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
     public ItemSlot = ItemSlot;
+    public AugSource = AugSource;
     //#endregion
 
     public Object = Object;
@@ -77,6 +200,63 @@ export class BankComponent {
     public classesMap$: Observable<Map<BankCategory, PlayerClass[]>> = this._classesMap$.asObservable();
 
     private _playerClasses: PlayerClass[] = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
+
+    // Aug Source related properties
+    private _augSources$: BehaviorSubject<AugSource[]> = new BehaviorSubject<AugSource[]>([]);
+    public augSources$: Observable<AugSource[]> = this._augSources$.asObservable();
+
+    private _augSourceBankEntryMap$ = new BehaviorSubject<Map<AugSource, BankEntry[]>>(new Map<AugSource, BankEntry[]>());
+    public augSourceBankEntryMap$ = this._augSourceBankEntryMap$.asObservable();
+
+    // Add this computed observable for easier template binding
+    public augSourceItems$ = combineLatest([
+        this.augSources$,
+        this.augSourceBankEntryMap$
+    ]).pipe(
+        map(([sources, sourceMap]) => 
+            sources.map(source => ({
+                source,
+                items: sourceMap.get(source) || []
+            }))
+        )
+    );
+
+    // Helper method for template
+    public getItemsForSource(source: AugSource, map: Map<AugSource, BankEntry[]> | null): BankEntry[] {
+        return map?.get(source) || [];
+    }
+
+    // Determine AugSource based on item name patterns
+    private getAugSourceFromItem(item: BankEntry): AugSource {
+        const itemName = item.name.toLowerCase();
+        
+        // Check for Sleepers items
+        if (itemName.includes('prismatic scale')) {
+            return AugSource.Sleepers;
+        }
+        
+        // Check for Seru items
+        if (itemName.includes('fragment of truth')) {
+            return AugSource.Seru;
+        }
+        
+        // Check for Zeb (Plane of Time) items
+        if (itemName.includes('splinter of time')) {
+            return AugSource.Zeb;
+        }
+        
+        // Check for Veeshans items
+        if (itemName.includes('flawless') || 
+            itemName.includes('pristine') || 
+            itemName.includes('polished chunk') || 
+            itemName.includes('gemstone of') || 
+            itemName.includes('orb of')) {
+            return AugSource.Veeshans;
+        }
+        
+        // Default to Other for everything else
+        return AugSource.Other;
+    }
 
     public getClasses(category: BankCategory): PlayerClass[] {
         let playerClasses = this._playerClasses;
@@ -104,8 +284,13 @@ export class BankComponent {
     private resetValues = () => {
         this._itemSlots$.next((Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
             ItemSlot[a].localeCompare(ItemSlot[b])));
+        
+        // Add aug sources initialization
+        this._augSources$.next(Object.values(AugSource));
+        
         this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
     };
+
     ngOnDestroy(): void {
         if (this.lastModifiedSubscription) {
             this.lastModifiedSubscription.unsubscribe();
@@ -125,26 +310,29 @@ export class BankComponent {
                 [BankCategory.Epics, this.getClasses(BankCategory.Epics)],
                 [BankCategory.Items, this.getClasses(BankCategory.Items)],
                 [BankCategory.Spells, this.getClasses(BankCategory.Spells)],
+                [BankCategory.Augs, this.getClasses(BankCategory.Augs)],
             ])
         );
 
         // Initialize our bankData$
         this.initializeBankData();
 
-        this.searchSubscription = this._searchText$
+        // Combine search text and filter states to trigger data updates
+        this.searchSubscription = combineLatest([
+            this._searchText$.pipe(debounceTime(500), distinctUntilChanged()),
+            this._filterStates$
+        ])
             .pipe(
-                debounceTime(500),
-                distinctUntilChanged(),
-                switchMap((searchTerm) => {
+                switchMap(([searchTerm, filterStates]) => {
                     this.resetValues();
-                    this.initializeBankData(searchTerm);
+                    this.initializeBankData(searchTerm, filterStates);
                     return this.bankData$;
                 })
             )
             .subscribe(() => {});
     }
 
-    public initializeBankData(filter: string | null = null): void {
+    public initializeBankData(filter: string | null = null, filterStates: FilterStates | null = null): void {
         // Initialize our bankData$
         let hasProcessedSharedBank = false;
         this.items.subscribe((rawData) => {
@@ -162,7 +350,15 @@ export class BankComponent {
                 // Remove the first 3 characters (dnt)
                 // Split on -, get the first index ('bank' vs 'craft')
                 const category = name.substring(3).split('-')[0];
-                const processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank).sort((a, b) => a.name.localeCompare(b.name));
+                let processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank)
+                    .filter(item => this.shouldIncludeItem(item.id))
+                    .sort((a, b) => a.name.localeCompare(b.name));
+                
+                // Apply filter states if provided
+                if (filterStates) {
+                    processedData = this.applyFilterStates(processedData, filterStates);
+                }
+                
                 hasProcessedSharedBank = true;
                 const categoryEnum = getCategory(category);
                 this._processData(processedData, categoryEnum);
@@ -170,6 +366,32 @@ export class BankComponent {
             });
             this._bankData$.next(bankData);
         });
+    }
+
+    private applyFilterStates(data: BankEntry[], filterStates: FilterStates): BankEntry[] {
+        return data.filter(item => {
+            // Assuming BankEntry has a property that indicates rarity/type
+            // You'll need to adjust these conditions based on your actual BankEntry structure
+            
+            // Example logic - adjust based on your actual item structure:
+            const itemRarity = this.getItemRarity(item); // You'll need to implement this method
+            
+            if (filterStates.hideNormal && itemRarity === 'normal') return false;
+            if (filterStates.hideEnchanted && itemRarity === 'enchanted') return false;
+            if (filterStates.hideLegendary && itemRarity === 'legendary') return false;
+            
+            return true;
+        });
+    }
+
+    private getItemRarity(item: BankEntry): string {
+        if (item.id >= 2000000) {
+            return 'legendary';
+        } else if (item.id >= 1000000) {
+            return 'enchanted';
+        } else {
+            return 'normal';
+        }
     }
 
     private _classCategoryDataToBankEntryMap$: BehaviorSubject<Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>> =
@@ -184,6 +406,7 @@ export class BankComponent {
         BankCategory,
         Map<PlayerClass | ItemSlot, Array<BankEntry>>
     >();
+    
     private _get_classCategoryDataToBankEntryMap(category: BankCategory): Map<PlayerClass | ItemSlot, Array<BankEntry>> {
         if (!this._classCategoryDataToBankEntryMap.has(category)) {
             this._classCategoryDataToBankEntryMap.set(category, new Map<PlayerClass, Array<BankEntry>>());
@@ -240,6 +463,57 @@ export class BankComponent {
                     }
                 } else {
                     map.set(itemSlot, [bankEntry]);
+                }
+            });
+            this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
+        } else if (category === BankCategory.Augs) {
+            // NEW: Handle Augs category grouped by AugSource
+            const augSources = Object.values(AugSource);
+            
+            const augSourceBankEntryMap: Map<AugSource, BankEntry[]> = new Map<AugSource, BankEntry[]>();
+            
+            // Initialize map with all sources
+            augSources.forEach(source => {
+                augSourceBankEntryMap.set(source, []);
+            });
+            
+            // Group items by their aug source
+            processedData.forEach((bankEntry) => {
+                const augSource = this.getAugSourceFromItem(bankEntry);
+                const existingEntries = augSourceBankEntryMap.get(augSource) || [];
+                const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
+                
+                if (existingEntry) {
+                    existingEntry.count += bankEntry.count;
+                } else {
+                    existingEntries.push(bankEntry);
+                }
+                
+                augSourceBankEntryMap.set(augSource, existingEntries);
+            });
+
+            // Filter out empty sources and update observables
+            const filteredSources = augSources.filter(source => 
+                augSourceBankEntryMap.get(source)?.length! > 0
+            );
+            
+            this._augSources$.next(filteredSources);
+            this._augSourceBankEntryMap$.next(augSourceBankEntryMap);
+            
+            // Also update the classCategoryDataToBankEntryMap for consistency
+            const map: Map<PlayerClass | ItemSlot, Array<BankEntry>> = this._get_classCategoryDataToBankEntryMap(category);
+            processedData.forEach((bankEntry) => {
+                const augSource = this.getAugSourceFromItem(bankEntry) as any; // Cast to match the union type
+                if (map.has(augSource)) {
+                    const existingEntries: BankEntry[] = map.get(augSource)!;
+                    const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
+                    if (existingEntry) {
+                        existingEntry.count += bankEntry.count;
+                    } else {
+                        existingEntries.push(bankEntry);
+                    }
+                } else {
+                    map.set(augSource, [bankEntry]);
                 }
             });
             this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
