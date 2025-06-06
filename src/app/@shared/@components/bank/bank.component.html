@@ -19,11 +19,14 @@
 </div>
     </mat-card-content>
 </mat-card>
-<!-- Class Filter Toggles -->
+
+<!-- Class and Slot Filter Toggles -->
 <mat-card class="spaced-card" appearance="outlined">
     <mat-card-content>
-        <mat-card-title class="center-text">Class Filter</mat-card-title>
-        <div class="class-toggle-container">
+        <mat-card-title class="center-text">Filters</mat-card-title>
+        
+        <!-- Class filters - only show when NOT in Augs tab -->
+        <div class="class-toggle-container" *ngIf="currentTab !== BankCategory.Augs">
             <button 
                 mat-raised-button 
                 *ngFor="let className of availableClasses"
@@ -34,9 +37,24 @@
                 {{ className }}
             </button>
         </div>
+        
+        <!-- Slot filters - only show when IN Augs tab -->
+        <div class="slot-toggle-container" *ngIf="currentTab === BankCategory.Augs">
+            <button 
+                mat-raised-button
+                *ngFor="let itemSlot of availableItemSlots" 
+                [class.selected]="isItemSlotSelected(itemSlot)"
+                [class.unselected]="!isItemSlotSelected(itemSlot)"
+                (click)="toggleItemSlot(itemSlot)"
+                class="slot-toggle-button">
+                {{ getItemSlotName(itemSlot) }}
+            </button>
+        </div>
     </mat-card-content>
 </mat-card>
-<mat-tab-group animationDuration="0ms">
+
+<!-- Add the selectedTabChange event handler to mat-tab-group -->
+<mat-tab-group animationDuration="0ms" (selectedTabChange)="onTabChange($event.index)">
     <mat-tab *ngFor="let tab of bankData$ | async | keyvalue">
         <ng-template mat-tab-label>
             {{ tab.key | titlecase }}
@@ -56,22 +74,25 @@
                     </mat-card-content>
                 </mat-card>
             </div>
-            <ng-template #elseIfAug>
-                <div class="card-container" *ngIf="tab.key === BankCategory.Augs; else elseIfItem">
-                    <mat-card *ngFor="let sourceGroup of augSourceItems$ | async" class="spaced-card" appearance="outlined">
-                        <mat-card-content class="center-text bold-text">
-                            <mat-card-title>{{ sourceGroup.source }}</mat-card-title>
-                                <mat-list>
-                                    <mat-list-item *ngFor="let item of sourceGroup.items">
-                                        <h3 matLine>
-                                            <a href="https://www.thjdi.cc/item/{{ item.id }}">{{ item.name }}</a> ({{ item.count }})
-                                        </h3>
-                                    </mat-list-item>
-                                </mat-list>
-                            </mat-card-content>
-                        </mat-card>
-                    </div>
-                </ng-template>
+
+<ng-template #elseIfAug>
+    <div class="card-container" *ngIf="tab.key === BankCategory.Augs; else elseIfItem">
+        <!-- Aug Source Cards -->
+        <mat-card *ngFor="let sourceGroup of augSourceItems$ | async" class="spaced-card" appearance="outlined">
+            <mat-card-content class="center-text bold-text">
+                <mat-card-title>{{ sourceGroup.source }}</mat-card-title>
+                <mat-list>
+                    <mat-list-item *ngFor="let item of sourceGroup.items">
+                        <h3 matLine>
+                            <a href="https://www.thjdi.cc/item/{{ item.id }}">{{ item.name }}</a> ({{ item.count }})
+                        </h3>
+                    </mat-list-item>
+                </mat-list>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</ng-template>
+
             <ng-template #elseIfItem>
                 <div class="card-container" *ngIf="tab.key === BankCategory.Items; else others">
                     <mat-card *ngFor="let itemSlot of itemSlots$ | async" class="spaced-card" appearance="outlined">
@@ -88,6 +109,7 @@
                     </mat-card>
                 </div>
             </ng-template>
+            
             <ng-template #others>
                 <mat-list>
                     <mat-list-item *ngFor="let item of tab.value">

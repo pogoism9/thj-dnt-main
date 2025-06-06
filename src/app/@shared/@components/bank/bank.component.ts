@@ -46,6 +46,9 @@ interface FilterStates {
 })
 export class BankComponent {
     
+    public currentTab: BankCategory = BankCategory.Epics; // Default to first tab
+    private tabOrder: BankCategory[] = [];
+
     private _searchText$ = new BehaviorSubject<string>('');
     private searchSubscription: Subscription | undefined;
     
@@ -63,6 +66,13 @@ export class BankComponent {
         { key: 'hideEnchanted' as keyof FilterStates, label: 'Hide Enchanted' },
         { key: 'hideLegendary' as keyof FilterStates, label: 'Hide Legendary' }
     ];
+
+    onTabChange(index: number): void {
+        if (this.tabOrder.length > index) {
+            this.currentTab = this.tabOrder[index];
+            console.log('Current tab changed to:', this.currentTab); // Debug log
+        }
+    }
 
     onSearchChange($event: Event) {
         const input = $event.target as HTMLInputElement;
@@ -139,6 +149,9 @@ export class BankComponent {
     
     public isClassSelected(className: string): boolean {
         return this._selectedClasses$.value.has(className);
+    }
+    public isSlotSelected(slotName: string): boolean {
+        return this._selectedClasses$.value.has(slotName);
     }
     
     private shouldIncludeItem(itemId: number): boolean {
@@ -330,6 +343,15 @@ export class BankComponent {
                 })
             )
             .subscribe(() => {});
+            this.bankData$.subscribe(bankData => {
+            this.tabOrder = Array.from(bankData.keys());
+            // Set initial tab if not set
+            if (this.tabOrder.length > 0 && !this.currentTab) {
+                this.currentTab = this.tabOrder[0];
+            }
+            console.log('Tab order:', this.tabOrder); // Debug log
+            console.log('Current tab:', this.currentTab); // Debug log
+        });
     }
 
     public initializeBankData(filter: string | null = null, filterStates: FilterStates | null = null): void {
@@ -413,7 +435,79 @@ export class BankComponent {
         }
         return this._classCategoryDataToBankEntryMap.get(category)!;
     }
+        //#region ItemSlot Filter for Augs
+        private _selectedItemSlots$ = new BehaviorSubject<Set<ItemSlot | 'All'>>(new Set(['All']));
+        public selectedItemSlots$ = this._selectedItemSlots$.asObservable();
 
+        public availableItemSlots: (ItemSlot | 'All')[] = [
+            'All',
+            ...Object.values(ItemSlot)
+                .filter(value => typeof value === 'number' && ItemSlot[value] !== 'None') as ItemSlot[]
+        ];
+
+        public toggleItemSlot(itemSlot: ItemSlot | 'All'): void {
+            const currentSelection = new Set(this._selectedItemSlots$.value);
+            
+            if (itemSlot === 'All') {
+                // If "All" is clicked, select only "All"
+                currentSelection.clear();
+                currentSelection.add('All');
+            } else {
+                // Remove "All" if it's selected
+                currentSelection.delete('All');
+                
+                // Toggle the specific item slot
+                if (currentSelection.has(itemSlot)) {
+                    currentSelection.delete(itemSlot);
+                } else {
+                    currentSelection.add(itemSlot);
+                }
+                
+                // If no slots are selected, default to "All"
+                if (currentSelection.size === 0) {
+                    currentSelection.add('All');
+                }
+            }
+            
+            this._selectedItemSlots$.next(currentSelection);
+            
+            // Re-initialize bank data with current filters
+            const currentSearchTerm = this._searchText$.value;
+            const currentFilterStates = this._filterStates$.value;
+            this.resetValues();
+            this.initializeBankData(currentSearchTerm, currentFilterStates);
+        }
+
+        public isItemSlotSelected(itemSlot: ItemSlot | 'All'): boolean {
+            return this._selectedItemSlots$.value.has(itemSlot);
+        }
+
+        public getItemSlotName(itemSlot: ItemSlot | 'All'): string {
+            if (itemSlot === 'All') {
+                return 'All';
+            }
+            return ItemSlot[itemSlot] || 'Unknown';
+        }
+
+        private shouldIncludeItemBySlot(itemSlot: number): boolean {
+            const selectedSlots = this._selectedItemSlots$.value;
+            
+            // If "All" is selected, include all items
+            if (selectedSlots.has('All')) {
+                return true;
+            }
+            
+            // Check if the item's slot matches any selected slots
+            for (const slot of selectedSlots) {
+                if (slot === 'All') continue; // Skip "All"
+                if ((itemSlot & (slot as ItemSlot)) !== 0 || itemSlot === 0) {
+                    return true;
+                }
+            }
+            
+            return false;
+        }
+        //#endregion
     private _processData(processedData: BankEntry[], category: BankCategory = BankCategory.Epics): void {
         // Special post processing for Epics and Spells
         if ([BankCategory.Epics, BankCategory.Spells].includes(category)) {
@@ -467,56 +561,62 @@ export class BankComponent {
             });
             this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
         } else if (category === BankCategory.Augs) {
-            // NEW: Handle Augs category grouped by AugSource
-            const augSources = Object.values(AugSource);
+        // Filter by selected item slots for Augs category
+        let filteredData = processedData;
+        if (!this._selectedItemSlots$.value.has('All')) {
+            filteredData = processedData.filter(item => this.shouldIncludeItemBySlot(item.itemSlot));
+        }
+        
+        // NEW: Handle Augs category grouped by AugSource
+        const augSources = Object.values(AugSource);
+        
+        const augSourceBankEntryMap: Map<AugSource, BankEntry[]> = new Map<AugSource, BankEntry[]>();
+        
+        // Initialize map with all sources
+        augSources.forEach(source => {
+            augSourceBankEntryMap.set(source, []);
+        });
+        
+        // Group items by their aug source
+        filteredData.forEach((bankEntry) => {
+            const augSource = this.getAugSourceFromItem(bankEntry);
+            const existingEntries = augSourceBankEntryMap.get(augSource) || [];
+            const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
             
-            const augSourceBankEntryMap: Map<AugSource, BankEntry[]> = new Map<AugSource, BankEntry[]>();
+            if (existingEntry) {
+                existingEntry.count += bankEntry.count;
+            } else {
+                existingEntries.push(bankEntry);
+            }
             
-            // Initialize map with all sources
-            augSources.forEach(source => {
-                augSourceBankEntryMap.set(source, []);
-            });
-            
-            // Group items by their aug source
-            processedData.forEach((bankEntry) => {
-                const augSource = this.getAugSourceFromItem(bankEntry);
-                const existingEntries = augSourceBankEntryMap.get(augSource) || [];
+            augSourceBankEntryMap.set(augSource, existingEntries);
+        });
+
+        // Filter out empty sources and update observables
+        const filteredSources = augSources.filter(source => 
+            augSourceBankEntryMap.get(source)?.length! > 0
+        );
+        
+        this._augSources$.next(filteredSources);
+        this._augSourceBankEntryMap$.next(augSourceBankEntryMap);
+        
+        // Also update the classCategoryDataToBankEntryMap for consistency
+        const map: Map<PlayerClass | ItemSlot, Array<BankEntry>> = this._get_classCategoryDataToBankEntryMap(category);
+        filteredData.forEach((bankEntry) => {
+            const augSource = this.getAugSourceFromItem(bankEntry) as any; // Cast to match the union type
+            if (map.has(augSource)) {
+                const existingEntries: BankEntry[] = map.get(augSource)!;
                 const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
-                
                 if (existingEntry) {
                     existingEntry.count += bankEntry.count;
                 } else {
                     existingEntries.push(bankEntry);
                 }
-                
-                augSourceBankEntryMap.set(augSource, existingEntries);
-            });
-
-            // Filter out empty sources and update observables
-            const filteredSources = augSources.filter(source => 
-                augSourceBankEntryMap.get(source)?.length! > 0
-            );
-            
-            this._augSources$.next(filteredSources);
-            this._augSourceBankEntryMap$.next(augSourceBankEntryMap);
-            
-            // Also update the classCategoryDataToBankEntryMap for consistency
-            const map: Map<PlayerClass | ItemSlot, Array<BankEntry>> = this._get_classCategoryDataToBankEntryMap(category);
-            processedData.forEach((bankEntry) => {
-                const augSource = this.getAugSourceFromItem(bankEntry) as any; // Cast to match the union type
-                if (map.has(augSource)) {
-                    const existingEntries: BankEntry[] = map.get(augSource)!;
-                    const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
-                    if (existingEntry) {
-                        existingEntry.count += bankEntry.count;
-                    } else {
-                        existingEntries.push(bankEntry);
-                    }
-                } else {
-                    map.set(augSource, [bankEntry]);
-                }
-            });
-            this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
+            } else {
+                map.set(augSource, [bankEntry]);
+            }
+        });
+        this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
         }
     }
 }
