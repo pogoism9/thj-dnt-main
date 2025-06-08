@@ -29,6 +29,17 @@
                 Reset
             </button>
         </div>
+        <div class="itemQuality-toggle-container">
+    <button 
+        mat-raised-button 
+        *ngFor="let filterOption of availableFilters"
+        [class.selected]="isQualitySelected(filterOption.key)"
+        [class.unselected]="!isQualitySelected(filterOption.key)"
+        (click)="toggleQuality(filterOption.key)"
+        class="itemQuality-toggle-button">
+        {{ filterOption.label }}
+    </button>
+</div>
     </mat-card-content>
 </mat-card>
 

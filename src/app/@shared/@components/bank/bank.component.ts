@@ -7,7 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
-import { BehaviorSubject, interval, Observable, Subscription } from 'rxjs';
+import { BehaviorSubject, interval, Observable, Subscription, combineLatest } from 'rxjs';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson } from '@utils/index';
@@ -17,6 +17,11 @@ import itemIdsByClassJson from '@assets/item-ids-by-class.json';
 
 const itemIdsByClass: ItemIdsByClass = itemIdsByClassJson;
 
+interface FilterStates {
+    hideNormal: boolean;
+    hideEnchanted: boolean;
+    hideLegendary: boolean;
+}
 @Component({
     selector: 'ariza-bank',
     imports: [
@@ -38,11 +43,40 @@ export class BankComponent {
     
     private _searchText$ = new BehaviorSubject<string>('');
     private searchSubscription: Subscription | undefined;
+
     onSearchChange($event: Event) {
         const input = $event.target as HTMLInputElement;
         const value = input.value;
         this._searchText$.next(value);
     }
+    // Methods for filter buttons
+    isQualitySelected(filterKey: keyof FilterStates): boolean {
+        return this._filterStates$.value[filterKey];
+    }
+
+    toggleQuality(filterKey: keyof FilterStates): void {
+        const currentFilters = this._filterStates$.value;
+        const updatedFilters = {
+            ...currentFilters,
+            [filterKey]: !currentFilters[filterKey]
+        };
+        this._filterStates$.next(updatedFilters);
+    }
+    //Filter states for the buttons
+    private _filterStates$ = new BehaviorSubject<FilterStates>({
+        hideNormal: false,
+        hideEnchanted: false,
+        hideLegendary: false,
+    });
+    public filterStates$ = this._filterStates$.asObservable();
+
+    //filter options for the template
+    public availableFilters = [
+        { key: 'hideNormal' as keyof FilterStates, label: 'Hide Normal' },
+        { key: 'hideEnchanted' as keyof FilterStates, label: 'Hide Enchanted' },
+        { key: 'hideLegendary' as keyof FilterStates, label: 'Hide Legendary' }
+    ];
+
 
     @Input() items: Observable<any[]> = new Observable<any[]>();
 
@@ -100,6 +134,31 @@ export class BankComponent {
             }
         }
         return shouldInclude;
+    }
+    //#endregion
+    
+    //#region item quality filter logic
+    private applyFilterStates(data: BankEntry[], filterStates: FilterStates): BankEntry[] {
+        return data.filter(item => {
+            
+            const itemRarity = this.getItemRarity(item); // You'll need to implement this method
+            
+            if (filterStates.hideNormal && itemRarity === 'normal') return false;
+            if (filterStates.hideEnchanted && itemRarity === 'enchanted') return false;
+            if (filterStates.hideLegendary && itemRarity === 'legendary') return false;
+            
+            return true;
+        });
+    }
+
+    private getItemRarity(item: BankEntry): string {
+        if (item.id >= 2000000) {
+            return 'legendary';
+        } else if (item.id >= 1000000) {
+            return 'enchanted';
+        } else {
+            return 'normal';
+        }
     }
     //#endregion
 
@@ -192,20 +251,22 @@ export class BankComponent {
         // Initialize our bankData$
         this.initializeBankData();
 
-        this.searchSubscription = this._searchText$
+        // Combine search text and filter states to trigger data updates
+        this.searchSubscription = combineLatest([
+            this._searchText$.pipe(debounceTime(500), distinctUntilChanged()),
+            this._filterStates$
+        ])
             .pipe(
-                debounceTime(500),
-                distinctUntilChanged(),
-                switchMap((searchTerm) => {
+                switchMap(([searchTerm, filterStates]) => {
                     this.resetValues();
-                    this.initializeBankData(searchTerm);
+                    this.initializeBankData(searchTerm, filterStates);
                     return this.bankData$;
                 })
             )
             .subscribe(() => {});
     }
 
-    public initializeBankData(filter: string | null = null): void {
+    public initializeBankData(filter: string | null = null, filterStates: FilterStates | null = null): void {
         // Initialize our bankData$
         let hasProcessedSharedBank = false;
         this.items.subscribe((rawData) => {
@@ -223,10 +284,15 @@ export class BankComponent {
                 // Remove the first 3 characters (dnt)
                 // Split on -, get the first index ('bank' vs 'craft')
                 const category = name.substring(3).split('-')[0];
-                const processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank)
+                let processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank)
                     .filter(item => this.shouldIncludeItem(item.id))
                     .sort((a, b) => a.name.localeCompare(b.name));
                 hasProcessedSharedBank = true;
+
+                // Apply filter states if provided
+                if (filterStates) {
+                    processedData = this.applyFilterStates(processedData, filterStates);
+                }
                 const categoryEnum = getCategory(category);
                 this._processData(processedData, categoryEnum);
                 bankData.set(categoryEnum, processedData);
