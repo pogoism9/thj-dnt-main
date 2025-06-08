@@ -6,12 +6,16 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 import { BehaviorSubject, interval, Observable, Subscription } from 'rxjs';
-import { Firestore } from '@angular/fire/firestore';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson } from '@utils/index';
 import { BankCategory, getCategory, ItemSlot, PlayerClass } from '@enums/index';
+import { ItemIdsByClass } from '@interfaces/itemIds-by-class.interface';
+import itemIdsByClassJson from '@assets/item-ids-by-class.json';
+
+const itemIdsByClass: ItemIdsByClass = itemIdsByClassJson;
 
 @Component({
     selector: 'ariza-bank',
@@ -24,6 +28,7 @@ import { BankCategory, getCategory, ItemSlot, PlayerClass } from '@enums/index';
         MatFormFieldModule,
         MatInputModule,
         ReactiveFormsModule,
+        MatButtonModule,
     ],
     templateUrl: './bank.component.html',
     styleUrl: './bank.component.scss',
@@ -39,8 +44,64 @@ export class BankComponent {
         this._searchText$.next(value);
     }
 
-    private firestore = inject(Firestore);
     @Input() items: Observable<any[]> = new Observable<any[]>();
+
+    //#region Class Filter
+    private _selectedClasses$ = new BehaviorSubject<Set<PlayerClass>>(new Set());
+    public selectedClasses$ = this._selectedClasses$.asObservable();
+
+    private _allPlayerClasses = Object.values(PlayerClass);
+    
+    public availableFilterableClasses: PlayerClass[] = [
+        ...this._allPlayerClasses,
+    ].filter(ac => ac !== PlayerClass.Unknown);
+    
+    public toggleClass(playerClass: PlayerClass): void {
+        const currentSelection = new Set(this._selectedClasses$.value);
+
+        // Toggle the specific class
+        currentSelection.has(playerClass) ?
+            currentSelection.delete(playerClass) :
+            currentSelection.add(playerClass);
+
+        
+        this._selectedClasses$.next(currentSelection);
+        
+        // Re-initialize bank data with current search term and class filter
+        const currentSearchTerm = this._searchText$.value;
+        this.resetValues();
+        this.initializeBankData(currentSearchTerm);
+    }
+
+    public isClassSelected(playerClass: PlayerClass): boolean {
+        return this._selectedClasses$.value.has(playerClass);
+    }
+    
+    public resetClassFilter(): void {
+        this._selectedClasses$.next(new Set<PlayerClass>());
+        this.resetValues();
+        this.initializeBankData(this._searchText$.value);
+    }
+    
+    private shouldIncludeItem(itemId: number): boolean {
+        const selectedClasses = this._selectedClasses$.value;
+        let shouldInclude = false;
+        if (!selectedClasses.size) {
+            shouldInclude = true;
+        } else if (itemIdsByClass['All']?.includes(itemId)) {
+            shouldInclude = true;
+        } else {
+            for (const className of selectedClasses) {
+                const classKey = className as keyof ItemIdsByClass;
+                if (itemIdsByClass[classKey]?.includes(itemId)) {
+                    shouldInclude = true;
+                    break;
+                }
+            }
+        }
+        return shouldInclude;
+    }
+    //#endregion
 
     //#region Bank Data
     private _bankData$: BehaviorSubject<Map<BankCategory, BankEntry[]>> = new BehaviorSubject<Map<BankCategory, BankEntry[]>>(
@@ -162,7 +223,9 @@ export class BankComponent {
                 // Remove the first 3 characters (dnt)
                 // Split on -, get the first index ('bank' vs 'craft')
                 const category = name.substring(3).split('-')[0];
-                const processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank).sort((a, b) => a.name.localeCompare(b.name));
+                const processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank)
+                    .filter(item => this.shouldIncludeItem(item.id))
+                    .sort((a, b) => a.name.localeCompare(b.name));
                 hasProcessedSharedBank = true;
                 const categoryEnum = getCategory(category);
                 this._processData(processedData, categoryEnum);
