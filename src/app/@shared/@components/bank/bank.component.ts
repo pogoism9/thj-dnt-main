@@ -13,8 +13,8 @@ import { BehaviorSubject, interval, Observable, Subscription, combineLatest } fr
 import { Firestore } from '@angular/fire/firestore';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, switchMap, map } from 'rxjs/operators';
-import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson } from '@utils/index';
-import { BankCategory, getCategory, ItemSlot, PlayerClass, AugSource } from '@enums/index';
+import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson, augSources} from '@utils/index';
+import { BankCategory, getCategory, ItemSlot, PlayerClass, AugSourceEnum } from '@enums/index';
 import { ItemIdsByClass } from '@interfaces/itemIds-by-class.interface';
 import itemIdsByClassJson from '../../../../assets/item-ids-by-class.json';
 
@@ -187,7 +187,7 @@ export class BankComponent {
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
     public ItemSlot = ItemSlot;
-    public AugSource = AugSource;
+    public AugSource = AugSourceEnum;
     //#endregion
 
     public Object = Object;
@@ -202,10 +202,10 @@ export class BankComponent {
     private _playerClasses: PlayerClass[] = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
 
     // Aug Source related properties
-    private _augSources$: BehaviorSubject<AugSource[]> = new BehaviorSubject<AugSource[]>([]);
-    public augSources$: Observable<AugSource[]> = this._augSources$.asObservable();
+    private _augSources$: BehaviorSubject<AugSourceEnum[]> = new BehaviorSubject<AugSourceEnum[]>([]);
+    public augSources$: Observable<AugSourceEnum[]> = this._augSources$.asObservable();
 
-    private _augSourceBankEntryMap$ = new BehaviorSubject<Map<AugSource, BankEntry[]>>(new Map<AugSource, BankEntry[]>());
+    private _augSourceBankEntryMap$ = new BehaviorSubject<Map<AugSourceEnum, BankEntry[]>>(new Map<AugSourceEnum, BankEntry[]>());
     public augSourceBankEntryMap$ = this._augSourceBankEntryMap$.asObservable();
 
     // Add this computed observable for easier template binding
@@ -222,41 +222,24 @@ export class BankComponent {
     );
 
     // Helper method for template
-    public getItemsForSource(source: AugSource, map: Map<AugSource, BankEntry[]> | null): BankEntry[] {
+    public getItemsForSource(source: AugSourceEnum, map: Map<AugSourceEnum, BankEntry[]> | null): BankEntry[] {
         return map?.get(source) || [];
     }
 
-    // Determine AugSource based on item name patterns
-    private getAugSourceFromItem(item: BankEntry): AugSource {
-        const itemName = item.name.toLowerCase();
-        
-        // Check for Sleepers items
-        if (itemName.includes('prismatic scale')) {
-            return AugSource.Sleepers;
+private getAugSourceFromItem(item: BankEntry): AugSourceEnum {
+    const itemId = item.id.toString();
+
+    // Loop through our mappings to find the first match.
+    for (const mapping of augSources.sourceMappings) {
+        if (mapping.ids.some(idFromList => itemId.includes(idFromList.toString()))) {
+            // As soon as we find a match, return the corresponding source and exit.
+            return mapping.source;
         }
-        
-        // Check for Seru items
-        if (itemName.includes('fragment of truth')) {
-            return AugSource.Seru;
-        }
-        
-        // Check for Zeb (Plane of Time) items
-        if (itemName.includes('splinter of time')) {
-            return AugSource.Zeb;
-        }
-        
-        // Check for Veeshans items
-        if (itemName.includes('flawless') || 
-            itemName.includes('pristine') || 
-            itemName.includes('polished chunk') || 
-            itemName.includes('gemstone of') || 
-            itemName.includes('orb of')) {
-            return AugSource.Veeshans;
-        }
-        
-        // Default to Other for everything else
-        return AugSource.Other;
     }
+
+    // If the loop completes without finding any matches, return the default.
+    return AugSourceEnum.Other;
+}
 
     public getClasses(category: BankCategory): PlayerClass[] {
         let playerClasses = this._playerClasses;
@@ -286,7 +269,7 @@ export class BankComponent {
             ItemSlot[a].localeCompare(ItemSlot[b])));
         
         // Add aug sources initialization
-        this._augSources$.next(Object.values(AugSource));
+        this._augSources$.next(Object.values(AugSourceEnum));
         
         this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
     };
@@ -468,9 +451,9 @@ export class BankComponent {
             this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
         } else if (category === BankCategory.Augs) {
             // NEW: Handle Augs category grouped by AugSource
-            const augSources = Object.values(AugSource);
+            const augSources = Object.values(AugSourceEnum);
             
-            const augSourceBankEntryMap: Map<AugSource, BankEntry[]> = new Map<AugSource, BankEntry[]>();
+            const augSourceBankEntryMap: Map<AugSourceEnum, BankEntry[]> = new Map<AugSourceEnum, BankEntry[]>();
             
             // Initialize map with all sources
             augSources.forEach(source => {
