@@ -1,4 +1,4 @@
-import { AugSourceEnum } from "@enums/aug-source.enum";
+import { AugSource } from "@enums/aug-source.enum";
 // Base Augment Ids to determine aug source
 export const everQuestAugIds = [
 51889,   //  Ball of Primeval Lava
@@ -133,19 +133,19 @@ export const otherAugIds = [
 ];
     // Determine AugSource based on item name patterns
 export const sourceMappings = [
-    { source: AugSourceEnum.Veeshans, ids: veeshanAugIds },
-    { source: AugSourceEnum.Seru,      ids: seruAugIds },
-    { source: AugSourceEnum.Sleepers,  ids: sleeperAugIds },
-    { source: AugSourceEnum.Zeb,       ids: zebAugIds },
-    { source: AugSourceEnum.Vanilla,       ids: everQuestAugIds },
-    { source: AugSourceEnum.Kunark,       ids: kunarkAugIds },
-    { source: AugSourceEnum.Velious,       ids: veliousAugIds },
-    { source: AugSourceEnum.Luclin,       ids: luclinAugIds },
-    { source: AugSourceEnum.Planes,       ids: planesAugIds },
-    { source: AugSourceEnum.Ykesha,      ids: ykeshaAugIds },
-    { source: AugSourceEnum.Holiday,       ids: holidayAugIds },
-    { source: AugSourceEnum.Other,       ids: otherAugIds },
-    { source: AugSourceEnum.TradeSkill,       ids: tradeskillAugIds },
-    { source: AugSourceEnum.Bazaar,       ids: bazaarAugIds }
+    { source: AugSource.Veeshans, ids: veeshanAugIds },
+    { source: AugSource.Seru,      ids: seruAugIds },
+    { source: AugSource.Sleepers,  ids: sleeperAugIds },
+    { source: AugSource.Zeb,       ids: zebAugIds },
+    { source: AugSource.Vanilla,       ids: everQuestAugIds },
+    { source: AugSource.Kunark,       ids: kunarkAugIds },
+    { source: AugSource.Velious,       ids: veliousAugIds },
+    { source: AugSource.Luclin,       ids: luclinAugIds },
+    { source: AugSource.Planes,       ids: planesAugIds },
+    { source: AugSource.Ykesha,      ids: ykeshaAugIds },
+    { source: AugSource.Holiday,       ids: holidayAugIds },
+    { source: AugSource.Other,       ids: otherAugIds },
+    { source: AugSource.TradeSkill,       ids: tradeskillAugIds },
+    { source: AugSource.Bazaar,       ids: bazaarAugIds }
     // To add a new source, you just add one line here!
 ];

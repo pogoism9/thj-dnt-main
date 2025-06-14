@@ -86,7 +86,6 @@ export function outputFileToJson(rawData: string, filterByName: string | undefin
                     location,
                     name: normalizedName,
                     id: id,
-                    count: count,
                     baseCount: 0,
                     slots: +slots,
                     baseId: baseId,

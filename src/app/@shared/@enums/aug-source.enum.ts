@@ -1,4 +1,4 @@
-export enum AugSourceEnum {
+export enum AugSource {
     Veeshans = 'Veeshan\'s Peak',
     Sleepers = 'The Sleeper\'s Tomb',
     Seru = 'Sanctus Seru',
@@ -16,8 +16,8 @@ export enum AugSourceEnum {
    
 }
 
-export const getSource = (category: string): AugSourceEnum => {
-    return Object.values(AugSourceEnum).find(
+export const getSource = (category: string): AugSource => {
+    return Object.values(AugSource).find(
         (value) => value.toLowerCase() === category.toLowerCase()
-    ) as AugSourceEnum;
+    ) as AugSource;
 }

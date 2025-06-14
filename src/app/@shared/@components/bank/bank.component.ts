@@ -12,7 +12,7 @@ import { BehaviorSubject, interval, Observable, Subscription, from, combineLates
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, map, switchMap, take, tap } from 'rxjs/operators';
 import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson, augSources} from '@utils/index';
-import { BankCategory, getCategory, ItemSlot, PlayerClass, AugSourceEnum, getBaseItemId } from '@enums/index';
+import { BankCategory, getCategory, ItemSlot, PlayerClass, AugSource, getBaseItemId } from '@enums/index';
 import { ItemIdsByClass } from '@interfaces/itemIds-by-class.interface';
 import { ItemDisplayComponent } from '../item-count/item-display.component';
 
@@ -157,7 +157,7 @@ export class BankComponent {
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
     public ItemSlot = ItemSlot;
-    public AugSource = AugSourceEnum;
+    public AugSource = AugSource;
     //#endregion
 
     public Object = Object;
@@ -172,9 +172,9 @@ export class BankComponent {
     private _playerClasses: PlayerClass[] = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
 
     // Aug Source related properties
-    private _augSources$: BehaviorSubject<AugSourceEnum[]> = new BehaviorSubject<AugSourceEnum[]>([]);
-    public augSources$: Observable<AugSourceEnum[]> = this._augSources$.asObservable();
-    private _augSourceBankEntryMap$ = new BehaviorSubject<Map<AugSourceEnum, BankEntry[]>>(new Map<AugSourceEnum, BankEntry[]>());
+    private _augSources$: BehaviorSubject<AugSource[]> = new BehaviorSubject<AugSource[]>([]);
+    public augSources$: Observable<AugSource[]> = this._augSources$.asObservable();
+    private _augSourceBankEntryMap$ = new BehaviorSubject<Map<AugSource, BankEntry[]>>(new Map<AugSource, BankEntry[]>());
     public augSourceBankEntryMap$ = this._augSourceBankEntryMap$.asObservable();
 
     // Add this computed observable for easier template binding
@@ -190,7 +190,7 @@ export class BankComponent {
         )
     );
 
-    private getAugSourceFromItem(item: BankEntry): AugSourceEnum {
+    private getAugSourceFromItem(item: BankEntry): AugSource {
     const itemId = item.id.toString();
 
   
@@ -200,10 +200,10 @@ export class BankComponent {
         }
     }
 
-    return AugSourceEnum.Other;
+    return AugSource.Other;
 }
     // Helper method for template
-    public getItemsForSource(source: AugSourceEnum, map: Map<AugSourceEnum, BankEntry[]> | null): BankEntry[] {
+    public getItemsForSource(source: AugSource, map: Map<AugSource, BankEntry[]> | null): BankEntry[] {
         return map?.get(source) || [];
     }
     public getClasses(category: BankCategory): PlayerClass[] {
@@ -236,7 +236,7 @@ export class BankComponent {
             )
         );
 
-        this._augSources$.next(Object.values(AugSourceEnum));
+        this._augSources$.next(Object.values(AugSource));
         this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
     };
     ngOnDestroy(): void {
@@ -399,8 +399,8 @@ export class BankComponent {
         
         } else if (category === BankCategory.Augs) {
 
-            const augSources = Object.values(AugSourceEnum);           
-            const augSourceBankEntryMap: Map<AugSourceEnum, BankEntry[]> = new Map<AugSourceEnum, BankEntry[]>();
+            const augSources = Object.values(AugSource);           
+            const augSourceBankEntryMap: Map<AugSource, BankEntry[]> = new Map<AugSource, BankEntry[]>();
             
             augSources.forEach(source => {
                 augSourceBankEntryMap.set(source, []);
@@ -412,7 +412,7 @@ export class BankComponent {
                 const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
 
                 if (existingEntry) {
-                    existingEntry.count += bankEntry.count;
+                    existingEntry.baseCount += bankEntry.baseCount;
                 } else {
                     existingEntries.push(bankEntry);
                 }

@@ -3,11 +3,11 @@ export type BankEntry = {
     name: string;
     id: number;
     baseCount: number;
-    count: number;
     enchantedCount?: number;
     legendaryCount?: number;
     slots: number;
     baseId: number;
     // This can be multiple slots, so we are using a bitmask to represent it
     itemSlot: number;
+    augSource?: string;
 }
