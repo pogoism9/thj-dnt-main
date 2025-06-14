@@ -8,11 +8,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { BehaviorSubject, interval, Observable, Subscription, from } from 'rxjs';
+import { BehaviorSubject, interval, Observable, Subscription, from, combineLatest } from 'rxjs';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { debounceTime, distinctUntilChanged, switchMap, take, tap } from 'rxjs/operators';
-import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson } from '@utils/index';
-import { BankCategory, getBaseItemId, getCategory, ItemQuality, ItemSlot, PlayerClass } from '@enums/index';
+import { debounceTime, distinctUntilChanged, map, switchMap, take, tap } from 'rxjs/operators';
+import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson, augSources} from '@utils/index';
+import { BankCategory, getCategory, ItemSlot, PlayerClass, AugSourceEnum, getBaseItemId } from '@enums/index';
 import { ItemIdsByClass } from '@interfaces/itemIds-by-class.interface';
 import { ItemDisplayComponent } from '../item-count/item-display.component';
 
@@ -157,8 +157,7 @@ export class BankComponent {
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
     public ItemSlot = ItemSlot;
-
-    public ItemQuality = ItemQuality;
+    public AugSource = AugSourceEnum;
     //#endregion
 
     public Object = Object;
@@ -172,6 +171,41 @@ export class BankComponent {
 
     private _playerClasses: PlayerClass[] = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
 
+    // Aug Source related properties
+    private _augSources$: BehaviorSubject<AugSourceEnum[]> = new BehaviorSubject<AugSourceEnum[]>([]);
+    public augSources$: Observable<AugSourceEnum[]> = this._augSources$.asObservable();
+    private _augSourceBankEntryMap$ = new BehaviorSubject<Map<AugSourceEnum, BankEntry[]>>(new Map<AugSourceEnum, BankEntry[]>());
+    public augSourceBankEntryMap$ = this._augSourceBankEntryMap$.asObservable();
+
+    // Add this computed observable for easier template binding
+    public augSourceItems$ = combineLatest([
+        this.augSources$,
+        this.augSourceBankEntryMap$
+    ]).pipe(
+        map(([sources, sourceMap]) => 
+            sources.map(source => ({
+                source,
+                items: sourceMap.get(source) || []
+            }))
+        )
+    );
+
+    private getAugSourceFromItem(item: BankEntry): AugSourceEnum {
+    const itemId = item.id.toString();
+
+  
+    for (const mapping of augSources.sourceMappings) {
+        if (mapping.ids.some(idFromList => itemId.includes(idFromList.toString()))) {
+            return mapping.source;
+        }
+    }
+
+    return AugSourceEnum.Other;
+}
+    // Helper method for template
+    public getItemsForSource(source: AugSourceEnum, map: Map<AugSourceEnum, BankEntry[]> | null): BankEntry[] {
+        return map?.get(source) || [];
+    }
     public getClasses(category: BankCategory): PlayerClass[] {
         let playerClasses = this._playerClasses;
         if (category !== BankCategory.Epics) {
@@ -201,6 +235,8 @@ export class BankComponent {
                 ItemSlot[a].localeCompare(ItemSlot[b])
             )
         );
+
+        this._augSources$.next(Object.values(AugSourceEnum));
         this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
     };
     ngOnDestroy(): void {
@@ -360,6 +396,52 @@ export class BankComponent {
                 }
             });
             this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
+        
+        } else if (category === BankCategory.Augs) {
+
+            const augSources = Object.values(AugSourceEnum);           
+            const augSourceBankEntryMap: Map<AugSourceEnum, BankEntry[]> = new Map<AugSourceEnum, BankEntry[]>();
+            
+            augSources.forEach(source => {
+                augSourceBankEntryMap.set(source, []);
+            });
+            
+            processedData.forEach((bankEntry) => {
+                const augSource = this.getAugSourceFromItem(bankEntry);
+                const existingEntries = augSourceBankEntryMap.get(augSource) || [];
+                const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
+
+                if (existingEntry) {
+                    existingEntry.count += bankEntry.count;
+                } else {
+                    existingEntries.push(bankEntry);
+                }
+
+                augSourceBankEntryMap.set(augSource, existingEntries);
+            });
+
+            // Filter out empty sources and update observables
+            const filteredSources = augSources.filter(source =>
+                augSourceBankEntryMap.get(source)?.length! > 0
+            );
+
+            this._augSources$.next(filteredSources);
+            this._augSourceBankEntryMap$.next(augSourceBankEntryMap);
+
+                        processedData.forEach((bankEntry) => {
+                const augSource = this.getAugSourceFromItem(bankEntry) as any; // Cast to match the union type
+                if (map.has(augSource)) {
+                    const existingEntries: BankEntry[] = map.get(augSource)!;
+                    const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
+                    if (existingEntry) {
+                        existingEntry.count += bankEntry.count;
+                    } else {
+                        existingEntries.push(bankEntry);
+                    }
+                } else {
+                    map.set(augSource, [bankEntry]);
+                }
+            });
         }
     }
     
