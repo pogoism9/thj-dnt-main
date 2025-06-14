@@ -427,21 +427,22 @@ export class BankComponent {
 
             this._augSources$.next(filteredSources);
             this._augSourceBankEntryMap$.next(augSourceBankEntryMap);
-
-                        processedData.forEach((bankEntry) => {
-                const augSource = this.getAugSourceFromItem(bankEntry) as any; // Cast to match the union type
-                if (map.has(augSource)) {
-                    const existingEntries: BankEntry[] = map.get(augSource)!;
-                    const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
-                    if (existingEntry) {
-                        existingEntry.count += bankEntry.count;
-                    } else {
-                        existingEntries.push(bankEntry);
-                    }
-                } else {
-                    map.set(augSource, [bankEntry]);
-                }
-            });
+            
+            //     const map: Map<PlayerClass | ItemSlot, Array<BankEntry>> = this._get_classCategoryDataToBankEntryMap(category);
+            //             processedData.forEach((bankEntry) => {
+            //     const augSource = this.getAugSourceFromItem(bankEntry) as any; // Cast to match the union type
+            //     if (map.has(augSource)) {
+            //         const existingEntries: BankEntry[] = map.get(augSource)!;
+            //         const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
+            //         if (existingEntry) {
+            //             existingEntry.count += bankEntry.count;
+            //         } else {
+            //             existingEntries.push(bankEntry);
+            //         }
+            //     } else {
+            //         map.set(augSource, [bankEntry]);
+            //     }
+            // });
         }
     }
     
