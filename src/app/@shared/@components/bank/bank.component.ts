@@ -9,22 +9,14 @@ import { MatCheckboxChange } from '@angular/material/checkbox';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
-import { BehaviorSubject, interval, Observable, Subscription, combineLatest } from 'rxjs';
-import { Firestore } from '@angular/fire/firestore';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { BehaviorSubject, interval, Observable, Subscription, from } from 'rxjs';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { debounceTime, distinctUntilChanged, switchMap, map } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, switchMap, take, tap } from 'rxjs/operators';
 import { getDisplayDeltaFromDate, itemIdToPlayerClassMap, spellIdToPlayerClassMap, outputFileToJson } from '@utils/index';
-import { BankCategory, getCategory, ItemSlot, PlayerClass, AugSource } from '@enums/index';
+import { BankCategory, getBaseItemId, getCategory, ItemQuality, ItemSlot, PlayerClass } from '@enums/index';
 import { ItemIdsByClass } from '@interfaces/itemIds-by-class.interface';
-import itemIdsByClassJson from '../../../../assets/item-ids-by-class.json';
-
-const itemIdsByClass: ItemIdsByClass = itemIdsByClassJson;
-
-interface FilterStates {
-    hideNormal: boolean;
-    hideEnchanted: boolean;
-    hideLegendary: boolean;
-}
+import { ItemDisplayComponent } from '../item-count/item-display.component';
 
 @Component({
     selector: 'ariza-bank',
@@ -38,142 +30,109 @@ interface FilterStates {
         MatInputModule,
         ReactiveFormsModule,
         MatButtonModule,
-        MatCheckboxModule
+        ItemDisplayComponent,
+        MatProgressSpinnerModule,
     ],
     templateUrl: './bank.component.html',
     styleUrl: './bank.component.scss',
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BankComponent {
-    
-    public currentTab: BankCategory = BankCategory.Epics; // Default to first tab
-    private tabOrder: BankCategory[] = [];
-
-    private _searchText$ = new BehaviorSubject<string>('');
+    private _searchText$ = new BehaviorSubject<string | undefined>(undefined);
     private searchSubscription: Subscription | undefined;
-    
-    // Filter states for checkboxes
-    private _filterStates$ = new BehaviorSubject<FilterStates>({
-        hideNormal: false,
-        hideEnchanted: false,
-        hideLegendary: false,
-    });
-    public filterStates$ = this._filterStates$.asObservable();
-
-    // Available filter options for the template
-    public availableFilters = [
-        { key: 'hideNormal' as keyof FilterStates, label: 'Hide Normal' },
-        { key: 'hideEnchanted' as keyof FilterStates, label: 'Hide Enchanted' },
-        { key: 'hideLegendary' as keyof FilterStates, label: 'Hide Legendary' }
-    ];
-
-    onTabChange(index: number): void {
-        if (this.tabOrder.length > index) {
-            this.currentTab = this.tabOrder[index];
-            console.log('Current tab changed to:', this.currentTab); // Debug log
-        }
-    }
+    private _filterableBankCategories: BankCategory[] = [BankCategory.Items];
+    private _itemIdsByClass: ItemIdsByClass = {
+        Bard: [],
+        Beastlord: [],
+        Berserker: [],
+        Cleric: [],
+        Druid: [],
+        Enchanter: [],
+        Magician: [],
+        Monk: [],
+        Necromancer: [],
+        Paladin: [],
+        Ranger: [],
+        Rogue: [],
+        Shadowknight: [],
+        Shaman: [],
+        Warrior: [],
+        Wizard: [],
+        All: []
+    };
 
     onSearchChange($event: Event) {
         const input = $event.target as HTMLInputElement;
-        const value = input.value;
+        const inputValue = input.value.trim();
+        const value = inputValue.length > 0 ? inputValue : undefined;
         this._searchText$.next(value);
     }
 
-    // Methods for filter buttons
-    isFilterSelected(filterKey: keyof FilterStates): boolean {
-        return this._filterStates$.value[filterKey];
+    onTabChange(index: number): void {
+        const bankData = this._bankData$.value;
+        const keys = Array.from(bankData.keys());
+        this.selectedTabKey = keys[index];
     }
 
-    toggleFilter(filterKey: keyof FilterStates): void {
-        const currentFilters = this._filterStates$.value;
-        const updatedFilters = {
-            ...currentFilters,
-            [filterKey]: !currentFilters[filterKey]
-        };
-        this._filterStates$.next(updatedFilters);
+    showClassFilter(): boolean {
+        return !!this.selectedTabKey && this._filterableBankCategories.includes(this.selectedTabKey);
     }
 
-    onFilterChange(filterType: keyof FilterStates, event: MatCheckboxChange): void {
-        const currentFilters = this._filterStates$.value;
-        const updatedFilters = {
-            ...currentFilters,
-            [filterType]: event.checked
-        };
-        this._filterStates$.next(updatedFilters);
-    }
-
-    private firestore = inject(Firestore);
     @Input() items: Observable<any[]> = new Observable<any[]>();
 
-//#region Class Filter
-    private _selectedClasses$ = new BehaviorSubject<Set<string>>(new Set(['All']));
+    public selectedTabKey: BankCategory | undefined;
+
+    //#region Class Filter
+    private _selectedClasses$ = new BehaviorSubject<Set<PlayerClass>>(new Set());
     public selectedClasses$ = this._selectedClasses$.asObservable();
-    
-    public availableClasses: string[] = [
-        ...Object.values(PlayerClass),
-        'All'
-    ].filter(ac => ac !== 'Unknown');
-    
-    public toggleClass(className: string): void {
+
+    private _allPlayerClasses = Object.values(PlayerClass);
+
+    public availableFilterableClasses: PlayerClass[] = [...this._allPlayerClasses].filter((ac) => ac !== PlayerClass.Unknown);
+
+    public toggleClass(playerClass: PlayerClass): void {
         const currentSelection = new Set(this._selectedClasses$.value);
-        
-        if (className === 'All') {
-            // If All is clicked, select only All
-            currentSelection.clear();
-            currentSelection.add('All');
-        } else {
-            // Remove 'All' if it's selected
-            currentSelection.delete('All');
-            
-            // Toggle the specific class
-            if (currentSelection.has(className)) {
-                currentSelection.delete(className);
-            } else {
-                currentSelection.add(className);
-            }
-            
-            // If no classes are selected, default to 'All'
-            if (currentSelection.size === 0) {
-                currentSelection.add('All');
-            }
-        }
-        
+
+        // Toggle the specific class
+        currentSelection.has(playerClass) ? currentSelection.delete(playerClass) : currentSelection.add(playerClass);
+
         this._selectedClasses$.next(currentSelection);
-        
+
         // Re-initialize bank data with current search term and class filter
-        const currentSearchTerm = this._searchText$.value;
         this.resetValues();
-        this.initializeBankData(currentSearchTerm);
+        this.initializeBankData(this._searchText$.value);
     }
-    
-    public isClassSelected(className: string): boolean {
-        return this._selectedClasses$.value.has(className);
+
+    public isClassSelected(playerClass: PlayerClass): boolean {
+        return this._selectedClasses$.value.has(playerClass);
     }
-    public isSlotSelected(slotName: string): boolean {
-        return this._selectedClasses$.value.has(slotName);
+
+    public resetClassFilter(): void {
+        this._selectedClasses$.next(new Set<PlayerClass>());
+        this.resetValues();
+        this.initializeBankData(this._searchText$.value);
     }
-    
-    private shouldIncludeItem(itemId: number): boolean {
+
+    private shouldIncludeItem(itemId: number, bankCategory: BankCategory): boolean {
+        if (!this._filterableBankCategories.includes(bankCategory)) {
+            return true;
+        }
         const selectedClasses = this._selectedClasses$.value;
-        
-        // If 'All' is selected, include all items
-        if (selectedClasses.has('All')) {
-            return true;
-        }
-        if (itemIdsByClass['All'].includes(itemId)) {
-            return true;
-        }
-        
-        // Check if the item belongs to any of the selected classes
-        for (const className of selectedClasses) {
-            const classKey = className as keyof ItemIdsByClass;
-            if (itemIdsByClass[classKey] && itemIdsByClass[classKey].includes(itemId)) {
-                return true;
+        let shouldInclude = false;
+        if (!selectedClasses.size) {
+            shouldInclude = true;
+        } else if (this._itemIdsByClass['All']?.includes(itemId)) {
+            shouldInclude = true;
+        } else {
+            for (const className of selectedClasses) {
+                const classKey = className as keyof ItemIdsByClass;
+                if (this._itemIdsByClass[classKey]?.includes(itemId)) {
+                    shouldInclude = true;
+                    break;
+                }
             }
         }
-        
-        return false;
+        return shouldInclude;
     }
     //#endregion
 
@@ -200,7 +159,8 @@ export class BankComponent {
     public BankCategory = BankCategory;
     public PlayerClass = PlayerClass;
     public ItemSlot = ItemSlot;
-    public AugSource = AugSource;
+
+    public ItemQuality = ItemQuality;
     //#endregion
 
     public Object = Object;
@@ -295,12 +255,11 @@ export class BankComponent {
     }
 
     private resetValues = () => {
-        this._itemSlots$.next((Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
-            ItemSlot[a].localeCompare(ItemSlot[b])));
-        
-        // Add aug sources initialization
-        this._augSources$.next(Object.values(AugSource));
-        
+        this._itemSlots$.next(
+            (Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[]).sort((a, b) =>
+                ItemSlot[a].localeCompare(ItemSlot[b])
+            )
+        );
         this._classCategoryDataToBankEntryMap = new Map<BankCategory, Map<PlayerClass | ItemSlot, Array<BankEntry>>>();
     };
 
@@ -313,9 +272,15 @@ export class BankComponent {
         }
     }
 
+    private _isLoading$: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(true);
+    public isLoading$ = this._isLoading$.asObservable();
+
     ngOnInit(): void {
         // Existing initialization code
         console.log('BankComponent initialized');
+
+        from(import('@assets/item-ids-by-class.json'))
+            .subscribe(json => this._itemIdsByClass = json);
 
         // Initialize our classMap
         this._classesMap$.next(
@@ -336,7 +301,10 @@ export class BankComponent {
             this._filterStates$
         ])
             .pipe(
-                switchMap(([searchTerm, filterStates]) => {
+                debounceTime(500),
+                distinctUntilChanged(),
+                switchMap((searchTerm) => {
+                    console.log('Search term changed:', searchTerm);
                     this.resetValues();
                     this.initializeBankData(searchTerm, filterStates);
                     return this.bankData$;
@@ -354,40 +322,42 @@ export class BankComponent {
         });
     }
 
-    public initializeBankData(filter: string | null = null, filterStates: FilterStates | null = null): void {
+    public initializeBankData(filter: string | undefined = undefined): void {
         // Initialize our bankData$
         let hasProcessedSharedBank = false;
-        this.items.subscribe((rawData) => {
-            this._classCategoryDataToBankEntryMap.clear();
-            const bankData = new Map<BankCategory, BankEntry[]>();
+        this.items
+            .pipe(
+                take(1),
+                tap(() => {
+                    this._isLoading$.next(false);
+                })
+            )
+            .subscribe((rawData) => {
+                this._classCategoryDataToBankEntryMap.clear();
+                const bankData = new Map<BankCategory, BankEntry[]>();
 
-            rawData.forEach((itemPayload) => {
-                const name = itemPayload.name;
-                const data = itemPayload.data;
-                const rawDate = itemPayload.date;
-                const date = rawDate ? new Date(rawDate) : null;
-                if (date && (!this.lastModified || this.lastModified < date)) {
-                    this.lastModified = date;
-                }
-                // Remove the first 3 characters (dnt)
-                // Split on -, get the first index ('bank' vs 'craft')
-                const category = name.substring(3).split('-')[0];
-                let processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank)
-                    .filter(item => this.shouldIncludeItem(item.id))
-                    .sort((a, b) => a.name.localeCompare(b.name));
-                
-                // Apply filter states if provided
-                if (filterStates) {
-                    processedData = this.applyFilterStates(processedData, filterStates);
-                }
-                
-                hasProcessedSharedBank = true;
-                const categoryEnum = getCategory(category);
-                this._processData(processedData, categoryEnum);
-                bankData.set(categoryEnum, processedData);
+                rawData.forEach((itemPayload) => {
+                    const name = itemPayload.name;
+                    const data = itemPayload.data;
+                    const rawDate = itemPayload.date;
+                    const date = rawDate ? new Date(rawDate) : null;
+                    if (date && (!this.lastModified || this.lastModified < date)) {
+                        this.lastModified = date;
+                    }
+                    // Remove the first 3 characters (dnt)
+                    // Split on -, get the first index ('bank' vs 'craft')
+                    const category = name.substring(3).split('-')[0];
+                    const categoryEnum = getCategory(category);
+                    
+                    const processedData: BankEntry[] = outputFileToJson(data, filter, hasProcessedSharedBank)
+                        .filter((item) => this.shouldIncludeItem(getBaseItemId(item.id), categoryEnum))
+                        .sort((a, b) => a.name.localeCompare(b.name));
+                    hasProcessedSharedBank = true;
+                    this._processData(processedData, categoryEnum);
+                    bankData.set(categoryEnum, processedData);
+                });
+                this._bankData$.next(bankData);
             });
-            this._bankData$.next(bankData);
-        });
     }
 
     private applyFilterStates(data: BankEntry[], filterStates: FilterStates): BankEntry[] {
@@ -522,7 +492,7 @@ export class BankComponent {
                         const existingEntries = map.get(playerClass)!;
                         const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
                         if (existingEntry) {
-                            existingEntry.count += bankEntry.count;
+                            existingEntry.baseCount += bankEntry.baseCount;
                         } else {
                             existingEntries.push(bankEntry);
                         }
@@ -537,7 +507,10 @@ export class BankComponent {
             const _itemSlots = Object.values(ItemSlot).filter((value) => typeof value === 'number') as ItemSlot[];
 
             const itemSlotBankEntryMap: Map<ItemSlot, BankEntry[]> = new Map<ItemSlot, BankEntry[]>(
-                _itemSlots.map((slot) => [slot, processedData.filter((item) => (slot === 0 && item.itemSlot === 0) || (item.itemSlot & slot) !== 0)])
+                _itemSlots.map((slot) => [
+                    slot,
+                    processedData.filter((item) => (slot === 0 && item.itemSlot === 0) || (item.itemSlot & slot) !== 0),
+                ])
             );
 
             this._itemSlots$.next(this._itemSlots$.value.filter((slot) => itemSlotBankEntryMap.get(slot)?.length));
@@ -551,7 +524,7 @@ export class BankComponent {
                     const existingEntries: BankEntry[] = map.get(itemSlot)!;
                     const existingEntry = existingEntries.find((existingEntry) => existingEntry.id === bankEntry.id);
                     if (existingEntry) {
-                        existingEntry.count += bankEntry.count;
+                        existingEntry.baseCount += bankEntry.baseCount;
                     } else {
                         existingEntries.push(bankEntry);
                     }
@@ -618,5 +591,9 @@ export class BankComponent {
         });
         this._classCategoryDataToBankEntryMap$.next(this._classCategoryDataToBankEntryMap);
         }
+    }
+    
+    trackByTabKey(index: number, tab: { key: any; value: any }): any {
+        return tab.key;
     }
 }
