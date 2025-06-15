@@ -170,8 +170,12 @@ export class BankComponent {
     public classesMap$: Observable<Map<BankCategory, PlayerClass[]>> = this._classesMap$.asObservable();
 
     private _playerClasses: PlayerClass[] = Object.values(PlayerClass).filter((value) => typeof value === 'string') as PlayerClass[];
-
+    
     // Aug Source related properties
+    public _augSourceMap$: BehaviorSubject<Map<BankCategory, AugSource[]>> = new BehaviorSubject<Map<BankCategory, AugSource[]>>(
+        new Map<BankCategory, AugSource[]>()
+    );
+    public augSourceMap$: Observable<Map<BankCategory, AugSource[]>> = this._augSourceMap$.asObservable(); 
     private _augSources$: BehaviorSubject<AugSource[]> = new BehaviorSubject<AugSource[]>([]);
     public augSources$: Observable<AugSource[]> = this._augSources$.asObservable();
     private _augSourceBankEntryMap$ = new BehaviorSubject<Map<AugSource, BankEntry[]>>(new Map<AugSource, BankEntry[]>());
