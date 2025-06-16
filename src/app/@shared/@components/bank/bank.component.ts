@@ -195,21 +195,19 @@ export class BankComponent {
     );
 
     private getAugSourceFromItem(item: BankEntry): AugSource {
-    const itemId = item.id.toString();
-
+    const itemId = item.id;
+//const itemId = item.id.toString();
   
     for (const mapping of augSources.sourceMappings) {
-        if (mapping.ids.some(idFromList => itemId.includes(idFromList.toString()))) {
+        //if (mapping.ids.some(idFromList => itemId.includes(idFromList.toString()))) {
+        if (mapping.ids.includes(itemId)) {
             return mapping.source;
         }
     }
 
     return AugSource.Other;
 }
-    // Helper method for template
-    public getItemsForSource(source: AugSource, map: Map<AugSource, BankEntry[]> | null): BankEntry[] {
-        return map?.get(source) || [];
-    }
+
     public getClasses(category: BankCategory): PlayerClass[] {
         let playerClasses = this._playerClasses;
         if (category !== BankCategory.Epics) {
