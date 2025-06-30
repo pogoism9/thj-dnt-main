@@ -159,9 +159,10 @@ mat-card-content a {
 .items-container {
     .items-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         gap: 12px;
         padding: 8px 0;
+        margin-bottom: 24px;
     }
     
     .item-card {
@@ -176,6 +177,14 @@ mat-card-content a {
             border-color: #ffe066;
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(255, 224, 102, 0.1);
+        }
+    }
+    
+    .class-section {
+        margin-bottom: 32px;
+        
+        &:last-child {
+            margin-bottom: 0;
         }
     }
     
@@ -308,5 +317,15 @@ mat-card-content a {
 
     .bank-content {
         padding: 8px;
+    }
+}
+
+// Tablet responsive
+@media (min-width: 769px) and (max-width: 1024px) {
+    .items-container {
+        .items-grid {
+            grid-template-columns: repeat(3, 1fr); // Three columns on tablet
+            gap: 8px;
+        }
     }
 }

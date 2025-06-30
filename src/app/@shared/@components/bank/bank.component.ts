@@ -134,11 +134,36 @@ export class BankComponent {
     }
     //#endregion
 // Selected class for vertical tabs
-public selectedClass: PlayerClass | null = null;
+public selectedClasses: Set<PlayerClass> = new Set<PlayerClass>();
 
 // Method to handle class selection
 public selectClass(className: PlayerClass): void {
-    this.selectedClass = className;
+    if (this.selectedClasses.has(className)) {
+        this.selectedClasses.delete(className);
+    } else {
+        this.selectedClasses.add(className);
+    }
+    // Trigger change detection
+    this.selectedClasses = new Set(this.selectedClasses);
+}
+public isClassSelectedForDisplay(className: PlayerClass): boolean {
+    return this.selectedClasses.has(className);
+}
+// Get items for all selected classes
+public getItemsForSelectedClasses(tabKey: BankCategory): { className: PlayerClass, items: BankEntry[] }[] {
+    const result: { className: PlayerClass, items: BankEntry[] }[] = [];
+    const categoryMap = this._classCategoryDataToBankEntryMap.get(tabKey);
+    
+    if (categoryMap) {
+        for (const selectedClass of this.selectedClasses) {
+            const items = categoryMap.get(selectedClass) || [];
+            if (items.length > 0) {
+                result.push({ className: selectedClass, items });
+            }
+        }
+    }
+    
+    return result;
 }
     //#region Bank Data
     private _bankData$: BehaviorSubject<Map<BankCategory, BankEntry[]>> = new BehaviorSubject<Map<BankCategory, BankEntry[]>>(

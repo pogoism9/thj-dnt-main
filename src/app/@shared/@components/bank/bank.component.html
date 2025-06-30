@@ -50,7 +50,7 @@
                         <div class="class-sidebar">
                             <div class="class-tab" 
                                  *ngFor="let playerClass of (classesMap$ | async)?.get(tab.key)" 
-                                 [class.active]="selectedClass === playerClass"
+                                 [class.active]="isClassSelectedForDisplay(playerClass)"
                                  (click)="selectClass(playerClass)">
                                 {{ playerClass }}
                             </div>
@@ -58,17 +58,21 @@
                         
                         <!-- Right content area -->
                         <div class="content-area">
-                            <div *ngIf="selectedClass" class="items-container">
-                                <h2 class="class-title">{{ selectedClass }}</h2>
-                                <div class="items-grid">
-                                    <div class="item-card" *ngFor="let item of (classCategoryDataToBankEntryMap$ | async)?.get(tab.key)?.get(selectedClass!)">
-                                        <item-display [item]="item" />
+                            <div *ngIf="selectedClasses.size > 0; else noSelection" class="items-container">
+                                <div *ngFor="let classGroup of getItemsForSelectedClasses(tab.key)" class="class-section">
+                                    <h2 class="class-title">{{ classGroup.className }}</h2>
+                                    <div class="items-grid">
+                                        <div class="item-card" *ngFor="let item of classGroup.items">
+                                            <item-display [item]="item" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div *ngIf="!selectedClass" class="no-selection">
-                                Select a class to view items
-                            </div>
+                            <ng-template #noSelection>
+                                <div class="no-selection">
+                                    Select one or more classes to view items
+                                </div>
+                            </ng-template>
                         </div>
                     </div>
 
