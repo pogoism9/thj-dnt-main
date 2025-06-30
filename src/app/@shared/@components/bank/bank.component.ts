@@ -133,7 +133,38 @@ export class BankComponent {
         return shouldInclude;
     }
     //#endregion
+// Selected class for vertical tabs
+public selectedClasses: Set<PlayerClass> = new Set<PlayerClass>();
 
+// Method to handle class selection
+public selectClass(className: PlayerClass): void {
+    if (this.selectedClasses.has(className)) {
+        this.selectedClasses.delete(className);
+    } else {
+        this.selectedClasses.add(className);
+    }
+    // Trigger change detection
+    this.selectedClasses = new Set(this.selectedClasses);
+}
+public isClassSelectedForDisplay(className: PlayerClass): boolean {
+    return this.selectedClasses.has(className);
+}
+// Get items for all selected classes
+public getItemsForSelectedClasses(tabKey: BankCategory): { className: PlayerClass, items: BankEntry[] }[] {
+    const result: { className: PlayerClass, items: BankEntry[] }[] = [];
+    const categoryMap = this._classCategoryDataToBankEntryMap.get(tabKey);
+    
+    if (categoryMap) {
+        for (const selectedClass of this.selectedClasses) {
+            const items = categoryMap.get(selectedClass) || [];
+            if (items.length > 0) {
+                result.push({ className: selectedClass, items });
+            }
+        }
+    }
+    
+    return result;
+}
     //#region Bank Data
     private _bankData$: BehaviorSubject<Map<BankCategory, BankEntry[]>> = new BehaviorSubject<Map<BankCategory, BankEntry[]>>(
         new Map<BankCategory, BankEntry[]>()
@@ -208,15 +239,15 @@ export class BankComponent {
 }
 
     public getClasses(category: BankCategory): PlayerClass[] {
-        let playerClasses = this._playerClasses;
-        if (category !== BankCategory.Epics) {
-            playerClasses = playerClasses.filter(
-                (playerClass) => !['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass)
-            ) as PlayerClass[];
-        }
-
-        return playerClasses;
+    let playerClasses = this._playerClasses;
+    if (category !== BankCategory.Epics) {
+        playerClasses = playerClasses.filter(
+            (playerClass) => ![PlayerClass.Berserker, PlayerClass.Monk, PlayerClass.Rogue, PlayerClass.Warrior].includes(playerClass)
+        );
     }
+
+    return playerClasses;
+}
 
     private _itemSlotBankEntryMap$ = new BehaviorSubject<Map<ItemSlot, BankEntry[]>>(new Map<ItemSlot, BankEntry[]>());
     public itemSlotBankEntryMap$ = this._itemSlotBankEntryMap$.asObservable();

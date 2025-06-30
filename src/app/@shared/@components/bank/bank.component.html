@@ -44,32 +44,53 @@
                     {{ tab.key | titlecase }}
                 </ng-template>
                 <div class="bank-content">
-                    <div class="card-container" *ngIf="tab.key === BankCategory.Epics || tab.key === BankCategory.Spells; else elseIfAug">
-                        <mat-card *ngFor="let class of (classesMap$ | async)?.get(tab.key)" class="spaced-card" appearance="outlined">
-                            <mat-card-content class="center-text bold-text">
-                                <mat-card-title>{{ class }}</mat-card-title>
-                                <mat-list>
-                                    <mat-list-item *ngFor="let item of (classCategoryDataToBankEntryMap$ | async)?.get(tab.key)?.get(class);">
-                                        <item-display [item]="item" />
-                                    </mat-list-item>
-                                </mat-list>
-                            </mat-card-content>
-                        </mat-card>
+                    <!-- Vertical tabs layout for Epics and Spells -->
+                    <div class="vertical-layout" *ngIf="tab.key === BankCategory.Epics || tab.key === BankCategory.Spells; else elseIfAug">
+                        <!-- Left sidebar with class tabs -->
+                        <div class="class-sidebar">
+                            <div class="class-tab" 
+                                 *ngFor="let playerClass of (classesMap$ | async)?.get(tab.key)" 
+                                 [class.active]="isClassSelectedForDisplay(playerClass)"
+                                 (click)="selectClass(playerClass)">
+                                {{ playerClass }}
+                            </div>
+                        </div>
+                        
+                        <!-- Right content area -->
+                        <div class="content-area">
+                            <div *ngIf="selectedClasses.size > 0; else noSelection" class="items-container">
+                                <div *ngFor="let classGroup of getItemsForSelectedClasses(tab.key)" class="class-section">
+                                    <h2 class="class-title">{{ classGroup.className }}</h2>
+                                    <div class="items-grid">
+                                        <div class="item-card" *ngFor="let item of classGroup.items">
+                                            <item-display [item]="item" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ng-template #noSelection>
+                                <div class="no-selection">
+                                    Select one or more classes to view items
+                                </div>
+                            </ng-template>
+                        </div>
                     </div>
-                     <ng-template #elseIfAug>
-                <div class="card-container" *ngIf="tab.key === BankCategory.Augs; else elseIfItem">
-                    <mat-card *ngFor="let sourceGroup of augSourceItems$ | async" class="spaced-card" appearance="outlined">
-                        <mat-card-content class="center-text bold-text">
-                            <mat-card-title>{{ sourceGroup.source }}</mat-card-title>
-                                <mat-list>
-                                    <mat-list-item *ngFor="let item of sourceGroup.items">
-                                        <item-display [item]="item" />
-                                    </mat-list-item>
-                                </mat-list>
-                            </mat-card-content>
-                        </mat-card>
-                    </div>
-                </ng-template>
+
+                    <ng-template #elseIfAug>
+                        <div class="card-container" *ngIf="tab.key === BankCategory.Augs; else elseIfItem">
+                            <mat-card *ngFor="let sourceGroup of augSourceItems$ | async" class="spaced-card" appearance="outlined">
+                                <mat-card-content class="center-text bold-text">
+                                    <mat-card-title>{{ sourceGroup.source }}</mat-card-title>
+                                        <mat-list>
+                                            <mat-list-item *ngFor="let item of sourceGroup.items">
+                                                <item-display [item]="item" />
+                                            </mat-list-item>
+                                        </mat-list>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                    </ng-template>
+
                     <ng-template #elseIfItem>
                         <div class="card-container" *ngIf="tab.key === BankCategory.Items; else others">
                             <mat-card *ngFor="let itemSlot of itemSlots$ | async" class="spaced-card" appearance="outlined">
@@ -84,6 +105,7 @@
                             </mat-card>
                         </div>
                     </ng-template>
+
                     <ng-template #others>
                         <mat-list>
                             <mat-list-item *ngFor="let item of tab.value">
