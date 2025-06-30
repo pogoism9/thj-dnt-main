@@ -133,7 +133,13 @@ export class BankComponent {
         return shouldInclude;
     }
     //#endregion
+// Selected class for vertical tabs
+public selectedClass: PlayerClass | null = null;
 
+// Method to handle class selection
+public selectClass(className: PlayerClass): void {
+    this.selectedClass = className;
+}
     //#region Bank Data
     private _bankData$: BehaviorSubject<Map<BankCategory, BankEntry[]>> = new BehaviorSubject<Map<BankCategory, BankEntry[]>>(
         new Map<BankCategory, BankEntry[]>()
@@ -208,15 +214,15 @@ export class BankComponent {
 }
 
     public getClasses(category: BankCategory): PlayerClass[] {
-        let playerClasses = this._playerClasses;
-        if (category !== BankCategory.Epics) {
-            playerClasses = playerClasses.filter(
-                (playerClass) => !['Berserker', 'Monk', 'Rogue', 'Warrior'].includes(playerClass)
-            ) as PlayerClass[];
-        }
-
-        return playerClasses;
+    let playerClasses = this._playerClasses;
+    if (category !== BankCategory.Epics) {
+        playerClasses = playerClasses.filter(
+            (playerClass) => ![PlayerClass.Berserker, PlayerClass.Monk, PlayerClass.Rogue, PlayerClass.Warrior].includes(playerClass)
+        );
     }
+
+    return playerClasses;
+}
 
     private _itemSlotBankEntryMap$ = new BehaviorSubject<Map<ItemSlot, BankEntry[]>>(new Map<ItemSlot, BankEntry[]>());
     public itemSlotBankEntryMap$ = this._itemSlotBankEntryMap$.asObservable();
